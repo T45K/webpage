@@ -1,0 +1,81 @@
+baseurl = "http://www.example.com"
+title = "T45K"
+theme = "hugo-coder"
+languagecode = "ja"
+defaultcontentlanguage = "ja"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Tasuku NAKAGAWA"
+    info = "A graduate student of Osaka University"
+    description = "Tasuku's website hosted by github.io"
+    avatarurl = "/img/original.png"
+
+    favicon_32 = "/img/original.png"
+    favicon_16 = "/img/original.png"
+
+    footercontent = "圧倒的多幸感"
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/T45K/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/tasuku-nakagawa-7a5a0a196/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/getupmax/"
+[[params.social]]
+    name = "Qiita"
+    icon = "fab icon-qiita fa-2x"
+    weight = 4
+    url = "https://qiita.com/T45K/"
+[[params.social]]
+    name = "AtCoder"
+    icon = "fab icon-atcoder fa-2x"
+    weight = 5
+    url = "https://atcoder.jp/users/T45K/"
+
+# Menu links
+[[menu.main]]
+    name = "about"
+    weight = 1
+    url = "/about"
+[[menu.main]]
+    name = "blog"
+    weight = 2
+    url  = "/blog/"
+[[menu.main]]
+    name = "kyopuro"
+    weight = 3
+    url  = "/kyopuro/"
+[[menu.main]]
+    name = "lab"
+    weight = 3
+    url  = "https://sdl.ist.osaka-u.ac.jp/"
+
+[markup.goldmark.renderer]
+unsafe= true
