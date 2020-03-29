@@ -5,7 +5,7 @@ draft: false
 ---
 
 先日行われた[ABC160](https://atcoder.jp/contests/abc160)にて無事に入水を果たしたのでポエムを書きます．
-<img src="/img/blog/nyusui.png" height="50%" width="50%">
+<img src="/img/blog/nyusui.png" height="75%" width="75%">
 
 ## 感じたこと
 一つの目標だった水色に到達してほっとしています．
