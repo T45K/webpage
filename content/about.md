@@ -6,7 +6,7 @@ draft: false
 
 # こんにちは
 中川 将（なかがわ たすく）です．
-現在大阪大学大学院の修士一回生です．
+現在大阪大学大学院の修士二回生です．
 
 <img src="/img/about.jpg" height="50%" width="50%" >
 
@@ -18,7 +18,7 @@ draft: false
     - 高校，大学と剣道部でした
     - 三段
 - 競プロ
-    - AtCoder緑
+    - AtCoder水色
 - 音楽
     - 聴く方
     - DJ Technorch，aran，岸田教団，etc.
