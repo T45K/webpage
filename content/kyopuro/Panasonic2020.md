@@ -4,7 +4,7 @@ date: 2020-03-14T22:56:44+09:00
 draft: false
 ---
 
-4完．[コード](https://github.com/t45k/kyopuro/tree/master/pana20/)
+4完．[コード](https://github.com/t45k/kyopuro/tree/master/AtCoder/others/pana20)
 
 ## A - Kth Term
 実装するだけ．
