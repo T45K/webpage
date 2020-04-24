@@ -4,6 +4,8 @@ date: 2020-03-20T12:00:53+09:00
 draft: false
 ---
 
+**みんな大丈夫。みんな元気。**
+
 舞城王太郎の「みんな元気。」を読みました．[Amazon](https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97%E3%80%82-%E8%88%9E%E5%9F%8E%E7%8E%8B%E5%A4%AA%E9%83%8E-ebook/dp/B00CL6N332/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97&qid=1584673351&sr=8-5)
 
 この本は，表題である「みんな元気。(副題: Cuckoos & The Invisible Devil)」と短編4編で構成されています．
