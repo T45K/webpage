@@ -67,11 +67,11 @@ disqusShortname = "yourdiscussshortname"
 [[menu.main]]
     name = "blog"
     weight = 2
-    url  = "/blog/"
+    url  = "/blog_index"
 [[menu.main]]
     name = "kyopuro"
     weight = 3
-    url  = "/kyopuro/"
+    url  = "/kyopuro_index"
 [[menu.main]]
     name = "lab"
     weight = 3
