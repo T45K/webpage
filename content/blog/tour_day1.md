@@ -24,3 +24,8 @@ draft: false
 夕飯は，松江のイオンで買った地酒とお寿司でした．
 {{< figure src="/img/blog/shimane_zizake.JPG" height="50%" width="50%" >}}
 
+一日目
+[二日目](../tour_day2/)
+[三日目](../tour_day3/)
+[四日目](../tour_day4/)
+[五日目](../tour_day5/)

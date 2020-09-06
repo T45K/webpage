@@ -1,6 +1,6 @@
 ---
 title: "西日本近似的一周旅行二日目"
-date: 2020-09-01T19:28:19+09:00
+date: 2020-09-02T19:28:19+09:00
 draft: false
 ---
 
@@ -28,3 +28,9 @@ draft: false
 大分名物のとり天や豊後アジ，豊後サバを楽しみました．
 {{< figure src="/img/blog/toriten.JPG" height="50%" width="50%" >}}
 {{< figure src="/img/blog/saba.JPG" height="50%" width="50%" >}}
+
+[一日目](../tour_day1/)
+二日目
+[三日目](../tour_day3/)
+[四日目](../tour_day4/)
+[五日目](../tour_day5/)
