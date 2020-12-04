@@ -4,7 +4,7 @@ date: 2019-12-05T20:19:32+09:00
 draft: false
 ---
 
-マレーシアで開催された12/3~5に開催されたAPSECに参加してきました．
+12/3~5にマレーシアで開催されたAPSECに参加してきました．
 
 ## APSECとは
 Asia-Pacific Software Engineering Conferenceの略です．
