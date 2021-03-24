@@ -6,7 +6,7 @@ draft: false
 
 # こんにちは
 中川 将（なかがわ たすく）です．
-現在大阪大学大学院の修士二回生です．
+大阪でウェブエンジニアをやってます．
 
 <img src="/img/about.jpg" height="50%" width="50%" >
 
@@ -22,7 +22,6 @@ draft: false
 - 音楽
     - 聴く方
     - DJ Technorch，aran，岸田教団，etc.
-- Party Parrot
 
 # 嫌い
 - javascript
