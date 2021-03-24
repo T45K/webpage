@@ -73,9 +73,13 @@ disqusShortname = "yourdiscussshortname"
     weight = 3
     url  = "/kyopuro_index"
 [[menu.main]]
+    name = "product"
+    weight = 3
+    url  = "/product"
+[[menu.main]]
     name = "lab"
     weight = 3
-    url  = "https://sdl.ist.osaka-u.ac.jp/"
+    url  = "https://sdl.ist.osaka-u.ac.jp/~t-nakagw"
 
 [markup.goldmark.renderer]
 unsafe= true
