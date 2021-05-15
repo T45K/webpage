@@ -13,7 +13,7 @@ GitHubのコントリビューション（草の生え具合）についてTwitt
 
 を呟いてくれる．
 
-技術的には定時にGitHubのトップページのHTMLをパースしてるだけ．
+技術的には定時にGitHubのトップページをスクレイピングしてるだけ．
 
 ## [CLIONE](https://github.com/T45K/CLIONE)
 
