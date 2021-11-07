@@ -5,9 +5,9 @@ draft: false
 ---
 
 競プロの解説とか．
-Javaでやっているのでコード例はJavaになります．<br>
+Java でやっているのでコード例は Java になります．<br>
 リポジトリは[こちら](https://github.com/t45k/kyopuro)．<br>
-自作ライブラリのドキュメントは[こちら](../kyopuro/doc/util/package-summary.html)．
+自作ライブラリのドキュメントは[こちら](../kyopuro/doc/library/package-summary.html)．
 
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script>
