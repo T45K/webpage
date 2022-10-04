@@ -5,27 +5,34 @@ draft: false
 ---
 
 # こんにちは
-中川 将（なかがわ たすく）です．
-大阪でウェブエンジニアをやってます．
+
+中川 将（なかがわ たすく）。
+大阪のウェブエンジニア。
 
 <img src="/img/about.jpg" height="50%" width="50%" >
 
 # 好き
-- Java，Kotlin，IntelliJ
+
+- Java、Kotlin、IntelliJ、Jenkins
 - バイク
-    - Kawasaki Ninja250SLに乗ってます
-- 剣道
-    - 高校，大学と剣道部でした
-    - 三段
+  - Kawasaki Ninja250SL
 - 競プロ
-    - AtCoder水色
-- 音楽
-    - 聴く方
-    - DJ Technorch，aran，岸田教団，etc.
+  - AtCoder 水色
+- 酒
+  - ビールだと一番搾りとヒューガルデン
+  - 日本酒
+- DJ Technorch と Masayoshi Minoshima
 
 # 嫌い
+
 - javascript
-- ~~研究~~
+- クソコード
+
+# コーディングポリシー
+
+- イミュータブル
+- 非 null
+- メソッドチェーン
 
 # 呟き
 
