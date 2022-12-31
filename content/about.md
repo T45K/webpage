@@ -25,7 +25,7 @@ draft: false
 
 # 嫌い
 
-- javascript
+- JavaScript
 - クソコード
 
 # コーディングポリシー
