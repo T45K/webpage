@@ -49,14 +49,19 @@ disqusShortname = "yourdiscussshortname"
     weight = 3
     url = "https://twitter.com/getupmax/"
 [[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram fa-2x"
+    weight = 4
+    url = "https://www.instagram.com/tasuku_nakagawa/"
+[[params.social]]
     name = "Qiita"
     icon = "fab icon-qiita fa-2x"
-    weight = 4
+    weight = 5
     url = "https://qiita.com/T45K/"
 [[params.social]]
     name = "AtCoder"
     icon = "fab icon-atcoder fa-2x"
-    weight = 5
+    weight = 6
     url = "https://atcoder.jp/users/T45K/"
 
 # Menu links
@@ -82,4 +87,4 @@ disqusShortname = "yourdiscussshortname"
     url  = "https://sdl.ist.osaka-u.ac.jp/~t-nakagw"
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
