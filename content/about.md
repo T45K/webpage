@@ -14,8 +14,9 @@ draft: false
 # 好き
 
 - Java、Kotlin、IntelliJ、Jenkins
-- バイク
-  - Kawasaki Ninja250SL
+- 車輪が 2 つ付いてるもの
+  - バイクは Kawasaki Ninja 250SL
+  - チャリンコは SPECIALIZED TARMAC
 - 競プロ
   - AtCoder 水色
 - 酒

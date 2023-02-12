@@ -1,19 +1,29 @@
 .icon-qiita:before {
-    content: "";
-    background-image: url("/icon/qiita.png");
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    background-size: contain;
-    vertical-align: middle;
+  content: "";
+  background-image: url("/icon/qiita.png");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.icon-zenn:before {
+  content: "";
+  background-image: url("/icon/zenn.png");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: middle;
 }
 
 .icon-atcoder:before {
-    content: "";
-    background-image: url("/icon/atcoder.png");
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    background-size: contain;
-    vertical-align: middle;
+  content: "";
+  background-image: url("/icon/atcoder.png");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: middle;
 }

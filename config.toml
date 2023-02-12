@@ -59,9 +59,14 @@ disqusShortname = "yourdiscussshortname"
     weight = 5
     url = "https://qiita.com/T45K/"
 [[params.social]]
+    name = "Zenn"
+    icon = "fab icon-zenn fa-2x"
+    weight = 6
+    url = "https://zenn.dev/t45k/"
+[[params.social]]
     name = "AtCoder"
     icon = "fab icon-atcoder fa-2x"
-    weight = 6
+    weight = 7
     url = "https://atcoder.jp/users/T45K/"
 
 # Menu links

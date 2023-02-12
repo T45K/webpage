@@ -37,11 +37,6 @@ GitHub Apps を用いて設計されていて，PR の作成ごとに勝手に�
 
 論文は[こちら](https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=669)
 
-## [Contributor](https://github.com/T45K/Contributor)
-
-CLIONE をスタンドアロンとして設計しなおしたツール．
-手軽に PR を投げたい時に便利．
-
 ## [Bitbucket-Server-Code-Insights-plugin](https://github.com/T45K/Bitbucket-Server-Code-Insights-plugin)
 
 BitBucket Server で、PR の diff 上にコメントのようなものを表示できる機能、Code Insights を利用するための Jenkins プラグイン。
@@ -49,15 +44,15 @@ Checkstyle や SpotBugs といった静的解析ツールや、SonarQube と行�
 
 ## [Back-Merge-plugin](https://github.com/T45K/Back-Merge-plugin)
 
-mainブランチが更新された時に、mainブランチから各派生ブランチ向けへのPRを作成するJenkinsプラグイン。
+main ブランチが更新された時に、main ブランチから各派生ブランチ向けへの PR を作成する Jenkins プラグイン。
 
 ## [Approve-LGTM-plugin](https://github.com/T45K/Approve-LGTM-plugin)
 
-Bitbucket Server上でPRを承認した際に、LGTMな画像を投稿するJenkinsプラグイン。
+Bitbucket Server 上で PR を承認した際に、LGTM な画像を投稿する Jenkins プラグイン。
 
 ## [Coverage Uploader for Bitbucket Server](https://github.com/T45K/IntelliJ-Bitbucket-Server-Coverage-Upload-plugin)
 
-Bitbucket ServerのPRの画面上にカバレッジ情報を表示するために、
-IntelliJ IDEA上で計測したカバレッジ情報をBitbucket Serverに送信するIntteliJプラグイン。
+Bitbucket Server の PR の画面上にカバレッジ情報を表示するために、
+IntelliJ IDEA 上で計測したカバレッジ情報を Bitbucket Server に送信する IntteliJ プラグイン。
 
 <iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/20589"></iframe>
