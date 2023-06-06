@@ -23,9 +23,9 @@ JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的�
 当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。
 発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。
 
-登壇資料は、後日会社のSlideShareにアップロードされる予定です。
+登壇資料は、会社のSlideShareに上げてあります。
 
-https://www.slideshare.net/rakutentech
+https://www.slideshare.net/rakutentech/jenkinsintellij-idea
 
 余談ですが、僕の登壇は会社の方には知られていなかったようです。
 

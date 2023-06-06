@@ -20,7 +20,7 @@ draft: false
 - 競プロ
   - AtCoder 水色
 - 酒
-  - ビールだと一番搾りとヒューガルデン
+  - ビールだと一番搾りとヒューガルデンとブルックリンラガー
   - 日本酒
 - DJ Technorch と Masayoshi Minoshima
 
