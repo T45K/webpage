@@ -2,6 +2,7 @@
 title: "NTT DATAのインターンに参加しなかった話"
 date: 2019-08-01T18:32:15+09:00
 draft: false
+tags: ["インターン"]
 ---
 
 NTT DATAのインターンに参加しませんでした．

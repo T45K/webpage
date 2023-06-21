@@ -2,6 +2,7 @@
 title: "楽天のインターンに参加した話"
 date: 2019-09-13T18:21:32+09:00
 draft: false
+tags: ["インターン"]
 ---
 
 {{< figure src="/img/blog/rakuten_morning.JPG" height="50%" width="50%" >}}

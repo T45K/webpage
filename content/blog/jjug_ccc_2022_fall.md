@@ -2,6 +2,7 @@
 title: "JJUG CCC 2022 Fallに参加した話"
 date: 2022-12-03T17:36:13+09:00
 draft: false
+tags: ["技術"]
 ---
 
 2022 年 11 月 27 日日曜日に開催された JJUG CCC 2022 Fall に参加しました。

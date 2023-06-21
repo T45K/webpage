@@ -2,6 +2,7 @@
 title: "ICSE2020の面白そうな論文をピックアップしてみた"
 date: 2020-02-01T18:59:35+09:00
 draft: false
+tags: ["研究"]
 ---
 
 ICSEはInternational Conference of Software Engineeringの略です．

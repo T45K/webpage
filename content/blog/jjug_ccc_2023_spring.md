@@ -2,6 +2,7 @@
 title: "JJUG CCC 2023 Springで登壇した話"
 date: 2023-06-05T19:48:46+09:00
 draft: false
+tags: ["技術"]
 ---
 
 2023年6月4日日曜日に開催された[JJUG CCC 2023 Spring](https://sessionize.com/api/v2/y7inyq6y/view/GridSmart)で人生初の登壇をしてきました！

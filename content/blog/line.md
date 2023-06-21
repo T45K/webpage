@@ -2,6 +2,7 @@
 title: "LINE KYOTOのインターンに参加した話"
 date: 2019-08-30T18:13:39+09:00
 draft: false
+tags: ["インターン"]
 ---
 
 {{< figure src="/img/blog/line.JPG" height="50%" width="50%" >}}

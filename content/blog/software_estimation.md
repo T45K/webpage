@@ -2,6 +2,7 @@
 title: "「ソフトウェア見積もり」読了"
 date: 2023-03-27T22:28:20+09:00
 draft: false
+tags: ["技術書"]
 ---
 
 Steve McConnellの「ソフトウェア見積もり」を読んだ。

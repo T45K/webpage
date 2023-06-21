@@ -2,6 +2,7 @@
 title: "Keychron K3を購入した話"
 date: 2021-06-11T22:35:53+09:00
 draft: false
+tags: ["ガジェット"]
 ---
 
 [Keychron K3](https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard)を購入しました．

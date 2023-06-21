@@ -2,6 +2,7 @@
 title: "AtCoderで水色になりました"
 date: 2020-03-29T00:16:31+09:00
 draft: false
+tags: ["技術"]
 ---
 
 先日行われた[ABC160](https://atcoder.jp/contests/abc160)にて無事に入水を果たしたのでポエムを書きます．

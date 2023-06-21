@@ -2,6 +2,7 @@
 title: "LINE DEVELOPER DAY2019に参加した話"
 date: 2019-11-21T20:16:05+09:00
 draft: false
+tags: ["技術"]
 ---
 
 11/20，21に開催されたLINE DEV DAYに参加してきました．

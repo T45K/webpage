@@ -2,6 +2,7 @@
 title: "情報処理学会論文誌に論文が採録された話"
 date: 2021-01-17T17:38:48+09:00
 draft: false
+tags: ["研究"]
 ---
 
 情報処理学会論文誌に卒論でやっていた研究が採録されました．情報は[こちら](https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=677)．

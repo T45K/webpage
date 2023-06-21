@@ -2,6 +2,7 @@
 title: "「Death Stranding」をプレイした話"
 date: 2023-01-28T17:16:09+09:00
 draft: false
+tags: ["感想"]
 ---
 
 Epic でセールになってた Death Stranding（以降、デススト）をクリアしたので感想を書きます。

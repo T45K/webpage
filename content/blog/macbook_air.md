@@ -2,6 +2,7 @@
 title: "MacBook Airを購入した話"
 date: 2020-04-13T17:21:02+09:00
 draft: false
+tags: ["ガジェット"]
 ---
 
 ### 念願のMacBook Airを購入しました!

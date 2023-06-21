@@ -2,6 +2,7 @@
 title: "「Code Clone Analysis」読了"
 date: 2022-02-26T12:00:56+09:00
 draft: false
+tags: ["感想"]
 ---
 
 Code Clone Analysis を読みました。
