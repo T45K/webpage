@@ -24,6 +24,7 @@ draft: false
 新しいサービスが立ち上がることも少なくないので、立ち上げから関わることもできます。
 
 また、楽天はプライベートクラウド[^1]を持っているため、クラウドの運用側を覗けるのも大企業ならではの面白さではと思います。
+パブリッククラウドと比較して格安で使えるので、実際に動かしながらk8sを学ぶこともできます。
 
 ### 人材
 
@@ -45,15 +46,10 @@ draft: false
 
 新機能の実装だけでなく、CIの導入、オンプレからk8sへの移行など幅広くやっていました。
 
-社内LTに積極的に参加したり、[登壇](/blog/jjug_ccc_2023_spring/)したりもできました。
+その他、[短期インターンのメンター](https://commerce-engineer.rakuten.careers/entry/workstyle/0025)をしたり、
+社内LTに参加したり、[登壇](/blog/jjug_ccc_2023_spring/)したりもできました。
 
 また、この職場でSpock[^2]を知ることができたのはとても良かったです。
-
-## なぜ退社したか
-
-これがきっかけであり全てです。
-
-<blockquote class="reddit-embed-bq" style="height:316px" data-embed-height="316">      <a href="https://www.reddit.com/r/japanlife/comments/10fwa71/rakuten_is_imploding/">Rakuten is imploding</a><br> by      <a href="https://www.reddit.com/user/Neither-Air-401">u/Neither-Air-401</a> in      <a href="https://www.reddit.com/r/japanlife/">japanlife</a>    </blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 ## むすび
 
