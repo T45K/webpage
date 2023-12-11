@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
+コード
+A - Calc 計算するだけ
+B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
+C - Tsundoku 貪欲だと解けない問題．
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる． ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける． 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
+D - Sum of Divisors 最近流行のエラトステネス的問題．
+全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
+実装としては，以下のようにする．
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC172の解説"/>
+<meta name="twitter:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
+コード
+A - Calc 計算するだけ
+B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
+C - Tsundoku 貪欲だと解けない問題．
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる． ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける． 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
+D - Sum of Divisors 最近流行のエラトステネス的問題．
+全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
+実装としては，以下のようにする．
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． "/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC172の解説" />
+<meta property="og:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
+コード
+A - Calc 計算するだけ
+B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
+C - Tsundoku 貪欲だと解けない問題．
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる． ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける． 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
+D - Sum of Divisors 最近流行のエラトステネス的問題．
+全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
+実装としては，以下のようにする．
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc172/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-07-01T10:38:47+09:00" />
+<meta property="article:modified_time" content="2020-07-01T10:38:47+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc172/">
+    
+    <title>
+  ABC172の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc172/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC172の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回．
+4完．<br>
+<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC172">コード</a></p>
+<h2 id="a---calc">A - Calc</h2>
+<p>計算するだけ</p>
+<h2 id="b---minor-change">B - Minor Change</h2>
+<p>問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．</p>
+<h2 id="c---tsundoku">C - Tsundoku</h2>
+<p>貪欲だと解けない問題．<br>
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる．
+ここで，<strong>本は上から見ていく</strong>というルールから，累積和をとっても問題ないことに気付ける．
+累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．</p>
+<h2 id="d---sum-of-divisors">D - Sum of Divisors</h2>
+<p>最近流行のエラトステネス的問題．<br>
+全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．<br>
+実装としては，以下のようにする．</p>
+<ol>
+<li>長さNの配列を2つ用意する．
+配列Aは1で，配列Bはその添字で初期化する．
+配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う．</li>
+<li>2 &lt;= i &lt;= √Nとして，配列を順番に見ていく．
+<ul>
+<li>Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Ak *= k + 1
+</span></span><span style="display:flex;"><span>Bk /= i ^ k
+</span></span></code></pre></div>と更新する
+<ul>
+<li>Biが1の時，iは素数なので何もしない</li>
+</ul>
+</li>
+<li>配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する．</li>
+</ol>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

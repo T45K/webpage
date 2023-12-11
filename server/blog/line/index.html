@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．
+LINE KYOTOとは LINEが何なのかは説明不要だと思うので割愛します． LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです． また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．
+選考フロー 選考は技術試験と面接です． 技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません． 面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした． 僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました． 結構倍率は高いようでしたが何とか通りました．
+インターン LINEが開発しているLIFF SDKを用いて，LINE上で動くサービスを開発してみようという内容でハッカソンを行いました． 3人で一つの班を組み，4つのテーマから1つ選択するという形式で，僕たちの班はUNOを選択しました． 僕達が参加した一週間前にも同じインターンがあり，その時UNOを選択した班は結局完成しなかったと散々脅されましたが，結果的に4班中3班がUNOを選択していました．
+僕達の班はフロントの描画担当の子がKotlinで書くということなので，フロントからサーバまですべてKotlinで書くことにしました． 僕は楽天のインターンの事前課題でSpringを触っていたのでサーバを書くことにしました． また，3人班のもう一人の子が超絶優秀で，最初に仕様とDB設計を行い，サーバとフロントの手伝いをしつつ，サーバとフロントと外部APIを繋げてちゃんと動くようにするという一番難しい部分を担ってくれたおかげで，僕たちの班はちゃんと動くものを作ることができました． 結果的に他の2班は完成させることができず，とても達成感と満足感を得ることができました．
+社員さん達もそれぞれの分野に精通した人が揃っていて，問題が発生してもすぐに解決できることが多かったです． 残業禁止で定時には全員帰られるというのもとても魅力的でした．
+インターン中の様子は以下の以下のLINE公式ブログにも取り上げられています． https://engineering.linecorp.com/ja/blog/kyoto-intern2019/
+追記 せっかくインターンに参加したので，本選考も受けることにしました． 本選考は技術テストが1回，技術面接が1回，最終面接でした． 最終面接にて無事不採用となりました．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="LINE KYOTOのインターンに参加した話"/>
+<meta name="twitter:description" content="8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．
+LINE KYOTOとは LINEが何なのかは説明不要だと思うので割愛します． LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです． また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．
+選考フロー 選考は技術試験と面接です． 技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません． 面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした． 僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました． 結構倍率は高いようでしたが何とか通りました．
+インターン LINEが開発しているLIFF SDKを用いて，LINE上で動くサービスを開発してみようという内容でハッカソンを行いました． 3人で一つの班を組み，4つのテーマから1つ選択するという形式で，僕たちの班はUNOを選択しました． 僕達が参加した一週間前にも同じインターンがあり，その時UNOを選択した班は結局完成しなかったと散々脅されましたが，結果的に4班中3班がUNOを選択していました．
+僕達の班はフロントの描画担当の子がKotlinで書くということなので，フロントからサーバまですべてKotlinで書くことにしました． 僕は楽天のインターンの事前課題でSpringを触っていたのでサーバを書くことにしました． また，3人班のもう一人の子が超絶優秀で，最初に仕様とDB設計を行い，サーバとフロントの手伝いをしつつ，サーバとフロントと外部APIを繋げてちゃんと動くようにするという一番難しい部分を担ってくれたおかげで，僕たちの班はちゃんと動くものを作ることができました． 結果的に他の2班は完成させることができず，とても達成感と満足感を得ることができました．
+社員さん達もそれぞれの分野に精通した人が揃っていて，問題が発生してもすぐに解決できることが多かったです． 残業禁止で定時には全員帰られるというのもとても魅力的でした．
+インターン中の様子は以下の以下のLINE公式ブログにも取り上げられています． https://engineering.linecorp.com/ja/blog/kyoto-intern2019/
+追記 せっかくインターンに参加したので，本選考も受けることにしました． 本選考は技術テストが1回，技術面接が1回，最終面接でした． 最終面接にて無事不採用となりました．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="LINE KYOTOのインターンに参加した話" />
+<meta property="og:description" content="8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．
+LINE KYOTOとは LINEが何なのかは説明不要だと思うので割愛します． LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです． また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．
+選考フロー 選考は技術試験と面接です． 技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません． 面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした． 僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました． 結構倍率は高いようでしたが何とか通りました．
+インターン LINEが開発しているLIFF SDKを用いて，LINE上で動くサービスを開発してみようという内容でハッカソンを行いました． 3人で一つの班を組み，4つのテーマから1つ選択するという形式で，僕たちの班はUNOを選択しました． 僕達が参加した一週間前にも同じインターンがあり，その時UNOを選択した班は結局完成しなかったと散々脅されましたが，結果的に4班中3班がUNOを選択していました．
+僕達の班はフロントの描画担当の子がKotlinで書くということなので，フロントからサーバまですべてKotlinで書くことにしました． 僕は楽天のインターンの事前課題でSpringを触っていたのでサーバを書くことにしました． また，3人班のもう一人の子が超絶優秀で，最初に仕様とDB設計を行い，サーバとフロントの手伝いをしつつ，サーバとフロントと外部APIを繋げてちゃんと動くようにするという一番難しい部分を担ってくれたおかげで，僕たちの班はちゃんと動くものを作ることができました． 結果的に他の2班は完成させることができず，とても達成感と満足感を得ることができました．
+社員さん達もそれぞれの分野に精通した人が揃っていて，問題が発生してもすぐに解決できることが多かったです． 残業禁止で定時には全員帰られるというのもとても魅力的でした．
+インターン中の様子は以下の以下のLINE公式ブログにも取り上げられています． https://engineering.linecorp.com/ja/blog/kyoto-intern2019/
+追記 せっかくインターンに参加したので，本選考も受けることにしました． 本選考は技術テストが1回，技術面接が1回，最終面接でした． 最終面接にて無事不採用となりました．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/line/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2019-08-30T18:13:39+09:00" />
+<meta property="article:modified_time" content="2019-08-30T18:13:39+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/line/">
+    
+    <title>
+  LINE KYOTOのインターンに参加した話 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/line/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>LINE KYOTOのインターンに参加した話</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/">インターン</a></div>
+
+    </header>
+
+    <figure><img src="https://t45k.github.io/img/blog/line.JPG" width="50%" height="50%"/>
+</figure>
+
+<p>8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．</p>
+<h2 id="line-kyotoとは">LINE KYOTOとは</h2>
+<p>LINEが何なのかは説明不要だと思うので割愛します．
+LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです．
+また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．</p>
+<h2 id="選考フロー">選考フロー</h2>
+<p>選考は技術試験と面接です．
+技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません．
+面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした．
+僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました．
+結構倍率は高いようでしたが何とか通りました．</p>
+<h2 id="インターン">インターン</h2>
+<p>LINEが開発しているLIFF SDKを用いて，LINE上で動くサービスを開発してみようという内容でハッカソンを行いました．
+3人で一つの班を組み，4つのテーマから1つ選択するという形式で，僕たちの班はUNOを選択しました．
+僕達が参加した一週間前にも同じインターンがあり，その時UNOを選択した班は結局完成しなかったと散々脅されましたが，結果的に4班中3班がUNOを選択していました．</p>
+<p>僕達の班はフロントの描画担当の子がKotlinで書くということなので，フロントからサーバまですべてKotlinで書くことにしました．
+僕は楽天のインターンの事前課題でSpringを触っていたのでサーバを書くことにしました．
+また，3人班のもう一人の子が超絶優秀で，最初に仕様とDB設計を行い，サーバとフロントの手伝いをしつつ，サーバとフロントと外部APIを繋げてちゃんと動くようにするという一番難しい部分を担ってくれたおかげで，僕たちの班はちゃんと動くものを作ることができました．
+結果的に他の2班は完成させることができず，とても達成感と満足感を得ることができました．</p>
+<p>社員さん達もそれぞれの分野に精通した人が揃っていて，問題が発生してもすぐに解決できることが多かったです．
+残業禁止で定時には全員帰られるというのもとても魅力的でした．</p>
+<p>インターン中の様子は以下の以下のLINE公式ブログにも取り上げられています．
+<a href="https://engineering.linecorp.com/ja/blog/kyoto-intern2019/">https://engineering.linecorp.com/ja/blog/kyoto-intern2019/</a></p>
+<h2 id="追記">追記</h2>
+<p>せっかくインターンに参加したので，本選考も受けることにしました．
+本選考は技術テストが1回，技術面接が1回，最終面接でした．
+最終面接にて無事不採用となりました．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

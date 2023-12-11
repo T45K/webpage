@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。
+ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。
+ビット演算子がない 多分これが一番大きい。
+競プロではビット演算をする場面がたびたびある（ビット全探索とか）。
+Java では&lt;&lt;や|などが使えるが、Kotlin ではlhsやorなどの中置関数を使う必要があり、可読性が大きく下がる。
+配列宣言が面倒臭い 競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。
+Java ではint[]のように宣言できるが、Kotlin ではArray&lt;Int&gt;のように宣言する必要がある。
+また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。
+null チェックが厳しい 仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。
+とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。
+!!演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（!!演算子の利用に慣れたくない）。
+トラディショナル for が使えない Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。 例えば、添字のiを条件によって更新したりしなかったりする場合など。
+暗黙の型変換がない intとlongで足し算したり、char同士の引き算の結果をintにしたりするのが面倒臭い。">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="競プロでKotlinを使わない理由"/>
+<meta name="twitter:description" content="仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。
+ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。
+ビット演算子がない 多分これが一番大きい。
+競プロではビット演算をする場面がたびたびある（ビット全探索とか）。
+Java では&lt;&lt;や|などが使えるが、Kotlin ではlhsやorなどの中置関数を使う必要があり、可読性が大きく下がる。
+配列宣言が面倒臭い 競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。
+Java ではint[]のように宣言できるが、Kotlin ではArray&lt;Int&gt;のように宣言する必要がある。
+また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。
+null チェックが厳しい 仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。
+とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。
+!!演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（!!演算子の利用に慣れたくない）。
+トラディショナル for が使えない Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。 例えば、添字のiを条件によって更新したりしなかったりする場合など。
+暗黙の型変換がない intとlongで足し算したり、char同士の引き算の結果をintにしたりするのが面倒臭い。"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="競プロでKotlinを使わない理由" />
+<meta property="og:description" content="仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。
+ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。
+ビット演算子がない 多分これが一番大きい。
+競プロではビット演算をする場面がたびたびある（ビット全探索とか）。
+Java では&lt;&lt;や|などが使えるが、Kotlin ではlhsやorなどの中置関数を使う必要があり、可読性が大きく下がる。
+配列宣言が面倒臭い 競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。
+Java ではint[]のように宣言できるが、Kotlin ではArray&lt;Int&gt;のように宣言する必要がある。
+また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。
+null チェックが厳しい 仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。
+とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。
+!!演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（!!演算子の利用に慣れたくない）。
+トラディショナル for が使えない Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。 例えば、添字のiを条件によって更新したりしなかったりする場合など。
+暗黙の型変換がない intとlongで足し算したり、char同士の引き算の結果をintにしたりするのが面倒臭い。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-07-04T22:38:27+09:00" />
+<meta property="article:modified_time" content="2022-07-04T22:38:27+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/">
+    
+    <title>
+  競プロでKotlinを使わない理由 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>競プロでKotlinを使わない理由</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93/">技術</a></div>
+
+    </header>
+
+    <p>仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。</p>
+<p>ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。</p>
+<h2 id="ビット演算子がない">ビット演算子がない</h2>
+<p>多分これが一番大きい。</p>
+<p>競プロではビット演算をする場面がたびたびある（ビット全探索とか）。</p>
+<p>Java では<code>&lt;&lt;</code>や<code>|</code>などが使えるが、Kotlin では<code>lhs</code>や<code>or</code>などの中置関数を使う必要があり、可読性が大きく下がる。</p>
+<h2 id="配列宣言が面倒臭い">配列宣言が面倒臭い</h2>
+<p>競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。</p>
+<p>Java では<code>int[]</code>のように宣言できるが、Kotlin では<code>Array&lt;Int&gt;</code>のように宣言する必要がある。</p>
+<p>また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。</p>
+<h2 id="null-チェックが厳しい">null チェックが厳しい</h2>
+<p>仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。</p>
+<p>とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。</p>
+<p><code>!!</code>演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（<code>!!</code>演算子の利用に慣れたくない）。</p>
+<h2 id="トラディショナル-for-が使えない">トラディショナル for が使えない</h2>
+<p>Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。
+例えば、添字の<code>i</code>を条件によって更新したりしなかったりする場合など。</p>
+<h2 id="暗黙の型変換がない">暗黙の型変換がない</h2>
+<p><code>int</code>と<code>long</code>で足し算したり、<code>char</code>同士の引き算の結果を<code>int</code>にしたりするのが面倒臭い。</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

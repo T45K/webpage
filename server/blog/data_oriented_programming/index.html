@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="データ指向プログラミングを読んだ。
+本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。
+イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、 それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。 が、内容としてはかなりがっかりした。
+本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。 つまり
+data class Hoge(fuga: Int, piyo: String) val hoge = Hoge(0, &#34;&#34;) を
+val hoge = mapOf( &#34;fuga&#34; to 0, &#34;piyo&#34; to &#34;&#34;, ) で書こうという内容だった。 この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。
+書籍内でもこのことについて触れられていて、以下のように紹介されていた。
+OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&quot;高い&quot;、&ldquo;低い&quot;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
+その他の感想:
+&#43; JSON Schema便利そう
+&#43; データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い
+&#43; 汎用的な関数を作るという考え方は良さそう
+- 複雑なJSON Schemaを書こうとすると辛そう。OOPならSpecificationパターンとか使える
+- 色んなところでJSON Schema Validationが挟まりそう
+- ポリモーフィズムで、実装忘れを静的に検知できないのが辛い
+データ指向プログラミング [ Yehonathan Sharvit ]">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="「データ指向プログラミング」読了"/>
+<meta name="twitter:description" content="データ指向プログラミングを読んだ。
+本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。
+イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、 それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。 が、内容としてはかなりがっかりした。
+本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。 つまり
+data class Hoge(fuga: Int, piyo: String) val hoge = Hoge(0, &#34;&#34;) を
+val hoge = mapOf( &#34;fuga&#34; to 0, &#34;piyo&#34; to &#34;&#34;, ) で書こうという内容だった。 この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。
+書籍内でもこのことについて触れられていて、以下のように紹介されていた。
+OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&quot;高い&quot;、&ldquo;低い&quot;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
+その他の感想:
+&#43; JSON Schema便利そう
+&#43; データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い
+&#43; 汎用的な関数を作るという考え方は良さそう
+- 複雑なJSON Schemaを書こうとすると辛そう。OOPならSpecificationパターンとか使える
+- 色んなところでJSON Schema Validationが挟まりそう
+- ポリモーフィズムで、実装忘れを静的に検知できないのが辛い
+データ指向プログラミング [ Yehonathan Sharvit ]"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="「データ指向プログラミング」読了" />
+<meta property="og:description" content="データ指向プログラミングを読んだ。
+本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。
+イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、 それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。 が、内容としてはかなりがっかりした。
+本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。 つまり
+data class Hoge(fuga: Int, piyo: String) val hoge = Hoge(0, &#34;&#34;) を
+val hoge = mapOf( &#34;fuga&#34; to 0, &#34;piyo&#34; to &#34;&#34;, ) で書こうという内容だった。 この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。
+書籍内でもこのことについて触れられていて、以下のように紹介されていた。
+OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&quot;高い&quot;、&ldquo;低い&quot;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
+その他の感想:
+&#43; JSON Schema便利そう
+&#43; データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い
+&#43; 汎用的な関数を作るという考え方は良さそう
+- 複雑なJSON Schemaを書こうとすると辛そう。OOPならSpecificationパターンとか使える
+- 色んなところでJSON Schema Validationが挟まりそう
+- ポリモーフィズムで、実装忘れを静的に検知できないのが辛い
+データ指向プログラミング [ Yehonathan Sharvit ]" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/data_oriented_programming/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-07-01T19:17:51+09:00" />
+<meta property="article:modified_time" content="2023-07-01T19:17:51+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/data_oriented_programming/">
+    
+    <title>
+  「データ指向プログラミング」読了 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/data_oriented_programming/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>「データ指向プログラミング」読了</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93%E6%9B%B8/">技術書</a></div>
+
+    </header>
+
+    <p>データ指向プログラミングを読んだ。</p>
+<p>本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと
+参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。</p>
+<p>イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、
+それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。
+が、内容としてはかなりがっかりした。</p>
+<p>本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。
+つまり</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="font-weight:bold">data</span> <span style="font-weight:bold">class</span> <span style="font-weight:bold">Hoge</span>(fuga: Int, piyo: String)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">val</span> hoge = Hoge(0, <span style="font-style:italic">&#34;&#34;</span>)
+</span></span></code></pre></div><p>を</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span><span style="font-weight:bold">val</span> hoge = mapOf(
+</span></span><span style="display:flex;"><span>    <span style="font-style:italic">&#34;fuga&#34;</span> to 0,
+</span></span><span style="display:flex;"><span>    <span style="font-style:italic">&#34;piyo&#34;</span> to <span style="font-style:italic">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>で書こうという内容だった。
+この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。</p>
+<p>書籍内でもこのことについて触れられていて、以下のように紹介されていた。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">OOP</th>
+<th style="text-align:center">DOP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">安全性</td>
+<td style="text-align:center">高い</td>
+<td style="text-align:center">低い</td>
+</tr>
+<tr>
+<td style="text-align:center">柔軟性</td>
+<td style="text-align:center">低い</td>
+<td style="text-align:center">高い</td>
+</tr>
+<tr>
+<td style="text-align:center">汎用性</td>
+<td style="text-align:center">低い</td>
+<td style="text-align:center">高い</td>
+</tr>
+</tbody>
+</table>
+<p>これは各要素を&quot;高い&quot;、&ldquo;低い&quot;のboolで表現しているDOPが良さそうに見えるだけで、
+点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた
+（また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。</p>
+<p>その他の感想:</p>
+<p>+ JSON Schema便利そう<br>
++ データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い<br>
++ 汎用的な関数を作るという考え方は良さそう</p>
+<p>- 複雑なJSON Schemaを書こうとすると辛そう。OOPならSpecificationパターンとか使える<br>
+- 色んなところでJSON Schema Validationが挟まりそう<br>
+- ポリモーフィズムで、実装忘れを静的に検知できないのが辛い</p>
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&item_id=20896748&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F9797%2F9784798179797_1_33.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >データ指向プログラミング [ Yehonathan Sharvit ]</a><br><span >価格：3,960円（税込、送料無料)</span> <span style="color:#BBB">(2023/7/1時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

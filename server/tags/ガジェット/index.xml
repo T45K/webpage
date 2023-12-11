@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ガジェット on T45K</title>
+    <link>https://t45k.github.io/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
+    <description>Recent content in ガジェット on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 14 Jan 2023 17:56:18 +0900</lastBuildDate>
+    
+	<atom:link href="https://t45k.github.io/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WF-1000XM4を修理に出した話</title>
+      <link>https://t45k.github.io/blog/wf-1000xm4_repair/</link>
+      <pubDate>Sat, 14 Jan 2023 17:56:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/wf-1000xm4_repair/</guid>
+      <description>&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+&lt;p&gt;WF-1000XM4 の「片方（右側？）だけ異様に充電が減る」問題は、保証期限切れでも無料で新品に交換してもらえる。&lt;/p&gt;
+&lt;h2 id=&#34;購入した時期&#34;&gt;購入した時期&lt;/h2&gt;
+&lt;p&gt;MNG した写真の日付を見た限り 2021 年の 8 月末に購入。
+ヨドバシで買ったが、保証期間の延長等はしていなかった。&lt;/p&gt;
+&lt;h2 id=&#34;症状&#34;&gt;症状&lt;/h2&gt;
+&lt;p&gt;イヤホンの右側だけ異様に充電が切れるのが早い。
+具体的には、3、40 分程度で 100%から 0%になる。
+ちなみに、左側は 80%程度残っている。&lt;/p&gt;
+&lt;p&gt;くわえて、どれだけ充電しても 90%までしか充電されない問題も頻繁に起きた（左右問わず）。&lt;/p&gt;
+&lt;p&gt;大体 2022 年の秋ごろからこの問題が見られるようになってきた。
+症状が出始めた時点で保証期間は過ぎていたので、しばらく様子見をしていた。&lt;/p&gt;
+&lt;h2 id=&#34;対処法&#34;&gt;対処法&lt;/h2&gt;
+&lt;p&gt;同様の問題がないか検索してみたところ、わりかし多くのユーザも同じ症状を抱えていたため、修理を依頼することに決めた。
+SONY では、修理希望者向けのチャットボットを用意しているので、そこ経由から修理を依頼した。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sony.jp/support/inquiry.html&#34;&gt;https://www.sony.jp/support/inquiry.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本来であれば修理費は 1 万円程度だが、SONY 側もこの問題を認識しているらしく、
+一度 SONY が預かり、無料修理対象であれば無償で、そうでなければ修理費を依頼者に伝えた上で修理するかを決めるという流れらしい。&lt;/p&gt;
+&lt;p&gt;イヤホン回収は SONY が回収サービスを手配してくれるため、回収業者が来たらイヤホンをケース込みで渡すだけで良かった。&lt;/p&gt;
+&lt;h2 id=&#34;結果&#34;&gt;結果&lt;/h2&gt;
+&lt;p&gt;無事無料修理対象だったらしく、イヤホンが SONY に届いてから 2 日ほどで修理が完了し、本日返ってきた。
+回収に来てから 1 週間ほど。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;ということで、同様の問題を抱えている方は一度修理に出してみればと思う。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>デュアルキーボードを試してみた話</title>
+      <link>https://t45k.github.io/blog/dual_keyboard/</link>
+      <pubDate>Thu, 05 May 2022 21:47:26 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/dual_keyboard/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;入社して 1 年、肩こりに悩まされるようになったのでデュアルキーボードを試してみた。&lt;/p&gt;
+&lt;h2 id=&#34;肩こり&#34;&gt;肩こり&lt;/h2&gt;
+&lt;p&gt;肩こりには様々な原因があるが、長時間を肩をすぼめたままの姿勢でいることがその一つである。&lt;/p&gt;
+&lt;p&gt;一般的なキーボードは肩幅より狭いため、タイピングのために肩をすぼめた姿勢を取らざるを得なくなる。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/single_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;また、肩をすぼめると背中が前に曲がるため、腰に負担がかかる可能性が高まる。
+そのうえ、頭がディスプレイに近くなるため、眼精疲労も溜まりやすくなる。&lt;/p&gt;
+&lt;p&gt;以上の観点から、キーボードをそのまま利用するのは健康上のリスクが大きいと考えられる。&lt;/p&gt;
+&lt;h2 id=&#34;キーボードを変える&#34;&gt;キーボードを変える？&lt;/h2&gt;
+&lt;p&gt;以上の背景から、エルゴノミクスキーボードや分離型キーボードが勧められることが多々ある。
+これらのキーボードは多くのメリットがあるものの、以下のデメリットをはらんでいる。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;高価&lt;br&gt;
+これらのキーボードは需要が少ないため、一般的なキーボードと比較して高価になる傾向がある。
+また、すでに好みのキーボードを買っている人にとっては、余計な出費になる。&lt;/li&gt;
+&lt;li&gt;配列&lt;br&gt;
+真ん中の境界できれいに分割されているため、特定のキーを左右両方の手で取るタイピングをする人には厳しい。&lt;/li&gt;
+&lt;li&gt;スイッチの選択肢が少ない&lt;br&gt;
+「青軸が好み」や「静電無接点じゃないとダメ」といったキーボードユーザがいるかも知れないが、そういう人には選択肢が少ない。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;デュアルキーボード&#34;&gt;デュアルキーボード&lt;/h2&gt;
+&lt;p&gt;もう一つの選択肢はデュアルキーボードである。&lt;/p&gt;
+&lt;p&gt;読んで時の如く、2 枚のキーボードを左右に配置して、同時に操作する。&lt;/p&gt;
+&lt;p&gt;両方のキーボードはフルサイズなので配列を気にしなくて良いのと、自分の好きなキーボードを継続して使えるというメリットがある。&lt;/p&gt;
+&lt;p&gt;もう 1 枚のキーボードを買う必要があるため、コストの面では優れているかは分からないが、少なくとも分離型キーボードを新しく買うよりかは安上がりになる。&lt;/p&gt;
+&lt;p&gt;コストを優先する場合、もう一つの選択肢がある。&lt;/p&gt;
+&lt;h2 id=&#34;結論構成&#34;&gt;結論構成&lt;/h2&gt;
+&lt;p&gt;それは、片方はラップトップのキーボードを利用する構成である。&lt;/p&gt;
+&lt;p&gt;最近ではラップトップのみを支給し、それをモニターと繋いで、業務に使うという会社も多いと思う。&lt;/p&gt;
+&lt;p&gt;ラップトップのキーボードを利用することで、すでに外付けキーボードを持っている場合は新たなコストが一切発生しない
+（パンタグラフや薄型のキーボードだと違和感なく利用できる。自分は&lt;a href=&#34;../keychron&#34;&gt;薄型のメカニカルキーボード&lt;/a&gt;を使っていたので大丈夫だった）。&lt;/p&gt;
+&lt;p&gt;この場合、自分の正面にメインモニタ、ラップトップを左側、サブモニタとキーボードを右側に置くのが個人的に最適だと考えている。&lt;/p&gt;
+&lt;p&gt;よくラップトップの上側にモニタを配置する人を見かけるが、これはオススメしない。&lt;/p&gt;
+&lt;p&gt;1 つ目の理由は、人間の目は上下移動よりも左右移動に適しているからである。
+これは、目が横に細長いことからわかる。
+左右方向に見える範囲が広いため、モニタは左右に配置するべきである。
+また、首を動かす場合も、上下に動かすより左右に動かす方が物理的な仕事量が少なくなる。&lt;/p&gt;
+&lt;p&gt;2 つ目の理由は、モニタの上端が目の位置より下になるように高さを調節すべきだからである。
+モニタの上端が目線よりも高い場合、まぶたを大きく開く必要があるため、ドライアイや眼精疲労に繋がることが指摘されている。
+ラップトップの画面の上にモニタを配置した場合、よほど座高が高い人間でない限り、モニタの上端が目線よりも高くなってしまう。&lt;/p&gt;
+&lt;p&gt;以上の理由から、以下が現時点での個人的な結論構成に落ち着いた。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dual_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;肩が死ぬほど開いて気持ち良い。&lt;/p&gt;
+&lt;p&gt;ちなみに、トラックパッドは中央に置いている。&lt;/p&gt;
+&lt;p&gt;トラックパッドはなるべく使わないで良いように、ブラウザ操作は&lt;a href=&#34;https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja&#34;&gt;Vimium&lt;/a&gt;、
+ショートカットやマウスポインタ操作は Karabiner を利用している。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Keychron K3を購入した話</title>
+      <link>https://t45k.github.io/blog/keychron/</link>
+      <pubDate>Fri, 11 Jun 2021 22:35:53 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/keychron/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard&#34;&gt;Keychron K3&lt;/a&gt;を購入しました．&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
+&lt;p&gt;研究室ではRealforceを使っていたのですが，会社からはキーボードが支給されないと聞いたので，仕事用のキーボードを購入する必要が発生しました．
+家では青軸のメカニカルキーボードを使っているので，その経験を踏まえて以下の要件を満たすキーボードを探しました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;会社はフリーアドレスなので持ち運びに困らない．具体的には以下の通り．
+&lt;ul&gt;
+&lt;li&gt;軽い&lt;/li&gt;
+&lt;li&gt;薄い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;十分にコンパクト．個人的にはmagic keyboardと同じ配列がベスト&lt;/li&gt;
+&lt;li&gt;もちろんUS配列&lt;/li&gt;
+&lt;li&gt;Fn必須&lt;/li&gt;
+&lt;li&gt;赤か茶軸のメカニカル，あるいは静電容量無接点&lt;/li&gt;
+&lt;li&gt;できればmac対応&lt;/li&gt;
+&lt;li&gt;新卒のお給料でも買える．1万円前後&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fnが必要なことからHHKB，携帯性からRealforceは簡単に除外できました．
+Nizも割と魅力的だったのですが，右下の配置が独特なことと高いことから除外しました．
+メカニカルキーボードで上記の要件を満たすキーボードはいくつか見つかったのですが，
+最終的に多機能かつ安価で評判も良い&lt;code&gt;Keychron K3&lt;/code&gt;にしました．&lt;/p&gt;
+&lt;h2 id=&#34;注文から到着まで&#34;&gt;注文から到着まで&lt;/h2&gt;
+&lt;p&gt;注文は公式サイトからできます．
+英語での住所&amp;amp;電話番号入力が必要なので事前に調べておくと良いと思います．&lt;/p&gt;
+&lt;p&gt;値段は本体74\$ + 配送料20\$の計94\$でした．
+paypalで支払いしたところ2021年6月現在で10,802円でした．&lt;/p&gt;
+&lt;p&gt;6月5日（土）の23時過ぎに注文して到着したのが10日（木）の夜でした．
+日曜を挟んでいたのを考えると割と早く届きました．&lt;/p&gt;
+&lt;h2 id=&#34;使用感&#34;&gt;使用感&lt;/h2&gt;
+&lt;p&gt;ファーストインプレッション&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;感想&lt;br&gt;- サイズ感: 最高&lt;br&gt;- 打鍵感: 茶軸やけどロープロのせいで反発が弱め。同時押しになったり2回押しがうまくいかんかったりする&lt;br&gt;- キートップ: 柔らかめ、爪が食い込む感覚&lt;br&gt;- 傾斜: 低め、違和感ある&lt;br&gt;- レスポンス: 若干もっさりしてる&lt;br&gt;&lt;br&gt;総評: サイズ感は最高やけどそれ以外は慣れが必要かなぁ&lt;/p&gt;&amp;mdash; task@FSE (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1402946711660621826?ref_src=twsrc%5Etfw&#34;&gt;June 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;一日使ってみましたが，本当に慣れだと思います．
+仕事が終わった後に家のキーボードを触ると，逆に重くてびっくりしました．
+使っていくうちに好きになっていくと思います．
+個人的にはdeleteを推すときのペチペチ音が好きです．&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;良い買い物をしたと思います．
+現在は在宅なのですが，会社で使うのを楽しみにしています．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MacBook Airを購入した話</title>
+      <link>https://t45k.github.io/blog/macbook_air/</link>
+      <pubDate>Mon, 13 Apr 2020 17:21:02 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/macbook_air/</guid>
+      <description>&lt;h3 id=&#34;念願のmacbook-airを購入しました&#34;&gt;念願のMacBook Airを購入しました!&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/mba.JPG&#34; alt=&#34;mba&#34;&gt;&lt;/p&gt;
+&lt;p&gt;構成は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: 1.1GHzクアッド&lt;/li&gt;
+&lt;li&gt;メモリ: 16GB&lt;/li&gt;
+&lt;li&gt;SSD: 256GB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;数ヶ月後に出ると噂のMacBook Proを待っている人もいるかもしれませんが，僕は以下のような理由でmbaを選びました．&lt;/p&gt;
+&lt;h2 id=&#34;1---もう待てなかったから&#34;&gt;1 - もう待てなかったから&lt;/h2&gt;
+&lt;p&gt;ずっと新しいmacが欲しいと思っていたのでこれ以上待てませんでした&lt;/p&gt;
+&lt;h2 id=&#34;2---そこまでスペックを必要としていないかったから&#34;&gt;2 - そこまでスペックを必要としていないかったから&lt;/h2&gt;
+&lt;p&gt;研究室からmbpを借りていますし，研究などでマシンパワーが必要な時は研究室のワークステーションを使えば良いだけなので&lt;/p&gt;
+&lt;h2 id=&#34;3---touch-barが嫌いだから&#34;&gt;3 - Touch barが嫌いだから&lt;/h2&gt;
+&lt;p&gt;バタフライキーボードはともかく，Touch barは賛否両論ありますが，僕はあまり好きになれませんでした．
+たまに反応しなくなったりするし．&lt;/p&gt;
+&lt;h2 id=&#34;4---安いから&#34;&gt;4 - 安いから&lt;/h2&gt;
+&lt;p&gt;税込み13万で買えました．
+mbpはこんなものじゃすまないと思います．&lt;/p&gt;
+&lt;p&gt;理由としてはこんなところです．
+付け加えるなら，自分の理想にとても近かったというのもあります．
+これは去年の12月のツイート&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;はよmacbook air，13インチ，cpu4コア，RAM16GB，SSD256GB，ファンクションキー，シザーキーボードで10万くらいのやつ出てくれや&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1203581420871905280?ref_src=twsrc%5Etfw&#34;&gt;December 8, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;使い心地&#34;&gt;使い心地&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/fix_mac_fault&#34;&gt;ある一点&lt;/a&gt;を除いたら最高です（その一点も結局解決しました）．&lt;/p&gt;
+&lt;p&gt;主にmbpとの比較になるのですが，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;軽い&lt;/li&gt;
+&lt;li&gt;薄い&lt;/li&gt;
+&lt;li&gt;開けやすい(mbaは切り欠けが下まで貫通している)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;みたいなところです．&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;こうなりました．
+&lt;img src=&#34;https://t45k.github.io/img/blog/stecker.JPG&#34; alt=&#34;stecker&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>研究室のパソコンがmacbook proになった話</title>
+      <link>https://t45k.github.io/blog/mbp/</link>
+      <pubDate>Tue, 21 Jan 2020 18:11:41 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/mbp/</guid>
+      <description>&lt;p&gt;組織特有の，年末に予算を使い切る目的で，新しいmacbook proを貸してもらえることになった．
+モデルはMid2019の13インチモデル．
+研究室内で大した業績を上げていない自分にしてはとても良いものを貸してもらえたと思う．&lt;/p&gt;
+&lt;p&gt;以下，使ってみた感想&lt;/p&gt;
+&lt;h2 id=&#34;良いとこ&#34;&gt;良いとこ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;速い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今まで2015年モデルのmacbook airを借りていた．
+mbpと比べるとマシンパワーが段違いであり，作業にかかる時間が大幅に短縮された．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面が綺麗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;マジで全然違う．
+4年でここまで変わるのかって感じ．&lt;/p&gt;
+&lt;h2 id=&#34;良くないとこ&#34;&gt;良くないとこ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日本語入力がもっさりしてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;mbaでは起きていなかった現象．
+英語入力から日本語入力に変更した直後が，なぜか入力してから画面に表示されるまで0.5秒くらいかかる．
+ググったら結構記事がヒットしたので，何かしらの解決法はあると思う．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;キーボードがヤバイ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使う前からバタフライキーボードがやばいことは理解していたが，使ってみるとやっぱりやばかった．
+普段RealForceや青軸のゲーミングキーボード等のしっかりと押し込むタイプのキーボードを使っているので違和感が凄い．&lt;/p&gt;
+&lt;p&gt;多分ボタンの押し方にコツが必要なのだと感じた．
+バタフライキーボードは指先で押すと指先を痛めやすい（インターンでmbpを借りていたときはマジで一日の終わりは指先が痛かった）ので，指の腹で押すのが大事だと思う．
+今でも&amp;rsquo;return&amp;rsquo;を押す右小指が痛くなってきた．
+普段からmbpを使っている友達曰く，なぞるように押すのが良いらしいので慣れるしかないかなぁって気持ち．&lt;/p&gt;
+&lt;p&gt;また，バタフライキーボードは薄さにわりに押す際に力が必要なので，小指などで押す&amp;rsquo;A&amp;rsquo;や&amp;rsquo;P&amp;rsquo;などが押せてないことが頻発した．&lt;/p&gt;
+&lt;p&gt;エスケープが使いづらいのも地味に辛い．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;研究室ではRealForceに接続して使うのでバタフライキーボードはまだマシだと思う．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

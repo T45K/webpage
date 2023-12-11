@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>インターン on T45K</title>
+    <link>https://t45k.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/</link>
+    <description>Recent content in インターン on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 14 Sep 2019 18:26:04 +0900</lastBuildDate>
+    
+	<atom:link href="https://t45k.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>インターン総括</title>
+      <link>https://t45k.github.io/blog/intern/</link>
+      <pubDate>Sat, 14 Sep 2019 18:26:04 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/intern/</guid>
+      <description>&lt;p&gt;2019年，M1の夏休みに行ってきたインターンの所感を書きます．&lt;/p&gt;
+&lt;h2 id=&#34;参加したインターン&#34;&gt;参加したインターン&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../aws/&#34;&gt;AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../line/&#34;&gt;LINE KYOTO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../rakuten/&#34;&gt;楽天&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参加しなかったインターン&#34;&gt;参加しなかったインターン&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../ntt/&#34;&gt;NTT DATA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参加できなかったインターン&#34;&gt;参加できなかったインターン&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../nssol/&#34;&gt;NSSOL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../cookpad/&#34;&gt;cookpad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;インターン全体の所感&#34;&gt;インターン全体の所感&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;意識高い学生が多い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学部の時は普段からゴリゴリ開発してるような友人はあまりいなかったため，意識の高い学生がこんなにもいることに驚きました&lt;/li&gt;
+&lt;li&gt;彼らと就活で戦うことを考えるとすでに辛い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結構B3，B4で参加してる人も多い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;意識高い&lt;/li&gt;
+&lt;li&gt;当時の僕はインターンなんて考えたことなかったので&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;実力も高い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AtCoder青とかがゴロゴロいる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また，自分のスキルアップ（特にweb周りの知識）に繋がったのでよかったです．&lt;/p&gt;
+&lt;p&gt;反省点としては，フロントなどの今までの自分が全くやったことがないような分野に挑戦することがなかったことが挙げられます．
+自分の知らない分野を一から勉強した上できちんとしたものを作ることを，期限が短いインターン中にやり切るのは難易度が高いと感じました．
+こういうことは普段から興味を持って勉強した方が良いのだと考えさせられました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>楽天のインターンに参加した話</title>
+      <link>https://t45k.github.io/blog/rakuten/</link>
+      <pubDate>Fri, 13 Sep 2019 18:21:32 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/rakuten/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;9/9~13の間，大阪で開催された楽天様のインターンに参加してきました．
+写真はインターン中に頂いた無料朝食です．&lt;/p&gt;
+&lt;h2 id=&#34;楽天とは&#34;&gt;楽天とは&lt;/h2&gt;
+&lt;p&gt;説明不要だと思います．
+日本発のメガベンチャーで，ECの楽天市場などが有名です．
+会社としては，外国人を積極的に採用しており，社内公用語が英語であることが特徴です．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;選考は面接だけでした．
+面接の内容もそこまで突っ込んだ話はしなかったです．
+面接官の社員さんと趣味が合い，ずっとバイクの話をしていました．&lt;/p&gt;
+&lt;p&gt;面接に通過した後，Springを使うための簡単な事前課題が出されました．&lt;/p&gt;
+&lt;h2 id=&#34;インターン&#34;&gt;インターン&lt;/h2&gt;
+&lt;p&gt;外国人向けサービスを作ってみようという題目でハッカソンを行いました．
+学生4人 + メンターの社員さん2名で開発を行っていくという方式でした．
+今までメンターの社員さんは困ったり質問があったら訊きにいく程度の存在だったので，ここまでがっつり開発に参加してくれるのは新鮮でした．
+他のインターンでは作るものが指定されていたので，アイデアソンから始めるというのは初めての出来事でした（余談ですが，アイデアが他の班と完全に被っていました）．&lt;/p&gt;
+&lt;p&gt;開発を始めたのは2日目の朝からでしたが，班のメンバーにはgitを使ったことなかったり，Javaを書いたりしたことがない人もいたため，午前中はそこら辺の知識の共有から始めました（これのおかげで，その後スムーズに開発することができました）．
+仕様などを決める際にも，社員さんと相談しながら決めました．
+AWSの時はまったく理解できなくて着いていけなくなった経験から，分からないことは質問して理解してから先に進むようにしました．
+開発自体はスムーズに進み，プロダクト自体も個人的には満足いくものが作れました．
+技術的な面では，空いている時間でCIやDockerなどのモダンな技術を導入できました．
+しかしプレゼンがグダリすぎてしまい，コンペでは最下位という結果でした．
+プロダクト自体には満足していたので，結構悔しかったです．
+ただ開発は楽しかったし，会社としての楽天も食堂が無料など良い点が多くインターンには非常に満足しました．&lt;/p&gt;
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+&lt;p&gt;インターン中のパフォーマンスが評価されて，M1の10月ごろに採用面接をしていただけました．
+合計3回の面接を経て，内定を頂けました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LINE KYOTOのインターンに参加した話</title>
+      <link>https://t45k.github.io/blog/line/</link>
+      <pubDate>Fri, 30 Aug 2019 18:13:39 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/line/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;line-kyotoとは&#34;&gt;LINE KYOTOとは&lt;/h2&gt;
+&lt;p&gt;LINEが何なのかは説明不要だと思うので割愛します．
+LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです．
+また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;選考は技術試験と面接です．
+技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません．
+面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした．
+僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました．
+結構倍率は高いようでしたが何とか通りました．&lt;/p&gt;
+&lt;h2 id=&#34;インターン&#34;&gt;インターン&lt;/h2&gt;
+&lt;p&gt;LINEが開発しているLIFF SDKを用いて，LINE上で動くサービスを開発してみようという内容でハッカソンを行いました．
+3人で一つの班を組み，4つのテーマから1つ選択するという形式で，僕たちの班はUNOを選択しました．
+僕達が参加した一週間前にも同じインターンがあり，その時UNOを選択した班は結局完成しなかったと散々脅されましたが，結果的に4班中3班がUNOを選択していました．&lt;/p&gt;
+&lt;p&gt;僕達の班はフロントの描画担当の子がKotlinで書くということなので，フロントからサーバまですべてKotlinで書くことにしました．
+僕は楽天のインターンの事前課題でSpringを触っていたのでサーバを書くことにしました．
+また，3人班のもう一人の子が超絶優秀で，最初に仕様とDB設計を行い，サーバとフロントの手伝いをしつつ，サーバとフロントと外部APIを繋げてちゃんと動くようにするという一番難しい部分を担ってくれたおかげで，僕たちの班はちゃんと動くものを作ることができました．
+結果的に他の2班は完成させることができず，とても達成感と満足感を得ることができました．&lt;/p&gt;
+&lt;p&gt;社員さん達もそれぞれの分野に精通した人が揃っていて，問題が発生してもすぐに解決できることが多かったです．
+残業禁止で定時には全員帰られるというのもとても魅力的でした．&lt;/p&gt;
+&lt;p&gt;インターン中の様子は以下の以下のLINE公式ブログにも取り上げられています．
+&lt;a href=&#34;https://engineering.linecorp.com/ja/blog/kyoto-intern2019/&#34;&gt;https://engineering.linecorp.com/ja/blog/kyoto-intern2019/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+&lt;p&gt;せっかくインターンに参加したので，本選考も受けることにしました．
+本選考は技術テストが1回，技術面接が1回，最終面接でした．
+最終面接にて無事不採用となりました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AWSのインターンに参加した話</title>
+      <link>https://t45k.github.io/blog/aws/</link>
+      <pubDate>Tue, 20 Aug 2019 18:07:41 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/aws/</guid>
+      <description>&lt;p&gt;8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;awsとは&#34;&gt;AWSとは&lt;/h2&gt;
+&lt;p&gt;AWSとは，Amazon Web Serviceの略です．
+AWSはAmazonのクラウド事業を担当している会社です．
+Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）．
+今，世界で最も勢いのあるIT会社の一つだと言えます．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;HP上には技術試験 + 面接と書いてあったのですが，なぜか面接が行われませんでした．
+技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした．
+今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました．
+問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました．
+結果的に通ったので良かったです．&lt;/p&gt;
+&lt;h2 id=&#34;インターン&#34;&gt;インターン&lt;/h2&gt;
+&lt;p&gt;実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました．
+仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました．
+東京まで来て何してるんだろうって結構辛い気持ちになりました．
+ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．&lt;/p&gt;
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+&lt;p&gt;このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました．
+技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cookpadのインターンに参加できなかった話</title>
+      <link>https://t45k.github.io/blog/cookpad/</link>
+      <pubDate>Thu, 01 Aug 2019 18:32:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/cookpad/</guid>
+      <description>&lt;p&gt;cookpadのインターンに参加できませんでした．&lt;/p&gt;
+&lt;h2 id=&#34;cookpadとは&#34;&gt;cookpadとは&lt;/h2&gt;
+&lt;p&gt;料理のレシピを提供するサービスで有名な会社です．
+あまり知られていないのですが（僕が知らなかっただけかもしれませんが），ITに力を入れており，技術力があるエンジニアが多く所属しています．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;技術試験 + 面接です．&lt;/p&gt;
+&lt;p&gt;技術試験はプロコンのようにテストケースが用意されているわけではなく，仕様のみが与えられてそれに一致するようなコードを書くという問題でした．
+仕様を満たすようにコードは書いたつもりでしたが落ちてしまいました．&lt;/p&gt;
+&lt;p&gt;原因として考えられるのが，問題中APIを叩く部分があって，通常であれば言語仕様に則ってPOSTなどをすると思うのですが，当時はAPIって何?って状態だったので，直接コマンドからcurlを呼び出すように書きました．
+その辺から技術不足が見抜かれたのかなぁって感じです．&lt;/p&gt;
+&lt;p&gt;結構悔しかったです．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NSSOLのインターンに参加できなかった話</title>
+      <link>https://t45k.github.io/blog/nssol/</link>
+      <pubDate>Thu, 01 Aug 2019 18:32:21 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/nssol/</guid>
+      <description>&lt;p&gt;NSSOL様のインターンに参加できませんでした．&lt;/p&gt;
+&lt;p&gt;NSSOLに行った研究室の先輩方は多く，結構興味を持っていました．
+東京までの旅費や宿泊費を出してくれる上に，毎日飲み会があると聞いていたので参加できることを楽しみにしていました．&lt;/p&gt;
+&lt;h2 id=&#34;nssolとは&#34;&gt;NSSOLとは&lt;/h2&gt;
+&lt;p&gt;日本製鐵のシステム部門が独立してできた会社です．
+母体が大きな会社であり，NSSOLも国内のSIerの中ではそれなりに大きく有名な会社です．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;ES + SPI + 面接でした．&lt;/p&gt;
+&lt;p&gt;SPIはテストセンターまで受けに行かなければならず面倒でした．
+面接は顔合わせ程度のものだと聞いていたのでここで落とされるとは思っていませんでした．
+ただ面接自体は，普段からやっていて癖になっている自虐が多く出てしまい落ちることも納得でした．
+こういうジャパニーズトラディショナルカンパニーには面接でありのままの自分を見せるよりも多少は偽った方が良いのかなと思いました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NTT DATAのインターンに参加しなかった話</title>
+      <link>https://t45k.github.io/blog/ntt/</link>
+      <pubDate>Thu, 01 Aug 2019 18:32:15 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/ntt/</guid>
+      <description>&lt;p&gt;NTT DATAのインターンに参加しませんでした．&lt;/p&gt;
+&lt;h2 id=&#34;ntt-dataとは&#34;&gt;NTT DATAとは&lt;/h2&gt;
+&lt;p&gt;国内情報系最大手のNTTのSI部門会社です．
+やはり最大手らしく，日本全国から有能な人材が集まることで有名です．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;ES + SPI + 動画提出でした．&lt;/p&gt;
+&lt;p&gt;テストセンターに行かなくても自分のパソコン上でSPIを受けれたのが個人的に楽でした．
+動画はインターンに対する意気込みを語れとのことでした．
+これで採用か不採用かが決まるのも変な気がしましたが，とりあえずほぼ一発どりで提出したら通ってびっくりました．&lt;/p&gt;
+&lt;p&gt;このインターンに参加すると合計4週間インターンに行くことになってしまうので辞退しました．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="3完． コード
+A - Nickname 与えられた文字列の先頭3文字を抜き出すだけ．
+B - Tag 非鬼が鬼より右側にいる場合，BはAに捕まらいためには右側に逃げるのが最適となる． 鬼と非鬼がT秒移動した時にいる箇所は，
+鬼: A &#43; V*T 非鬼: B &#43; W*T となる． 鬼の座標が非鬼の座標以上に右側にいる(=より座標が大きい)と捕まるので，それを判定するだけ
+C - Lamps いもす法をすると1回の操作はO(N)で達成できるので，K回やるとO(NK)となる(いもす法のやり方: Aiの値がdの時，座標i-dに&#43;1，座標i&#43;d&#43;1に-1を加え，最後に累積和する)． O(NK)なので，最大で4*10^10程度の計算量となってしまいそうだが，ここで問題文から以下のことが言える．
+全ての電球の明るさがNとなった場合，それ以降の操作で明るさは増えないため，そこで操作を打ち切って良い
+操作回数が最大になるのはN=10^5，K=10^5，全ての電球の明るさの初期値が0の時なので，これを試してみると時間に十分間に合う．
+あとはやるだけ．
+解答を見ると，操作回数はO(log N)で抑えられるらしい．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="東京海上日動プログラミングコンテスト2020の解説"/>
+<meta name="twitter:description" content="3完． コード
+A - Nickname 与えられた文字列の先頭3文字を抜き出すだけ．
+B - Tag 非鬼が鬼より右側にいる場合，BはAに捕まらいためには右側に逃げるのが最適となる． 鬼と非鬼がT秒移動した時にいる箇所は，
+鬼: A &#43; V*T 非鬼: B &#43; W*T となる． 鬼の座標が非鬼の座標以上に右側にいる(=より座標が大きい)と捕まるので，それを判定するだけ
+C - Lamps いもす法をすると1回の操作はO(N)で達成できるので，K回やるとO(NK)となる(いもす法のやり方: Aiの値がdの時，座標i-dに&#43;1，座標i&#43;d&#43;1に-1を加え，最後に累積和する)． O(NK)なので，最大で4*10^10程度の計算量となってしまいそうだが，ここで問題文から以下のことが言える．
+全ての電球の明るさがNとなった場合，それ以降の操作で明るさは増えないため，そこで操作を打ち切って良い
+操作回数が最大になるのはN=10^5，K=10^5，全ての電球の明るさの初期値が0の時なので，これを試してみると時間に十分間に合う．
+あとはやるだけ．
+解答を見ると，操作回数はO(log N)で抑えられるらしい．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="東京海上日動プログラミングコンテスト2020の解説" />
+<meta property="og:description" content="3完． コード
+A - Nickname 与えられた文字列の先頭3文字を抜き出すだけ．
+B - Tag 非鬼が鬼より右側にいる場合，BはAに捕まらいためには右側に逃げるのが最適となる． 鬼と非鬼がT秒移動した時にいる箇所は，
+鬼: A &#43; V*T 非鬼: B &#43; W*T となる． 鬼の座標が非鬼の座標以上に右側にいる(=より座標が大きい)と捕まるので，それを判定するだけ
+C - Lamps いもす法をすると1回の操作はO(N)で達成できるので，K回やるとO(NK)となる(いもす法のやり方: Aiの値がdの時，座標i-dに&#43;1，座標i&#43;d&#43;1に-1を加え，最後に累積和する)． O(NK)なので，最大で4*10^10程度の計算量となってしまいそうだが，ここで問題文から以下のことが言える．
+全ての電球の明るさがNとなった場合，それ以降の操作で明るさは増えないため，そこで操作を打ち切って良い
+操作回数が最大になるのはN=10^5，K=10^5，全ての電球の明るさの初期値が0の時なので，これを試してみると時間に十分間に合う．
+あとはやるだけ．
+解答を見ると，操作回数はO(log N)で抑えられるらしい．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/tokiomarine2020/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-06-14T18:55:26+09:00" />
+<meta property="article:modified_time" content="2020-06-14T18:55:26+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/tokiomarine2020/">
+    
+    <title>
+  東京海上日動プログラミングコンテスト2020の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/tokiomarine2020/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>東京海上日動プログラミングコンテスト2020の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>3完．
+<a href="https://github.com/t45k/kyopuro/tree/master/AtCoder/other/tokiomarine2020">コード</a></p>
+<h2 id="a---nickname">A - Nickname</h2>
+<p>与えられた文字列の先頭3文字を抜き出すだけ．</p>
+<h2 id="b---tag">B - Tag</h2>
+<p>非鬼が鬼より右側にいる場合，BはAに捕まらいためには右側に逃げるのが最適となる．
+鬼と非鬼がT秒移動した時にいる箇所は，</p>
+<ul>
+<li>鬼: <code>A + V*T</code></li>
+<li>非鬼: <code>B + W*T</code></li>
+</ul>
+<p>となる．
+鬼の座標が非鬼の座標以上に右側にいる(=より座標が大きい)と捕まるので，それを判定するだけ</p>
+<h2 id="c---lamps">C - Lamps</h2>
+<p><a href="https://imoz.jp/algorithms/imos_method.html">いもす法</a>をすると1回の操作はO(N)で達成できるので，K回やるとO(NK)となる(いもす法のやり方: Aiの値がdの時，座標<code>i-d</code>に+1，座標<code>i+d+1</code>に-1を加え，最後に累積和する)．
+O(NK)なので，最大で4*10^10程度の計算量となってしまいそうだが，ここで問題文から以下のことが言える．</p>
+<blockquote>
+<p>全ての電球の明るさが<code>N</code>となった場合，それ以降の操作で明るさは増えないため，そこで操作を打ち切って良い</p>
+</blockquote>
+<p>操作回数が最大になるのはN=10^5，K=10^5，全ての電球の明るさの初期値が0の時なので，これを試してみると時間に十分間に合う．</p>
+<p>あとはやるだけ．</p>
+<p>解答を見ると，操作回数はO(log N)で抑えられるらしい．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

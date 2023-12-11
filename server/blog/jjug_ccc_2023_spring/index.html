@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="2023年6月4日日曜日に開催されたJJUG CCC 2023 Springで人生初の登壇をしてきました！ めっちゃ緊張した&hellip;
+写真はもらったノベルティの数々。
+JJUGとは https://t45k.github.io/blog/jjug_ccc_2022_fall/
+登壇 業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。 JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。
+当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。 発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。
+登壇資料は、会社のSlideShareに上げてあります。
+https://www.slideshare.net/rakutentech/jenkinsintellij-idea
+余談ですが、僕の登壇は会社の方には知られていなかったようです。
+俺の登壇、会社に認知されてへんくて草
+&mdash; task (@getupmax) June 4, 2023 弊社のブース 他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。
+こんにちは、楽天採用情報部です。
+JJUG CCC 2023 Springは本日開催です！
+本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。
+現地にいらっしゃることができない方は、是非記事をご覧ください。
+https://t.co/HXrvahCBs0#jjug_ccc #rakuten #java #engineer
+&mdash; 楽天採用情報（C&amp;Mカンパニー開発部門） (@rhack_commerce) June 4, 2023 山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。 ありがとうございます。
+楽天お買い物パンダと握手できるのは #jjug_ccc だけ！ pic.twitter.com/kvqyF3kblB
+&mdash; 山本ユースケ (@yusuke) June 4, 2023 その他 今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。
+GMOさんはクイズを企画されていました。 普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。 また、JAVAティーをいただきました。 ありがとうございました。
+サムライズムさんもいらっしゃいました。 個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。 また、IntelliJ IDEAとKotlinのステッカーをいただきました。 ありがとうございました。
+他の方のセッションも聴講しました。 印象に残ったのはEdson Yanagaさんの&quot;Revisiting Design Patterns after 20&quot;です。 YanagaさんはGoogleに勤めているJava Championの方です。 セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。 また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="JJUG CCC 2023 Springで登壇した話"/>
+<meta name="twitter:description" content="2023年6月4日日曜日に開催されたJJUG CCC 2023 Springで人生初の登壇をしてきました！ めっちゃ緊張した&hellip;
+写真はもらったノベルティの数々。
+JJUGとは https://t45k.github.io/blog/jjug_ccc_2022_fall/
+登壇 業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。 JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。
+当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。 発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。
+登壇資料は、会社のSlideShareに上げてあります。
+https://www.slideshare.net/rakutentech/jenkinsintellij-idea
+余談ですが、僕の登壇は会社の方には知られていなかったようです。
+俺の登壇、会社に認知されてへんくて草
+&mdash; task (@getupmax) June 4, 2023 弊社のブース 他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。
+こんにちは、楽天採用情報部です。
+JJUG CCC 2023 Springは本日開催です！
+本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。
+現地にいらっしゃることができない方は、是非記事をご覧ください。
+https://t.co/HXrvahCBs0#jjug_ccc #rakuten #java #engineer
+&mdash; 楽天採用情報（C&amp;Mカンパニー開発部門） (@rhack_commerce) June 4, 2023 山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。 ありがとうございます。
+楽天お買い物パンダと握手できるのは #jjug_ccc だけ！ pic.twitter.com/kvqyF3kblB
+&mdash; 山本ユースケ (@yusuke) June 4, 2023 その他 今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。
+GMOさんはクイズを企画されていました。 普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。 また、JAVAティーをいただきました。 ありがとうございました。
+サムライズムさんもいらっしゃいました。 個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。 また、IntelliJ IDEAとKotlinのステッカーをいただきました。 ありがとうございました。
+他の方のセッションも聴講しました。 印象に残ったのはEdson Yanagaさんの&quot;Revisiting Design Patterns after 20&quot;です。 YanagaさんはGoogleに勤めているJava Championの方です。 セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。 また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="JJUG CCC 2023 Springで登壇した話" />
+<meta property="og:description" content="2023年6月4日日曜日に開催されたJJUG CCC 2023 Springで人生初の登壇をしてきました！ めっちゃ緊張した&hellip;
+写真はもらったノベルティの数々。
+JJUGとは https://t45k.github.io/blog/jjug_ccc_2022_fall/
+登壇 業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。 JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。
+当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。 発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。
+登壇資料は、会社のSlideShareに上げてあります。
+https://www.slideshare.net/rakutentech/jenkinsintellij-idea
+余談ですが、僕の登壇は会社の方には知られていなかったようです。
+俺の登壇、会社に認知されてへんくて草
+&mdash; task (@getupmax) June 4, 2023 弊社のブース 他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。
+こんにちは、楽天採用情報部です。
+JJUG CCC 2023 Springは本日開催です！
+本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。
+現地にいらっしゃることができない方は、是非記事をご覧ください。
+https://t.co/HXrvahCBs0#jjug_ccc #rakuten #java #engineer
+&mdash; 楽天採用情報（C&amp;Mカンパニー開発部門） (@rhack_commerce) June 4, 2023 山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。 ありがとうございます。
+楽天お買い物パンダと握手できるのは #jjug_ccc だけ！ pic.twitter.com/kvqyF3kblB
+&mdash; 山本ユースケ (@yusuke) June 4, 2023 その他 今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。
+GMOさんはクイズを企画されていました。 普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。 また、JAVAティーをいただきました。 ありがとうございました。
+サムライズムさんもいらっしゃいました。 個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。 また、IntelliJ IDEAとKotlinのステッカーをいただきました。 ありがとうございました。
+他の方のセッションも聴講しました。 印象に残ったのはEdson Yanagaさんの&quot;Revisiting Design Patterns after 20&quot;です。 YanagaさんはGoogleに勤めているJava Championの方です。 セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。 また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/jjug_ccc_2023_spring/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-06-05T19:48:46+09:00" />
+<meta property="article:modified_time" content="2023-06-05T19:48:46+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/jjug_ccc_2023_spring/">
+    
+    <title>
+  JJUG CCC 2023 Springで登壇した話 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/jjug_ccc_2023_spring/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>JJUG CCC 2023 Springで登壇した話</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93/">技術</a></div>
+
+    </header>
+
+    <p>2023年6月4日日曜日に開催された<a href="https://sessionize.com/api/v2/y7inyq6y/view/GridSmart">JJUG CCC 2023 Spring</a>で人生初の登壇をしてきました！
+めっちゃ緊張した&hellip;</p>
+<p>写真はもらったノベルティの数々。</p>
+<img src="https://t45k.github.io/img/blog/jjug_ccc_2023_spring.jpg" height="50%" width="50%">
+<h3 id="jjugとは">JJUGとは</h3>
+<p><a href="https://t45k.github.io/blog/jjug_ccc_2022_fall/">https://t45k.github.io/blog/jjug_ccc_2022_fall/</a></p>
+<h3 id="登壇">登壇</h3>
+<p>業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。
+JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。</p>
+<p>当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。
+発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。</p>
+<p>登壇資料は、会社のSlideShareに上げてあります。</p>
+<p><a href="https://www.slideshare.net/rakutentech/jenkinsintellij-idea">https://www.slideshare.net/rakutentech/jenkinsintellij-idea</a></p>
+<p>余談ですが、僕の登壇は会社の方には知られていなかったようです。</p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">俺の登壇、会社に認知されてへんくて草</p>&mdash; task (@getupmax) <a href="https://twitter.com/getupmax/status/1665175461436215297?ref_src=twsrc%5Etfw">June 4, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="弊社のブース">弊社のブース</h3>
+<p>他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。</p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんにちは、楽天採用情報部です。<br>JJUG CCC 2023 Springは本日開催です！<br>本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。<br>現地にいらっしゃることができない方は、是非記事をご覧ください。<br> <a href="https://t.co/HXrvahCBs0">https://t.co/HXrvahCBs0</a><a href="https://twitter.com/hashtag/jjug_ccc?src=hash&amp;ref_src=twsrc%5Etfw">#jjug_ccc</a> <a href="https://twitter.com/hashtag/rakuten?src=hash&amp;ref_src=twsrc%5Etfw">#rakuten</a> <a href="https://twitter.com/hashtag/java?src=hash&amp;ref_src=twsrc%5Etfw">#java</a> <a href="https://twitter.com/hashtag/engineer?src=hash&amp;ref_src=twsrc%5Etfw">#engineer</a></p>&mdash; 楽天採用情報（C&amp;Mカンパニー開発部門） (@rhack_commerce) <a href="https://twitter.com/rhack_commerce/status/1665156452988882944?ref_src=twsrc%5Etfw">June 4, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。
+ありがとうございます。</p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">楽天お買い物パンダと握手できるのは <a href="https://twitter.com/hashtag/jjug_ccc?src=hash&amp;ref_src=twsrc%5Etfw">#jjug_ccc</a> だけ！ <a href="https://t.co/kvqyF3kblB">pic.twitter.com/kvqyF3kblB</a></p>&mdash; 山本ユースケ (@yusuke) <a href="https://twitter.com/yusuke/status/1665236778679250944?ref_src=twsrc%5Etfw">June 4, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="その他">その他</h3>
+<p>今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。</p>
+<p>GMOさんはクイズを企画されていました。
+普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。
+また、JAVAティーをいただきました。
+ありがとうございました。</p>
+<p>サムライズムさんもいらっしゃいました。
+個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。
+また、IntelliJ IDEAとKotlinのステッカーをいただきました。
+ありがとうございました。</p>
+<p>他の方のセッションも聴講しました。
+印象に残ったのはEdson Yanagaさんの&quot;Revisiting Design Patterns after 20&quot;です。
+YanagaさんはGoogleに勤めているJava Championの方です。
+セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。
+また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。</p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">マージでこのセッション良かったな</p>&mdash; task (@getupmax) <a href="https://twitter.com/getupmax/status/1665283888728641537?ref_src=twsrc%5Etfw">June 4, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="謝辞">謝辞</h3>
+<p>今回の登壇に際して様々な方のお世話になったので、この場をお借りして謝辞を述べたいと思います。</p>
+<p>まずはJJUG CCCの運営の方々。おかげで楽しく有意義な時間を過ごせました。</p>
+<p>弊社。行き帰りの交通費と宿代を負担していただきました。これがなければ現地参加は難しかったかもしれません。</p>
+<p>チームメンバー。忙しい中、資料作成に時間を割くことを許してもらいました。迷惑をかけました。</p>
+<p>そして、今回登壇してみようと思えたのも、<a href="https://twitter.com/bufferings">@bufferings</a>さんと<a href="https://twitter.com/takacyk">@takacyk</a>さんのおかげでした。
+ありがとうございました。</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

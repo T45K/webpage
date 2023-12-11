@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="四完速解きで青パフォ． コード
+A - Counting 基本的にはB-A-1だが，A&gt;Bの時に限り0となる. max(B-A-1, 0)とすれば多少は楽．
+B - Can you buy them all? 偶数番目の商品だけ-1して総和を計算するだけ．
+C - Not Equal まず，整数列を昇順にソートしても求めたい値は変わらない．
+1番目の値は全ての値から選ぶことができる． 2番目の値は1番目に選んだ値以外の値を選ぶので，C2 - 1通りから選べる． このとき，昇順にソートしているので選ぶ値の上限を考える必要がない． このように考えると，i番目の値はCi - (i-1)から選ぶことができる． このとき，(i-1) &gt;= Ciとなると値を選べなくなるので答えは0になる．
+そうでない場合，答えは全ての選べる値を掛け合わせた値になる．
+D - Collision 問題文から，与えられたグラフが木構造であることが分かる．
+木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの(頂点からaまでの距離)-(頂点からbまでの距離)となる．
+これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離をdis(x,y)と表す時，(頂点からaまでの距離)-(頂点からbまでの距離)の偶奇は
+(dis(d,a) - dis(d,b)) % 2 = (dis(d,c) &#43; dis(c,a) &#43; dis(d,c) &#43; dis(c,b)) % 2 = (dis(d,c) * 2 &#43; dis(c,a) &#43; dis(c,b)) % 2 = (dis(c,a) &#43; dis(c,b)) % 2 でa，b間の距離の偶奇と一致するからである．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC209の解説"/>
+<meta name="twitter:description" content="四完速解きで青パフォ． コード
+A - Counting 基本的にはB-A-1だが，A&gt;Bの時に限り0となる. max(B-A-1, 0)とすれば多少は楽．
+B - Can you buy them all? 偶数番目の商品だけ-1して総和を計算するだけ．
+C - Not Equal まず，整数列を昇順にソートしても求めたい値は変わらない．
+1番目の値は全ての値から選ぶことができる． 2番目の値は1番目に選んだ値以外の値を選ぶので，C2 - 1通りから選べる． このとき，昇順にソートしているので選ぶ値の上限を考える必要がない． このように考えると，i番目の値はCi - (i-1)から選ぶことができる． このとき，(i-1) &gt;= Ciとなると値を選べなくなるので答えは0になる．
+そうでない場合，答えは全ての選べる値を掛け合わせた値になる．
+D - Collision 問題文から，与えられたグラフが木構造であることが分かる．
+木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの(頂点からaまでの距離)-(頂点からbまでの距離)となる．
+これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離をdis(x,y)と表す時，(頂点からaまでの距離)-(頂点からbまでの距離)の偶奇は
+(dis(d,a) - dis(d,b)) % 2 = (dis(d,c) &#43; dis(c,a) &#43; dis(d,c) &#43; dis(c,b)) % 2 = (dis(d,c) * 2 &#43; dis(c,a) &#43; dis(c,b)) % 2 = (dis(c,a) &#43; dis(c,b)) % 2 でa，b間の距離の偶奇と一致するからである．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC209の解説" />
+<meta property="og:description" content="四完速解きで青パフォ． コード
+A - Counting 基本的にはB-A-1だが，A&gt;Bの時に限り0となる. max(B-A-1, 0)とすれば多少は楽．
+B - Can you buy them all? 偶数番目の商品だけ-1して総和を計算するだけ．
+C - Not Equal まず，整数列を昇順にソートしても求めたい値は変わらない．
+1番目の値は全ての値から選ぶことができる． 2番目の値は1番目に選んだ値以外の値を選ぶので，C2 - 1通りから選べる． このとき，昇順にソートしているので選ぶ値の上限を考える必要がない． このように考えると，i番目の値はCi - (i-1)から選ぶことができる． このとき，(i-1) &gt;= Ciとなると値を選べなくなるので答えは0になる．
+そうでない場合，答えは全ての選べる値を掛け合わせた値になる．
+D - Collision 問題文から，与えられたグラフが木構造であることが分かる．
+木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの(頂点からaまでの距離)-(頂点からbまでの距離)となる．
+これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離をdis(x,y)と表す時，(頂点からaまでの距離)-(頂点からbまでの距離)の偶奇は
+(dis(d,a) - dis(d,b)) % 2 = (dis(d,c) &#43; dis(c,a) &#43; dis(d,c) &#43; dis(c,b)) % 2 = (dis(d,c) * 2 &#43; dis(c,a) &#43; dis(c,b)) % 2 = (dis(c,a) &#43; dis(c,b)) % 2 でa，b間の距離の偶奇と一致するからである．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc209/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2021-07-10T23:14:52+09:00" />
+<meta property="article:modified_time" content="2021-07-10T23:14:52+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc209/">
+    
+    <title>
+  ABC209の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc209/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC209の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>四完速解きで青パフォ．
+<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC209">コード</a></p>
+<h2 id="a---counting">A - Counting</h2>
+<p>基本的には<code>B-A-1</code>だが，<code>A&gt;B</code>の時に限り0となる.
+<code>max(B-A-1, 0)</code>とすれば多少は楽．</p>
+<h2 id="b---can-you-buy-them-all">B - Can you buy them all?</h2>
+<p>偶数番目の商品だけ-1して総和を計算するだけ．</p>
+<h2 id="c---not-equal">C - Not Equal</h2>
+<p>まず，整数列を昇順にソートしても求めたい値は変わらない．<br>
+1番目の値は全ての値から選ぶことができる．
+2番目の値は1番目に選んだ値以外の値を選ぶので，<code>C2 - 1</code>通りから選べる．
+このとき，昇順にソートしているので選ぶ値の上限を考える必要がない．
+このように考えると，i番目の値は<code>Ci - (i-1)</code>から選ぶことができる．
+このとき，<code>(i-1) &gt;= Ci</code>となると値を選べなくなるので答えは0になる．<br>
+そうでない場合，答えは全ての選べる値を掛け合わせた値になる．</p>
+<h2 id="d---collision">D - Collision</h2>
+<p>問題文から，与えられたグラフが木構造であることが分かる．<br>
+木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの<code>(頂点からaまでの距離)-(頂点からbまでの距離)</code>となる．<br>
+これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離を<code>dis(x,y)</code>と表す時，<code>(頂点からaまでの距離)-(頂点からbまでの距離)</code>の偶奇は</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>(dis(d,a) - dis(d,b)) % 2 
+</span></span><span style="display:flex;"><span>= (dis(d,c) + dis(c,a) + dis(d,c) + dis(c,b)) % 2
+</span></span><span style="display:flex;"><span>= (dis(d,c) * 2 + dis(c,a) + dis(c,b)) % 2
+</span></span><span style="display:flex;"><span>= (dis(c,a) + dis(c,b)) % 2
+</span></span></code></pre></div><p>でa，b間の距離の偶奇と一致するからである．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

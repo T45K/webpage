@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="ABC061 D - Score Attackの別解．コード
+問題内容 正負の重みの辺で構成された，閉路を含む有向グラフの単一始点終点の最長経路を求める問題． 解説では，初めに辺の重みの正負を逆転してからベルマンフォード法で最短経路を求めている． また，経路に影響を与えうる閉路の存在を確認するために，フラグを使った方法を採用している．単純に負の閉路の存在が最短経路に影響を及ぼすわけではないことに注意．
+別解 最長路検出と閉路検出について異なる方法を紹介する．
+最長路検出 今回頂点数が1,000と比較的少ないので，BFSを用いた全探索が可能である． BFSを用いる場合は，閉路を含むことから，キューが空にならない可能性があるので，繰り返し回数を制限する必要がる． BFSであることから，n ^ 2 回繰り返せば十分である．
+閉路検出 解説ではbool型配列を用いてフラグ管理をしているが，そもそもフラグ管理をする必要はない． 各辺に対する経路長の更新を頂点の個数回繰り返し，結果が変わっていればinfを出力すれば良い．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC061#Dの別解"/>
+<meta name="twitter:description" content="ABC061 D - Score Attackの別解．コード
+問題内容 正負の重みの辺で構成された，閉路を含む有向グラフの単一始点終点の最長経路を求める問題． 解説では，初めに辺の重みの正負を逆転してからベルマンフォード法で最短経路を求めている． また，経路に影響を与えうる閉路の存在を確認するために，フラグを使った方法を採用している．単純に負の閉路の存在が最短経路に影響を及ぼすわけではないことに注意．
+別解 最長路検出と閉路検出について異なる方法を紹介する．
+最長路検出 今回頂点数が1,000と比較的少ないので，BFSを用いた全探索が可能である． BFSを用いる場合は，閉路を含むことから，キューが空にならない可能性があるので，繰り返し回数を制限する必要がる． BFSであることから，n ^ 2 回繰り返せば十分である．
+閉路検出 解説ではbool型配列を用いてフラグ管理をしているが，そもそもフラグ管理をする必要はない． 各辺に対する経路長の更新を頂点の個数回繰り返し，結果が変わっていればinfを出力すれば良い．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC061#Dの別解" />
+<meta property="og:description" content="ABC061 D - Score Attackの別解．コード
+問題内容 正負の重みの辺で構成された，閉路を含む有向グラフの単一始点終点の最長経路を求める問題． 解説では，初めに辺の重みの正負を逆転してからベルマンフォード法で最短経路を求めている． また，経路に影響を与えうる閉路の存在を確認するために，フラグを使った方法を採用している．単純に負の閉路の存在が最短経路に影響を及ぼすわけではないことに注意．
+別解 最長路検出と閉路検出について異なる方法を紹介する．
+最長路検出 今回頂点数が1,000と比較的少ないので，BFSを用いた全探索が可能である． BFSを用いる場合は，閉路を含むことから，キューが空にならない可能性があるので，繰り返し回数を制限する必要がる． BFSであることから，n ^ 2 回繰り返せば十分である．
+閉路検出 解説ではbool型配列を用いてフラグ管理をしているが，そもそもフラグ管理をする必要はない． 各辺に対する経路長の更新を頂点の個数回繰り返し，結果が変わっていればinfを出力すれば良い．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc061_d/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-03-08T20:39:29+09:00" />
+<meta property="article:modified_time" content="2020-03-08T20:39:29+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc061_d/">
+    
+    <title>
+  ABC061#Dの別解 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc061_d/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC061#Dの別解</h1>
+      <br>
+      
+    </header>
+
+    <p><a href="https://atcoder.jp/contests/abc061/tasks/abc061_d">ABC061 D - Score Attack</a>の別解．<a href="https://github.com/T45K/kyopuro/blob/master/ABC061/D/MainAlt.java">コード</a></p>
+<h2 id="問題内容">問題内容</h2>
+<p>正負の重みの辺で構成された，閉路を含む有向グラフの単一始点終点の最長経路を求める問題．
+解説では，初めに辺の重みの正負を逆転してからベルマンフォード法で最短経路を求めている．
+また，経路に影響を与えうる閉路の存在を確認するために，フラグを使った方法を採用している．単純に負の閉路の存在が最短経路に影響を及ぼすわけではないことに注意．</p>
+<h2 id="別解">別解</h2>
+<p>最長路検出と閉路検出について異なる方法を紹介する．</p>
+<h3 id="最長路検出">最長路検出</h3>
+<p>今回頂点数が1,000と比較的少ないので，BFSを用いた全探索が可能である．
+BFSを用いる場合は，閉路を含むことから，キューが空にならない可能性があるので，繰り返し回数を制限する必要がる．
+BFSであることから，n ^ 2 回繰り返せば十分である．</p>
+<h3 id="閉路検出">閉路検出</h3>
+<p>解説ではbool型配列を用いてフラグ管理をしているが，そもそもフラグ管理をする必要はない．
+各辺に対する経路長の更新を頂点の個数回繰り返し，結果が変わっていれば<code>inf</code>を出力すれば良い．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

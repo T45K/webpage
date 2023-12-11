@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="ICSEはInternational Conference of Software Engineeringの略です． ソフトウェア工学の国際学会の中で一番ランクが高い会議です． 会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので， 面白そうな論文をピックアップしてみました．
+Is Rust Used Safely by Software Developers? RustはC，C&#43;&#43;に取って代わることを目指した，メモリ安全性や実行速度を売りにしているプログラミング言語です． その特徴から，ソフトウェア開発界隈からの注目度が高まりつつあります．
+この論文では，メモリ安全性を放棄する代わりにパフォーマンスを上げる Unsafe Rust についての調査を行っています．
+Securing UnSafe Rust Programs with XRust これもRustの論文です．
+XRustという，Unsafe Rustを通常のRustに移行する手法を提案しています．
+ICSEに(Unsafe)Rustに関する論文が2本採択されていることから，ソフトウェア開発におけるRustの盛り上がり具合が分かります．
+Big Code != Big Vocabulary: Open-Vocabulary Models for Source code キャッチーなタイトルだったのでピックアップしてみました．
+変数名などのユーザー定義の識別子があるため，ソースコードは自然言語に比べて，大規模になるとコーパスが巨大になってしまいます． この論文では，コーパスがスケールするように，新しい言語モデルを提案しています．
+DLFix: Context-based Code Transformation Learning for Automated Program Repair 最近のソフトウェア工学の大きなトピックの一つであるAPRの論文．
+機械学習ベースのAPRは過去のバグ修正の学習に制限があるのに対して，DLFixでは学習のレイヤを2層に分けることでうまくこの制限を回避したらしいです．
+A Cost-efficient Approach to Building in Continuous Integration CIの論文．
+CIのコストはビルドを回している時間だけかかってしまい，かつ，CIの目的はバグを発見することなので， 多くのバグを発見するビルドをなるべく早い段階で回す手法を提案しています．
+Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ICSE2020の面白そうな論文をピックアップしてみた"/>
+<meta name="twitter:description" content="ICSEはInternational Conference of Software Engineeringの略です． ソフトウェア工学の国際学会の中で一番ランクが高い会議です． 会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので， 面白そうな論文をピックアップしてみました．
+Is Rust Used Safely by Software Developers? RustはC，C&#43;&#43;に取って代わることを目指した，メモリ安全性や実行速度を売りにしているプログラミング言語です． その特徴から，ソフトウェア開発界隈からの注目度が高まりつつあります．
+この論文では，メモリ安全性を放棄する代わりにパフォーマンスを上げる Unsafe Rust についての調査を行っています．
+Securing UnSafe Rust Programs with XRust これもRustの論文です．
+XRustという，Unsafe Rustを通常のRustに移行する手法を提案しています．
+ICSEに(Unsafe)Rustに関する論文が2本採択されていることから，ソフトウェア開発におけるRustの盛り上がり具合が分かります．
+Big Code != Big Vocabulary: Open-Vocabulary Models for Source code キャッチーなタイトルだったのでピックアップしてみました．
+変数名などのユーザー定義の識別子があるため，ソースコードは自然言語に比べて，大規模になるとコーパスが巨大になってしまいます． この論文では，コーパスがスケールするように，新しい言語モデルを提案しています．
+DLFix: Context-based Code Transformation Learning for Automated Program Repair 最近のソフトウェア工学の大きなトピックの一つであるAPRの論文．
+機械学習ベースのAPRは過去のバグ修正の学習に制限があるのに対して，DLFixでは学習のレイヤを2層に分けることでうまくこの制限を回避したらしいです．
+A Cost-efficient Approach to Building in Continuous Integration CIの論文．
+CIのコストはビルドを回している時間だけかかってしまい，かつ，CIの目的はバグを発見することなので， 多くのバグを発見するビルドをなるべく早い段階で回す手法を提案しています．
+Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ICSE2020の面白そうな論文をピックアップしてみた" />
+<meta property="og:description" content="ICSEはInternational Conference of Software Engineeringの略です． ソフトウェア工学の国際学会の中で一番ランクが高い会議です． 会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので， 面白そうな論文をピックアップしてみました．
+Is Rust Used Safely by Software Developers? RustはC，C&#43;&#43;に取って代わることを目指した，メモリ安全性や実行速度を売りにしているプログラミング言語です． その特徴から，ソフトウェア開発界隈からの注目度が高まりつつあります．
+この論文では，メモリ安全性を放棄する代わりにパフォーマンスを上げる Unsafe Rust についての調査を行っています．
+Securing UnSafe Rust Programs with XRust これもRustの論文です．
+XRustという，Unsafe Rustを通常のRustに移行する手法を提案しています．
+ICSEに(Unsafe)Rustに関する論文が2本採択されていることから，ソフトウェア開発におけるRustの盛り上がり具合が分かります．
+Big Code != Big Vocabulary: Open-Vocabulary Models for Source code キャッチーなタイトルだったのでピックアップしてみました．
+変数名などのユーザー定義の識別子があるため，ソースコードは自然言語に比べて，大規模になるとコーパスが巨大になってしまいます． この論文では，コーパスがスケールするように，新しい言語モデルを提案しています．
+DLFix: Context-based Code Transformation Learning for Automated Program Repair 最近のソフトウェア工学の大きなトピックの一つであるAPRの論文．
+機械学習ベースのAPRは過去のバグ修正の学習に制限があるのに対して，DLFixでは学習のレイヤを2層に分けることでうまくこの制限を回避したらしいです．
+A Cost-efficient Approach to Building in Continuous Integration CIの論文．
+CIのコストはビルドを回している時間だけかかってしまい，かつ，CIの目的はバグを発見することなので， 多くのバグを発見するビルドをなるべく早い段階で回す手法を提案しています．
+Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/icse2020_abst/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2020-02-01T18:59:35+09:00" />
+<meta property="article:modified_time" content="2020-02-01T18:59:35+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/icse2020_abst/">
+    
+    <title>
+  ICSE2020の面白そうな論文をピックアップしてみた · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/icse2020_abst/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ICSE2020の面白そうな論文をピックアップしてみた</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E7%A0%94%E7%A9%B6/">研究</a></div>
+
+    </header>
+
+    <p>ICSEはInternational Conference of Software Engineeringの略です．
+ソフトウェア工学の国際学会の中で一番ランクが高い会議です．
+会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので，
+面白そうな論文をピックアップしてみました．</p>
+<h2 id="is-rust-used-safely-by-software-developers">Is Rust Used Safely by Software Developers?</h2>
+<p>RustはC，C++に取って代わることを目指した，メモリ安全性や実行速度を売りにしているプログラミング言語です．
+その特徴から，ソフトウェア開発界隈からの注目度が高まりつつあります．<br>
+この論文では，メモリ安全性を放棄する代わりにパフォーマンスを上げる <strong>Unsafe Rust</strong> についての調査を行っています．</p>
+<h2 id="securing-unsafe-rust-programs-with-xrust">Securing UnSafe Rust Programs with XRust</h2>
+<p>これもRustの論文です．<br>
+XRustという，Unsafe Rustを通常のRustに移行する手法を提案しています．<br>
+ICSEに(Unsafe)Rustに関する論文が2本採択されていることから，ソフトウェア開発におけるRustの盛り上がり具合が分かります．</p>
+<h2 id="big-code--big-vocabulary-open-vocabulary-models-for-source-code">Big Code != Big Vocabulary: Open-Vocabulary Models for Source code</h2>
+<p>キャッチーなタイトルだったのでピックアップしてみました．<br>
+変数名などのユーザー定義の識別子があるため，ソースコードは自然言語に比べて，大規模になるとコーパスが巨大になってしまいます．
+この論文では，コーパスがスケールするように，新しい言語モデルを提案しています．</p>
+<h2 id="dlfix-context-based-code-transformation-learning-for-automated-program-repair">DLFix: Context-based Code Transformation Learning for Automated Program Repair</h2>
+<p>最近のソフトウェア工学の大きなトピックの一つであるAPRの論文．<br>
+機械学習ベースのAPRは過去のバグ修正の学習に制限があるのに対して，DLFixでは学習のレイヤを2層に分けることでうまくこの制限を回避したらしいです．</p>
+<h2 id="a-cost-efficient-approach-to-building-in-continuous-integration">A Cost-efficient Approach to Building in Continuous Integration</h2>
+<p>CIの論文．<br>
+CIのコストはビルドを回している時間だけかかってしまい，かつ，CIの目的はバグを発見することなので，
+多くのバグを発見するビルドをなるべく早い段階で回す手法を提案しています．</p>
+<h2 id="here-we-go-again-why-is-it-difficult-for-developers-to-learn-another-programming-language">Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?</h2>
+<p>ある言語を習得したプログラマが他の言語を習得する際の難易度に関する調査を行った研究．</p>
+<h3 id="終わりに">終わりに</h3>
+<p>以上です．
+会議全体としては，機械学習とFuzzing周りの論文が多い印象です．
+おそらく今年もICSE勉強会が実施されると思うので，楽しみにしてます．</p>
+<p>論文一覧は<a href="https://conf.researchr.org/track/icse-2020/icse-2020-papers#event-overview">ここ</a>から見れます．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

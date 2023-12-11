@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="カス4完． コード
+A - Signed Difficulty やるだけ．
+doubleやfloatでなく文字列型で入力を受け取ってピリオドで分割したほうが良い．
+B - Same Name 姓と名を結合した文字列（間に空白を挟む）をSet等で管理し，最終的にSetの要素数とNを比較すれば良い （要素数がNと同じなら同姓同名は存在しない）．
+C - Many Balls 元のNに対して
+Nが奇数なら1引いてから2で割る Nが偶数なら2で割る という操作を行っていき，最後に行った操作を逆順に出力する
+D - Pair of Balls 考え方としては，筒の先頭を順番に見ていき，重複するボールがあればそれを取り除き，改めてその筒を見る，という操作の繰り返しである．
+「操作を行う対象の筒リスト」を用意し，1~Nを初めに挿入する． 次に，リストの先頭から取り出した番号の筒に対して，以下の操作を行っていく
+筒の先頭の数字が「すでに出現した数字」の集合に含まれている場合，筒の先頭と集合中のその数字を取り除き，「操作を行う対象の筒リスト」に今見ている筒の番号を入れる． 筒の先頭の数字が「すでに出現した数字」の集合に含まれていない場合，その数字を集合に入れる． E - Amusement Park ある楽しさXに対して，Σ(max(Ai-X,0)) = KとなるようなXが存在するときに，各アトラクションを楽しさがXになるまで乗るのが最適． なので，そのXを二分探索を用いて探す．
+F- Max Sum Counting Aを昇順に並べたとき，Aiを含む(1,&hellip;,i)の空でない部分集合は必ず最大値がAiになる． このことから，ソートした後の各iに対して，(1,&hellip;,i)の空でない部分集合に対してBiの和を求めて，Ai以下のものの個数を足し合わせていけば良い． 部分集合の和はナップザック問題に帰着し，Aiの最大値は5,000なので，それ以下の範囲で計算すれば良い．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC216の解説"/>
+<meta name="twitter:description" content="カス4完． コード
+A - Signed Difficulty やるだけ．
+doubleやfloatでなく文字列型で入力を受け取ってピリオドで分割したほうが良い．
+B - Same Name 姓と名を結合した文字列（間に空白を挟む）をSet等で管理し，最終的にSetの要素数とNを比較すれば良い （要素数がNと同じなら同姓同名は存在しない）．
+C - Many Balls 元のNに対して
+Nが奇数なら1引いてから2で割る Nが偶数なら2で割る という操作を行っていき，最後に行った操作を逆順に出力する
+D - Pair of Balls 考え方としては，筒の先頭を順番に見ていき，重複するボールがあればそれを取り除き，改めてその筒を見る，という操作の繰り返しである．
+「操作を行う対象の筒リスト」を用意し，1~Nを初めに挿入する． 次に，リストの先頭から取り出した番号の筒に対して，以下の操作を行っていく
+筒の先頭の数字が「すでに出現した数字」の集合に含まれている場合，筒の先頭と集合中のその数字を取り除き，「操作を行う対象の筒リスト」に今見ている筒の番号を入れる． 筒の先頭の数字が「すでに出現した数字」の集合に含まれていない場合，その数字を集合に入れる． E - Amusement Park ある楽しさXに対して，Σ(max(Ai-X,0)) = KとなるようなXが存在するときに，各アトラクションを楽しさがXになるまで乗るのが最適． なので，そのXを二分探索を用いて探す．
+F- Max Sum Counting Aを昇順に並べたとき，Aiを含む(1,&hellip;,i)の空でない部分集合は必ず最大値がAiになる． このことから，ソートした後の各iに対して，(1,&hellip;,i)の空でない部分集合に対してBiの和を求めて，Ai以下のものの個数を足し合わせていけば良い． 部分集合の和はナップザック問題に帰着し，Aiの最大値は5,000なので，それ以下の範囲で計算すれば良い．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC216の解説" />
+<meta property="og:description" content="カス4完． コード
+A - Signed Difficulty やるだけ．
+doubleやfloatでなく文字列型で入力を受け取ってピリオドで分割したほうが良い．
+B - Same Name 姓と名を結合した文字列（間に空白を挟む）をSet等で管理し，最終的にSetの要素数とNを比較すれば良い （要素数がNと同じなら同姓同名は存在しない）．
+C - Many Balls 元のNに対して
+Nが奇数なら1引いてから2で割る Nが偶数なら2で割る という操作を行っていき，最後に行った操作を逆順に出力する
+D - Pair of Balls 考え方としては，筒の先頭を順番に見ていき，重複するボールがあればそれを取り除き，改めてその筒を見る，という操作の繰り返しである．
+「操作を行う対象の筒リスト」を用意し，1~Nを初めに挿入する． 次に，リストの先頭から取り出した番号の筒に対して，以下の操作を行っていく
+筒の先頭の数字が「すでに出現した数字」の集合に含まれている場合，筒の先頭と集合中のその数字を取り除き，「操作を行う対象の筒リスト」に今見ている筒の番号を入れる． 筒の先頭の数字が「すでに出現した数字」の集合に含まれていない場合，その数字を集合に入れる． E - Amusement Park ある楽しさXに対して，Σ(max(Ai-X,0)) = KとなるようなXが存在するときに，各アトラクションを楽しさがXになるまで乗るのが最適． なので，そのXを二分探索を用いて探す．
+F- Max Sum Counting Aを昇順に並べたとき，Aiを含む(1,&hellip;,i)の空でない部分集合は必ず最大値がAiになる． このことから，ソートした後の各iに対して，(1,&hellip;,i)の空でない部分集合に対してBiの和を求めて，Ai以下のものの個数を足し合わせていけば良い． 部分集合の和はナップザック問題に帰着し，Aiの最大値は5,000なので，それ以下の範囲で計算すれば良い．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc216/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2021-09-04T20:29:59+09:00" />
+<meta property="article:modified_time" content="2021-09-04T20:29:59+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc216/">
+    
+    <title>
+  ABC216の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc216/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC216の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>カス4完．
+<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC216/">コード</a></p>
+<h2 id="a---signed-difficulty">A - Signed Difficulty</h2>
+<p>やるだけ．</p>
+<p>doubleやfloatでなく文字列型で入力を受け取ってピリオドで分割したほうが良い．</p>
+<h2 id="b---same-name">B - Same Name</h2>
+<p>姓と名を結合した文字列（間に空白を挟む）をSet等で管理し，最終的にSetの要素数とNを比較すれば良い
+（要素数がNと同じなら同姓同名は存在しない）．</p>
+<h2 id="c---many-balls">C - Many Balls</h2>
+<p>元のNに対して</p>
+<ul>
+<li>Nが奇数なら1引いてから2で割る</li>
+<li>Nが偶数なら2で割る</li>
+</ul>
+<p>という操作を行っていき，最後に行った操作を逆順に出力する</p>
+<h2 id="d---pair-of-balls">D - Pair of Balls</h2>
+<p>考え方としては，筒の先頭を順番に見ていき，重複するボールがあればそれを取り除き，改めてその筒を見る，という操作の繰り返しである．</p>
+<p>「操作を行う対象の筒リスト」を用意し，1~Nを初めに挿入する．
+次に，リストの先頭から取り出した番号の筒に対して，以下の操作を行っていく</p>
+<ul>
+<li>筒の先頭の数字が「すでに出現した数字」の集合に含まれている場合，筒の先頭と集合中のその数字を取り除き，「操作を行う対象の筒リスト」に今見ている筒の番号を入れる．</li>
+<li>筒の先頭の数字が「すでに出現した数字」の集合に含まれていない場合，その数字を集合に入れる．</li>
+</ul>
+<h2 id="e---amusement-park">E - Amusement Park</h2>
+<p>ある楽しさXに対して，<code>Σ(max(Ai-X,0)) = K</code>となるようなXが存在するときに，各アトラクションを楽しさがXになるまで乗るのが最適．
+なので，そのXを二分探索を用いて探す．</p>
+<h2 id="f--max-sum-counting">F- Max Sum Counting</h2>
+<p>Aを昇順に並べたとき，Aiを含む(1,&hellip;,i)の空でない部分集合は必ず最大値がAiになる．
+このことから，ソートした後の各iに対して，(1,&hellip;,i)の空でない部分集合に対してBiの和を求めて，Ai以下のものの個数を足し合わせていけば良い．
+部分集合の和はナップザック問題に帰着し，Aiの最大値は5,000なので，それ以下の範囲で計算すれば良い．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

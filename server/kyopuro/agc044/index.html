@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="太陽でしたがNoSubなのでレートは変わらなかったです(NoSubというシステムをよく理解していなかったので，入力するのではないかとドキドキしてました)． A，Bの解説． コード
+A - Pay to Win 400点問題だと高を括って望んだら痛い目にあった．
+簡単に説明するとNから2，3，5で割っていくだけ． メモ化(b|d)fs． メモは値をキー，コストをバリューとしたMapで持つ． bfsで解く場合は，キューから取り出した値Kに対して
+2で割れるか試す 割れる場合: 現在のコスト&#43;min(a,d*K/2)（2で割るか，同じ値だけ1を引くかのコストが小さい方）がメモ[K/2]を更新できなければ何もしない．更新できれば，K/2をキューに追加する． 破れない場合: K&#43;1とK-1は2で割れるので，割れる場合と同じ処理をする． 3で割れるか試す 割れる場合: 現在のコスト&#43;min(b,d*2*K/3)がメモ[K/3]を更新できなければ何もしない．更新できれば，K/3をキューに追加する． 破れない場合: K-K%3とK&#43;3-K%3はKで割り切れるので，割れる場合と同じ処理をする 5で割れるか試す．略 をやるだけ．
+B - Joker 計算量の見積もりが難しい問題．
+N&lt;=500に対して，与えられる座標の数はN^2なので，座標が与えられる度に(d|b)fsすると間に合わないように見える． しかし，実は間に合う． 1回の(b|d)fsでいくつかの座標の端からの距離が減る では全ての走査で行われる操作は合計でO(n^3)で収まる 例えばN=6の時，最初の各座標の端からの距離は以下のようになる
+0 0 0 0 0 0
+0 1 1 1 1 0
+0 1 2 2 1 0
+0 1 2 2 1 0
+0 1 1 1 1 0
+0 0 0 0 0 0">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AGC044の解説"/>
+<meta name="twitter:description" content="太陽でしたがNoSubなのでレートは変わらなかったです(NoSubというシステムをよく理解していなかったので，入力するのではないかとドキドキしてました)． A，Bの解説． コード
+A - Pay to Win 400点問題だと高を括って望んだら痛い目にあった．
+簡単に説明するとNから2，3，5で割っていくだけ． メモ化(b|d)fs． メモは値をキー，コストをバリューとしたMapで持つ． bfsで解く場合は，キューから取り出した値Kに対して
+2で割れるか試す 割れる場合: 現在のコスト&#43;min(a,d*K/2)（2で割るか，同じ値だけ1を引くかのコストが小さい方）がメモ[K/2]を更新できなければ何もしない．更新できれば，K/2をキューに追加する． 破れない場合: K&#43;1とK-1は2で割れるので，割れる場合と同じ処理をする． 3で割れるか試す 割れる場合: 現在のコスト&#43;min(b,d*2*K/3)がメモ[K/3]を更新できなければ何もしない．更新できれば，K/3をキューに追加する． 破れない場合: K-K%3とK&#43;3-K%3はKで割り切れるので，割れる場合と同じ処理をする 5で割れるか試す．略 をやるだけ．
+B - Joker 計算量の見積もりが難しい問題．
+N&lt;=500に対して，与えられる座標の数はN^2なので，座標が与えられる度に(d|b)fsすると間に合わないように見える． しかし，実は間に合う． 1回の(b|d)fsでいくつかの座標の端からの距離が減る では全ての走査で行われる操作は合計でO(n^3)で収まる 例えばN=6の時，最初の各座標の端からの距離は以下のようになる
+0 0 0 0 0 0
+0 1 1 1 1 0
+0 1 2 2 1 0
+0 1 2 2 1 0
+0 1 1 1 1 0
+0 0 0 0 0 0"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="AGC044の解説" />
+<meta property="og:description" content="太陽でしたがNoSubなのでレートは変わらなかったです(NoSubというシステムをよく理解していなかったので，入力するのではないかとドキドキしてました)． A，Bの解説． コード
+A - Pay to Win 400点問題だと高を括って望んだら痛い目にあった．
+簡単に説明するとNから2，3，5で割っていくだけ． メモ化(b|d)fs． メモは値をキー，コストをバリューとしたMapで持つ． bfsで解く場合は，キューから取り出した値Kに対して
+2で割れるか試す 割れる場合: 現在のコスト&#43;min(a,d*K/2)（2で割るか，同じ値だけ1を引くかのコストが小さい方）がメモ[K/2]を更新できなければ何もしない．更新できれば，K/2をキューに追加する． 破れない場合: K&#43;1とK-1は2で割れるので，割れる場合と同じ処理をする． 3で割れるか試す 割れる場合: 現在のコスト&#43;min(b,d*2*K/3)がメモ[K/3]を更新できなければ何もしない．更新できれば，K/3をキューに追加する． 破れない場合: K-K%3とK&#43;3-K%3はKで割り切れるので，割れる場合と同じ処理をする 5で割れるか試す．略 をやるだけ．
+B - Joker 計算量の見積もりが難しい問題．
+N&lt;=500に対して，与えられる座標の数はN^2なので，座標が与えられる度に(d|b)fsすると間に合わないように見える． しかし，実は間に合う． 1回の(b|d)fsでいくつかの座標の端からの距離が減る では全ての走査で行われる操作は合計でO(n^3)で収まる 例えばN=6の時，最初の各座標の端からの距離は以下のようになる
+0 0 0 0 0 0
+0 1 1 1 1 0
+0 1 2 2 1 0
+0 1 2 2 1 0
+0 1 1 1 1 0
+0 0 0 0 0 0" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/agc044/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-05-27T23:41:26+09:00" />
+<meta property="article:modified_time" content="2020-05-27T23:41:26+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/agc044/">
+    
+    <title>
+  AGC044の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/agc044/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>AGC044の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>太陽でしたがNoSubなのでレートは変わらなかったです(NoSubというシステムをよく理解していなかったので，入力するのではないかとドキドキしてました)．
+A，Bの解説．
+<a href="https://github.com/t45k/kyopuro/tree/master/AtCoder/AGC/AGC044">コード</a></p>
+<h2 id="a---pay-to-win">A - Pay to Win</h2>
+<p>400点問題だと高を括って望んだら痛い目にあった．<br>
+簡単に説明するとNから2，3，5で割っていくだけ．
+メモ化(b|d)fs．
+メモは値をキー，コストをバリューとしたMapで持つ．
+bfsで解く場合は，キューから取り出した値Kに対して</p>
+<ol>
+<li>2で割れるか試す
+<ul>
+<li>割れる場合: <code>現在のコスト+min(a,d*K/2)</code>（2で割るか，同じ値だけ1を引くかのコストが小さい方）がメモ[K/2]を更新できなければ何もしない．更新できれば，K/2をキューに追加する．</li>
+<li>破れない場合: K+1とK-1は2で割れるので，割れる場合と同じ処理をする．</li>
+</ul>
+</li>
+<li>3で割れるか試す
+<ul>
+<li>割れる場合: <code>現在のコスト+min(b,d*2*K/3)</code>がメモ[K/3]を更新できなければ何もしない．更新できれば，K/3をキューに追加する．</li>
+<li>破れない場合: K-K%3とK+3-K%3はKで割り切れるので，割れる場合と同じ処理をする</li>
+</ul>
+</li>
+<li>5で割れるか試す．略</li>
+</ol>
+<p>をやるだけ．</p>
+<h2 id="b---joker">B - Joker</h2>
+<p>計算量の見積もりが難しい問題．<br>
+N&lt;=500に対して，与えられる座標の数はN^2なので，座標が与えられる度に(d|b)fsすると間に合わないように見える．
+しかし，実は間に合う．
+1回の(b|d)fsでいくつかの座標の端からの距離が減る
+では全ての走査で行われる操作は合計でO(n^3)で収まる
+例えばN=6の時，最初の各座標の端からの距離は以下のようになる<br>
+0 0 0 0 0 0<br>
+0 1 1 1 1 0<br>
+0 1 2 2 1 0<br>
+0 1 2 2 1 0<br>
+0 1 1 1 1 0<br>
+0 0 0 0 0 0<br>
+全てを走査しきる（= 各座標の端からの距離が0になる）のは 4*4 + 2*2(四角形を狭めていくイメージ)回の操作が必要となる．
+合計するとだいたい (N^3)/6 らしいので条件下で間に合う．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

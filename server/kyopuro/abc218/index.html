@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="初の 6 完で久々に盛れた． コード
+A - Weather Forecast String#charAt使う．
+B - qwerty 問題文内では辞書順という言葉を使っているが，単純に(char)(&#39;a&#39; &#43; P_i - 1)を出力するだけ．
+c - Shapes アルゴリズムは簡単だが実装が割としんどい問題．
+#が存在する座標のリストを取得し，それらを左上詰めしたうえで比較する． 例えば，入力例 1 の S
+..... ..#.. .###. ..... ..... は 0-indexed で(1,2), (2,1), (2,2), (2,3)と表せられる． このとき，行の最小値は 1，列の最小値は 1 なので， 左上詰めするとそれぞれの座標の行，列から 1 ずつ引いて (0,1), (1,0), (1,1), (1,2)と表せられる．
+これを S に対して 90° ずつ回転させたリストと T を比較する．
+D - Rectangles 条件から，求めたいのは， あるx_iをx座標に持つ点の集合と，あるx_jをx座標に持つ点の集合の間で，y座標が一致する点の集合から2つ選ぶ時の組み合わせの数になる． これを実現するため，与えられた点を x 座標をキー，y 座標のリストを値に持つ Map に格納する． この時，リストは事前にソートしておく． あとは x 座標の各組合せに対して，一致する y 座標の数を数えておく． ソートしているので尺取法的に数え上げると，この操作はリストの長さに線形で可能なので十分に間に合う．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC218の解説"/>
+<meta name="twitter:description" content="初の 6 完で久々に盛れた． コード
+A - Weather Forecast String#charAt使う．
+B - qwerty 問題文内では辞書順という言葉を使っているが，単純に(char)(&#39;a&#39; &#43; P_i - 1)を出力するだけ．
+c - Shapes アルゴリズムは簡単だが実装が割としんどい問題．
+#が存在する座標のリストを取得し，それらを左上詰めしたうえで比較する． 例えば，入力例 1 の S
+..... ..#.. .###. ..... ..... は 0-indexed で(1,2), (2,1), (2,2), (2,3)と表せられる． このとき，行の最小値は 1，列の最小値は 1 なので， 左上詰めするとそれぞれの座標の行，列から 1 ずつ引いて (0,1), (1,0), (1,1), (1,2)と表せられる．
+これを S に対して 90° ずつ回転させたリストと T を比較する．
+D - Rectangles 条件から，求めたいのは， あるx_iをx座標に持つ点の集合と，あるx_jをx座標に持つ点の集合の間で，y座標が一致する点の集合から2つ選ぶ時の組み合わせの数になる． これを実現するため，与えられた点を x 座標をキー，y 座標のリストを値に持つ Map に格納する． この時，リストは事前にソートしておく． あとは x 座標の各組合せに対して，一致する y 座標の数を数えておく． ソートしているので尺取法的に数え上げると，この操作はリストの長さに線形で可能なので十分に間に合う．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC218の解説" />
+<meta property="og:description" content="初の 6 完で久々に盛れた． コード
+A - Weather Forecast String#charAt使う．
+B - qwerty 問題文内では辞書順という言葉を使っているが，単純に(char)(&#39;a&#39; &#43; P_i - 1)を出力するだけ．
+c - Shapes アルゴリズムは簡単だが実装が割としんどい問題．
+#が存在する座標のリストを取得し，それらを左上詰めしたうえで比較する． 例えば，入力例 1 の S
+..... ..#.. .###. ..... ..... は 0-indexed で(1,2), (2,1), (2,2), (2,3)と表せられる． このとき，行の最小値は 1，列の最小値は 1 なので， 左上詰めするとそれぞれの座標の行，列から 1 ずつ引いて (0,1), (1,0), (1,1), (1,2)と表せられる．
+これを S に対して 90° ずつ回転させたリストと T を比較する．
+D - Rectangles 条件から，求めたいのは， あるx_iをx座標に持つ点の集合と，あるx_jをx座標に持つ点の集合の間で，y座標が一致する点の集合から2つ選ぶ時の組み合わせの数になる． これを実現するため，与えられた点を x 座標をキー，y 座標のリストを値に持つ Map に格納する． この時，リストは事前にソートしておく． あとは x 座標の各組合せに対して，一致する y 座標の数を数えておく． ソートしているので尺取法的に数え上げると，この操作はリストの長さに線形で可能なので十分に間に合う．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc218/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2021-09-13T16:37:09+09:00" />
+<meta property="article:modified_time" content="2021-09-13T16:37:09+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc218/">
+    
+    <title>
+  ABC218の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc218/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC218の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>初の 6 完で久々に盛れた．
+<a href="https://github.com/T45K/Kyopuro/tree/master/AtCoder/ABC/ABC218">コード</a></p>
+<h2 id="a---weather-forecast">A - Weather Forecast</h2>
+<p><code>String#charAt</code>使う．</p>
+<h2 id="b---qwerty">B - qwerty</h2>
+<p>問題文内では辞書順という言葉を使っているが，単純に<code>(char)('a' + P_i - 1)</code>を出力するだけ．</p>
+<h2 id="c---shapes">c - Shapes</h2>
+<p>アルゴリズムは簡単だが実装が割としんどい問題．</p>
+<p><code>#</code>が存在する座標のリストを取得し，それらを左上詰めしたうえで比較する．
+例えば，入力例 1 の S</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>.....
+</span></span><span style="display:flex;"><span>..#..
+</span></span><span style="display:flex;"><span>.###.
+</span></span><span style="display:flex;"><span>.....
+</span></span><span style="display:flex;"><span>.....
+</span></span></code></pre></div><p>は 0-indexed で<code>(1,2), (2,1), (2,2), (2,3)</code>と表せられる．
+このとき，行の最小値は 1，列の最小値は 1 なので，
+左上詰めするとそれぞれの座標の行，列から 1 ずつ引いて
+<code>(0,1), (1,0), (1,1), (1,2)</code>と表せられる．</p>
+<p>これを S に対して 90° ずつ回転させたリストと T を比較する．</p>
+<h2 id="d---rectangles">D - Rectangles</h2>
+<p>条件から，求めたいのは，
+<code>あるx_iをx座標に持つ点の集合と，あるx_jをx座標に持つ点の集合の間で，y座標が一致する点の集合から2つ選ぶ時の組み合わせの数</code>になる．
+これを実現するため，与えられた点を x 座標をキー，y 座標のリストを値に持つ Map に格納する．
+この時，リストは事前にソートしておく．
+あとは x 座標の各組合せに対して，一致する y 座標の数を数えておく．
+ソートしているので尺取法的に数え上げると，この操作はリストの長さに線形で可能なので十分に間に合う．</p>
+<h2 id="e---destruction">E - Destruction</h2>
+<p>最小全域木をやるだけ．
+C_i が負の辺は問答無用で加えてよい．</p>
+<h2 id="f---blocked-roads">F - Blocked Roads</h2>
+<p>初めに普通に最短経路を求める（幅優先探索で<code>O(N+M)</code>で可能）．
+ここで，この最短経路の値を X とすると，最短経路に含まれない辺を通れないとしても，X で頂点 1 から頂点 N に移動できる．
+後は，最短経路に含まれる辺それぞれに対して，通れない場合の最短経路をシミュレーションすれば良い．
+最短経路に含まれる経路数は高々<code>N-1</code>なので十分に間に合う．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

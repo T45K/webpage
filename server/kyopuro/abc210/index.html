@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="四完青パフォ。 今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。 コード
+A - Cabbages A &gt; Nになりうるのがポイント
+A が N よりも小さい場合、A 個を X 円で買って、(N-A)個を Y 円で買う A が N 以上の場合、N 個を X 円で買う と場合分けする。
+B - Bouzu Mekuri 愚直にシミュレーションする。 文字列を先頭から見ていき、初めに坊主を引いた方が負け。
+Stream#findFirstを使うとすっきり書ける。
+C - Colorful Candies 範囲内の飴ちゃんの種類を最大にする問題
+範囲をスライドさせていく。 具体的には、
+まずは先頭 K 個の飴の色と出現回数を辞書等を使って数えておく。この時の種類数をXとする。 K&#43;1 個目の飴の出現回数を 1 増やし、1 個目の飴を出現回数を 1 減らす。 この時、K&#43;1 個目の飴が初登場ならXを 1 増やし、1 個目の飴の出現回数が 0 になったらXを 1 減らす。 上の操作を、範囲をずらしながら繰り返す Xの最大値が答え D - National Railway 意外と難しかったらしい。
+まずは簡単のために 1 行しかない場合を考える。">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC210の解説"/>
+<meta name="twitter:description" content="四完青パフォ。 今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。 コード
+A - Cabbages A &gt; Nになりうるのがポイント
+A が N よりも小さい場合、A 個を X 円で買って、(N-A)個を Y 円で買う A が N 以上の場合、N 個を X 円で買う と場合分けする。
+B - Bouzu Mekuri 愚直にシミュレーションする。 文字列を先頭から見ていき、初めに坊主を引いた方が負け。
+Stream#findFirstを使うとすっきり書ける。
+C - Colorful Candies 範囲内の飴ちゃんの種類を最大にする問題
+範囲をスライドさせていく。 具体的には、
+まずは先頭 K 個の飴の色と出現回数を辞書等を使って数えておく。この時の種類数をXとする。 K&#43;1 個目の飴の出現回数を 1 増やし、1 個目の飴を出現回数を 1 減らす。 この時、K&#43;1 個目の飴が初登場ならXを 1 増やし、1 個目の飴の出現回数が 0 になったらXを 1 減らす。 上の操作を、範囲をずらしながら繰り返す Xの最大値が答え D - National Railway 意外と難しかったらしい。
+まずは簡単のために 1 行しかない場合を考える。"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC210の解説" />
+<meta property="og:description" content="四完青パフォ。 今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。 コード
+A - Cabbages A &gt; Nになりうるのがポイント
+A が N よりも小さい場合、A 個を X 円で買って、(N-A)個を Y 円で買う A が N 以上の場合、N 個を X 円で買う と場合分けする。
+B - Bouzu Mekuri 愚直にシミュレーションする。 文字列を先頭から見ていき、初めに坊主を引いた方が負け。
+Stream#findFirstを使うとすっきり書ける。
+C - Colorful Candies 範囲内の飴ちゃんの種類を最大にする問題
+範囲をスライドさせていく。 具体的には、
+まずは先頭 K 個の飴の色と出現回数を辞書等を使って数えておく。この時の種類数をXとする。 K&#43;1 個目の飴の出現回数を 1 増やし、1 個目の飴を出現回数を 1 減らす。 この時、K&#43;1 個目の飴が初登場ならXを 1 増やし、1 個目の飴の出現回数が 0 になったらXを 1 減らす。 上の操作を、範囲をずらしながら繰り返す Xの最大値が答え D - National Railway 意外と難しかったらしい。
+まずは簡単のために 1 行しかない場合を考える。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc210/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2021-07-18T14:18:29+09:00" />
+<meta property="article:modified_time" content="2021-07-18T14:18:29+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc210/">
+    
+    <title>
+  ABC210の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc210/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC210の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>四完青パフォ。
+今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。
+<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC210">コード</a></p>
+<h2 id="a---cabbages">A - Cabbages</h2>
+<p><code>A &gt; N</code>になりうるのがポイント<br></p>
+<ul>
+<li>A が N よりも小さい場合、A 個を X 円で買って、(N-A)個を Y 円で買う</li>
+<li>A が N 以上の場合、N 個を X 円で買う</li>
+</ul>
+<p>と場合分けする。</p>
+<h2 id="b---bouzu-mekuri">B - Bouzu Mekuri</h2>
+<p>愚直にシミュレーションする。
+文字列を先頭から見ていき、初めに坊主を引いた方が負け。<br>
+<code>Stream#findFirst</code>を使うとすっきり書ける。</p>
+<h2 id="c---colorful-candies">C - Colorful Candies</h2>
+<p>範囲内の飴ちゃんの種類を最大にする問題<br>
+範囲をスライドさせていく。
+具体的には、</p>
+<ol>
+<li>まずは先頭 K 個の飴の色と出現回数を辞書等を使って数えておく。この時の種類数を<code>X</code>とする。</li>
+<li>K+1 個目の飴の出現回数を 1 増やし、1 個目の飴を出現回数を 1 減らす。
+この時、K+1 個目の飴が初登場なら<code>X</code>を 1 増やし、1 個目の飴の出現回数が 0 になったら<code>X</code>を 1 減らす。</li>
+<li>上の操作を、範囲をずらしながら繰り返す</li>
+<li><code>X</code>の最大値が答え</li>
+</ol>
+<h2 id="d---national-railway">D - National Railway</h2>
+<p>意外と難しかったらしい。<br>
+まずは簡単のために 1 行しかない場合を考える。</p>
+<p>dp[i]の値は</p>
+<ul>
+<li>左隣から直接線路を作る</li>
+<li>左隣で最小の費用を考慮して線路を作る</li>
+</ul>
+<p>の最小値になる。
+後者に関しては、左隣での費用は&quot;どこかから左隣まで&quot;線路を作った時の値になっているので、
+左隣の地価を引いて今見ている土地の地価と C を足せば良い。
+つまり<code>左隣での値 - A[i-1] + A[i+1] + C</code>になる。</p>
+<p>これを</p>
+<ol>
+<li>左上から右下に行く場合</li>
+<li>右上から左下に行く場合</li>
+</ol>
+<p>の 2 通りについてシミュレーションすれば良い。</p>
+<h2 id="e---ring-mst">E - Ring MST</h2>
+<p>解説 AC。ユーザ解説が分かりやすいのでおすすめ。</p>
+<p><a href="https://blog.hamayanhamayan.com/entry/2021/07/17/233253">https://blog.hamayanhamayan.com/entry/2021/07/17/233253</a></p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

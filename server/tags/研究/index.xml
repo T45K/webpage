@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on T45K</title>
+    <link>https://t45k.github.io/tags/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 24 Mar 2021 21:17:20 +0900</lastBuildDate>
+    
+	<atom:link href="https://t45k.github.io/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
+      <link>https://t45k.github.io/blog/graduation/</link>
+      <pubDate>Wed, 24 Mar 2021 21:17:20 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/graduation/</guid>
+      <description>&lt;p&gt;2021年3月24日をもって修士課程を修了しました．&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;3年間の戦績は&lt;br&gt;&lt;br&gt;論文誌採録*1&lt;br&gt;論文誌条件付き採録*1&lt;br&gt;国際会議採録*2&lt;br&gt;国際会議査読中*1&lt;br&gt;研究会原稿*3&lt;br&gt;で現状不採録0です&lt;br&gt;&lt;br&gt;対ありでした&lt;/p&gt;&amp;mdash; task@減塩 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1374691521174282242?ref_src=twsrc%5Etfw&#34;&gt;March 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;研究室に所属して3年間色んなことがあった気がするので書き留めておきます．&lt;/p&gt;
+&lt;h2 id=&#34;所属前&#34;&gt;所属前&lt;/h2&gt;
+&lt;p&gt;大学に入学してからプログラミングを始めたが結構楽しめていたので，「ソースコードを書くこと」について研究できれば良いなぁと漠然と考えていた．
+阪大基礎工学部情報科学科では3回生の時に各研究室の先生に着いてゼミが行われるので，前期後期ともにソフトウェア工学の研究室のゼミに参加した．
+前半は「リファクタリング」について，後半は「ソースコードメトリクス」についてのゼミで，前半にゼミを担当していた先生が何となく面白そうだったので，その研究室の配属を目標にした．&lt;/p&gt;
+&lt;h2 id=&#34;b4&#34;&gt;B4&lt;/h2&gt;
+&lt;h3 id=&#34;4月&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;無事目標の研究室に配属．
+配属後リファクタリング的なネタをやりたいと伝える．
+論文を渡されてネタを探すように言われる．
+当然研究室に入ったばかりで自分ですんなりネタを決めれるわけもなく，
+指導教員の先生とミーティングをするも会話が噛み合わないことが多く，
+険悪な雰囲気になることが多かった気がする
+（主観的だが，口調が若干きつかったと感じることが多かった）．
+この頃から何となく「この先生とは一生分かり合えないんだろうなぁ」って思うようになり，苦手になる．&lt;/p&gt;
+&lt;h3 id=&#34;6月&#34;&gt;6月&lt;/h3&gt;
+&lt;p&gt;ネタが決まる（先生が決めてくれた）のでとりあえずやっていく．
+相変わらずミーティングでは嚙み合わないことが多かった．
+まあB4のはじめの頃はみんなこんなもんだろうと思い込んで過ごす．
+「研究室 辛い」などで検索するようになる．
+自分の打たれ弱さを実感する．&lt;/p&gt;
+&lt;h3 id=&#34;7月&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;院試休み．
+研究室行かずに済んでラッキーくらいの気持ちでいた．
+院試で研究室変えるのも手だったが負けた気分になるのでそのまま出した．
+院試後はそのまま夏休みだったのでしばらく研究のことを忘れる．&lt;/p&gt;
+&lt;h3 id=&#34;10月&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;研究が再開する．
+少しずつ進めていくが，コミュニケーションも含めて上手くいかないことが圧倒的に多くなり，常に辛い状態になる．
+この頃から常に死にたいと思うようになる．
+バイク運転中に信号無視した車が突っ込んできたらなぁみたいなことをずっと考えていた．
+しばらくそんな感じ．&lt;/p&gt;
+&lt;p&gt;同時期に，たまたまTwitter上でPaizaの広告を見かける．
+プログラミング能力を客観的に評価してもらえることがそれまでほとんどなかったことと，
+研究が辛くなった時のために就職も考えないとということでとりあえずやってみる．
+Paizaは解答解説がないので，プログラミング力を付けるのには不向きだと思い，
+AtCoderをやり始める．&lt;/p&gt;
+&lt;h3 id=&#34;1月&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;論文を書き始める．
+先生と添削のやり取りをするのだが，常に詰められてるように感じて辛くなる．
+悪いことは続くもので，比較実験を行う必要があるのだが
+既存研究が使ってたツールが上手く動かなくて全然実験が進まなくなる．
+時間がないのでとりあえず不完全なまま卒論と研究会論文を書き上げる．&lt;/p&gt;
+&lt;p&gt;あと自分の実装を見てもらう機会があったのだが，
+あまりにもひどかったため研究が一段落着いたらツール作り直したほうが良いかもねって話になる．
+今思えば草．&lt;/p&gt;
+&lt;h3 id=&#34;3月&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;研究会発表をする．&lt;/p&gt;
+&lt;p&gt;ツール作り直しをする．
+作り直しに際して，研究室の実装が得意な先輩に付きっ切りで見てもらいながらプログラミングを一から叩き込んでもらう．
+この指導，本当にありがたく，プログラミングの基礎的ながらも重要な要素をいくつも教えてもらった．
+これがなかったら実装力が重視されるウェブエンジニアを職業にするという選択肢は取れなかったと思う．&lt;/p&gt;
+&lt;h2 id=&#34;m1&#34;&gt;M1&lt;/h2&gt;
+&lt;h3 id=&#34;4月-1&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;同期が増える．
+またこれまで必要な日にしか研究室に来てなかった同期と，授業の関係でほぼ毎日顔を合わせてコミュニケーションを取るようになった．
+他人とコミュニケーションを取るのは本当に大切で，研究の辛さが和らいでいく感じがした．&lt;/p&gt;
+&lt;p&gt;研究の方は，自分のツールの作り直しはしたが既存ツールを動かすのがまだできてなかったので，
+それをずっとやっていた．&lt;/p&gt;
+&lt;h3 id=&#34;6月-1&#34;&gt;6月&lt;/h3&gt;
+&lt;p&gt;まだ既存ツールが動かない．
+先生がしびれを切らして，7月末の国際会議に投稿することを求められる．
+個人的にはここまで来てできなかったんだからこのネタは諦めて違うことをした方が有益な気はしていた
+（自分のネタに自信がなく，続けるのが辛かったいうのもあった）．&lt;/p&gt;
+&lt;h3 id=&#34;7月-1&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;未だに既存ツールが動かなかったので，比較対象を変えることでとりあえず原稿を書き上げて投稿．&lt;/p&gt;
+&lt;h3 id=&#34;8月&#34;&gt;8月&lt;/h3&gt;
+&lt;p&gt;インターンとかに行く．
+3月の先輩の指導+競プロでLINEとかの有名会社のインターンに行けたのは結構大きかった．&lt;/p&gt;
+&lt;h3 id=&#34;9月&#34;&gt;9月&lt;/h3&gt;
+&lt;p&gt;何か国際会議に通る．
+かなり嬉しかったし，報われた気分になった．
+先生との関係がマシになる．&lt;/p&gt;
+&lt;h3 id=&#34;10月-1&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;国際会議に通ったのでこのネタは終わりにしたかったが，ボスに論文誌にするように求められる．
+また既存ツールを動かす地獄の日々が始まる．
+同時並行で新ネタをやり始める．&lt;/p&gt;
+&lt;h3 id=&#34;12月&#34;&gt;12月&lt;/h3&gt;
+&lt;p&gt;国際会議発表．
+既存ツールがまだ動かなかったので友達に相談する．
+3日で解決してくれる．
+新ネタは結果が出なくてやる意義を見失いかけてたので打ち切る．&lt;/p&gt;
+&lt;h3 id=&#34;1月-1&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;比較実験をし，論文誌原稿を書き上げる．
+新ネタは全然決まらず，&lt;br&gt;
+論文読む -&amp;gt; 先生と相談する -&amp;gt; 簡単に実装して実験してみる （-&amp;gt; 上手くいかない）&lt;br&gt;
+みたいな流れを延々とやり続ける．
+何となくクローン以外のことをしたいと考えてた．&lt;/p&gt;
+&lt;h3 id=&#34;3月-1&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;日本でもコロナが流行り始める．
+研究室は4月から行けなくなるらしかったので，家の環境を整える．
+家だと作業できない人間だったのでかなり不安だった．
+論文を紙で読めなくなるのが割と痛かった．&lt;/p&gt;
+&lt;h3 id=&#34;4月-2&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;家研究スタート．
+新ネタを決めることから始める．
+論文読んでる，何となく「CI × ソースコード解析」が流行ってそうだったので，
+「CI × クローン管理」を思いつく．
+結局クローンに帰って来る．&lt;/p&gt;
+&lt;p&gt;サーバサイドの実装になったので，割と楽しんでやれた．
+家だったので効率は微妙だったが，すっと実験まで持って行けた気がする．&lt;/p&gt;
+&lt;h3 id=&#34;5月&#34;&gt;5月&lt;/h3&gt;
+&lt;p&gt;緊急事態宣言が明けたが，6月まで研究室に来てはいけないみたいなことを言われる．
+ガン無視して週1か2くらいのペースで研究室に行く．
+この頃から先生との関係が良好になり始める．&lt;/p&gt;
+&lt;h3 id=&#34;7月-2&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;とりあえず国際会議に投げるように言われたので投げる．
+結構余裕があった気がする．&lt;/p&gt;
+&lt;h3 id=&#34;8月-1&#34;&gt;8月&lt;/h3&gt;
+&lt;p&gt;国際会議に落ちると，このままだと一年間論文なしというカッコ悪い結果になるのでとりあえず研究会に投げることを決める．&lt;/p&gt;
+&lt;h3 id=&#34;9月-1&#34;&gt;9月&lt;/h3&gt;
+&lt;p&gt;追加の実験をする．
+有名OSSにプルリクがマージされたりする．
+このペースだと11月中には全てのデータが出揃って修論まで暇になる予感がした．
+そしてそのままだと11月から修論まで新しいネタをやれって言われる予感がした．
+なので，先手を打って新ネタを始めることにした．
+論文漁ってると結果は良い感じだけどアルゴリズムに改善の余地がありそうなクローン検出に関する研究が見つかったのでそれの改善をやってみることにする．
+やっといて結果が出なかったらカッコ悪いので，先生に秘密で実装と実験をやる．&lt;/p&gt;
+&lt;p&gt;国際会議には通ってた．&lt;/p&gt;
+&lt;h3 id=&#34;10月-2&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;旧ネタのデータが出揃ったので論文誌を書くことになる．
+と同時に新ネタが良い結果が出始めたので先生と共有する．&lt;/p&gt;
+&lt;h3 id=&#34;11月&#34;&gt;11月&lt;/h3&gt;
+&lt;p&gt;1月に投げた論文誌が条件付き採録で帰って来る．
+割とびっくりした．
+なのでこの時期は，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;卒論ネタの論文誌の回答書&lt;/li&gt;
+&lt;li&gt;旧ネタの論文誌&lt;/li&gt;
+&lt;li&gt;旧ネタの国際会議の発表準備&lt;/li&gt;
+&lt;li&gt;新ネタの実験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を平行で回していくことになった．
+とりあえず旧ネタの論文誌を投げる．&lt;/p&gt;
+&lt;h3 id=&#34;12月-1&#34;&gt;12月&lt;/h3&gt;
+&lt;p&gt;国際会議発表．
+オンラインなので準備にあまり時間を割かずに済んだ．&lt;/p&gt;
+&lt;p&gt;回答書も書いた．&lt;/p&gt;
+&lt;p&gt;修論を考える時期になる．
+卒論ネタを含めると3つのネタがあったので，修論に全部ぶち込むことにした．&lt;/p&gt;
+&lt;p&gt;新ネタも実験結果が着々と出始めたので，国際会議に投稿することにする．&lt;/p&gt;
+&lt;h3 id=&#34;1月-2&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;新ネタの結果が思いのほか良かったので投稿先のランクを上げる．
+修論は100ページ書けそうな予感がしたのでそこを目標にする．&lt;/p&gt;
+&lt;p&gt;旧ネタの論文誌が条件付き採録になって帰って来る．
+締め切りが3月末までだったのと，再実験が必要でまとまった時間がいるので簡単なとこだけ先にやって放置する．
+春休みも実験が確定する．&lt;/p&gt;
+&lt;p&gt;新ネタを研究会に出すことにしたので，論文が4並列になる．&lt;/p&gt;
+&lt;h3 id=&#34;2月&#34;&gt;2月&lt;/h3&gt;
+&lt;p&gt;修論発表．
+修論発表が終わった後も色々あった．
+企業mtgとか新ネタ論文投稿とか．&lt;/p&gt;
+&lt;h3 id=&#34;3月-2&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;研究会発表．
+旧ネタ再実験．
+学位授与式の日に論文を再投稿する．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;振り返ってみると，B4の時は辛かった一方でM2は一年間楽しんで研究できたなって印象です．
+が，アカデミアはもう十分かなって気持ちになりました．
+旧ネタの論文誌が採録されると一応博士の要件を満たすらしいので，仕事がクビになると帰って来るかも知れません．&lt;/p&gt;
+&lt;p&gt;あとはやっぱりB4の3月のプログラミング指導は本当にありがたかったです．
+今のところ人生のターニングポイントと言っても過言じゃないです．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>情報処理学会論文誌に論文が採録された話</title>
+      <link>https://t45k.github.io/blog/ipsj_journal/</link>
+      <pubDate>Sun, 17 Jan 2021 17:38:48 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/ipsj_journal/</guid>
+      <description>&lt;p&gt;情報処理学会論文誌に卒論でやっていた研究が採録されました．情報は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=677&#34;&gt;こちら&lt;/a&gt;．&lt;/p&gt;
+&lt;h2 id=&#34;論文誌とは&#34;&gt;論文誌とは&lt;/h2&gt;
+&lt;p&gt;研究をしている以上，その成果を論文としてまとめる必要があります．
+論文は大きく分けて以下の4種類に大別されます（僕が知る限り）．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;論文誌論文
+&lt;ul&gt;
+&lt;li&gt;別名: ジャーナル（journal）&lt;/li&gt;
+&lt;li&gt;研究の最終成果を投稿する場&lt;/li&gt;
+&lt;li&gt;採録されると雑誌として掲載される&lt;/li&gt;
+&lt;li&gt;学術的貢献が求められる&lt;/li&gt;
+&lt;li&gt;査読が行われる（査読とは，投稿された論文が学術的な有用性，信頼性に足るものかを他の研究者が判断するプロセスを指す）&lt;/li&gt;
+&lt;li&gt;一般的に採録率は低いらしい．&lt;a href=&#34;https://search.ieice.org/statistics.html&#34;&gt;電子情報通信学会&lt;/a&gt;だと5割弱．&lt;/li&gt;
+&lt;li&gt;投稿時に惜しくも採録に至らないと判定されても，条件付き採録として論文の修正を求められることが多い．&lt;/li&gt;
+&lt;li&gt;国内だと情報処理学会や電子情報通信学会の論文誌に投稿することが多い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;会議論文
+&lt;ul&gt;
+&lt;li&gt;別名: 予稿集（inproceedings）&lt;/li&gt;
+&lt;li&gt;レベルがピンキリ．採録率もピンキリ&lt;/li&gt;
+&lt;li&gt;投稿目的もピンキリ．研究の最終成果発表から，アイデアの議論まで&lt;/li&gt;
+&lt;li&gt;基本的に査読がある&lt;/li&gt;
+&lt;li&gt;トップの会議だと条件付き採録もあったりするらしい．普通は一発採録&lt;/li&gt;
+&lt;li&gt;採録されると開催場所での発表が求められる．海外旅行に行ける&lt;/li&gt;
+&lt;li&gt;学術的貢献だけじゃなくてアイデアの面白さ，発表映えするかとかも重要&lt;/li&gt;
+&lt;li&gt;発表がある都合上，投稿締め切りが設けられる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;研究会論文
+&lt;ul&gt;
+&lt;li&gt;別名: 技術報告（report）&lt;/li&gt;
+&lt;li&gt;基本的に研究途中での成果の報告，アイデアの議論が目的&lt;/li&gt;
+&lt;li&gt;査読がない&lt;/li&gt;
+&lt;li&gt;発表がメイン．国内旅行に行ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;学位論文
+&lt;ul&gt;
+&lt;li&gt;別名: thesis&lt;/li&gt;
+&lt;li&gt;学位を取得するための論文&lt;/li&gt;
+&lt;li&gt;卒論，修論は査読がない&lt;/li&gt;
+&lt;li&gt;ので，書けば大丈夫&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今回は論文誌論文として採録されました．&lt;/p&gt;
+&lt;h2 id=&#34;道のり&#34;&gt;道のり&lt;/h2&gt;
+&lt;p&gt;2019年に書いた卒論の内容が2021年に採録されたことから察せられるように，
+採録までの道のりが非常に長かったです．
+そもそも卒論を書いてから国際学会投稿，論文誌投稿とステップを踏むことが多いのですが，
+僕の場合は作ったツールのクオリティが低すぎたため，ツールを作り直して実験をし直すとこから始まりました．
+この時プログラミングを指導してくれた一つ上の先輩には本当にお世話になりました．
+このプログラミング指導のおかげで修士では特にツール作りに苦労することがなく研究を進められました．&lt;/p&gt;
+&lt;p&gt;一方，既存のツールが動かないという問題のせいで実験は全然進みませんでした．
+本当にM1のほとんどはツールを動かすのに苦心していたと思います．
+結局技術的に強い友人に相談したところ，3日で動いたのでもったいない時間の使い方をしたなぁって気分になりました．&lt;/p&gt;
+&lt;p&gt;結局論文を投稿できたのが2020年の2月初めで，条件付き採録通知が来たのが11月，
+修正と再投稿を行い，採録されたのが2021年の1月となりました．&lt;/p&gt;
+&lt;p&gt;感想としては，嬉しいのが半分，ようやく終わったと安心したのが半分です．
+自分としてはこの研究テーマに自身がなかったので，早く終わらしたかったという気持ちもありました．
+本当に時間がかかったので，採録されたのは達成感があります．&lt;/p&gt;
+&lt;p&gt;最後に，論文投稿のきっかけをくれた教授，
+何度も論文を添削してくれた指導教員，
+そしてプログラミングを教えてくれた先輩に心から感謝します．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>APSEC2020に参加した話</title>
+      <link>https://t45k.github.io/blog/apsec_2020/</link>
+      <pubDate>Sat, 05 Dec 2020 00:12:03 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/apsec_2020/</guid>
+      <description>&lt;p&gt;12/2~4にオンラインで開催されたAPSECに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;../apsec_2019&#34;&gt;APSEC2019に参加した話&lt;/a&gt;参照．&lt;/p&gt;
+&lt;p&gt;M2の4月終わりから研究し始めた，重複コードの修正支援ボットの論文をERA（Early Research Achievement）に投げました（&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=536&#34;&gt;論文&lt;/a&gt;）．&lt;br&gt;
+Acceptance rateはTechnical Researchが36.9%（45/122），ERAが46.2%（12/26）らしかったです．&lt;br&gt;
+ERAのacc. rateが高いのでレベルは推して知るべしという感じです．&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;コロナの影響で，APSECに限らず国際会議は軒並みオンラインになってしまいました．&lt;br&gt;
+国際会議は，成果発表の他に観光という側面もあるので，そういった意味ではモチベーションはあまり高くなかったです．&lt;br&gt;
+一方，オンラインのおかげ喋る内容を覚えずに済むという利点もありました．&lt;br&gt;
+発表ですが，チェアの方すら質問しないという謎の現象が発生したおかげで，良くも悪くも英語での質疑応答がなかったです．&lt;/p&gt;
+&lt;p&gt;オンライン会議の悪い側面として，聴衆が参加しにくいというのが挙げられるかなと感じました．&lt;br&gt;
+現地開催の場合，現地にいるのであまり興味がないトラックに参加したり，その結果質疑が盛り上がったりすることがあると思います．&lt;br&gt;
+一方，オンラインの場合は自分と関係ない発表を聞く必要がないので，あまり盛り上がらないと感じました（僕も自分のトラック以外一切参加しませんでした）．&lt;/p&gt;
+&lt;p&gt;コロナが一刻も早く収束して，元のように会議ができればと思います．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ICSE2020の面白そうな論文をピックアップしてみた</title>
+      <link>https://t45k.github.io/blog/icse2020_abst/</link>
+      <pubDate>Sat, 01 Feb 2020 18:59:35 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/icse2020_abst/</guid>
+      <description>&lt;p&gt;ICSEはInternational Conference of Software Engineeringの略です．
+ソフトウェア工学の国際学会の中で一番ランクが高い会議です．
+会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので，
+面白そうな論文をピックアップしてみました．&lt;/p&gt;
+&lt;h2 id=&#34;is-rust-used-safely-by-software-developers&#34;&gt;Is Rust Used Safely by Software Developers?&lt;/h2&gt;
+&lt;p&gt;RustはC，C++に取って代わることを目指した，メモリ安全性や実行速度を売りにしているプログラミング言語です．
+その特徴から，ソフトウェア開発界隈からの注目度が高まりつつあります．&lt;br&gt;
+この論文では，メモリ安全性を放棄する代わりにパフォーマンスを上げる &lt;strong&gt;Unsafe Rust&lt;/strong&gt; についての調査を行っています．&lt;/p&gt;
+&lt;h2 id=&#34;securing-unsafe-rust-programs-with-xrust&#34;&gt;Securing UnSafe Rust Programs with XRust&lt;/h2&gt;
+&lt;p&gt;これもRustの論文です．&lt;br&gt;
+XRustという，Unsafe Rustを通常のRustに移行する手法を提案しています．&lt;br&gt;
+ICSEに(Unsafe)Rustに関する論文が2本採択されていることから，ソフトウェア開発におけるRustの盛り上がり具合が分かります．&lt;/p&gt;
+&lt;h2 id=&#34;big-code--big-vocabulary-open-vocabulary-models-for-source-code&#34;&gt;Big Code != Big Vocabulary: Open-Vocabulary Models for Source code&lt;/h2&gt;
+&lt;p&gt;キャッチーなタイトルだったのでピックアップしてみました．&lt;br&gt;
+変数名などのユーザー定義の識別子があるため，ソースコードは自然言語に比べて，大規模になるとコーパスが巨大になってしまいます．
+この論文では，コーパスがスケールするように，新しい言語モデルを提案しています．&lt;/p&gt;
+&lt;h2 id=&#34;dlfix-context-based-code-transformation-learning-for-automated-program-repair&#34;&gt;DLFix: Context-based Code Transformation Learning for Automated Program Repair&lt;/h2&gt;
+&lt;p&gt;最近のソフトウェア工学の大きなトピックの一つであるAPRの論文．&lt;br&gt;
+機械学習ベースのAPRは過去のバグ修正の学習に制限があるのに対して，DLFixでは学習のレイヤを2層に分けることでうまくこの制限を回避したらしいです．&lt;/p&gt;
+&lt;h2 id=&#34;a-cost-efficient-approach-to-building-in-continuous-integration&#34;&gt;A Cost-efficient Approach to Building in Continuous Integration&lt;/h2&gt;
+&lt;p&gt;CIの論文．&lt;br&gt;
+CIのコストはビルドを回している時間だけかかってしまい，かつ，CIの目的はバグを発見することなので，
+多くのバグを発見するビルドをなるべく早い段階で回す手法を提案しています．&lt;/p&gt;
+&lt;h2 id=&#34;here-we-go-again-why-is-it-difficult-for-developers-to-learn-another-programming-language&#34;&gt;Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?&lt;/h2&gt;
+&lt;p&gt;ある言語を習得したプログラマが他の言語を習得する際の難易度に関する調査を行った研究．&lt;/p&gt;
+&lt;h3 id=&#34;終わりに&#34;&gt;終わりに&lt;/h3&gt;
+&lt;p&gt;以上です．
+会議全体としては，機械学習とFuzzing周りの論文が多い印象です．
+おそらく今年もICSE勉強会が実施されると思うので，楽しみにしてます．&lt;/p&gt;
+&lt;p&gt;論文一覧は&lt;a href=&#34;https://conf.researchr.org/track/icse-2020/icse-2020-papers#event-overview&#34;&gt;ここ&lt;/a&gt;から見れます．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>APSEC2019に参加した話</title>
+      <link>https://t45k.github.io/blog/apsec_2019/</link>
+      <pubDate>Thu, 05 Dec 2019 20:19:32 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/apsec_2019/</guid>
+      <description>&lt;p&gt;12/3~5にマレーシアで開催されたAPSECに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
+&lt;p&gt;Asia-Pacific Software Engineering Conferenceの略です．
+要するにソフトウェア工学の国際会議です．
+会議ランクについては詳しくは知らないのですがそこまで高くないと思います．
+投稿前に先生が，「APSECは塩漬けのネタを投稿するのにちょうど良い」と語っていたのが印象的でした．&lt;/p&gt;
+&lt;h2 id=&#34;マレーシアとは&#34;&gt;マレーシアとは&lt;/h2&gt;
+&lt;p&gt;こんな国です．&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マレーシア&lt;br&gt;+ 物価が安い&lt;br&gt;+ 時差が1時間&lt;br&gt;+ 英語が通じる&lt;br&gt;&lt;br&gt;+- 暑い&lt;br&gt;&lt;br&gt;- 酒を飲める場所がかなり限られる&lt;br&gt;- 用を足した後に紙を使わない文化&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1202822137611862017?ref_src=twsrc%5Etfw&#34;&gt;December 6, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/apsec.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;p&gt;投稿前はあまり気乗りしなかったし，正直通るとも思ってませんでしたが，結果的には国際学会で発表できて良かったなと感じました．
+質疑対応がかなりグダッてしまったので英語力（特にリスニング）を鍛えるのが重要だと思いました．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

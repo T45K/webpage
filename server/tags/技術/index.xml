@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技術 on T45K</title>
+    <link>https://t45k.github.io/tags/%E6%8A%80%E8%A1%93/</link>
+    <description>Recent content in 技術 on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 05 Jun 2023 19:48:46 +0900</lastBuildDate>
+    
+	<atom:link href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JJUG CCC 2023 Springで登壇した話</title>
+      <link>https://t45k.github.io/blog/jjug_ccc_2023_spring/</link>
+      <pubDate>Mon, 05 Jun 2023 19:48:46 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/jjug_ccc_2023_spring/</guid>
+      <description>&lt;p&gt;2023年6月4日日曜日に開催された&lt;a href=&#34;https://sessionize.com/api/v2/y7inyq6y/view/GridSmart&#34;&gt;JJUG CCC 2023 Spring&lt;/a&gt;で人生初の登壇をしてきました！
+めっちゃ緊張した&amp;hellip;&lt;/p&gt;
+&lt;p&gt;写真はもらったノベルティの数々。&lt;/p&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;h3 id=&#34;jjugとは&#34;&gt;JJUGとは&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2022_fall/&#34;&gt;https://t45k.github.io/blog/jjug_ccc_2022_fall/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;登壇&#34;&gt;登壇&lt;/h3&gt;
+&lt;p&gt;業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。
+JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。&lt;/p&gt;
+&lt;p&gt;当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。
+発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。&lt;/p&gt;
+&lt;p&gt;登壇資料は、会社のSlideShareに上げてあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.slideshare.net/rakutentech/jenkinsintellij-idea&#34;&gt;https://www.slideshare.net/rakutentech/jenkinsintellij-idea&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;余談ですが、僕の登壇は会社の方には知られていなかったようです。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;俺の登壇、会社に認知されてへんくて草&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1665175461436215297?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;弊社のブース&#34;&gt;弊社のブース&lt;/h3&gt;
+&lt;p&gt;他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;こんにちは、楽天採用情報部です。&lt;br&gt;JJUG CCC 2023 Springは本日開催です！&lt;br&gt;本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。&lt;br&gt;現地にいらっしゃることができない方は、是非記事をご覧ください。&lt;br&gt; &lt;a href=&#34;https://t.co/HXrvahCBs0&#34;&gt;https://t.co/HXrvahCBs0&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rakuten?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rakuten&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#java&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/engineer?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#engineer&lt;/a&gt;&lt;/p&gt;&amp;mdash; 楽天採用情報（C&amp;amp;Mカンパニー開発部門） (@rhack_commerce) &lt;a href=&#34;https://twitter.com/rhack_commerce/status/1665156452988882944?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。
+ありがとうございます。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;楽天お買い物パンダと握手できるのは &lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; だけ！ &lt;a href=&#34;https://t.co/kvqyF3kblB&#34;&gt;pic.twitter.com/kvqyF3kblB&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山本ユースケ (@yusuke) &lt;a href=&#34;https://twitter.com/yusuke/status/1665236778679250944?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;その他&#34;&gt;その他&lt;/h3&gt;
+&lt;p&gt;今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。&lt;/p&gt;
+&lt;p&gt;GMOさんはクイズを企画されていました。
+普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。
+また、JAVAティーをいただきました。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;サムライズムさんもいらっしゃいました。
+個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。
+また、IntelliJ IDEAとKotlinのステッカーをいただきました。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;他の方のセッションも聴講しました。
+印象に残ったのはEdson Yanagaさんの&amp;quot;Revisiting Design Patterns after 20&amp;quot;です。
+YanagaさんはGoogleに勤めているJava Championの方です。
+セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。
+また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マージでこのセッション良かったな&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1665283888728641537?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;謝辞&#34;&gt;謝辞&lt;/h3&gt;
+&lt;p&gt;今回の登壇に際して様々な方のお世話になったので、この場をお借りして謝辞を述べたいと思います。&lt;/p&gt;
+&lt;p&gt;まずはJJUG CCCの運営の方々。おかげで楽しく有意義な時間を過ごせました。&lt;/p&gt;
+&lt;p&gt;弊社。行き帰りの交通費と宿代を負担していただきました。これがなければ現地参加は難しかったかもしれません。&lt;/p&gt;
+&lt;p&gt;チームメンバー。忙しい中、資料作成に時間を割くことを許してもらいました。迷惑をかけました。&lt;/p&gt;
+&lt;p&gt;そして、今回登壇してみようと思えたのも、&lt;a href=&#34;https://twitter.com/bufferings&#34;&gt;@bufferings&lt;/a&gt;さんと&lt;a href=&#34;https://twitter.com/takacyk&#34;&gt;@takacyk&lt;/a&gt;さんのおかげでした。
+ありがとうございました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JJUG CCC 2022 Fallに参加した話</title>
+      <link>https://t45k.github.io/blog/jjug_ccc_2022_fall/</link>
+      <pubDate>Sat, 03 Dec 2022 17:36:13 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/jjug_ccc_2022_fall/</guid>
+      <description>&lt;p&gt;2022 年 11 月 27 日日曜日に開催された JJUG CCC 2022 Fall に参加しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jjug.doorkeeper.jp/events/143914&#34;&gt;リンク&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;jjug&#34;&gt;JJUG&lt;/h2&gt;
+&lt;p&gt;JJUG は&amp;quot;Japan Java User Group&amp;quot;を指します。
+日本最大の Java のコミュニティです。
+JJUG CCC は毎年 2 回、春と秋に開催されるイベントで、
+様々な参加者が Java に関する技術や事例などの紹介を行います。&lt;/p&gt;
+&lt;p&gt;参加者の中には、普段から Java コミュニティで活躍されていられる方も多くいらっしゃります。&lt;/p&gt;
+&lt;p&gt;今回僕は聴講側として参加しました。
+以下、参加したセッションとそれぞれの感想を書いていきます。&lt;/p&gt;
+&lt;h3 id=&#34;aws-環境における-spring-boot-アプリケーションの-cicd-を-circleci-で構築した話&#34;&gt;AWS 環境における Spring Boot アプリケーションの CI/CD を CircleCI で構築した話&lt;/h3&gt;
+&lt;p&gt;株式会社 Red Frasco の篠原さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/red_frasco/cdwocirclecidegou-zhu-sitahua&#34;&gt;https://speakerdeck.com/red_frasco/cdwocirclecidegou-zhu-sitahua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;現在開発中のサービスで、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CI/CD に Circle CI を&lt;/li&gt;
+&lt;li&gt;実行環境に AWS を&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;利用した事例について紹介されていました。&lt;/p&gt;
+&lt;p&gt;個人的には CI/CD に興味があったためこのセッションに参加しました。&lt;/p&gt;
+&lt;p&gt;Java (Spring) に関連した内容は少なかったですが、Circle CI で AWS にアプリをデプロイする際に注意すべきこと、おすすめの方法等を紹介されており、今後これらのシステムを使う際には参考になりそうだなと感じました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;path-filteringええな&lt;br&gt;Jenkinsにもないかな&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596672722070667264?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;バーチャルスレッド詳細&#34;&gt;バーチャルスレッド詳細&lt;/h3&gt;
+&lt;p&gt;Java コミュニティでよく名前を見かけるもちださんのセッションで、
+Java 19 でプレビュー版として導入されたバーチャルスレッドについて紹介されていました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mike-neck/jjug-ccc-2022-fall-web&#34;&gt;https://github.com/mike-neck/jjug-ccc-2022-fall-web&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一つ前に参加したセッションとの時間の兼ね合いの都合上、後半から参加しました。
+VOICEROID(?)を用いた発表をされておりすごく印象的でした。&lt;/p&gt;
+&lt;p&gt;これまでのスレッド効率化の技術（Rx 等）と比較したバーチャルスレッドの利点や利用例の紹介がメインでした。
+最初から参加できなかったのが悔やまれました。
+一方で、生のスレッドを仕事で使うことは少ないので、どちらかというとフレームワーク作成者やその辺り向けの機能に聞こえました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;VirtualThreadで勝ちですわ&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596675949910626304?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;カード決済基幹システムレガシーの克服と無停止更改の挑戦&#34;&gt;カード決済基幹システム　レガシーの克服と無停止更改の挑戦&lt;/h3&gt;
+&lt;p&gt;GMO の羽鳥さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gmo-pg.com/corp/newsroom/news/event/2022/1122.html&#34;&gt;https://www.gmo-pg.com/corp/newsroom/news/event/2022/1122.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;金融系システムのパフォーマンス改善のために、DB で行っていた処理を Redis に移行した事例と、
+そのプロジェクト中に起きた問題などの紹介をされていました。&lt;/p&gt;
+&lt;p&gt;そのシステムは、流量制御などの頻繁に更新される処理を RDB 上で行っており、
+それによるロックが原因でパフォーマンスの低下が著しかったそうです。
+個人的にも、そういったアトミック性が必要な処理を RDB で行うのはよくあるかなと思っており、
+初めのうちは良くても、後々大幅な改修が必要になるのは世の常だなぁと感じました。&lt;/p&gt;
+&lt;p&gt;また、システムを止めることはできないので、新しいアプリケーションと古いアプリケーションを並行で実行する必要があるのですが、
+その間で整合性をどう取るかなどは参考になりました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;こういうマイグレーション系の話、聞く分にはよくある話やなぁで終わってまうんやけど、やってる側からしたら語り尽くせんほどの苦労があったんやろうなぁっていうのが伺い知れる&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596688985161576448?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;line-news-における-java-移行の-5-年間の歩みとこれから&#34;&gt;LINE NEWS における Java 移行の 5 年間の歩みとこれから&lt;/h3&gt;
+&lt;p&gt;LINE の森藤さんによるセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/line_developers/five-years-of-java-migration-and-the-future-of-line-news&#34;&gt;https://speakerdeck.com/line_developers/five-years-of-java-migration-and-the-future-of-line-news&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LINE NEWS を Perl から Java に移行された話をされました。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;カード決済基幹システム　レガシーの克服と無停止更改の挑戦&amp;quot;のセッションと同時開催だったため 2 窓しました。
+そのため、あまり集中して話を聞けなかったのですが、
+言語移行の際に仕様を守りながら移行する大変さと、実際にリリースしてから負荷的な問題が露見した辺りが印象的でした。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc_a?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc_a&lt;/a&gt;&lt;br&gt;実際に負荷をかけてみてからじゃないと気づけない問題は怖い&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596690221873082369?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;コンテナ環境での-java-技術の進化&#34;&gt;コンテナ環境での Java 技術の進化&lt;/h3&gt;
+&lt;p&gt;富士通の数村さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nJJHSwywei0&#34;&gt;https://www.youtube.com/watch?v=nJJHSwywei0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コンテナ環境に対する Java と Linux の話をされていました。&lt;/p&gt;
+&lt;p&gt;Java の場合、古い Java 8 ランタイムでは、
+コンテナ上ではリソースの情報が正しく取得できない問題などがあるようです。
+これを聞いて、Java のバージョンを更新するのが必要だと一層強く思いました。&lt;/p&gt;
+&lt;p&gt;後半では Linux のコンテナ環境への対応を話されていましたが、悲しいことにあまり理解できませんでした。
+動画は YouTube で公開されているため、時間があれば確認したいです。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マジでcontainerizationってゲームチェンジャーやったんやなって&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596712953792761857?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;java-開発ツールのあれこれ-便利そうなツールを色々集めてみた&#34;&gt;Java 開発ツールのあれこれ ～便利そうなツールを色々集めてみた～&lt;/h3&gt;
+&lt;p&gt;マトリックスの大城さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://parasoft.techmatrix.jp/jjug_ccc_2022_fall&#34;&gt;https://parasoft.techmatrix.jp/jjug_ccc_2022_fall&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;こういう便利ツール系の話は大好きなので、喜んで参加しました。&lt;/p&gt;
+&lt;p&gt;便利なツールの紹介は知っているものもあったり知らないものもあったりしたのですが、
+最後に、現在は更新が止まっているツールの紹介があったのが印象的でした。
+このようなツールでも様々な事情で開発が止まることがあることを考えると、
+仕事で使っている OSS に普段から興味を持ち、開発が止まっても自分たちで保守することを考えるべきなのかなぁと思いました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc_d?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc_d&lt;/a&gt; &lt;br&gt;悲しい&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596731653753253888?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;5-年ぶりのメジャーアップデート-spring-framework-6--spring-boot-3&#34;&gt;5 年ぶりのメジャーアップデート! Spring Framework 6 &amp;amp; Spring Boot 3&lt;/h3&gt;
+&lt;p&gt;槙さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ik.am/entries/715&#34;&gt;https://ik.am/entries/715&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;業務で利用しているので、Spring Framework のメジャーアップデートは大きな関心がありました。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Observability&lt;/li&gt;
+&lt;li&gt;Java Interface Client&lt;/li&gt;
+&lt;li&gt;Problem Details&lt;/li&gt;
+&lt;li&gt;AOT &amp;amp; Native&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;の四つの話題を提供されていましたが、1 つ目の Observability の話は一切理解できませんでした（おそらく監視に関する話）&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Java Interface Client は Interface を定義するだけで HTTP クライアントを利用できる昨日で、
+API 呼び出しに関するボイラープレートを大幅に減らせそうだなと感じました。&lt;/p&gt;
+&lt;p&gt;Problem Details は、API 呼び出し失敗の際のレスポンスボディを良い感じに書けるビルダーに関する機能だったと思います。
+そもそも、エラー時のレスポンスボディは RFC で定義されているらしいです（知らなかった）。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc_b?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc_b&lt;/a&gt; &lt;br&gt;エラーレスポンスって仕様決まってるんや&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596751143924686848?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;red-hat-application-foundations-から学ぶアーキテクチャー入門&#34;&gt;Red Hat Application Foundations から学ぶアーキテクチャー入門&lt;/h3&gt;
+&lt;p&gt;Red Hat の瀬戸さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/megascus/red-hat-application-fundationskaraxue-buakitekutiyaru-men&#34;&gt;https://speakerdeck.com/megascus/red-hat-application-fundationskaraxue-buakitekutiyaru-men&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;マイクロサービスにおける Red Hat（と Java EE）の活用方法のお話でした。
+Red Hat 製品にも Java EE にも疎いのであまり理解できなかったです。
+そもそも大規模な開発にも疎いというのもありそうですが。&lt;/p&gt;
+&lt;h3 id=&#34;maven-puzzlers&#34;&gt;Maven Puzzlers&lt;/h3&gt;
+&lt;p&gt;海外の方の英語のセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.javasummitil.com/events/maven-puzzlers/&#34;&gt;https://www.javasummitil.com/events/maven-puzzlers/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maven のビルドステップや依存関係の話でした。
+発表者が 2 人おられ、掛け合いながら発表されていたのが印象的でした。&lt;/p&gt;
+&lt;p&gt;英語のセッションなのと、朝からずっと発表を聞いていたのもあって、集中して聞けませんでした（残念）。
+これも動画が公開されているので、後ほど確認したいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;全体的な感想&#34;&gt;全体的な感想&lt;/h2&gt;
+&lt;p&gt;他の会社の方々がどのように Java を使っていて、どんな問題にぶつかったのかなどの話が聞けて良かったです。
+いつか、発表者側として参加してみたいと思いました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>競プロでKotlinを使わない理由</title>
+      <link>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</link>
+      <pubDate>Mon, 04 Jul 2022 22:38:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</guid>
+      <description>&lt;p&gt;仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。&lt;/p&gt;
+&lt;p&gt;ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。&lt;/p&gt;
+&lt;h2 id=&#34;ビット演算子がない&#34;&gt;ビット演算子がない&lt;/h2&gt;
+&lt;p&gt;多分これが一番大きい。&lt;/p&gt;
+&lt;p&gt;競プロではビット演算をする場面がたびたびある（ビット全探索とか）。&lt;/p&gt;
+&lt;p&gt;Java では&lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;や&lt;code&gt;|&lt;/code&gt;などが使えるが、Kotlin では&lt;code&gt;lhs&lt;/code&gt;や&lt;code&gt;or&lt;/code&gt;などの中置関数を使う必要があり、可読性が大きく下がる。&lt;/p&gt;
+&lt;h2 id=&#34;配列宣言が面倒臭い&#34;&gt;配列宣言が面倒臭い&lt;/h2&gt;
+&lt;p&gt;競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。&lt;/p&gt;
+&lt;p&gt;Java では&lt;code&gt;int[]&lt;/code&gt;のように宣言できるが、Kotlin では&lt;code&gt;Array&amp;lt;Int&amp;gt;&lt;/code&gt;のように宣言する必要がある。&lt;/p&gt;
+&lt;p&gt;また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。&lt;/p&gt;
+&lt;h2 id=&#34;null-チェックが厳しい&#34;&gt;null チェックが厳しい&lt;/h2&gt;
+&lt;p&gt;仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。&lt;/p&gt;
+&lt;p&gt;とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;!!&lt;/code&gt;演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（&lt;code&gt;!!&lt;/code&gt;演算子の利用に慣れたくない）。&lt;/p&gt;
+&lt;h2 id=&#34;トラディショナル-for-が使えない&#34;&gt;トラディショナル for が使えない&lt;/h2&gt;
+&lt;p&gt;Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。
+例えば、添字の&lt;code&gt;i&lt;/code&gt;を条件によって更新したりしなかったりする場合など。&lt;/p&gt;
+&lt;h2 id=&#34;暗黙の型変換がない&#34;&gt;暗黙の型変換がない&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;int&lt;/code&gt;と&lt;code&gt;long&lt;/code&gt;で足し算したり、&lt;code&gt;char&lt;/code&gt;同士の引き算の結果を&lt;code&gt;int&lt;/code&gt;にしたりするのが面倒臭い。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AtCoderで水色になりました</title>
+      <link>https://t45k.github.io/blog/nyusui/</link>
+      <pubDate>Sun, 29 Mar 2020 00:16:31 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/nyusui/</guid>
+      <description>&lt;p&gt;先日行われた&lt;a href=&#34;https://atcoder.jp/contests/abc160&#34;&gt;ABC160&lt;/a&gt;にて無事に入水を果たしたのでポエムを書きます．
+&lt;img src=&#34;https://t45k.github.io/img/blog/nyusui.png&#34; height=&#34;75%&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;感じたこと&#34;&gt;感じたこと&lt;/h2&gt;
+&lt;p&gt;一つの目標だった水色に到達してほっとしています．
+人によっては10回かそこらでなる人もいる中，53回目でようやくなれた自分の才能とセンスのなさには本当に辟易しています．
+精進が大事．
+蟻本は最初の章しか読めてないけど結構役に立ちました．&lt;/p&gt;
+&lt;h2 id=&#34;次は&#34;&gt;次は&lt;/h2&gt;
+&lt;p&gt;せっかくなので青色を目指します．
+ここ2回のABCは青パフォが出てるので，この調子で頑張っていきたいです．&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;毎回楽しいコンテストを開催してくれているAtCoder社と，その問題を用意してくれているWriter，Testerの皆様に心から感謝します．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LINE DEVELOPER DAY2019に参加した話</title>
+      <link>https://t45k.github.io/blog/devday/</link>
+      <pubDate>Thu, 21 Nov 2019 20:16:05 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/devday/</guid>
+      <description>&lt;p&gt;11/20，21に開催されたLINE DEV DAYに参加してきました．&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;dev-dayとは&#34;&gt;DEV DAYとは&lt;/h2&gt;
+&lt;p&gt;LINEが開催している社内の技術などを公開するエンジニア向けのイベントです．
+今年は二日に分けて開催し，エンジニアだけでなくデザインやプロダクト的な話も盛り込んだそうです．&lt;/p&gt;
+&lt;h2 id=&#34;参加したきっかけ&#34;&gt;参加したきっかけ&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;../line/&#34;&gt;LINEのインターン&lt;/a&gt;に参加した時のメンターさんがLINE SDKのリードテックになられたらしく，DEV DAYでの登壇の際にインターン中に作ったプロダクトを紹介するかもみたいな話を小耳に挟んだのがきっかけです．
+また，LINEは学生向けに金銭的援助を行っており，インターン生は（交通費として）無条件で3万円もらえるというのも結構魅力的でした．&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;20日は違う会社の採用面接に参加していたため，21日だけ参加しました．
+思ったより規模が大きく，たくさんの人が参加していたのが印象的でした．
+感想ですが，実は当日頭痛が酷く，話を聞く余裕がなかったというのが正直なところです．
+例のメンターさんの発表で，唐突にライブコーディングが始まったのだけはっきり覚えています．
+また，国際学会前というのもあり，慌ただしく帰ることになってしまいました．&lt;/p&gt;
+&lt;p&gt;今年はゆっくり聞く時間がなかったので，来年機会があればもう少し余裕を持って参加したいなと感じました．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

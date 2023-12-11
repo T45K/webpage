@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="最小全域木という概念を知ったのでメモ．
+最小全域木とは 無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．（蟻本より）
+つまり，グラフが連結であることを保ったまま，コストの大きい辺を間引いてできたグラフを指します．連結であり，かつ辺のコストの和が最小なので，グラフは木となります．
+ABC065-Dがこの問題に該当します．
+解き方 有名なアルゴリズムとして，クラスカル法とプリム法があります． 今回はクラスカル法を紹介します．
+クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります． ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．
+// edges は Edge(int label1, int label2, long cost) のリスト edges.sort(Comparator.comparingLong(o -&gt; o.cost)); final UnionFindTree unionFindTree = new UnionFindTree(n); // 要素数nのUnion-Find Treeを構築 long sum = 0; for (final Edge edge : edges) { if (!unionFindTree.isSame(edge.label1, edge.label2)) { unionFindTree.unit(edge.label1, edge.label2); sum &#43;= edge.cost; } } 辺のソートに一番計算量を食われます．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="最小全域木メモ"/>
+<meta name="twitter:description" content="最小全域木という概念を知ったのでメモ．
+最小全域木とは 無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．（蟻本より）
+つまり，グラフが連結であることを保ったまま，コストの大きい辺を間引いてできたグラフを指します．連結であり，かつ辺のコストの和が最小なので，グラフは木となります．
+ABC065-Dがこの問題に該当します．
+解き方 有名なアルゴリズムとして，クラスカル法とプリム法があります． 今回はクラスカル法を紹介します．
+クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります． ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．
+// edges は Edge(int label1, int label2, long cost) のリスト edges.sort(Comparator.comparingLong(o -&gt; o.cost)); final UnionFindTree unionFindTree = new UnionFindTree(n); // 要素数nのUnion-Find Treeを構築 long sum = 0; for (final Edge edge : edges) { if (!unionFindTree.isSame(edge.label1, edge.label2)) { unionFindTree.unit(edge.label1, edge.label2); sum &#43;= edge.cost; } } 辺のソートに一番計算量を食われます．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="最小全域木メモ" />
+<meta property="og:description" content="最小全域木という概念を知ったのでメモ．
+最小全域木とは 無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．（蟻本より）
+つまり，グラフが連結であることを保ったまま，コストの大きい辺を間引いてできたグラフを指します．連結であり，かつ辺のコストの和が最小なので，グラフは木となります．
+ABC065-Dがこの問題に該当します．
+解き方 有名なアルゴリズムとして，クラスカル法とプリム法があります． 今回はクラスカル法を紹介します．
+クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります． ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．
+// edges は Edge(int label1, int label2, long cost) のリスト edges.sort(Comparator.comparingLong(o -&gt; o.cost)); final UnionFindTree unionFindTree = new UnionFindTree(n); // 要素数nのUnion-Find Treeを構築 long sum = 0; for (final Edge edge : edges) { if (!unionFindTree.isSame(edge.label1, edge.label2)) { unionFindTree.unit(edge.label1, edge.label2); sum &#43;= edge.cost; } } 辺のソートに一番計算量を食われます．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/min_spanning_tree/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-02-29T22:37:36+09:00" />
+<meta property="article:modified_time" content="2020-02-29T22:37:36+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/min_spanning_tree/">
+    
+    <title>
+  最小全域木メモ · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/min_spanning_tree/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>最小全域木メモ</h1>
+      <br>
+      
+    </header>
+
+    <p>最小全域木という概念を知ったのでメモ．</p>
+<h2 id="最小全域木とは">最小全域木とは</h2>
+<p><em>無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．</em>（蟻本より）<br>
+つまり，グラフが連結であることを保ったまま，コストの大きい辺を間引いてできたグラフを指します．連結であり，かつ辺のコストの和が最小なので，グラフは木となります．<br>
+<a href="https://atcoder.jp/contests/abc065/tasks/arc076_b">ABC065-D</a>がこの問題に該当します．</p>
+<h2 id="解き方">解き方</h2>
+<p>有名なアルゴリズムとして，クラスカル法とプリム法があります．
+今回はクラスカル法を紹介します．<br>
+クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります．
+ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-style:italic">// edges は Edge(int label1, int label2, long cost) のリスト
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>edges.sort(Comparator.comparingLong(o -&gt; o.cost));
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> UnionFindTree unionFindTree = <span style="font-weight:bold">new</span> UnionFindTree(n); <span style="font-style:italic">// 要素数nのUnion-Find Treeを構築
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="">long</span> sum = 0;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> (<span style="font-weight:bold">final</span> Edge edge : edges) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> (!unionFindTree.isSame(edge.label1, edge.label2)) {
+</span></span><span style="display:flex;"><span>        unionFindTree.unit(edge.label1, edge.label2);
+</span></span><span style="display:flex;"><span>        sum += edge.cost;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>辺のソートに一番計算量を食われます．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

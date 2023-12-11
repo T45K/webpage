@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="情報処理学会論文誌に卒論でやっていた研究が採録されました．情報はこちら．
+論文誌とは 研究をしている以上，その成果を論文としてまとめる必要があります． 論文は大きく分けて以下の4種類に大別されます（僕が知る限り）．
+論文誌論文 別名: ジャーナル（journal） 研究の最終成果を投稿する場 採録されると雑誌として掲載される 学術的貢献が求められる 査読が行われる（査読とは，投稿された論文が学術的な有用性，信頼性に足るものかを他の研究者が判断するプロセスを指す） 一般的に採録率は低いらしい．電子情報通信学会だと5割弱． 投稿時に惜しくも採録に至らないと判定されても，条件付き採録として論文の修正を求められることが多い． 国内だと情報処理学会や電子情報通信学会の論文誌に投稿することが多い 会議論文 別名: 予稿集（inproceedings） レベルがピンキリ．採録率もピンキリ 投稿目的もピンキリ．研究の最終成果発表から，アイデアの議論まで 基本的に査読がある トップの会議だと条件付き採録もあったりするらしい．普通は一発採録 採録されると開催場所での発表が求められる．海外旅行に行ける 学術的貢献だけじゃなくてアイデアの面白さ，発表映えするかとかも重要 発表がある都合上，投稿締め切りが設けられる 研究会論文 別名: 技術報告（report） 基本的に研究途中での成果の報告，アイデアの議論が目的 査読がない 発表がメイン．国内旅行に行ける 学位論文 別名: thesis 学位を取得するための論文 卒論，修論は査読がない ので，書けば大丈夫 今回は論文誌論文として採録されました．
+道のり 2019年に書いた卒論の内容が2021年に採録されたことから察せられるように， 採録までの道のりが非常に長かったです． そもそも卒論を書いてから国際学会投稿，論文誌投稿とステップを踏むことが多いのですが， 僕の場合は作ったツールのクオリティが低すぎたため，ツールを作り直して実験をし直すとこから始まりました． この時プログラミングを指導してくれた一つ上の先輩には本当にお世話になりました． このプログラミング指導のおかげで修士では特にツール作りに苦労することがなく研究を進められました．
+一方，既存のツールが動かないという問題のせいで実験は全然進みませんでした． 本当にM1のほとんどはツールを動かすのに苦心していたと思います． 結局技術的に強い友人に相談したところ，3日で動いたのでもったいない時間の使い方をしたなぁって気分になりました．
+結局論文を投稿できたのが2020年の2月初めで，条件付き採録通知が来たのが11月， 修正と再投稿を行い，採録されたのが2021年の1月となりました．
+感想としては，嬉しいのが半分，ようやく終わったと安心したのが半分です． 自分としてはこの研究テーマに自身がなかったので，早く終わらしたかったという気持ちもありました． 本当に時間がかかったので，採録されたのは達成感があります．
+最後に，論文投稿のきっかけをくれた教授， 何度も論文を添削してくれた指導教員， そしてプログラミングを教えてくれた先輩に心から感謝します．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="情報処理学会論文誌に論文が採録された話"/>
+<meta name="twitter:description" content="情報処理学会論文誌に卒論でやっていた研究が採録されました．情報はこちら．
+論文誌とは 研究をしている以上，その成果を論文としてまとめる必要があります． 論文は大きく分けて以下の4種類に大別されます（僕が知る限り）．
+論文誌論文 別名: ジャーナル（journal） 研究の最終成果を投稿する場 採録されると雑誌として掲載される 学術的貢献が求められる 査読が行われる（査読とは，投稿された論文が学術的な有用性，信頼性に足るものかを他の研究者が判断するプロセスを指す） 一般的に採録率は低いらしい．電子情報通信学会だと5割弱． 投稿時に惜しくも採録に至らないと判定されても，条件付き採録として論文の修正を求められることが多い． 国内だと情報処理学会や電子情報通信学会の論文誌に投稿することが多い 会議論文 別名: 予稿集（inproceedings） レベルがピンキリ．採録率もピンキリ 投稿目的もピンキリ．研究の最終成果発表から，アイデアの議論まで 基本的に査読がある トップの会議だと条件付き採録もあったりするらしい．普通は一発採録 採録されると開催場所での発表が求められる．海外旅行に行ける 学術的貢献だけじゃなくてアイデアの面白さ，発表映えするかとかも重要 発表がある都合上，投稿締め切りが設けられる 研究会論文 別名: 技術報告（report） 基本的に研究途中での成果の報告，アイデアの議論が目的 査読がない 発表がメイン．国内旅行に行ける 学位論文 別名: thesis 学位を取得するための論文 卒論，修論は査読がない ので，書けば大丈夫 今回は論文誌論文として採録されました．
+道のり 2019年に書いた卒論の内容が2021年に採録されたことから察せられるように， 採録までの道のりが非常に長かったです． そもそも卒論を書いてから国際学会投稿，論文誌投稿とステップを踏むことが多いのですが， 僕の場合は作ったツールのクオリティが低すぎたため，ツールを作り直して実験をし直すとこから始まりました． この時プログラミングを指導してくれた一つ上の先輩には本当にお世話になりました． このプログラミング指導のおかげで修士では特にツール作りに苦労することがなく研究を進められました．
+一方，既存のツールが動かないという問題のせいで実験は全然進みませんでした． 本当にM1のほとんどはツールを動かすのに苦心していたと思います． 結局技術的に強い友人に相談したところ，3日で動いたのでもったいない時間の使い方をしたなぁって気分になりました．
+結局論文を投稿できたのが2020年の2月初めで，条件付き採録通知が来たのが11月， 修正と再投稿を行い，採録されたのが2021年の1月となりました．
+感想としては，嬉しいのが半分，ようやく終わったと安心したのが半分です． 自分としてはこの研究テーマに自身がなかったので，早く終わらしたかったという気持ちもありました． 本当に時間がかかったので，採録されたのは達成感があります．
+最後に，論文投稿のきっかけをくれた教授， 何度も論文を添削してくれた指導教員， そしてプログラミングを教えてくれた先輩に心から感謝します．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="情報処理学会論文誌に論文が採録された話" />
+<meta property="og:description" content="情報処理学会論文誌に卒論でやっていた研究が採録されました．情報はこちら．
+論文誌とは 研究をしている以上，その成果を論文としてまとめる必要があります． 論文は大きく分けて以下の4種類に大別されます（僕が知る限り）．
+論文誌論文 別名: ジャーナル（journal） 研究の最終成果を投稿する場 採録されると雑誌として掲載される 学術的貢献が求められる 査読が行われる（査読とは，投稿された論文が学術的な有用性，信頼性に足るものかを他の研究者が判断するプロセスを指す） 一般的に採録率は低いらしい．電子情報通信学会だと5割弱． 投稿時に惜しくも採録に至らないと判定されても，条件付き採録として論文の修正を求められることが多い． 国内だと情報処理学会や電子情報通信学会の論文誌に投稿することが多い 会議論文 別名: 予稿集（inproceedings） レベルがピンキリ．採録率もピンキリ 投稿目的もピンキリ．研究の最終成果発表から，アイデアの議論まで 基本的に査読がある トップの会議だと条件付き採録もあったりするらしい．普通は一発採録 採録されると開催場所での発表が求められる．海外旅行に行ける 学術的貢献だけじゃなくてアイデアの面白さ，発表映えするかとかも重要 発表がある都合上，投稿締め切りが設けられる 研究会論文 別名: 技術報告（report） 基本的に研究途中での成果の報告，アイデアの議論が目的 査読がない 発表がメイン．国内旅行に行ける 学位論文 別名: thesis 学位を取得するための論文 卒論，修論は査読がない ので，書けば大丈夫 今回は論文誌論文として採録されました．
+道のり 2019年に書いた卒論の内容が2021年に採録されたことから察せられるように， 採録までの道のりが非常に長かったです． そもそも卒論を書いてから国際学会投稿，論文誌投稿とステップを踏むことが多いのですが， 僕の場合は作ったツールのクオリティが低すぎたため，ツールを作り直して実験をし直すとこから始まりました． この時プログラミングを指導してくれた一つ上の先輩には本当にお世話になりました． このプログラミング指導のおかげで修士では特にツール作りに苦労することがなく研究を進められました．
+一方，既存のツールが動かないという問題のせいで実験は全然進みませんでした． 本当にM1のほとんどはツールを動かすのに苦心していたと思います． 結局技術的に強い友人に相談したところ，3日で動いたのでもったいない時間の使い方をしたなぁって気分になりました．
+結局論文を投稿できたのが2020年の2月初めで，条件付き採録通知が来たのが11月， 修正と再投稿を行い，採録されたのが2021年の1月となりました．
+感想としては，嬉しいのが半分，ようやく終わったと安心したのが半分です． 自分としてはこの研究テーマに自身がなかったので，早く終わらしたかったという気持ちもありました． 本当に時間がかかったので，採録されたのは達成感があります．
+最後に，論文投稿のきっかけをくれた教授， 何度も論文を添削してくれた指導教員， そしてプログラミングを教えてくれた先輩に心から感謝します．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/ipsj_journal/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-01-17T17:38:48+09:00" />
+<meta property="article:modified_time" content="2021-01-17T17:38:48+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/ipsj_journal/">
+    
+    <title>
+  情報処理学会論文誌に論文が採録された話 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/ipsj_journal/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>情報処理学会論文誌に論文が採録された話</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E7%A0%94%E7%A9%B6/">研究</a></div>
+
+    </header>
+
+    <p>情報処理学会論文誌に卒論でやっていた研究が採録されました．情報は<a href="https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=677">こちら</a>．</p>
+<h2 id="論文誌とは">論文誌とは</h2>
+<p>研究をしている以上，その成果を論文としてまとめる必要があります．
+論文は大きく分けて以下の4種類に大別されます（僕が知る限り）．</p>
+<ul>
+<li>論文誌論文
+<ul>
+<li>別名: ジャーナル（journal）</li>
+<li>研究の最終成果を投稿する場</li>
+<li>採録されると雑誌として掲載される</li>
+<li>学術的貢献が求められる</li>
+<li>査読が行われる（査読とは，投稿された論文が学術的な有用性，信頼性に足るものかを他の研究者が判断するプロセスを指す）</li>
+<li>一般的に採録率は低いらしい．<a href="https://search.ieice.org/statistics.html">電子情報通信学会</a>だと5割弱．</li>
+<li>投稿時に惜しくも採録に至らないと判定されても，条件付き採録として論文の修正を求められることが多い．</li>
+<li>国内だと情報処理学会や電子情報通信学会の論文誌に投稿することが多い</li>
+</ul>
+</li>
+<li>会議論文
+<ul>
+<li>別名: 予稿集（inproceedings）</li>
+<li>レベルがピンキリ．採録率もピンキリ</li>
+<li>投稿目的もピンキリ．研究の最終成果発表から，アイデアの議論まで</li>
+<li>基本的に査読がある</li>
+<li>トップの会議だと条件付き採録もあったりするらしい．普通は一発採録</li>
+<li>採録されると開催場所での発表が求められる．海外旅行に行ける</li>
+<li>学術的貢献だけじゃなくてアイデアの面白さ，発表映えするかとかも重要</li>
+<li>発表がある都合上，投稿締め切りが設けられる</li>
+</ul>
+</li>
+<li>研究会論文
+<ul>
+<li>別名: 技術報告（report）</li>
+<li>基本的に研究途中での成果の報告，アイデアの議論が目的</li>
+<li>査読がない</li>
+<li>発表がメイン．国内旅行に行ける</li>
+</ul>
+</li>
+<li>学位論文
+<ul>
+<li>別名: thesis</li>
+<li>学位を取得するための論文</li>
+<li>卒論，修論は査読がない</li>
+<li>ので，書けば大丈夫</li>
+</ul>
+</li>
+</ul>
+<p>今回は論文誌論文として採録されました．</p>
+<h2 id="道のり">道のり</h2>
+<p>2019年に書いた卒論の内容が2021年に採録されたことから察せられるように，
+採録までの道のりが非常に長かったです．
+そもそも卒論を書いてから国際学会投稿，論文誌投稿とステップを踏むことが多いのですが，
+僕の場合は作ったツールのクオリティが低すぎたため，ツールを作り直して実験をし直すとこから始まりました．
+この時プログラミングを指導してくれた一つ上の先輩には本当にお世話になりました．
+このプログラミング指導のおかげで修士では特にツール作りに苦労することがなく研究を進められました．</p>
+<p>一方，既存のツールが動かないという問題のせいで実験は全然進みませんでした．
+本当にM1のほとんどはツールを動かすのに苦心していたと思います．
+結局技術的に強い友人に相談したところ，3日で動いたのでもったいない時間の使い方をしたなぁって気分になりました．</p>
+<p>結局論文を投稿できたのが2020年の2月初めで，条件付き採録通知が来たのが11月，
+修正と再投稿を行い，採録されたのが2021年の1月となりました．</p>
+<p>感想としては，嬉しいのが半分，ようやく終わったと安心したのが半分です．
+自分としてはこの研究テーマに自身がなかったので，早く終わらしたかったという気持ちもありました．
+本当に時間がかかったので，採録されたのは達成感があります．</p>
+<p>最後に，論文投稿のきっかけをくれた教授，
+何度も論文を添削してくれた指導教員，
+そしてプログラミングを教えてくれた先輩に心から感謝します．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="2022年を振り返る。
+総評 楽しく仕事ができた。 特に、チーム内でやっていることをチーム外に啓蒙するという活動をしてて、それが評価されたという感じ。
+先輩、後輩とのつながりも増えて申し分ない1年間だった。
+仕事 1月 &ndash; 3月 主にインターンのメンターとJenkinsおじさんをやってた
+インターンのメンターは、インターンの子が超絶優秀だったのであまりやることがなかった。 逆に色々教えてもらえて良かった。 リリースが間に合わなかったのはシンプルに申し訳なかった。 JenkinsはIaaS環境に載せてたJenkinsがあまりにも使い物にならなくなってきたので、k8s環境に載せ替えた。 - 一つのコンテナに全ての機能を突っ込む
+- コンテナにcredentialを突っ込む
+みたいなカスみたいなアンチパターンから、
+- 機能ごとにコンテナを分割して、ポートで通信する
+- credentialはコンテナに持たせず、都度Jenkins側から渡す
+に改善できて良い
+&mdash; task@血圧・尿酸 (@getupmax) February 24, 2022 個人的には大満足なマイグレーション。 ちなみにこの話をこの1年間擦り続けてる。 4月 &ndash; 6月 この辺りから、趣味で他のチームのコードレビューにも参加するようになる。 啓蒙活動。 特に汚いソースコードに関してコメントすることが多かった。この辺は個人の思想の押し付けになってたかも。 最終的に綺麗なソースコードを書こうとしても設計が崩壊してると終わりなことに気づいた。 7月 &ndash; 9月 Java8環境に耐えきれなくなり、Java17にアプデするプロジェクトを勝手に立ち上げる。
+PDMに話通して、スケジュール設定 → 実装 → テスト → リリースまでを自分でできたのは良い経験だったなと。 終わった後にLT会でナレッジを共有したり、他のチームのJava17導入に噛んだりできて良かったなと。 チームに自動E2Eテストを書く文化が根付いていたので、マイグレーションがかなりやりやすかった。ありがたい。 夏のインターンのメンター
+1週間 自分も夏のインターンからの採用だったので、その辺も踏まえて会社に貢献できたらという気持ち。 どっちかというと1日の終わりのレビューがメインのお仕事でした。 最終的に優勝してた。すごい。 その辺の話はこちら
+https://commerce-engineer.rakuten.careers/entry/workstyle/0025 以降、インターン経験者かつメンターで優勝みたいな経歴もあって新卒向けイベントみたいなのに呼ばれる機会が増えた。 10月 &ndash; 12月 複数チームにまたがって改善活動をやっていこうぜ的なチームが発足。 -「自チームの改善」 &#43; 「コードレビューを通した他チームへの貢献」みたいなところに目をつけれられて、そのチームに放り込まれる。
+他のチームの人と議論したり、自分がやった改善活動の横展みたいなことをしてた。 これまでやってきたことが認められて昇格。
+特別昇格扱いだとかなんとか。 ほとんど残業せずに昇格できたので、コスパ良かったなぁと。 他のチームに2ヶ月弱移籍。">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="2022年の振り返り"/>
+<meta name="twitter:description" content="2022年を振り返る。
+総評 楽しく仕事ができた。 特に、チーム内でやっていることをチーム外に啓蒙するという活動をしてて、それが評価されたという感じ。
+先輩、後輩とのつながりも増えて申し分ない1年間だった。
+仕事 1月 &ndash; 3月 主にインターンのメンターとJenkinsおじさんをやってた
+インターンのメンターは、インターンの子が超絶優秀だったのであまりやることがなかった。 逆に色々教えてもらえて良かった。 リリースが間に合わなかったのはシンプルに申し訳なかった。 JenkinsはIaaS環境に載せてたJenkinsがあまりにも使い物にならなくなってきたので、k8s環境に載せ替えた。 - 一つのコンテナに全ての機能を突っ込む
+- コンテナにcredentialを突っ込む
+みたいなカスみたいなアンチパターンから、
+- 機能ごとにコンテナを分割して、ポートで通信する
+- credentialはコンテナに持たせず、都度Jenkins側から渡す
+に改善できて良い
+&mdash; task@血圧・尿酸 (@getupmax) February 24, 2022 個人的には大満足なマイグレーション。 ちなみにこの話をこの1年間擦り続けてる。 4月 &ndash; 6月 この辺りから、趣味で他のチームのコードレビューにも参加するようになる。 啓蒙活動。 特に汚いソースコードに関してコメントすることが多かった。この辺は個人の思想の押し付けになってたかも。 最終的に綺麗なソースコードを書こうとしても設計が崩壊してると終わりなことに気づいた。 7月 &ndash; 9月 Java8環境に耐えきれなくなり、Java17にアプデするプロジェクトを勝手に立ち上げる。
+PDMに話通して、スケジュール設定 → 実装 → テスト → リリースまでを自分でできたのは良い経験だったなと。 終わった後にLT会でナレッジを共有したり、他のチームのJava17導入に噛んだりできて良かったなと。 チームに自動E2Eテストを書く文化が根付いていたので、マイグレーションがかなりやりやすかった。ありがたい。 夏のインターンのメンター
+1週間 自分も夏のインターンからの採用だったので、その辺も踏まえて会社に貢献できたらという気持ち。 どっちかというと1日の終わりのレビューがメインのお仕事でした。 最終的に優勝してた。すごい。 その辺の話はこちら
+https://commerce-engineer.rakuten.careers/entry/workstyle/0025 以降、インターン経験者かつメンターで優勝みたいな経歴もあって新卒向けイベントみたいなのに呼ばれる機会が増えた。 10月 &ndash; 12月 複数チームにまたがって改善活動をやっていこうぜ的なチームが発足。 -「自チームの改善」 &#43; 「コードレビューを通した他チームへの貢献」みたいなところに目をつけれられて、そのチームに放り込まれる。
+他のチームの人と議論したり、自分がやった改善活動の横展みたいなことをしてた。 これまでやってきたことが認められて昇格。
+特別昇格扱いだとかなんとか。 ほとんど残業せずに昇格できたので、コスパ良かったなぁと。 他のチームに2ヶ月弱移籍。"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="2022年の振り返り" />
+<meta property="og:description" content="2022年を振り返る。
+総評 楽しく仕事ができた。 特に、チーム内でやっていることをチーム外に啓蒙するという活動をしてて、それが評価されたという感じ。
+先輩、後輩とのつながりも増えて申し分ない1年間だった。
+仕事 1月 &ndash; 3月 主にインターンのメンターとJenkinsおじさんをやってた
+インターンのメンターは、インターンの子が超絶優秀だったのであまりやることがなかった。 逆に色々教えてもらえて良かった。 リリースが間に合わなかったのはシンプルに申し訳なかった。 JenkinsはIaaS環境に載せてたJenkinsがあまりにも使い物にならなくなってきたので、k8s環境に載せ替えた。 - 一つのコンテナに全ての機能を突っ込む
+- コンテナにcredentialを突っ込む
+みたいなカスみたいなアンチパターンから、
+- 機能ごとにコンテナを分割して、ポートで通信する
+- credentialはコンテナに持たせず、都度Jenkins側から渡す
+に改善できて良い
+&mdash; task@血圧・尿酸 (@getupmax) February 24, 2022 個人的には大満足なマイグレーション。 ちなみにこの話をこの1年間擦り続けてる。 4月 &ndash; 6月 この辺りから、趣味で他のチームのコードレビューにも参加するようになる。 啓蒙活動。 特に汚いソースコードに関してコメントすることが多かった。この辺は個人の思想の押し付けになってたかも。 最終的に綺麗なソースコードを書こうとしても設計が崩壊してると終わりなことに気づいた。 7月 &ndash; 9月 Java8環境に耐えきれなくなり、Java17にアプデするプロジェクトを勝手に立ち上げる。
+PDMに話通して、スケジュール設定 → 実装 → テスト → リリースまでを自分でできたのは良い経験だったなと。 終わった後にLT会でナレッジを共有したり、他のチームのJava17導入に噛んだりできて良かったなと。 チームに自動E2Eテストを書く文化が根付いていたので、マイグレーションがかなりやりやすかった。ありがたい。 夏のインターンのメンター
+1週間 自分も夏のインターンからの採用だったので、その辺も踏まえて会社に貢献できたらという気持ち。 どっちかというと1日の終わりのレビューがメインのお仕事でした。 最終的に優勝してた。すごい。 その辺の話はこちら
+https://commerce-engineer.rakuten.careers/entry/workstyle/0025 以降、インターン経験者かつメンターで優勝みたいな経歴もあって新卒向けイベントみたいなのに呼ばれる機会が増えた。 10月 &ndash; 12月 複数チームにまたがって改善活動をやっていこうぜ的なチームが発足。 -「自チームの改善」 &#43; 「コードレビューを通した他チームへの貢献」みたいなところに目をつけれられて、そのチームに放り込まれる。
+他のチームの人と議論したり、自分がやった改善活動の横展みたいなことをしてた。 これまでやってきたことが認められて昇格。
+特別昇格扱いだとかなんとか。 ほとんど残業せずに昇格できたので、コスパ良かったなぁと。 他のチームに2ヶ月弱移籍。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/retrospective_2022/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-12-31T09:39:23+09:00" />
+<meta property="article:modified_time" content="2022-12-31T09:39:23+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/retrospective_2022/">
+    
+    <title>
+  2022年の振り返り · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/retrospective_2022/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>2022年の振り返り</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E4%BA%BA%E7%94%9F/">人生</a></div>
+
+    </header>
+
+    <p>2022年を振り返る。</p>
+<h2 id="総評">総評</h2>
+<p>楽しく仕事ができた。
+特に、チーム内でやっていることをチーム外に啓蒙するという活動をしてて、それが評価されたという感じ。</p>
+<p>先輩、後輩とのつながりも増えて申し分ない1年間だった。</p>
+<h2 id="仕事">仕事</h2>
+<h3 id="1月----3月">1月 &ndash; 3月</h3>
+<ul>
+<li>
+<p>主にインターンのメンターとJenkinsおじさんをやってた</p>
+<ul>
+<li>インターンのメンターは、インターンの子が超絶優秀だったのであまりやることがなかった。
+<ul>
+<li>逆に色々教えてもらえて良かった。</li>
+<li>リリースが間に合わなかったのはシンプルに申し訳なかった。</li>
+</ul>
+</li>
+<li>JenkinsはIaaS環境に載せてたJenkinsがあまりにも使い物にならなくなってきたので、k8s環境に載せ替えた。</li>
+</ul>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">- 一つのコンテナに全ての機能を突っ込む<br>- コンテナにcredentialを突っ込む<br><br>みたいなカスみたいなアンチパターンから、<br><br>- 機能ごとにコンテナを分割して、ポートで通信する<br>- credentialはコンテナに持たせず、都度Jenkins側から渡す<br><br>に改善できて良い</p>&mdash; task@血圧・尿酸 (@getupmax) <a href="https://twitter.com/getupmax/status/1496688678546321409?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>個人的には大満足なマイグレーション。</li>
+<li>ちなみにこの話をこの1年間擦り続けてる。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4月----6月">4月 &ndash; 6月</h3>
+<ul>
+<li>この辺りから、趣味で他のチームのコードレビューにも参加するようになる。
+<ul>
+<li>啓蒙活動。</li>
+<li>特に汚いソースコードに関してコメントすることが多かった。この辺は個人の思想の押し付けになってたかも。</li>
+<li>最終的に綺麗なソースコードを書こうとしても設計が崩壊してると終わりなことに気づいた。</li>
+</ul>
+</li>
+</ul>
+<h3 id="7月----9月">7月 &ndash; 9月</h3>
+<ul>
+<li>
+<p>Java8環境に耐えきれなくなり、Java17にアプデするプロジェクトを勝手に立ち上げる。</p>
+<ul>
+<li>PDMに話通して、スケジュール設定 → 実装 → テスト → リリースまでを自分でできたのは良い経験だったなと。</li>
+<li>終わった後にLT会でナレッジを共有したり、他のチームのJava17導入に噛んだりできて良かったなと。</li>
+<li>チームに自動E2Eテストを書く文化が根付いていたので、マイグレーションがかなりやりやすかった。ありがたい。</li>
+</ul>
+</li>
+<li>
+<p>夏のインターンのメンター</p>
+<ul>
+<li>1週間</li>
+<li>自分も夏のインターンからの採用だったので、その辺も踏まえて会社に貢献できたらという気持ち。</li>
+<li>どっちかというと1日の終わりのレビューがメインのお仕事でした。</li>
+<li>最終的に優勝してた。すごい。</li>
+<li>その辺の話はこちら<br>
+<a href="https://commerce-engineer.rakuten.careers/entry/workstyle/0025">https://commerce-engineer.rakuten.careers/entry/workstyle/0025</a></li>
+<li>以降、インターン経験者かつメンターで優勝みたいな経歴もあって新卒向けイベントみたいなのに呼ばれる機会が増えた。</li>
+</ul>
+</li>
+</ul>
+<h3 id="10月----12月">10月 &ndash; 12月</h3>
+<ul>
+<li>
+<p>複数チームにまたがって改善活動をやっていこうぜ的なチームが発足。
+-「自チームの改善」 + 「コードレビューを通した他チームへの貢献」みたいなところに目をつけれられて、そのチームに放り込まれる。</p>
+<ul>
+<li>他のチームの人と議論したり、自分がやった改善活動の横展みたいなことをしてた。</li>
+</ul>
+</li>
+<li>
+<p>これまでやってきたことが認められて昇格。</p>
+<ul>
+<li>特別昇格扱いだとかなんとか。</li>
+<li>ほとんど残業せずに昇格できたので、コスパ良かったなぁと。</li>
+</ul>
+</li>
+<li>
+<p>他のチームに2ヶ月弱移籍。</p>
+<ul>
+<li>他のチームのサービスも知っておいた方が良いという上の方針で。</li>
+<li>100%英語での仕事だったので大変だった。</li>
+</ul>
+</li>
+</ul>
+<h2 id="人間関係">人間関係</h2>
+<ul>
+<li>
+<p>出社が増えて、社内の人たちと仲良くなった。</p>
+<ul>
+<li>特に、会社が晩御飯の提供を始めてから、三食同期と一緒に食べる機会が多かったのが良かった。</li>
+<li>後輩が入ってきた。今のところ仲良くしてもらってる。
+<ul>
+<li>ライブとかクラブとかに引きずり回されたそれはそれで良かった。</li>
+</ul>
+</li>
+<li>年が近い先輩と飲みに行く機会が何回かあって楽しかった。</li>
+<li>他のチームのよく関わるメンバーと仲良くなれたのも大きかった。英語でのコミュニケーションも慣れてきたかも。</li>
+</ul>
+</li>
+<li>
+<p>社外の人間関係は特に変わらず。</p>
+</li>
+</ul>
+<h2 id="プログラミング">プログラミング</h2>
+<ul>
+<li>JenkinsプラグインとかIntelliJプラグインみたいな、仕事で使えるプラグインを趣味の一環で使ってた。
+<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/20589"></iframe>
+</li>
+<li>「Scala関数型デザイン&amp;プログラミング」をやった。いわゆる純粋関数型プログラミングの思考をふんわりと理解した。
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&item_id=17383699&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7768%2F9784844337768.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >Scala関数型デザイン＆プログラミング Scalazコントリビューターによる関数型徹底ガイ （impress　top　gear） [ ポール・キウザーノ ]</a><br><span >価格：4290円（税込、送料無料)</span> <span style="color:#BBB">(2022/12/31時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+</li>
+<li>ISUCONに出た。Javaで頑張ったけどスコアが伸びなかったので、最終的に何もしていないRust実装を提出して終わった。</li>
+<li>その他、Mockitoにバグ報告したり、IntelliJに機能修正パッチ投げたり。</li>
+</ul>
+<h2 id="飲酒">飲酒</h2>
+<ul>
+<li>
+<p>去年と比較して、外に飲みに行く機会が増えた印象。</p>
+<ul>
+<li>先輩に誘ってもらったり。</li>
+<li>会社で晩御飯を食べるようになってからは、その日のメニューが微妙だったら飲みに行ったりしてた。</li>
+</ul>
+</li>
+<li>
+<p>地酒を買う機会が増えた。</p>
+<ul>
+<li>特に難波エディオンでは有名な地酒を、阪急百貨店では地方の蔵元が直接売りに来る酒を買ったりしてた。</li>
+</ul>
+</li>
+</ul>
+<h2 id="健康">健康</h2>
+<ul>
+<li>ついに血圧だけでなく尿酸値も基準値を突破し、無事再検査へ。</li>
+<li>その他はまあぼちぼち。</li>
+<li>ランニングする機会は減ったかも。</li>
+</ul>
+<h2 id="バイク">バイク</h2>
+<ul>
+<li>大型二輪の免許を取った。</li>
+<li>夏休みに遠出する予定だったが、北陸の豪雨で道が無くなったりしてたらしいので断念。</li>
+<li>11月に出雲大社に参拝。往復600km超を1日で走る。多分人生で一番長い。</li>
+</ul>
+<h2 id="アニメ">アニメ</h2>
+<ul>
+<li>久々にリアタイでアニメを追うことをしてた。</li>
+<li>パリピ孔明、リコリコ、ぼっち・ざ・ろっく、etc.</li>
+<li>職場の先輩もアニメ好きで、アニメの話で盛り上がれるのが良い。</li>
+<li>趣味の話をできる人が身近にいることが重要だなぁと改めて実感した。</li>
+</ul>
+<h2 id="読書">読書</h2>
+<ul>
+<li>月一くらいのペースで小説、技術書問わず何かしらを読むようにした。</li>
+<li>今年読んでて一番ためになったのは「現場で役立つシステム設計の原則」かなぁ。
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&item_id=18637464&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]</a><br><span >価格：3234円（税込、送料無料)</span> <span style="color:#BBB">(2022/12/31時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0"></a><a href="https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;">楽天で購入</div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+</li>
+<li>その他書評は<a href="https://t45k.github.io/blog/">ブログ</a>に書いてます。</li>
+</ul>
+<h2 id="音楽">音楽</h2>
+<ul>
+<li>年の初めは某動画の影響でRussian Hard Baseとか聴いてた。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1qzSagjh1ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+<li>年の終わりは某アニメの影響で八十八ヶ所巡礼を聴いてた。
+<ul>
+<li>「攻撃的国民的音楽」とかは比較的キャッチーで良い。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D90AOhojK3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="その他">その他</h2>
+<ul>
+<li>インスタを始めた。</li>
+<li>スマホキャリアが楽天モバイルになった。
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">箕面山 vs 楽天モバイル　<br><br>勝者、楽天モバイル（圏外にならなかったので） <a href="https://t.co/8QedXGkSi7">pic.twitter.com/8QedXGkSi7</a></p>&mdash; task@血圧・尿酸 (@getupmax) <a href="https://twitter.com/getupmax/status/1513049757123448837?ref_src=twsrc%5Etfw">April 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</li>
+<li>5年ぶりにコミケに現地参加した。第100回だったので。
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ビッグサイトへ</p>&mdash; task@血圧・尿酸 (@getupmax) <a href="https://twitter.com/getupmax/status/1558619249534349312?ref_src=twsrc%5Etfw">August 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</li>
+<li>JJUGを聴講した。</li>
+</ul>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

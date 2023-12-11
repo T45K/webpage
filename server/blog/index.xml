@@ -1,0 +1,2541 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on T45K</title>
+    <link>https://t45k.github.io/blog/</link>
+    <description>Recent content in Blogs on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 11 Dec 2023 22:59:05 +0900</lastBuildDate>
+    
+	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ノンアルコールビールを飲み比べた話</title>
+      <link>https://t45k.github.io/blog/non_alcohol_beer/</link>
+      <pubDate>Mon, 11 Dec 2023 22:59:05 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/non_alcohol_beer/</guid>
+      <description>&lt;p&gt;健康の問題で酒が飲めない期間が続いたので、良さげなノンアルコールビールを5本買って飲み比べてみた。
+備忘録。&lt;/p&gt;
+&lt;h2 id=&#34;飲み比べ対象&#34;&gt;飲み比べ対象&lt;/h2&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/non_alcohol_beer.jpg&#34; width=&#34;75%&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「なっとく！関数型プログラミング」読了</title>
+      <link>https://t45k.github.io/blog/grokking_functional_programming/</link>
+      <pubDate>Mon, 09 Oct 2023 23:22:01 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/grokking_functional_programming/</guid>
+      <description>&lt;p&gt;「なっとく！関数型プログラミング」を読んだ。&lt;/p&gt;
+&lt;p&gt;「純粋関数のシグネチャは嘘をつかない」が再三説明されていて良かった。
+純粋関数を取り扱ううえで話題になりがちなIO処理なども丁寧に説明されていた。&lt;/p&gt;
+&lt;p&gt;9章の「値としてのストリーム」、10章の「並行プログラム」辺りから内容の厚さが段違いになり、
+今回は残念なが読み飛ばさせてもらった。&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17537959%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=20987480&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F9803%2F9784798179803_1_35.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;display: block;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17537959%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;なっとく！関数型プログラミング [ Michał Płachta ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,740円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2023/10/9時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17537959%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34; &gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17537959%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt; 楽天で購入 &lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>マネーフォワードに入社した話</title>
+      <link>https://t45k.github.io/blog/welcome_monery_forward/</link>
+      <pubDate>Sun, 01 Oct 2023 00:26:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/welcome_monery_forward/</guid>
+      <description>&lt;p&gt;2023年7月付で株式会社マネーフォワードに入社しました。&lt;/p&gt;
+&lt;p&gt;試用期間も終わったので色々書きます。&lt;/p&gt;
+&lt;h2 id=&#34;マネフォ&#34;&gt;マネフォ&lt;/h2&gt;
+&lt;p&gt;「お金を前へ。人生をもっと前へ。」をミッションにしている会社です。&lt;/p&gt;
+&lt;p&gt;一般ユーザ向けの帳簿管理アプリである「マネーフォワードMe」や法人向けバックオフィスSaaSである「マネーフォワードクラウド」を提供しています。&lt;/p&gt;
+&lt;h2 id=&#34;なぜマネフォ&#34;&gt;なぜマネフォ&lt;/h2&gt;
+&lt;p&gt;元々、大阪でKotlinを書ける仕事を探していました。&lt;/p&gt;
+&lt;p&gt;その中にマネーフォワードがあったのですが、個人的にマネーフォワードは技術レベルが高く、
+自分では通用しない、という考えがあったのでスルーしていました。&lt;/p&gt;
+&lt;p&gt;そんな中で前職で色々あり本格的に転職を考えるのですが、
+そのタイミングで真っ先にマネフォがカジュアル面談の声をかけてくださいました。&lt;/p&gt;
+&lt;p&gt;話を聞いてみると、マネフォのMVVCにも共感でき、経験がマッチしそうということで応募し、無事採用に至りました。&lt;/p&gt;
+&lt;h2 id=&#34;何してるの&#34;&gt;何してるの&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://biz.moneyforward.com/consolidated-accounting/&#34;&gt;クラウド連結会計&lt;/a&gt;の開発、運用をしています。&lt;/p&gt;
+&lt;p&gt;連結会計という複雑なドメインを理解してコードに書き下していくのが楽しいです。&lt;/p&gt;
+&lt;p&gt;その他、この3ヶ月でCIのコストカット、R2DBCへの移行、および&lt;a href=&#34;https://t45k.github.io/blog/server_side_kotlin_meetup_10/&#34;&gt;登壇&lt;/a&gt;をしました。&lt;/p&gt;
+&lt;h2 id=&#34;マネフォの良いところ悪いところ&#34;&gt;マネフォの良いところ・悪いところ&lt;/h2&gt;
+&lt;p&gt;は、カジュアル面談とかで喋れたらな、と思います。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>サーバーサイドKotlin LT大会 vol.10で登壇した話</title>
+      <link>https://t45k.github.io/blog/server_side_kotlin_meetup_10/</link>
+      <pubDate>Sat, 30 Sep 2023 22:25:14 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/server_side_kotlin_meetup_10/</guid>
+      <description>&lt;p&gt;3ヶ月ぶりに登壇しました。
+&lt;a href=&#34;https://server-side-kotlin-meetup.connpass.com/event/291686/&#34;&gt;https://server-side-kotlin-meetup.connpass.com/event/291686/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;server-side-kotlin-meetup&#34;&gt;Server-Side Kotlin Meetup&lt;/h2&gt;
+&lt;p&gt;Server-side Kotlin MeetupはサーバサイドKotlinユーザのコミュニティです。&lt;/p&gt;
+&lt;p&gt;前職ではそこまでガッツリKotlinをやっていたわけではなかったので知りませんでした。&lt;/p&gt;
+&lt;p&gt;現職では、上司が運営の一人をしており、LTの15分枠が埋まらなさそうなので応募して欲しい、と頼まれたことがきっかけでした。&lt;/p&gt;
+&lt;p&gt;僕自身も積極的に登壇活動をしたいと思っていたので、良い機会だと思い快諾しました。&lt;/p&gt;
+&lt;h2 id=&#34;発表内容&#34;&gt;発表内容&lt;/h2&gt;
+&lt;p&gt;「R2DBCを導入しようとした話」というタイトルでLTしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/t45k/r2dbcwodao-ru-suruhua&#34;&gt;https://speakerdeck.com/t45k/r2dbcwodao-ru-suruhua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;応募時はK2コンパイラをCIで試してみた話をしようとしていたのですが、
+タイトル回収締め切りまでにR2DBCへの移行に着手し始め、そっちの方が盛り上がりそうだったのでネタを変えることにしました。&lt;/p&gt;
+&lt;p&gt;様々な詰まりポイントがあるせいで締切までに完了の目処が立たず、タイトルを「しようとした（そしてうまくいかなかった）とした、という経緯がありました。&lt;/p&gt;
+&lt;h2 id=&#34;会場&#34;&gt;会場&lt;/h2&gt;
+&lt;p&gt;UZABASEさんのオフィスにお世話になりました。&lt;/p&gt;
+&lt;p&gt;UZABASEさんはNewsPicksなどの開発をしている会社です。&lt;/p&gt;
+&lt;p&gt;東京駅の真ん前にオフィスがあり、1階はイベントスペースになっているおしゃれなオフィスでした。&lt;/p&gt;
+&lt;h2 id=&#34;当日&#34;&gt;当日&lt;/h2&gt;
+&lt;p&gt;オフラインイベントで、だいたい30名くらいの方がいたと思います。&lt;/p&gt;
+&lt;p&gt;開始時に乾杯があり、発表前にお酒を飲むという、本当に気楽なイベントでした。&lt;/p&gt;
+&lt;p&gt;他の会社の方々や、同じ会社の違う拠点の方々と交流でき、とても良かったです。&lt;/p&gt;
+&lt;p&gt;ぜひ次回も参加したいと思いました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>セミを食べた話</title>
+      <link>https://t45k.github.io/blog/cicada/</link>
+      <pubDate>Sun, 06 Aug 2023 13:47:19 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/cicada/</guid>
+      <description>&lt;div style=&#34;color:red&#34;&gt;虫の画像注意&lt;/div&gt;
+&lt;p&gt;セミを食べたのでレポ。&lt;/p&gt;
+&lt;h2 id=&#34;きっかけ&#34;&gt;きっかけ&lt;/h2&gt;
+&lt;p&gt;この辺の記事、動画を読んで興味を持ったから。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dailyportalz.jp/kiji/170801200301&#34;&gt;セミはソフトシェルのうちに食うべし - デイリーポータルZ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=yRlI5kPtJUc&#34;&gt;今が旬の超美味しいセミをとって食う - ホモサピ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;友達にもホモサピのファンがいたため、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;セミの幼虫をとって&lt;/li&gt;
+&lt;li&gt;家で羽化させて&lt;/li&gt;
+&lt;li&gt;揚げ物にして食べよう&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;という話になった。&lt;/p&gt;
+&lt;h2 id=&#34;セミ捕り&#34;&gt;セミ捕り&lt;/h2&gt;
+&lt;p&gt;今回は成虫ではなく幼虫のセミをターゲットにした。&lt;/p&gt;
+&lt;p&gt;一般的にセミの幼虫は夕方から夜にかけて地面から出てきて、木に登り、羽化を行う。&lt;/p&gt;
+&lt;p&gt;なので、夕方頃に集合して近所の森や公園などを歩き回った。&lt;/p&gt;
+&lt;p&gt;結果として、セミの幼虫は全然見つからず、最終的に一人一匹捕まえるに留まった。&lt;/p&gt;
+&lt;p&gt;セミの美味しさに気づいた人達が乱獲しているのかもしれない。&lt;/p&gt;
+&lt;h2 id=&#34;羽化&#34;&gt;羽化&lt;/h2&gt;
+&lt;p&gt;セミの幼虫をカーテンに引っ掛けておくと勝手に羽化するのは有名な話である。&lt;/p&gt;
+&lt;p&gt;今回は羽化した瞬間のセミを食べることが目的だったので、捕まえた幼虫は全てカーテンに引っ付けておいた。&lt;/p&gt;
+&lt;p&gt;しかし、2時間経っても、片方は羽化途中で完全に停止し、もう片方は羽化すらしていないという状態だった。&lt;/p&gt;
+&lt;p&gt;終電の都合があったので、今回はその状態で調理に入った。&lt;/p&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/cicada/curtain.jpg&#34; width=&#34;50%&#34;&gt;
+&lt;h2 id=&#34;調理&#34;&gt;調理&lt;/h2&gt;
+&lt;p&gt;市販の唐揚げ粉を使って唐揚げにした（セミだけでは足りないのが分かっていたので、ついでに鶏の唐揚げを作っていた）。&lt;/p&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/cicada/flied.jpg&#34; width=&#34;50%&#34;&gt;
+&lt;p&gt;ただ、残念なことに、エビなどと同じく、セミもかなり淡白な味なのか、濃い味付けの唐揚げ粉に負けてしまっている感じがした。&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;「セミを食べる」という貴重な経験をすることはできたが、決して満足がいく内容ではなかった。
+次回以降に備えて、以下に注意したいと思う。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;事前にセミが取れそうな場所を調査しておく&lt;/li&gt;
+&lt;li&gt;セミ捕りや羽化に時間がかかるため、余裕を持って行動する。終電は諦める&lt;/li&gt;
+&lt;li&gt;セミの味を生かした調理を行う。素揚げが良さそう&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「データ指向プログラミング」読了</title>
+      <link>https://t45k.github.io/blog/data_oriented_programming/</link>
+      <pubDate>Sat, 01 Jul 2023 19:17:51 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/data_oriented_programming/</guid>
+      <description>&lt;p&gt;データ指向プログラミングを読んだ。&lt;/p&gt;
+&lt;p&gt;本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと
+参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。&lt;/p&gt;
+&lt;p&gt;イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、
+それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。
+が、内容としてはかなりがっかりした。&lt;/p&gt;
+&lt;p&gt;本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。
+つまり&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;Hoge&lt;/span&gt;(fuga: Int, piyo: String)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;val&lt;/span&gt; hoge = Hoge(0, &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;を&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;val&lt;/span&gt; hoge = mapOf(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;fuga&amp;#34;&lt;/span&gt; to 0,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;piyo&amp;#34;&lt;/span&gt; to &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;で書こうという内容だった。
+この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。&lt;/p&gt;
+&lt;p&gt;書籍内でもこのことについて触れられていて、以下のように紹介されていた。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;OOP&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;DOP&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;安全性&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;高い&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;低い&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;柔軟性&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;低い&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;高い&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;汎用性&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;低い&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;高い&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;これは各要素を&amp;quot;高い&amp;quot;、&amp;ldquo;低い&amp;quot;のboolで表現しているDOPが良さそうに見えるだけで、
+点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた
+（また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。&lt;/p&gt;
+&lt;p&gt;その他の感想:&lt;/p&gt;
+&lt;p&gt;+ JSON Schema便利そう&lt;br&gt;
++ データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い&lt;br&gt;
++ 汎用的な関数を作るという考え方は良さそう&lt;/p&gt;
+&lt;p&gt;- 複雑なJSON Schemaを書こうとすると辛そう。OOPならSpecificationパターンとか使える&lt;br&gt;
+- 色んなところでJSON Schema Validationが挟まりそう&lt;br&gt;
+- ポリモーフィズムで、実装忘れを静的に検知できないのが辛い&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=20896748&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F9797%2F9784798179797_1_33.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;データ指向プログラミング [ Yehonathan Sharvit ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,960円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2023/7/1時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17434107%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2年勤めた楽天を退職した話</title>
+      <link>https://t45k.github.io/blog/farewell_rakuten/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/farewell_rakuten/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_osaka_office.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2023年6月末をもって楽天グループ株式会社（大阪支社）を退職する運びとなりました。
+2021年4月に新卒として入社したので、2年3ヶ月在籍したことになります。&lt;/p&gt;
+&lt;h2 id=&#34;なぜ入社したか&#34;&gt;なぜ入社したか&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/rakuten/&#34;&gt;学生の時に参加したインターン&lt;/a&gt;が楽しかったというのが最大の理由です。&lt;/p&gt;
+&lt;p&gt;また、日本最大級のサービスを提供している、英語で仕事できるという点に面白みを感じましたし、
+カフェテリアが無料というのも魅力的でした。&lt;/p&gt;
+&lt;h2 id=&#34;どんな会社だったか&#34;&gt;どんな会社だったか&lt;/h2&gt;
+&lt;h3 id=&#34;技術&#34;&gt;技術&lt;/h3&gt;
+&lt;p&gt;大小様々なサービスを展開しているので、大規模なサービスで専門的なスキルをつけることも、
+比較的小規模なサービスでフロントからインフラまでフルスタックで面倒を見ることも選択できます。&lt;/p&gt;
+&lt;p&gt;新しいサービスが立ち上がることも少なくないので、立ち上げから関わることもできます。&lt;/p&gt;
+&lt;p&gt;また、楽天はプライベートクラウド&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;を持っているため、クラウドの運用側を覗けるのも大企業ならではの面白さではと思います。
+パブリッククラウドと比較して格安で使えるので、実際に動かしながらk8sを学ぶこともできます。&lt;/p&gt;
+&lt;h3 id=&#34;人材&#34;&gt;人材&lt;/h3&gt;
+&lt;p&gt;多様な国籍の人達と働けます。
+外国人と雑談し、お互いのバックグラウンドを理解し合うのは面白かったです。&lt;/p&gt;
+&lt;p&gt;外国人特有の飲み会の騒がしさも好きでした。&lt;/p&gt;
+&lt;h3 id=&#34;福利厚生&#34;&gt;福利厚生&lt;/h3&gt;
+&lt;p&gt;結構充実していると思います。&lt;/p&gt;
+&lt;p&gt;何といっても、カフェテリアが朝昼晩無料で利用できるのは強いと感じました。&lt;/p&gt;
+&lt;p&gt;また、二子玉川の本社だと、ジムや託児所も備え付けられているそうです。&lt;/p&gt;
+&lt;p&gt;現在、週3回程度の出社が義務付けられていますが、僕は顔を合わせて仕事をするのが好きなので、これは歓迎でした
+（もちろん、家族や健康などの理由があると出社は免除されます）。&lt;/p&gt;
+&lt;h2 id=&#34;何をしたか&#34;&gt;何をしたか&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://car.rakuten.co.jp/&#34;&gt;楽天Car&lt;/a&gt;というサービスを担当していました。&lt;/p&gt;
+&lt;p&gt;新機能の実装だけでなく、CIの導入、オンプレからk8sへの移行など幅広くやっていました。&lt;/p&gt;
+&lt;p&gt;その他、&lt;a href=&#34;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&#34;&gt;短期インターンのメンター&lt;/a&gt;をしたり、
+社内LTに参加したり、&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2023_spring/&#34;&gt;登壇&lt;/a&gt;したりもできました。&lt;/p&gt;
+&lt;p&gt;また、この職場でSpock&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;を知ることができたのはとても良かったです。&lt;/p&gt;
+&lt;h2 id=&#34;むすび&#34;&gt;むすび&lt;/h2&gt;
+&lt;p&gt;楽天では良い上司、先輩、同期、後輩に恵まれました。この場を借りてお礼申し上げます。
+僕は人間関係の大部分が会社に依存しているので、退職はシンプルに寂しいです。&lt;/p&gt;
+&lt;p&gt;この2年間で幅広くチャレンジさせてもらえて、様々なことを学べました。
+ファーストキャリアに楽天を選んで良かったなと思います。&lt;/p&gt;
+&lt;p&gt;次のキャリアでは、エンジニアの実力を伸ばすことに注力できる環境でチャレンジしていきます。&lt;/p&gt;
+&lt;p&gt;最後に、楽天モバイルの成功を心からお祈りしております。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://xtech.nikkei.com/atcl/nxt/column/18/00001/07478/&#34;&gt;https://xtech.nikkei.com/atcl/nxt/column/18/00001/07478/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://spockframework.org/&#34;&gt;https://spockframework.org/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JJUG CCC 2023 Springで登壇した話</title>
+      <link>https://t45k.github.io/blog/jjug_ccc_2023_spring/</link>
+      <pubDate>Mon, 05 Jun 2023 19:48:46 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/jjug_ccc_2023_spring/</guid>
+      <description>&lt;p&gt;2023年6月4日日曜日に開催された&lt;a href=&#34;https://sessionize.com/api/v2/y7inyq6y/view/GridSmart&#34;&gt;JJUG CCC 2023 Spring&lt;/a&gt;で人生初の登壇をしてきました！
+めっちゃ緊張した&amp;hellip;&lt;/p&gt;
+&lt;p&gt;写真はもらったノベルティの数々。&lt;/p&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;h3 id=&#34;jjugとは&#34;&gt;JJUGとは&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2022_fall/&#34;&gt;https://t45k.github.io/blog/jjug_ccc_2022_fall/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;登壇&#34;&gt;登壇&lt;/h3&gt;
+&lt;p&gt;業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。
+JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。&lt;/p&gt;
+&lt;p&gt;当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。
+発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。&lt;/p&gt;
+&lt;p&gt;登壇資料は、会社のSlideShareに上げてあります。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.slideshare.net/rakutentech/jenkinsintellij-idea&#34;&gt;https://www.slideshare.net/rakutentech/jenkinsintellij-idea&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;余談ですが、僕の登壇は会社の方には知られていなかったようです。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;俺の登壇、会社に認知されてへんくて草&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1665175461436215297?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;弊社のブース&#34;&gt;弊社のブース&lt;/h3&gt;
+&lt;p&gt;他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;こんにちは、楽天採用情報部です。&lt;br&gt;JJUG CCC 2023 Springは本日開催です！&lt;br&gt;本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。&lt;br&gt;現地にいらっしゃることができない方は、是非記事をご覧ください。&lt;br&gt; &lt;a href=&#34;https://t.co/HXrvahCBs0&#34;&gt;https://t.co/HXrvahCBs0&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rakuten?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rakuten&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#java&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/engineer?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#engineer&lt;/a&gt;&lt;/p&gt;&amp;mdash; 楽天採用情報（C&amp;amp;Mカンパニー開発部門） (@rhack_commerce) &lt;a href=&#34;https://twitter.com/rhack_commerce/status/1665156452988882944?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。
+ありがとうございます。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;楽天お買い物パンダと握手できるのは &lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; だけ！ &lt;a href=&#34;https://t.co/kvqyF3kblB&#34;&gt;pic.twitter.com/kvqyF3kblB&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山本ユースケ (@yusuke) &lt;a href=&#34;https://twitter.com/yusuke/status/1665236778679250944?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;その他&#34;&gt;その他&lt;/h3&gt;
+&lt;p&gt;今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。&lt;/p&gt;
+&lt;p&gt;GMOさんはクイズを企画されていました。
+普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。
+また、JAVAティーをいただきました。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;サムライズムさんもいらっしゃいました。
+個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。
+また、IntelliJ IDEAとKotlinのステッカーをいただきました。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;他の方のセッションも聴講しました。
+印象に残ったのはEdson Yanagaさんの&amp;quot;Revisiting Design Patterns after 20&amp;quot;です。
+YanagaさんはGoogleに勤めているJava Championの方です。
+セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。
+また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マージでこのセッション良かったな&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1665283888728641537?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;謝辞&#34;&gt;謝辞&lt;/h3&gt;
+&lt;p&gt;今回の登壇に際して様々な方のお世話になったので、この場をお借りして謝辞を述べたいと思います。&lt;/p&gt;
+&lt;p&gt;まずはJJUG CCCの運営の方々。おかげで楽しく有意義な時間を過ごせました。&lt;/p&gt;
+&lt;p&gt;弊社。行き帰りの交通費と宿代を負担していただきました。これがなければ現地参加は難しかったかもしれません。&lt;/p&gt;
+&lt;p&gt;チームメンバー。忙しい中、資料作成に時間を割くことを許してもらいました。迷惑をかけました。&lt;/p&gt;
+&lt;p&gt;そして、今回登壇してみようと思えたのも、&lt;a href=&#34;https://twitter.com/bufferings&#34;&gt;@bufferings&lt;/a&gt;さんと&lt;a href=&#34;https://twitter.com/takacyk&#34;&gt;@takacyk&lt;/a&gt;さんのおかげでした。
+ありがとうございました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>東日本近似的一周旅行に行った話</title>
+      <link>https://t45k.github.io/blog/east_japan_touring/</link>
+      <pubDate>Tue, 16 May 2023 16:19:38 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/east_japan_touring/</guid>
+      <description>&lt;p&gt;西日本編は&lt;a href=&#34;https://t45k.github.io/blog/tour_day1/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まとまった休みを取ったので、一週間半くらいかけ本州最北端である大間崎までバイクで行って帰ってた。
+最終的に五日間で2,600km走った。&lt;/p&gt;
+&lt;h2 id=&#34;一日目&#34;&gt;一日目&lt;/h2&gt;
+&lt;p&gt;出発。とりあえず行きは日本海側から向かうことにした。&lt;/p&gt;
+&lt;p&gt;昼は金沢の金沢まいもん寿司で高いセットを食べた。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kanazawa_sushi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;石浦神社に安全を祈願しに行った。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ishiura_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;そのまま高速で北上して富山の宇奈月温泉へ。
+晩ご飯はホテルのビュッフェ。&lt;/p&gt;
+&lt;h2 id=&#34;二日目&#34;&gt;二日目&lt;/h2&gt;
+&lt;p&gt;朝ご飯もホテルのビュッフェ。&lt;/p&gt;
+&lt;p&gt;お昼は新潟で燕三条ラーメン。
+背脂チャッチャ系で旨い。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tsubame_sanjo_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;その足で弥彦神社に行った。
+ここは二礼四拍手一礼で参拝するという結構珍しい神社だった。
+こういう大きめの神社は、鳥居から社までの道も神聖な感じがして良かった。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/yahiko_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;そのまま下道で山形を通り越して秋田の田沢湖温泉へ。
+途中まで日本海パークラインを、佐渡島を眺めながら走っていた。
+距離があったのでだいぶ遅くなった + 北の方ということで、とても寒かった。
+大阪にいた時の気温しか想定していなかったので大分薄着だったのが災いした。
+本当に辛かった。&lt;/p&gt;
+&lt;h2 id=&#34;三日目&#34;&gt;三日目&lt;/h2&gt;
+&lt;p&gt;秋田の山を越えて青森に入る。
+秋田の山はまだ雪が残っていて辛かった。&lt;/p&gt;
+&lt;p&gt;青森に入ってすぐにスウェットパーカーを買った。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/akita_mountain.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;青森では煮干しラーメンを食す。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/niboshi_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;廣田神社に参拝した。
+ここは疫病の神様を祀ってあるとかなんとか。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/hirota_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;そのまま浅虫温泉で一泊。&lt;/p&gt;
+&lt;h2 id=&#34;四日目&#34;&gt;四日目&lt;/h2&gt;
+&lt;p&gt;予定通り大間崎へ向かう。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/omazaki.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;大間はマグロの漁獲量が日本一なので、昼飯にマグロ丼を食べる。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/magurodon.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;そのまま下道を走って岩手へ。
+岩手では盛岡冷麺を頂く。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/morioka_remen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;そのまま瀬美温泉へ。&lt;/p&gt;
+&lt;h2 id=&#34;五日目&#34;&gt;五日目&lt;/h2&gt;
+&lt;p&gt;翌日から二、三日雨が降るとのことだったので、この日中に大阪に帰ろうとする。
+その距離1,000km。&lt;/p&gt;
+&lt;p&gt;朝5:45に出発。
+途中のSAで朝飯を取ったり、休憩したりしながら南下する。&lt;/p&gt;
+&lt;p&gt;静岡で一旦高速を降りて、さわやかでハンバーグを食べる。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sawayaka.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;そのまま再び高速に乗って大阪へ。
+20:00ごろに到着し、今回のツーリング終了。&lt;/p&gt;
+&lt;h2 id=&#34;振り返り&#34;&gt;振り返り&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;高速を使ったのは初日と最終日だけで、後は下道だった。田舎は下道でも十分走りやす行くて、かつ下道の方が楽しいし楽。&lt;/li&gt;
+&lt;li&gt;寒さ、暑さ対策は必要。&lt;/li&gt;
+&lt;li&gt;天気はどうしようもない。雨の中でも走れる装備を用意した方が良かった。&lt;/li&gt;
+&lt;li&gt;高速道路で80km/hで走ると大分楽だった &amp;amp; 燃費が良い。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「ソフトウェア見積もり」読了</title>
+      <link>https://t45k.github.io/blog/software_estimation/</link>
+      <pubDate>Mon, 27 Mar 2023 22:28:20 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/software_estimation/</guid>
+      <description>&lt;p&gt;Steve McConnellの「ソフトウェア見積もり」を読んだ。&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=11917813&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F8910%2F89100522.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;ソフトウェア見積り 人月の暗黙知を解き明かす [ スティーヴ・マコネル ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,740円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2023/3/27時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;普段の業務では特に締め切りが存在せず、スケジュールを意識してプロジェクトをやることがあまりないので、
+自分で見積もりをやってみたいなぁと思ったのがきっかけ。&lt;/p&gt;
+&lt;p&gt;内容は一プログラマから専門家のためのものまで多岐に渡るが、現場で使える知識の提供に一貫している。&lt;/p&gt;
+&lt;p&gt;ところどころ読み飛ばしたが、特に参考になったトピックは以下の通り&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;範囲で見積もる&lt;/li&gt;
+&lt;li&gt;最初の方の見積もりほどブレる&lt;/li&gt;
+&lt;li&gt;「判断」より「計測」と「計算」が重要&lt;/li&gt;
+&lt;li&gt;過去のプロジェクトから見積もる&lt;/li&gt;
+&lt;li&gt;規模で見積もる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本自体は20年前近くのものなので、スクラムについては触れられていないが、反復的な開発に関する言及はある。&lt;/p&gt;
+&lt;p&gt;とりあえずラフなところから試してみたいなと思った。&lt;/p&gt;
+&lt;p&gt;あと、参考文献としてTSEとかISTとかの論文を引いてるのは凄い。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>シン・仮面ライダーを見た話</title>
+      <link>https://t45k.github.io/blog/shin-kamen-rider/</link>
+      <pubDate>Sun, 19 Mar 2023 15:45:40 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/shin-kamen-rider/</guid>
+      <description>&lt;p&gt;シン・仮面ライダーを見たので感想。&lt;/p&gt;
+&lt;p&gt;本当に半年以上待った作品だったが、かなりの怪作だったので結構呆気に取られている。&lt;/p&gt;
+&lt;h2 id=&#34;良かった点&#34;&gt;良かった点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;過剰なまでの原作リスペクト。
+&lt;ul&gt;
+&lt;li&gt;特にクモオーグ戦。ほとんどテレビ版の1話。&lt;/li&gt;
+&lt;li&gt;変身シーンも。&lt;/li&gt;
+&lt;li&gt;ちゃんとショッカーライダーも出てきた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;カッコ良い変身シーンと戦闘シーン。
+&lt;ul&gt;
+&lt;li&gt;主にジャンプアクションとライダーキック。&lt;/li&gt;
+&lt;li&gt;本当に震えた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;仮面ライダーが人間ならざる物になってしまったことに対する葛藤をしっかり描いていたところ。
+&lt;ul&gt;
+&lt;li&gt;テレビ版だとナレーションで流されたりしてたので。&lt;/li&gt;
+&lt;li&gt;庵野はこの辺をやりたかったんやろうなぁと。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;令和らしい本郷猛。&lt;/li&gt;
+&lt;li&gt;一文字隼人の良い意味での性格の軽さ。&lt;/li&gt;
+&lt;li&gt;ちゃんとおやっさんと滝が出てきた。&lt;/li&gt;
+&lt;li&gt;綺麗なラスト。&lt;/li&gt;
+&lt;li&gt;浜辺美波。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;微妙だった点&#34;&gt;微妙だった点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;シナリオはちょい微妙か。
+&lt;ul&gt;
+&lt;li&gt;未だに人類補完計画が擦られてる。&lt;/li&gt;
+&lt;li&gt;一般ウケするのはシンゴジ &amp;gt; シンマン &amp;gt; シンライダーかな。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;本郷猛の性格は原作好きだと受け入れられない人もいそう。&lt;/li&gt;
+&lt;li&gt;CG。個人的にはちょっとがっかりした。&lt;/li&gt;
+&lt;li&gt;若干スプラッタ。&lt;/li&gt;
+&lt;li&gt;下級戦闘員との戦闘シーンが少ない。
+&lt;ul&gt;
+&lt;li&gt;クモオーグ戦みたいなのをもうちょい見たかった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;総合&#34;&gt;総合&lt;/h2&gt;
+&lt;p&gt;少なくとも庵野秀明か初代仮面ライダーのどちらかが好きじゃないと楽しめないかも。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「ちょうぜつソフトウェア開発入門」読了</title>
+      <link>https://t45k.github.io/blog/chozetsu_software_design_introduction/</link>
+      <pubDate>Sun, 12 Feb 2023 16:42:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/chozetsu_software_design_introduction/</guid>
+      <description>&lt;p&gt;ひさてるさん著の「ちょうぜつソフトウェア開発入門」を読んだ。
+ひさてるさんは Twitter で「#ちょうぜつエンジニアめもりーちゃん」のハッシュタグで不定期に漫画を投稿している人で、そのシニカルな内容が個人的には気に入っている。&lt;/p&gt;
+&lt;p&gt;副題に「PHP で理解するオブジェクト指向の活用」とある通り、サンプルコードは PHP で書かれている。
+内容は、Clean Architecture と TDD に対するひさてるさんの解釈という感じがした。
+また、オブジェクト指向それ自体に意味はなく、それを活用した得られるもの（SOLID、CA、TDD）が大事なのだと述べている。&lt;/p&gt;
+&lt;p&gt;こういう著者の考えがダイレクトに出る本は、読み物としても楽しめるので良いなと感じた。
+また、最終章の「アジャイル開発」は必読。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「読みやすいコードのガイドライン」読了</title>
+      <link>https://t45k.github.io/blog/readable_code_guideline/</link>
+      <pubDate>Sun, 12 Feb 2023 16:23:45 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/readable_code_guideline/</guid>
+      <description>&lt;p&gt;LINE に勤めている石川さんが書いた「読みやすいコードのガイドライン」を読んだ。
+副題の「持続可能なソフトウェア開発のために」に完全に同意。
+継続的なソフトウェア開発には読みやすいコードが必須。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://books.rakuten.co.jp/rb/17283015/?l-id=search-c-item-text-01&#34;&gt;https://books.rakuten.co.jp/rb/17283015/?l-id=search-c-item-text-01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「リーダブルコード」などと比べて、少し突っ込んだ内容が多いような印象。
+状態遷移や依存関係などの内容は、コードを書き始めたばかりの人には難しいかもしれないが、個人的にはとても勉強になった（特に 7 種類の結合度については初耳だった）。
+コードレビューの仕方やコメントの書き方といった、取り上げられている書籍がとても少ない（と思う）事柄についても触れられていて、一読の価値があると感じた。
+これらに関してはかなり現場に依存するので完全に同じことをするのは難しそうだが、こういう感じでやってて上手く回っているんだなぁと感じた。&lt;/p&gt;
+&lt;p&gt;内容自体もコンパクトにまとまっており、読みやすかった。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「Death Stranding」をプレイした話</title>
+      <link>https://t45k.github.io/blog/death_stranding/</link>
+      <pubDate>Sat, 28 Jan 2023 17:16:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/death_stranding/</guid>
+      <description>&lt;p&gt;Epic でセールになってた Death Stranding（以降、デススト）をクリアしたので感想を書きます。&lt;/p&gt;
+&lt;h2 id=&#34;デスストとは&#34;&gt;デスストとは&lt;/h2&gt;
+&lt;p&gt;デスストは 2019 年に PS4 向けに発売されたゲームです。
+現在では完全版であるディレクターズカット版が PS5、PC 向けにも出ています。&lt;/p&gt;
+&lt;p&gt;制作はメタルギアシリーズを作った小島監督率いるコジマプロダクションであり、
+小島監督が KONAMI から独立した後、初めて作ったゲームでもあります。&lt;/p&gt;
+&lt;p&gt;自分は MGS シリーズが好きで（1~5、PW、MPO 辺りはプレイした）、
+その小島監督が作った新作ということで発売当初からデスストに注目していましたが、
+PS4 を持っておらず遊ぶことができないままでした。
+しかし今回 Epic Store で無料セールをやっていたため、プレイするに至りました。&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;最高でした。
+久々にストーリーがしっかりしたアクションゲームをやったのですが（2015 年の MGS5 以来？）、
+やはりストーリーがあるゲームは先に進みたいと思わせる強い中毒性があるなと再認識しました。
+夜更かしからの寝坊が増えました。&lt;/p&gt;
+&lt;p&gt;荷物を運ぶことがメインのゲームなので人によっては退屈に思うかもしれませんが、自分は最後まで楽しむことができました。
+広大なオープンワールドでルートを考えたり、アイテムを使って有利に進めたり、他の人の建設物を使うことで繋がりを感じたり、多くのことができます。&lt;/p&gt;
+&lt;p&gt;ストーリーを進めるにつれ、配達を楽にするアイテムが公開されていくので、できることの幅が広がっていくのを楽しめました。
+特に、アクティブスケルトンを初めて装着した時は、その快適さに感動しました。&lt;/p&gt;
+&lt;p&gt;荷物の配達がメインなのでそこまで多くの武器は出てこないだろうなと思っていましたが、想像以上にガンアクションが多かったです。
+ただし、狙うキーとトリガーキーが他のキーと重複しているので、設定は事前にいじっておいた方が良さそうです。&lt;/p&gt;
+&lt;p&gt;初見のうちはやることが多くて面食らいました。
+特に、BT の座礁地帯に入った時はしゃがみと歩きと息止めを同時にやっていたので指がこんがらがりました。&lt;/p&gt;
+&lt;p&gt;MGS5 と同じ Fox Engine が使われているため、ところどころ MGS5 で見たことがある表現が出てきました。
+時雨で荷物が劣化していくときのエフェクト、BT の座標地帯に乗り込んだときの時間停止等。
+また、ボス戦では MGS5 でのスカルズの白刃どりや、MGS4 の殴り合いみたいなアクションもあり、懐かしかったです。&lt;/p&gt;
+&lt;p&gt;ノーマンリーダスがカッコよかった。&lt;/p&gt;
+&lt;iframe src=&#34;https://store.steampowered.com/widget/1850570/665843/&#34; frameborder=&#34;0&#34; width=&#34;646&#34; height=&#34;190&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WF-1000XM4を修理に出した話</title>
+      <link>https://t45k.github.io/blog/wf-1000xm4_repair/</link>
+      <pubDate>Sat, 14 Jan 2023 17:56:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/wf-1000xm4_repair/</guid>
+      <description>&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+&lt;p&gt;WF-1000XM4 の「片方（右側？）だけ異様に充電が減る」問題は、保証期限切れでも無料で新品に交換してもらえる。&lt;/p&gt;
+&lt;h2 id=&#34;購入した時期&#34;&gt;購入した時期&lt;/h2&gt;
+&lt;p&gt;MNG した写真の日付を見た限り 2021 年の 8 月末に購入。
+ヨドバシで買ったが、保証期間の延長等はしていなかった。&lt;/p&gt;
+&lt;h2 id=&#34;症状&#34;&gt;症状&lt;/h2&gt;
+&lt;p&gt;イヤホンの右側だけ異様に充電が切れるのが早い。
+具体的には、3、40 分程度で 100%から 0%になる。
+ちなみに、左側は 80%程度残っている。&lt;/p&gt;
+&lt;p&gt;くわえて、どれだけ充電しても 90%までしか充電されない問題も頻繁に起きた（左右問わず）。&lt;/p&gt;
+&lt;p&gt;大体 2022 年の秋ごろからこの問題が見られるようになってきた。
+症状が出始めた時点で保証期間は過ぎていたので、しばらく様子見をしていた。&lt;/p&gt;
+&lt;h2 id=&#34;対処法&#34;&gt;対処法&lt;/h2&gt;
+&lt;p&gt;同様の問題がないか検索してみたところ、わりかし多くのユーザも同じ症状を抱えていたため、修理を依頼することに決めた。
+SONY では、修理希望者向けのチャットボットを用意しているので、そこ経由から修理を依頼した。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sony.jp/support/inquiry.html&#34;&gt;https://www.sony.jp/support/inquiry.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本来であれば修理費は 1 万円程度だが、SONY 側もこの問題を認識しているらしく、
+一度 SONY が預かり、無料修理対象であれば無償で、そうでなければ修理費を依頼者に伝えた上で修理するかを決めるという流れらしい。&lt;/p&gt;
+&lt;p&gt;イヤホン回収は SONY が回収サービスを手配してくれるため、回収業者が来たらイヤホンをケース込みで渡すだけで良かった。&lt;/p&gt;
+&lt;h2 id=&#34;結果&#34;&gt;結果&lt;/h2&gt;
+&lt;p&gt;無事無料修理対象だったらしく、イヤホンが SONY に届いてから 2 日ほどで修理が完了し、本日返ってきた。
+回収に来てから 1 週間ほど。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;ということで、同様の問題を抱えている方は一度修理に出してみればと思う。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2022年の振り返り</title>
+      <link>https://t45k.github.io/blog/retrospective_2022/</link>
+      <pubDate>Sat, 31 Dec 2022 09:39:23 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/retrospective_2022/</guid>
+      <description>&lt;p&gt;2022年を振り返る。&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;楽しく仕事ができた。
+特に、チーム内でやっていることをチーム外に啓蒙するという活動をしてて、それが評価されたという感じ。&lt;/p&gt;
+&lt;p&gt;先輩、後輩とのつながりも増えて申し分ない1年間だった。&lt;/p&gt;
+&lt;h2 id=&#34;仕事&#34;&gt;仕事&lt;/h2&gt;
+&lt;h3 id=&#34;1月----3月&#34;&gt;1月 &amp;ndash; 3月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;主にインターンのメンターとJenkinsおじさんをやってた&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;インターンのメンターは、インターンの子が超絶優秀だったのであまりやることがなかった。
+&lt;ul&gt;
+&lt;li&gt;逆に色々教えてもらえて良かった。&lt;/li&gt;
+&lt;li&gt;リリースが間に合わなかったのはシンプルに申し訳なかった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JenkinsはIaaS環境に載せてたJenkinsがあまりにも使い物にならなくなってきたので、k8s環境に載せ替えた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;- 一つのコンテナに全ての機能を突っ込む&lt;br&gt;- コンテナにcredentialを突っ込む&lt;br&gt;&lt;br&gt;みたいなカスみたいなアンチパターンから、&lt;br&gt;&lt;br&gt;- 機能ごとにコンテナを分割して、ポートで通信する&lt;br&gt;- credentialはコンテナに持たせず、都度Jenkins側から渡す&lt;br&gt;&lt;br&gt;に改善できて良い&lt;/p&gt;&amp;mdash; task@血圧・尿酸 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1496688678546321409?ref_src=twsrc%5Etfw&#34;&gt;February 24, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;ul&gt;
+&lt;li&gt;個人的には大満足なマイグレーション。&lt;/li&gt;
+&lt;li&gt;ちなみにこの話をこの1年間擦り続けてる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4月----6月&#34;&gt;4月 &amp;ndash; 6月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;この辺りから、趣味で他のチームのコードレビューにも参加するようになる。
+&lt;ul&gt;
+&lt;li&gt;啓蒙活動。&lt;/li&gt;
+&lt;li&gt;特に汚いソースコードに関してコメントすることが多かった。この辺は個人の思想の押し付けになってたかも。&lt;/li&gt;
+&lt;li&gt;最終的に綺麗なソースコードを書こうとしても設計が崩壊してると終わりなことに気づいた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7月----9月&#34;&gt;7月 &amp;ndash; 9月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Java8環境に耐えきれなくなり、Java17にアプデするプロジェクトを勝手に立ち上げる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDMに話通して、スケジュール設定 → 実装 → テスト → リリースまでを自分でできたのは良い経験だったなと。&lt;/li&gt;
+&lt;li&gt;終わった後にLT会でナレッジを共有したり、他のチームのJava17導入に噛んだりできて良かったなと。&lt;/li&gt;
+&lt;li&gt;チームに自動E2Eテストを書く文化が根付いていたので、マイグレーションがかなりやりやすかった。ありがたい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;夏のインターンのメンター&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1週間&lt;/li&gt;
+&lt;li&gt;自分も夏のインターンからの採用だったので、その辺も踏まえて会社に貢献できたらという気持ち。&lt;/li&gt;
+&lt;li&gt;どっちかというと1日の終わりのレビューがメインのお仕事でした。&lt;/li&gt;
+&lt;li&gt;最終的に優勝してた。すごい。&lt;/li&gt;
+&lt;li&gt;その辺の話はこちら&lt;br&gt;
+&lt;a href=&#34;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&#34;&gt;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;以降、インターン経験者かつメンターで優勝みたいな経歴もあって新卒向けイベントみたいなのに呼ばれる機会が増えた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10月----12月&#34;&gt;10月 &amp;ndash; 12月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;複数チームにまたがって改善活動をやっていこうぜ的なチームが発足。
+-「自チームの改善」 + 「コードレビューを通した他チームへの貢献」みたいなところに目をつけれられて、そのチームに放り込まれる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他のチームの人と議論したり、自分がやった改善活動の横展みたいなことをしてた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;これまでやってきたことが認められて昇格。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特別昇格扱いだとかなんとか。&lt;/li&gt;
+&lt;li&gt;ほとんど残業せずに昇格できたので、コスパ良かったなぁと。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;他のチームに2ヶ月弱移籍。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他のチームのサービスも知っておいた方が良いという上の方針で。&lt;/li&gt;
+&lt;li&gt;100%英語での仕事だったので大変だった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;人間関係&#34;&gt;人間関係&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;出社が増えて、社内の人たちと仲良くなった。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特に、会社が晩御飯の提供を始めてから、三食同期と一緒に食べる機会が多かったのが良かった。&lt;/li&gt;
+&lt;li&gt;後輩が入ってきた。今のところ仲良くしてもらってる。
+&lt;ul&gt;
+&lt;li&gt;ライブとかクラブとかに引きずり回されたそれはそれで良かった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;年が近い先輩と飲みに行く機会が何回かあって楽しかった。&lt;/li&gt;
+&lt;li&gt;他のチームのよく関わるメンバーと仲良くなれたのも大きかった。英語でのコミュニケーションも慣れてきたかも。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;社外の人間関係は特に変わらず。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プログラミング&#34;&gt;プログラミング&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JenkinsプラグインとかIntelliJプラグインみたいな、仕事で使えるプラグインを趣味の一環で使ってた。
+&lt;iframe width=&#34;384px&#34; height=&#34;319px&#34; src=&#34;https://plugins.jetbrains.com/embeddable/card/20589&#34;&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;li&gt;「Scala関数型デザイン&amp;amp;プログラミング」をやった。いわゆる純粋関数型プログラミングの思考をふんわりと理解した。
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=17383699&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7768%2F9784844337768.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;Scala関数型デザイン＆プログラミング Scalazコントリビューターによる関数型徹底ガイ （impress　top　gear） [ ポール・キウザーノ ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：4290円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/12/31時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;ISUCONに出た。Javaで頑張ったけどスコアが伸びなかったので、最終的に何もしていないRust実装を提出して終わった。&lt;/li&gt;
+&lt;li&gt;その他、Mockitoにバグ報告したり、IntelliJに機能修正パッチ投げたり。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;飲酒&#34;&gt;飲酒&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;去年と比較して、外に飲みに行く機会が増えた印象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先輩に誘ってもらったり。&lt;/li&gt;
+&lt;li&gt;会社で晩御飯を食べるようになってからは、その日のメニューが微妙だったら飲みに行ったりしてた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地酒を買う機会が増えた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特に難波エディオンでは有名な地酒を、阪急百貨店では地方の蔵元が直接売りに来る酒を買ったりしてた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;健康&#34;&gt;健康&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ついに血圧だけでなく尿酸値も基準値を突破し、無事再検査へ。&lt;/li&gt;
+&lt;li&gt;その他はまあぼちぼち。&lt;/li&gt;
+&lt;li&gt;ランニングする機会は減ったかも。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;バイク&#34;&gt;バイク&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;大型二輪の免許を取った。&lt;/li&gt;
+&lt;li&gt;夏休みに遠出する予定だったが、北陸の豪雨で道が無くなったりしてたらしいので断念。&lt;/li&gt;
+&lt;li&gt;11月に出雲大社に参拝。往復600km超を1日で走る。多分人生で一番長い。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;アニメ&#34;&gt;アニメ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;久々にリアタイでアニメを追うことをしてた。&lt;/li&gt;
+&lt;li&gt;パリピ孔明、リコリコ、ぼっち・ざ・ろっく、etc.&lt;/li&gt;
+&lt;li&gt;職場の先輩もアニメ好きで、アニメの話で盛り上がれるのが良い。&lt;/li&gt;
+&lt;li&gt;趣味の話をできる人が身近にいることが重要だなぁと改めて実感した。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;読書&#34;&gt;読書&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;月一くらいのペースで小説、技術書問わず何かしらを読むようにした。&lt;/li&gt;
+&lt;li&gt;今年読んでて一番ためになったのは「現場で役立つシステム設計の原則」かなぁ。
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/12/31時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;その他書評は&lt;a href=&#34;https://t45k.github.io/blog/&#34;&gt;ブログ&lt;/a&gt;に書いてます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;音楽&#34;&gt;音楽&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;年の初めは某動画の影響でRussian Hard Baseとか聴いてた。
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/1qzSagjh1ck&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;li&gt;年の終わりは某アニメの影響で八十八ヶ所巡礼を聴いてた。
+&lt;ul&gt;
+&lt;li&gt;「攻撃的国民的音楽」とかは比較的キャッチーで良い。
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/D90AOhojK3M&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;インスタを始めた。&lt;/li&gt;
+&lt;li&gt;スマホキャリアが楽天モバイルになった。
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;箕面山 vs 楽天モバイル　&lt;br&gt;&lt;br&gt;勝者、楽天モバイル（圏外にならなかったので） &lt;a href=&#34;https://t.co/8QedXGkSi7&#34;&gt;pic.twitter.com/8QedXGkSi7&lt;/a&gt;&lt;/p&gt;&amp;mdash; task@血圧・尿酸 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1513049757123448837?ref_src=twsrc%5Etfw&#34;&gt;April 10, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;li&gt;5年ぶりにコミケに現地参加した。第100回だったので。
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;ビッグサイトへ&lt;/p&gt;&amp;mdash; task@血圧・尿酸 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1558619249534349312?ref_src=twsrc%5Etfw&#34;&gt;August 14, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;li&gt;JJUGを聴講した。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JJUG CCC 2022 Fallに参加した話</title>
+      <link>https://t45k.github.io/blog/jjug_ccc_2022_fall/</link>
+      <pubDate>Sat, 03 Dec 2022 17:36:13 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/jjug_ccc_2022_fall/</guid>
+      <description>&lt;p&gt;2022 年 11 月 27 日日曜日に開催された JJUG CCC 2022 Fall に参加しました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jjug.doorkeeper.jp/events/143914&#34;&gt;リンク&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;jjug&#34;&gt;JJUG&lt;/h2&gt;
+&lt;p&gt;JJUG は&amp;quot;Japan Java User Group&amp;quot;を指します。
+日本最大の Java のコミュニティです。
+JJUG CCC は毎年 2 回、春と秋に開催されるイベントで、
+様々な参加者が Java に関する技術や事例などの紹介を行います。&lt;/p&gt;
+&lt;p&gt;参加者の中には、普段から Java コミュニティで活躍されていられる方も多くいらっしゃります。&lt;/p&gt;
+&lt;p&gt;今回僕は聴講側として参加しました。
+以下、参加したセッションとそれぞれの感想を書いていきます。&lt;/p&gt;
+&lt;h3 id=&#34;aws-環境における-spring-boot-アプリケーションの-cicd-を-circleci-で構築した話&#34;&gt;AWS 環境における Spring Boot アプリケーションの CI/CD を CircleCI で構築した話&lt;/h3&gt;
+&lt;p&gt;株式会社 Red Frasco の篠原さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/red_frasco/cdwocirclecidegou-zhu-sitahua&#34;&gt;https://speakerdeck.com/red_frasco/cdwocirclecidegou-zhu-sitahua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;現在開発中のサービスで、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CI/CD に Circle CI を&lt;/li&gt;
+&lt;li&gt;実行環境に AWS を&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;利用した事例について紹介されていました。&lt;/p&gt;
+&lt;p&gt;個人的には CI/CD に興味があったためこのセッションに参加しました。&lt;/p&gt;
+&lt;p&gt;Java (Spring) に関連した内容は少なかったですが、Circle CI で AWS にアプリをデプロイする際に注意すべきこと、おすすめの方法等を紹介されており、今後これらのシステムを使う際には参考になりそうだなと感じました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;path-filteringええな&lt;br&gt;Jenkinsにもないかな&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596672722070667264?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;バーチャルスレッド詳細&#34;&gt;バーチャルスレッド詳細&lt;/h3&gt;
+&lt;p&gt;Java コミュニティでよく名前を見かけるもちださんのセッションで、
+Java 19 でプレビュー版として導入されたバーチャルスレッドについて紹介されていました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mike-neck/jjug-ccc-2022-fall-web&#34;&gt;https://github.com/mike-neck/jjug-ccc-2022-fall-web&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;一つ前に参加したセッションとの時間の兼ね合いの都合上、後半から参加しました。
+VOICEROID(?)を用いた発表をされておりすごく印象的でした。&lt;/p&gt;
+&lt;p&gt;これまでのスレッド効率化の技術（Rx 等）と比較したバーチャルスレッドの利点や利用例の紹介がメインでした。
+最初から参加できなかったのが悔やまれました。
+一方で、生のスレッドを仕事で使うことは少ないので、どちらかというとフレームワーク作成者やその辺り向けの機能に聞こえました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;VirtualThreadで勝ちですわ&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596675949910626304?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;カード決済基幹システムレガシーの克服と無停止更改の挑戦&#34;&gt;カード決済基幹システム　レガシーの克服と無停止更改の挑戦&lt;/h3&gt;
+&lt;p&gt;GMO の羽鳥さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.gmo-pg.com/corp/newsroom/news/event/2022/1122.html&#34;&gt;https://www.gmo-pg.com/corp/newsroom/news/event/2022/1122.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;金融系システムのパフォーマンス改善のために、DB で行っていた処理を Redis に移行した事例と、
+そのプロジェクト中に起きた問題などの紹介をされていました。&lt;/p&gt;
+&lt;p&gt;そのシステムは、流量制御などの頻繁に更新される処理を RDB 上で行っており、
+それによるロックが原因でパフォーマンスの低下が著しかったそうです。
+個人的にも、そういったアトミック性が必要な処理を RDB で行うのはよくあるかなと思っており、
+初めのうちは良くても、後々大幅な改修が必要になるのは世の常だなぁと感じました。&lt;/p&gt;
+&lt;p&gt;また、システムを止めることはできないので、新しいアプリケーションと古いアプリケーションを並行で実行する必要があるのですが、
+その間で整合性をどう取るかなどは参考になりました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;こういうマイグレーション系の話、聞く分にはよくある話やなぁで終わってまうんやけど、やってる側からしたら語り尽くせんほどの苦労があったんやろうなぁっていうのが伺い知れる&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596688985161576448?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;line-news-における-java-移行の-5-年間の歩みとこれから&#34;&gt;LINE NEWS における Java 移行の 5 年間の歩みとこれから&lt;/h3&gt;
+&lt;p&gt;LINE の森藤さんによるセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/line_developers/five-years-of-java-migration-and-the-future-of-line-news&#34;&gt;https://speakerdeck.com/line_developers/five-years-of-java-migration-and-the-future-of-line-news&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LINE NEWS を Perl から Java に移行された話をされました。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;カード決済基幹システム　レガシーの克服と無停止更改の挑戦&amp;quot;のセッションと同時開催だったため 2 窓しました。
+そのため、あまり集中して話を聞けなかったのですが、
+言語移行の際に仕様を守りながら移行する大変さと、実際にリリースしてから負荷的な問題が露見した辺りが印象的でした。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc_a?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc_a&lt;/a&gt;&lt;br&gt;実際に負荷をかけてみてからじゃないと気づけない問題は怖い&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596690221873082369?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;コンテナ環境での-java-技術の進化&#34;&gt;コンテナ環境での Java 技術の進化&lt;/h3&gt;
+&lt;p&gt;富士通の数村さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nJJHSwywei0&#34;&gt;https://www.youtube.com/watch?v=nJJHSwywei0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;コンテナ環境に対する Java と Linux の話をされていました。&lt;/p&gt;
+&lt;p&gt;Java の場合、古い Java 8 ランタイムでは、
+コンテナ上ではリソースの情報が正しく取得できない問題などがあるようです。
+これを聞いて、Java のバージョンを更新するのが必要だと一層強く思いました。&lt;/p&gt;
+&lt;p&gt;後半では Linux のコンテナ環境への対応を話されていましたが、悲しいことにあまり理解できませんでした。
+動画は YouTube で公開されているため、時間があれば確認したいです。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マジでcontainerizationってゲームチェンジャーやったんやなって&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596712953792761857?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;java-開発ツールのあれこれ-便利そうなツールを色々集めてみた&#34;&gt;Java 開発ツールのあれこれ ～便利そうなツールを色々集めてみた～&lt;/h3&gt;
+&lt;p&gt;マトリックスの大城さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://parasoft.techmatrix.jp/jjug_ccc_2022_fall&#34;&gt;https://parasoft.techmatrix.jp/jjug_ccc_2022_fall&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;こういう便利ツール系の話は大好きなので、喜んで参加しました。&lt;/p&gt;
+&lt;p&gt;便利なツールの紹介は知っているものもあったり知らないものもあったりしたのですが、
+最後に、現在は更新が止まっているツールの紹介があったのが印象的でした。
+このようなツールでも様々な事情で開発が止まることがあることを考えると、
+仕事で使っている OSS に普段から興味を持ち、開発が止まっても自分たちで保守することを考えるべきなのかなぁと思いました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc_d?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc_d&lt;/a&gt; &lt;br&gt;悲しい&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596731653753253888?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;5-年ぶりのメジャーアップデート-spring-framework-6--spring-boot-3&#34;&gt;5 年ぶりのメジャーアップデート! Spring Framework 6 &amp;amp; Spring Boot 3&lt;/h3&gt;
+&lt;p&gt;槙さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ik.am/entries/715&#34;&gt;https://ik.am/entries/715&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;業務で利用しているので、Spring Framework のメジャーアップデートは大きな関心がありました。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Observability&lt;/li&gt;
+&lt;li&gt;Java Interface Client&lt;/li&gt;
+&lt;li&gt;Problem Details&lt;/li&gt;
+&lt;li&gt;AOT &amp;amp; Native&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;の四つの話題を提供されていましたが、1 つ目の Observability の話は一切理解できませんでした（おそらく監視に関する話）&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Java Interface Client は Interface を定義するだけで HTTP クライアントを利用できる昨日で、
+API 呼び出しに関するボイラープレートを大幅に減らせそうだなと感じました。&lt;/p&gt;
+&lt;p&gt;Problem Details は、API 呼び出し失敗の際のレスポンスボディを良い感じに書けるビルダーに関する機能だったと思います。
+そもそも、エラー時のレスポンスボディは RFC で定義されているらしいです（知らなかった）。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc_b?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc_b&lt;/a&gt; &lt;br&gt;エラーレスポンスって仕様決まってるんや&lt;/p&gt;&amp;mdash; task@血圧 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1596751143924686848?ref_src=twsrc%5Etfw&#34;&gt;November 27, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;red-hat-application-foundations-から学ぶアーキテクチャー入門&#34;&gt;Red Hat Application Foundations から学ぶアーキテクチャー入門&lt;/h3&gt;
+&lt;p&gt;Red Hat の瀬戸さんのセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/megascus/red-hat-application-fundationskaraxue-buakitekutiyaru-men&#34;&gt;https://speakerdeck.com/megascus/red-hat-application-fundationskaraxue-buakitekutiyaru-men&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;マイクロサービスにおける Red Hat（と Java EE）の活用方法のお話でした。
+Red Hat 製品にも Java EE にも疎いのであまり理解できなかったです。
+そもそも大規模な開発にも疎いというのもありそうですが。&lt;/p&gt;
+&lt;h3 id=&#34;maven-puzzlers&#34;&gt;Maven Puzzlers&lt;/h3&gt;
+&lt;p&gt;海外の方の英語のセッション。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.javasummitil.com/events/maven-puzzlers/&#34;&gt;https://www.javasummitil.com/events/maven-puzzlers/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Maven のビルドステップや依存関係の話でした。
+発表者が 2 人おられ、掛け合いながら発表されていたのが印象的でした。&lt;/p&gt;
+&lt;p&gt;英語のセッションなのと、朝からずっと発表を聞いていたのもあって、集中して聞けませんでした（残念）。
+これも動画が公開されているので、後ほど確認したいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;全体的な感想&#34;&gt;全体的な感想&lt;/h2&gt;
+&lt;p&gt;他の会社の方々がどのように Java を使っていて、どんな問題にぶつかったのかなどの話が聞けて良かったです。
+いつか、発表者側として参加してみたいと思いました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「現場で役立つシステム設計の原則」読了</title>
+      <link>https://t45k.github.io/blog/system_design_principle/</link>
+      <pubDate>Sun, 16 Oct 2022 19:33:26 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/system_design_principle/</guid>
+      <description>&lt;p&gt;現場で役立つシステム設計の原則を読んだ。&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/10/16時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;「ドメインモデルを設計して、それを中心にプログラミングしよう」という内容だった。&lt;/p&gt;
+&lt;p&gt;よく見かける依存性逆転の原則を中心としたオニオンアーキテクチャではなく、
+三層アーキテクチャ（コントローラ層、サービス層、データソース層）にドメインモデルを組み込む話を中心にしていたのが特徴的だった。
+現在自分のチームも三層アーキテクチャ+トランザクションスクリプト的な設計が主流になっていて、個人的には変更しづらさを感じていたので、この本で紹介されている方法を取り入れられれば良いなぁと感じた。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「達人が教えるWebパフォーマンスチューニング」読了</title>
+      <link>https://t45k.github.io/blog/web_perfomance_tuning/</link>
+      <pubDate>Sun, 16 Oct 2022 19:27:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/web_perfomance_tuning/</guid>
+      <description>&lt;p&gt;2022 年の ISUCON に備えて「達人が教える Web パフォーマンスチューニング」を読んだ。&lt;/p&gt;
+&lt;p&gt;内容としては、web サーバや DB の負荷計測からチューニングに関して、ISUCON で使えるテクから現場で活用できる技術まで紹介していた。
+パフォチュー経験がない状態で挑む ISUCON だったので、こういった本があってありがたかった。
+残念ながら十分な時間をとることができず、全ての内容を消化できなかったが、何となく何をしたら良いかわかるくらいには持っていけたのでよかった。
+なお、本番。&lt;/p&gt;
+&lt;p&gt;来年また読み直して、ISUCON に再挑戦したい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>競プロでKotlinを使わない理由</title>
+      <link>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</link>
+      <pubDate>Mon, 04 Jul 2022 22:38:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</guid>
+      <description>&lt;p&gt;仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。&lt;/p&gt;
+&lt;p&gt;ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。&lt;/p&gt;
+&lt;h2 id=&#34;ビット演算子がない&#34;&gt;ビット演算子がない&lt;/h2&gt;
+&lt;p&gt;多分これが一番大きい。&lt;/p&gt;
+&lt;p&gt;競プロではビット演算をする場面がたびたびある（ビット全探索とか）。&lt;/p&gt;
+&lt;p&gt;Java では&lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;や&lt;code&gt;|&lt;/code&gt;などが使えるが、Kotlin では&lt;code&gt;lhs&lt;/code&gt;や&lt;code&gt;or&lt;/code&gt;などの中置関数を使う必要があり、可読性が大きく下がる。&lt;/p&gt;
+&lt;h2 id=&#34;配列宣言が面倒臭い&#34;&gt;配列宣言が面倒臭い&lt;/h2&gt;
+&lt;p&gt;競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。&lt;/p&gt;
+&lt;p&gt;Java では&lt;code&gt;int[]&lt;/code&gt;のように宣言できるが、Kotlin では&lt;code&gt;Array&amp;lt;Int&amp;gt;&lt;/code&gt;のように宣言する必要がある。&lt;/p&gt;
+&lt;p&gt;また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。&lt;/p&gt;
+&lt;h2 id=&#34;null-チェックが厳しい&#34;&gt;null チェックが厳しい&lt;/h2&gt;
+&lt;p&gt;仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。&lt;/p&gt;
+&lt;p&gt;とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;!!&lt;/code&gt;演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（&lt;code&gt;!!&lt;/code&gt;演算子の利用に慣れたくない）。&lt;/p&gt;
+&lt;h2 id=&#34;トラディショナル-for-が使えない&#34;&gt;トラディショナル for が使えない&lt;/h2&gt;
+&lt;p&gt;Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。
+例えば、添字の&lt;code&gt;i&lt;/code&gt;を条件によって更新したりしなかったりする場合など。&lt;/p&gt;
+&lt;h2 id=&#34;暗黙の型変換がない&#34;&gt;暗黙の型変換がない&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;int&lt;/code&gt;と&lt;code&gt;long&lt;/code&gt;で足し算したり、&lt;code&gt;char&lt;/code&gt;同士の引き算の結果を&lt;code&gt;int&lt;/code&gt;にしたりするのが面倒臭い。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>シン・ウルトラマンを見た話</title>
+      <link>https://t45k.github.io/blog/shin-ultraman/</link>
+      <pubDate>Sun, 12 Jun 2022 15:48:22 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/shin-ultraman/</guid>
+      <description>&lt;p&gt;シン・ウルトラマンを 3 回も観てしまったので、感想を書き連ねておく。&lt;/p&gt;
+&lt;p&gt;全体的な感想としては、作り手（主に監修）が本当に自分が好きなものを詰め込んでいて、それがオタクに刺さりまくる感じ。&lt;/p&gt;
+&lt;p&gt;無印へのリスペクトがすごく、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 回目は無印マンを全然知らない状態で楽しむ&lt;/li&gt;
+&lt;li&gt;家に帰ってから関連する無印マンの情報を漁る&lt;/li&gt;
+&lt;li&gt;2 回目以降はその知識と比較しながら楽しむ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;みたいに 2 度美味しく頂ける。&lt;/p&gt;
+&lt;h2 id=&#34;ウルトラマン&#34;&gt;ウルトラマン&lt;/h2&gt;
+&lt;p&gt;今作のウルトマンは、無印マンと違って&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;カラータイマーがない&lt;/li&gt;
+&lt;li&gt;背びれがない&lt;/li&gt;
+&lt;li&gt;目の黒点がない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という特徴がある。&lt;/p&gt;
+&lt;p&gt;そもそも、本来のウルトラマンの造形にそれらはなく、単に放送上の制約で無印には付けざるを得なかったという事情がある
+（カラータイマーは白黒放送でも弱っていることを見せるため、背びれはファスナーを隠すため、目の黒点は覗き穴）。&lt;/p&gt;
+&lt;p&gt;今作では、庵野のこだわりから、本来のウルトラマンのデザインを表現できていると思った。
+色合いもマットなシルバーからメタリックなそれになっていて、こだわりを感じた。&lt;/p&gt;
+&lt;p&gt;また、弱ると色が薄くなるという表現も良かった。&lt;/p&gt;
+&lt;h2 id=&#34;ネロンガ戦&#34;&gt;ネロンガ戦&lt;/h2&gt;
+&lt;p&gt;スペシウム光線の威力がよく分かる回。&lt;/p&gt;
+&lt;p&gt;ちなみに、PV でここのスペシウム光線のシーンが取り上げられているが、この時点でウルトラマンのカラーリングは銀一色なため、
+実は PV のシーンは存在しない。&lt;/p&gt;
+&lt;h2 id=&#34;ガボラ戦&#34;&gt;ガボラ戦&lt;/h2&gt;
+&lt;p&gt;赤いウルトラマンが初めて出てくる。&lt;/p&gt;
+&lt;p&gt;冒頭の、飛行ポーズのまま降りてきてキックを決めるシーンはなかなかシュールだった。&lt;/p&gt;
+&lt;p&gt;着地からのいつものポーズ。&lt;/p&gt;
+&lt;p&gt;最後の正拳突きがキレイで少し感動した。誰がアクターやってたんだろう。&lt;/p&gt;
+&lt;p&gt;ちなみに無印では、襟（ドリルの部分）をむしり取るというなかなか暴力的なシーンがある。&lt;/p&gt;
+&lt;h2 id=&#34;ザラブ戦&#34;&gt;ザラブ戦&lt;/h2&gt;
+&lt;p&gt;ウルトラマン拉致が印象的な回。&lt;/p&gt;
+&lt;p&gt;ウルトラマン拉致や偽ウルトラマン、空中戦など無印リスペクトが盛りだくさん。
+特に、ザラブを思いっきりチョップするも硬くて痛がるシーンまで再現されている。&lt;/p&gt;
+&lt;p&gt;ザラブは、前半身の表面だけが見えており、そこ以外は透明な、なかなかフィギュア化が難しそうな見た目をしている。&lt;/p&gt;
+&lt;p&gt;電磁波を操る能力を持っているが、それを使わずに偽ウルトラマンで暴れてからの人類の同士討ちを狙うという、
+かなり回りくどい方法を取っているように思えた。&lt;/p&gt;
+&lt;p&gt;偽ウルトラマンは無印と比べてかなり似ているが、よく見ると目が角ばっている。&lt;/p&gt;
+&lt;p&gt;ちなみに、この回の変身シーンがめちゃくちゃ格好良い（ウルトラマンが神永を掴んで巨大化する）。&lt;/p&gt;
+&lt;p&gt;神永とザラブが車内で会話するシーン（ザラブの人類同士戦わせる発言に対して、神永が人類はそこまで愚かじゃないと返す）からは、
+現在のウクライナ情勢に対する強烈な皮肉を感じた。&lt;/p&gt;
+&lt;h2 id=&#34;メフィラス戦&#34;&gt;メフィラス戦&lt;/h2&gt;
+&lt;p&gt;メフィラスが無印に比べてめちゃくちゃシュッとしてて驚いた。&lt;/p&gt;
+&lt;p&gt;やはり居酒屋で飲み食いしているシーンが有名。
+メフィラス星人本体はウルトラマンの逆になるように黒基調でデザインされているが、
+このシーンでは人間状態での見た目も対比状態にあると思った
+（黒いスーツをパリっと着るメフィラスに対して、ウルトラマンはしわが入った白いカッター）。&lt;/p&gt;
+&lt;p&gt;無印では子供に「地球をあげます」と言わせようとして失敗していたが、今回は日本との密約に成功した模様。&lt;/p&gt;
+&lt;p&gt;その他、人類側に理解を示したうえでの丁寧な性格、慣用句まで理解しきっている言語能力、削除困難なデータを削除できるなど、
+ザラブが小物に見えるほどの人物。&lt;/p&gt;
+&lt;p&gt;戦闘シーンでは、向き合っての会話からはじまり、お互い一歩引いてから戦闘を開始する、投げられたら投げ返す、
+蹴り上げ、静止状態からの撃ち合い開始、一方的に戦闘終了を宣言するなど、無印再現シーンが多くて見物だった。&lt;/p&gt;
+&lt;h2 id=&#34;ゼットン戦&#34;&gt;ゼットン戦&lt;/h2&gt;
+&lt;p&gt;PV などでは一切ゼットンに触れられていなかったため、ゼットンが出てくるのを見て驚いた記憶がある。&lt;/p&gt;
+&lt;p&gt;無印ではウルトラマンを倒した唯一の怪獣として放送当時は子供たちに絶望感を植え付けたのだろうが、
+今作ではその絶望感をサイズ感の時点で味わうことができる。&lt;/p&gt;
+&lt;p&gt;原作同様、最後は人類の知恵を持ってゼットンを倒した。&lt;/p&gt;
+&lt;p&gt;個人的に無印ゼットンのカミキリムシみたいな背中が好きだったので、背中をもう少し映してほしかった。&lt;/p&gt;
+&lt;p&gt;また、満を持してぐんぐんカットが入っており、胸熱だった。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>デュアルキーボードを試してみた話</title>
+      <link>https://t45k.github.io/blog/dual_keyboard/</link>
+      <pubDate>Thu, 05 May 2022 21:47:26 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/dual_keyboard/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;入社して 1 年、肩こりに悩まされるようになったのでデュアルキーボードを試してみた。&lt;/p&gt;
+&lt;h2 id=&#34;肩こり&#34;&gt;肩こり&lt;/h2&gt;
+&lt;p&gt;肩こりには様々な原因があるが、長時間を肩をすぼめたままの姿勢でいることがその一つである。&lt;/p&gt;
+&lt;p&gt;一般的なキーボードは肩幅より狭いため、タイピングのために肩をすぼめた姿勢を取らざるを得なくなる。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/single_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;また、肩をすぼめると背中が前に曲がるため、腰に負担がかかる可能性が高まる。
+そのうえ、頭がディスプレイに近くなるため、眼精疲労も溜まりやすくなる。&lt;/p&gt;
+&lt;p&gt;以上の観点から、キーボードをそのまま利用するのは健康上のリスクが大きいと考えられる。&lt;/p&gt;
+&lt;h2 id=&#34;キーボードを変える&#34;&gt;キーボードを変える？&lt;/h2&gt;
+&lt;p&gt;以上の背景から、エルゴノミクスキーボードや分離型キーボードが勧められることが多々ある。
+これらのキーボードは多くのメリットがあるものの、以下のデメリットをはらんでいる。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;高価&lt;br&gt;
+これらのキーボードは需要が少ないため、一般的なキーボードと比較して高価になる傾向がある。
+また、すでに好みのキーボードを買っている人にとっては、余計な出費になる。&lt;/li&gt;
+&lt;li&gt;配列&lt;br&gt;
+真ん中の境界できれいに分割されているため、特定のキーを左右両方の手で取るタイピングをする人には厳しい。&lt;/li&gt;
+&lt;li&gt;スイッチの選択肢が少ない&lt;br&gt;
+「青軸が好み」や「静電無接点じゃないとダメ」といったキーボードユーザがいるかも知れないが、そういう人には選択肢が少ない。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;デュアルキーボード&#34;&gt;デュアルキーボード&lt;/h2&gt;
+&lt;p&gt;もう一つの選択肢はデュアルキーボードである。&lt;/p&gt;
+&lt;p&gt;読んで時の如く、2 枚のキーボードを左右に配置して、同時に操作する。&lt;/p&gt;
+&lt;p&gt;両方のキーボードはフルサイズなので配列を気にしなくて良いのと、自分の好きなキーボードを継続して使えるというメリットがある。&lt;/p&gt;
+&lt;p&gt;もう 1 枚のキーボードを買う必要があるため、コストの面では優れているかは分からないが、少なくとも分離型キーボードを新しく買うよりかは安上がりになる。&lt;/p&gt;
+&lt;p&gt;コストを優先する場合、もう一つの選択肢がある。&lt;/p&gt;
+&lt;h2 id=&#34;結論構成&#34;&gt;結論構成&lt;/h2&gt;
+&lt;p&gt;それは、片方はラップトップのキーボードを利用する構成である。&lt;/p&gt;
+&lt;p&gt;最近ではラップトップのみを支給し、それをモニターと繋いで、業務に使うという会社も多いと思う。&lt;/p&gt;
+&lt;p&gt;ラップトップのキーボードを利用することで、すでに外付けキーボードを持っている場合は新たなコストが一切発生しない
+（パンタグラフや薄型のキーボードだと違和感なく利用できる。自分は&lt;a href=&#34;../keychron&#34;&gt;薄型のメカニカルキーボード&lt;/a&gt;を使っていたので大丈夫だった）。&lt;/p&gt;
+&lt;p&gt;この場合、自分の正面にメインモニタ、ラップトップを左側、サブモニタとキーボードを右側に置くのが個人的に最適だと考えている。&lt;/p&gt;
+&lt;p&gt;よくラップトップの上側にモニタを配置する人を見かけるが、これはオススメしない。&lt;/p&gt;
+&lt;p&gt;1 つ目の理由は、人間の目は上下移動よりも左右移動に適しているからである。
+これは、目が横に細長いことからわかる。
+左右方向に見える範囲が広いため、モニタは左右に配置するべきである。
+また、首を動かす場合も、上下に動かすより左右に動かす方が物理的な仕事量が少なくなる。&lt;/p&gt;
+&lt;p&gt;2 つ目の理由は、モニタの上端が目の位置より下になるように高さを調節すべきだからである。
+モニタの上端が目線よりも高い場合、まぶたを大きく開く必要があるため、ドライアイや眼精疲労に繋がることが指摘されている。
+ラップトップの画面の上にモニタを配置した場合、よほど座高が高い人間でない限り、モニタの上端が目線よりも高くなってしまう。&lt;/p&gt;
+&lt;p&gt;以上の理由から、以下が現時点での個人的な結論構成に落ち着いた。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dual_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;肩が死ぬほど開いて気持ち良い。&lt;/p&gt;
+&lt;p&gt;ちなみに、トラックパッドは中央に置いている。&lt;/p&gt;
+&lt;p&gt;トラックパッドはなるべく使わないで良いように、ブラウザ操作は&lt;a href=&#34;https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja&#34;&gt;Vimium&lt;/a&gt;、
+ショートカットやマウスポインタ操作は Karabiner を利用している。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「Code Clone Analysis」読了</title>
+      <link>https://t45k.github.io/blog/code_clone_analysis/</link>
+      <pubDate>Sat, 26 Feb 2022 12:00:56 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/code_clone_analysis/</guid>
+      <description>&lt;p&gt;Code Clone Analysis を読みました。&lt;/p&gt;
+&lt;p&gt;コードクローンとはソースコード中の類似したコード片を指し、修正漏れの原因になることからこれまで多くの研究が行われてきました。
+この本は、これまでの研究を総括した学術書です。
+学術書なので英語で書かれており、なおかつ（多分）一般流通はされていません。
+僕の場合は Springer から直接購入したのですが、送料込みで 2 万弱しました&amp;hellip;&lt;/p&gt;
+&lt;p&gt;読んだ感想ですが、学生時代に理解できなかった論文の内容を理解できたり、知らなかった論文を知れたりして面白かったです。
+英語で書かれているので読むのは苦労しますが、ソフトウェア開発者は読む価値があると思います。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「Java言語で学ぶデザインパターン入門」読了</title>
+      <link>https://t45k.github.io/blog/design_pattern/</link>
+      <pubDate>Sat, 26 Feb 2022 11:53:22 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/design_pattern/</guid>
+      <description>&lt;p&gt;「Java 言語で学ぶデザインパターン入門」を読み終えました。
+今回は内容を Kotlin で実装してみるということをやっていました。
+&lt;a href=&#34;https://github.com/t45k/designPatternlearning&#34;&gt;リポジトリ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この本自体は割と前からある本なのですが、今回第 3 版が出て内容が新しくなったと聞き、思い切って購入しました。
+4,290 円でした。
+技術書は高い。&lt;/p&gt;
+&lt;p&gt;学生時代は研究室に古い版の本があり、何度か読んだのですが、読むだけでは全然理解できないままでいました。&lt;/p&gt;
+&lt;p&gt;やってみた感想ですが、自分が委譲の強力さを全然理解していなかったことを痛感しました。
+普段は知らないまま使っていたパターン（Spring bean のプロキシなど）を理解する良い機会になりました。&lt;/p&gt;
+&lt;p&gt;一方、やはり Java だと冗長になる部分が多く、Kotlin で再実装すると、コード例よりもすっきり書ける場面が多かったです。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「叙述トリック短編集」読了</title>
+      <link>https://t45k.github.io/blog/descriptive_trick/</link>
+      <pubDate>Mon, 10 Jan 2022 11:35:22 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/descriptive_trick/</guid>
+      <description>&lt;p&gt;昨年の 12 月には読み終えていたけど感想書くのサボってた&amp;hellip;&lt;/p&gt;
+&lt;p&gt;似鳥鶏の「叙述トリック短編集」を読みました。&lt;/p&gt;
+&lt;p&gt;叙述トリックとは、語り手（作者）が（意図的に）情報を隠すことで読者を騙すトリックを指します。
+よくミステリで使われる他のトリック（密室トリックとか）とは違って、
+状況を文字でしか説明できないという特徴を持つ小説特有のトリックなので、結構好きです。
+（そのために、映像化不可能などと言われたりする）&lt;/p&gt;
+&lt;p&gt;叙述トリックは読者に対してフェアではないという批判を受けがちですが、
+この本では題名と冒頭で叙述トリックを利用していることを明示的に示すことで、その批判を回避しています。&lt;/p&gt;
+&lt;p&gt;内容としては、叙述トリックであると身構えながら読んでも意外と真相は分からないもので、
+作者が用意した偽の誘導に引っかかってしまうことも多々ありました。
+最後のあとがきまで楽しめました。&lt;/p&gt;
+&lt;p&gt;次は新版が出たデザパタ本をやっていこうと考えています。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021年の振り返り</title>
+      <link>https://t45k.github.io/blog/retrospective_2021/</link>
+      <pubDate>Fri, 31 Dec 2021 19:46:45 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/retrospective_2021/</guid>
+      <description>&lt;p&gt;2021 年を振り返っていく．&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;20 年間続いた学生生活をようやく終えて，社会人になった節目の年だった．&lt;/p&gt;
+&lt;p&gt;研究は良い感じに終えられて，社会人生活もぼちぼち良い感じにやっていると思う．&lt;/p&gt;
+&lt;p&gt;一方で，自分の時間をかなり適当に過ごしたのは反省点かなぁと．&lt;/p&gt;
+&lt;h2 id=&#34;研究&#34;&gt;研究&lt;/h2&gt;
+&lt;p&gt;実験自体はほぼ全て 2020 年で終わっていたので，後は修論を書くだけだった．&lt;/p&gt;
+&lt;p&gt;暇を持て余した結果，修論を英語で 100 ページ書くという謎のチャレンジをした．&lt;/p&gt;
+&lt;p&gt;最終的な戦績は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;論文誌*2&lt;/li&gt;
+&lt;li&gt;国際会議*3&lt;/li&gt;
+&lt;li&gt;受賞*1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;でかなり満足いく結果になった．&lt;/p&gt;
+&lt;p&gt;特に，暇を持て余して，M2 の 9 月くらいから趣味 100%で始めた研究テーマがかなりうまくいって，最終的にトップ会議に通ったのはとても嬉しかった．&lt;/p&gt;
+&lt;h2 id=&#34;仕事&#34;&gt;仕事&lt;/h2&gt;
+&lt;p&gt;配属がかなり恵まれて，楽しく仕事で来た．&lt;/p&gt;
+&lt;p&gt;チームのメンバーはベテランが多く，チーム自体の練度が高いという印象を受けた．&lt;/p&gt;
+&lt;p&gt;また，新卒の自分にも裁量権が十分にあり，提案が通ることも多かった．&lt;/p&gt;
+&lt;p&gt;ソースコードは過去の負債が割と残っているように感じたが，それはそれで返済する面白さがあるからヨシ．&lt;/p&gt;
+&lt;p&gt;働き方もかなり柔軟に選択でき，自分はずっと 8:00 出社の 16:30 退勤をさせてもらっていた．&lt;/p&gt;
+&lt;p&gt;課題としては，今まで個人で適当にプログラミングをしていた影響か&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仕様通りに&lt;/li&gt;
+&lt;li&gt;バグなく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作ることの難しさを感じた．&lt;/p&gt;
+&lt;h2 id=&#34;趣味&#34;&gt;趣味&lt;/h2&gt;
+&lt;p&gt;全体的に，仕事の疲れを言い訳にだらっと過ごすことが多かった．&lt;/p&gt;
+&lt;h3 id=&#34;競プロ&#34;&gt;競プロ&lt;/h3&gt;
+&lt;p&gt;初冬くらいからやらなくなった．&lt;/p&gt;
+&lt;p&gt;理由としては&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;土曜の 9 時からという時間が悪い．
+その時間は酒を飲みたい．&lt;/li&gt;
+&lt;li&gt;これ以上実力（レート）が伸びるビジョンが見えない．&lt;/li&gt;
+&lt;li&gt;競プロをやってる仲間がいない．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;くらい．&lt;/p&gt;
+&lt;p&gt;自分が解けるかどうかくらいの難易度の問題を解くのは好きなので，今後も水 diff の過去問とかは解くかもしれない．&lt;/p&gt;
+&lt;h3 id=&#34;バイク&#34;&gt;バイク&lt;/h3&gt;
+&lt;p&gt;今年はコロナの影響や，有休があまりなかったのもあって遠出はできなかった．&lt;/p&gt;
+&lt;p&gt;紅葉を見に行ったり，金沢に行ったりしたり．&lt;/p&gt;
+&lt;p&gt;来年は東日本を一周したいなぁとか考え中．&lt;/p&gt;
+&lt;h3 id=&#34;読書&#34;&gt;読書&lt;/h3&gt;
+&lt;p&gt;技術書かどうかに限らず，1 ヶ月に 1 冊は本を読んで，ブログにまとめるようにした．&lt;/p&gt;
+&lt;p&gt;久々に本を買って読むということをした．&lt;/p&gt;
+&lt;p&gt;やっぱり紙の本の方が好き．&lt;/p&gt;
+&lt;h3 id=&#34;oss-貢献&#34;&gt;OSS 貢献&lt;/h3&gt;
+&lt;p&gt;今年は Spring Framework とか Groovy とかに PR を投げた．&lt;/p&gt;
+&lt;p&gt;これは今後も継続していきたい．&lt;/p&gt;
+&lt;h3 id=&#34;ゲーム&#34;&gt;ゲーム&lt;/h3&gt;
+&lt;p&gt;主に Apex．&lt;/p&gt;
+&lt;p&gt;入社時のコミュニケーション手段として一役買ってくれた．&lt;/p&gt;
+&lt;p&gt;あんまり真剣にしてない．呼ばれたらやる感じ．&lt;/p&gt;
+&lt;p&gt;面白いのでゆるっと続けられたら．&lt;/p&gt;
+&lt;h3 id=&#34;音楽&#34;&gt;音楽&lt;/h3&gt;
+&lt;p&gt;YouTube に課金し始めたので，YouTube Music で音楽を聞く機会が増えた．&lt;/p&gt;
+&lt;p&gt;今まで興味があった or 好きなジャンルの曲を聞いてみて，気に入ったらそのアーティストの CD を買うみたいなことを繰り返してた．&lt;/p&gt;
+&lt;p&gt;多分今年一番ハマったアルバムがこれ．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://music.youtube.com/playlist?list=OLAK5uy_ke7skMleWoKyFtENpiH5RpYVQViGP8YjU&amp;amp;feature=share&#34;&gt;https://music.youtube.com/playlist?list=OLAK5uy_ke7skMleWoKyFtENpiH5RpYVQViGP8YjU&amp;amp;feature=share&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3 曲目の Ford Stream が良かった．
+アルレコの良さを再認識した．&lt;/p&gt;
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
+&lt;p&gt;だらっと YouTube を見る時間が増えた．&lt;/p&gt;
+&lt;p&gt;個人的には半分無駄な時間の使い方感があるので直していきたいところ．&lt;/p&gt;
+&lt;p&gt;山田ハウスにハマってしまった．&lt;/p&gt;
+&lt;h3 id=&#34;飲酒&#34;&gt;飲酒&lt;/h3&gt;
+&lt;p&gt;コロナ禍が明けつつあって，外に飲みに行く機会が増えた．&lt;/p&gt;
+&lt;p&gt;家の近くが飲み屋街なので，一人で飲みに行き始めた．&lt;/p&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;健康診断の結果血圧が高かったので（130 越え），対策を始めた．
+具体的には，ラーメンのスープを飲み干さないようにした．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同僚に付き合っていた結果，喫煙が習慣化しかけた．
+周りに喫煙者がいないと吸わないのと，その同僚も禁煙に移行しつつあるので，これ以上吸うことは多分ない．&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「オブジェクト指向でなぜつくるのか」読了</title>
+      <link>https://t45k.github.io/blog/how_objects_work/</link>
+      <pubDate>Sun, 28 Nov 2021 19:12:57 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/how_objects_work/</guid>
+      <description>&lt;p&gt;オブジェクト指向でなぜつくるのかを読みました．&lt;/p&gt;
+&lt;p&gt;久々に技術書を買った気がします．
+社会人になって自由に使えるお金が増えるのは良いなと思いました．&lt;/p&gt;
+&lt;p&gt;この本は，コードの書き方や新技術習得の指南というよりは，
+基本に立ち返った内容になっています．&lt;/p&gt;
+&lt;p&gt;オブジェクト指向の成り立ちから始まり，オブジェクト指向のメリット，オブジェクト指向により何が可能になったか，
+などについて説明しています．&lt;/p&gt;
+&lt;p&gt;あまり堅い内容ではないため，寝る前などに軽く読んだりといった，普通の読み物としても楽しめました．&lt;/p&gt;
+&lt;p&gt;個人的には，「オブジェクト指向は必ずしも現実世界を投影してるわけではない」という主張がしっくりきました．
+最終的には再利用，修正が容易でバグが発生しにくいプログラムを書くことが重要なのだなぁというごく当たり前のことを再認識する良い機会になりました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「カーニバル・デイ 新人類の記念日」読了</title>
+      <link>https://t45k.github.io/blog/carnival_day/</link>
+      <pubDate>Sun, 24 Oct 2021 13:35:14 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/carnival_day/</guid>
+      <description>&lt;p&gt;2 ヶ月近くかけて，清涼院流水の「カーニバル・デイ」を読みました．&lt;/p&gt;
+&lt;p&gt;本作は JDC シリーズのカーニバル三部作の三作目で，何とこの巻だけで 1000 ページ超あります．
+一応 JDC シリーズの年表としては一番最後にあたる話で，とりあえず一区切り付いたかなぁという気持ちです．&lt;/p&gt;
+&lt;p&gt;感想としては，ミステリとしてはトリックの回収の仕方があまりにも酷くて憤りを感じました．
+コズミックが壁本（壁に叩きつけられてもおかしくない出来の本）として取り上げられることはありますが，個人的にはこの本が壁本に該当するのかなぁと感じました．結局のところ，トリックのインターフェースだけ公開されてて，実装は一切明らかになりませんでした．&lt;/p&gt;
+&lt;p&gt;一方，ファンタジーとして読むとそこそこ楽しめたかなという印象です．
+最後のオチのつけ方も，言葉遊びを重視する流水大説としてはアリだと思います．&lt;/p&gt;
+&lt;p&gt;本の内容よりも，やっと読み終えられたという安堵感の方が大きかったです（多分大学生くらいの時からずっと読みたいと思ってました）．
+ちなみに，ラストの Y.T は本文途中に出てくる死亡，行方不明者リストを見るとすぐに分かりました．
+このために，リストを用意してくれてたとも思えました．&lt;/p&gt;
+&lt;p&gt;今後ですが，彩文家事件はしばらく読まないと思います．
+次に読むとしたら，積んでる「人間失格」か最近買った「オブジェクト指向でなぜつくるのか」か，横溝正史あたりに入門しようかなぁと考えています．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ドキドキ文芸部をプレイした話</title>
+      <link>https://t45k.github.io/blog/ddlc/</link>
+      <pubDate>Mon, 18 Oct 2021 19:54:12 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/ddlc/</guid>
+      <description>&lt;p&gt;ドキドキ文芸部をプレイしました．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;以降，ネタバレ含みます．&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;プレイ中の感想としては，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;もうやめてくれよ&lt;/li&gt;
+&lt;li&gt;これ以上いけない&lt;/li&gt;
+&lt;li&gt;あかん&lt;/li&gt;
+&lt;li&gt;救いはないのですか？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;をひたすら繰り返した感じでした．&lt;/p&gt;
+&lt;p&gt;特に驚いたのが名前を呼ばれた場面で，PC のユーザ名を本名にしていたのでどこから入手したのか最初は不審に思いました．&lt;/p&gt;
+&lt;p&gt;全体的には有名なだけあるなって感じで，久々に（短い間ですが）のめり込んでゲームできました．&lt;/p&gt;
+&lt;p&gt;その他思ったこと&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ゲーム内に PC のターミナルがあって，そこからファイルをいじれたりゲームを再起動できるのは面白い仕掛けだと感じた&lt;/li&gt;
+&lt;li&gt;ナツキとユリが言い争った挙句モニカがアップになるシーンに毎回びっくりする&lt;/li&gt;
+&lt;li&gt;ナツキ √ がほしい&lt;/li&gt;
+&lt;li&gt;今回買ったのはプラスだが，無印版だとさらに色々できるらしい&lt;/li&gt;
+&lt;li&gt;トロコンまでやるかは不明&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「カーニバル 人類最後の事件」読了</title>
+      <link>https://t45k.github.io/blog/carnival/</link>
+      <pubDate>Wed, 01 Sep 2021 22:47:07 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/carnival/</guid>
+      <description>&lt;p&gt;重い腰を上げて，清涼院流水の「カーニバル」を読みました．&lt;/p&gt;
+&lt;p&gt;本作では，JDC爆破事件を皮切りに，1週ずつ繰り広げられる大規模犯罪のお話が展開されます．
+また，各事件は作者が定めた順番に並べられており，「ページ通り読む（読者式）」と「時系列順に読む（作者式）」の2通りの方法で楽しむことができます．
+今回は読者式で読んだのですが，事前に死んでしまう登場人物が分かっている状態で，その前日にその人物がどういう振る舞いをしているか，という楽しみ方ができるのは珍しいと思いました．&lt;/p&gt;
+&lt;p&gt;今作ではこれまでJDCシリーズに出てきた多くの探偵が事件に巻き込まれ死にます．
+また，トリックすら分からない完全不可能犯罪が多く出てきます．
+この大風呂敷が次作の「カーニバル・デイ」でどう回収されるのかが楽しみです．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「世界は密室でできている」読了</title>
+      <link>https://t45k.github.io/blog/the_world_is_made_out_of_closed_rooms/</link>
+      <pubDate>Thu, 05 Aug 2021 17:05:34 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/the_world_is_made_out_of_closed_rooms/</guid>
+      <description>&lt;p&gt;近所の図書館の図書カードをようやく作ったので，
+舞城王太郎の「世界は密室でできている」を借りて読みました．&lt;/p&gt;
+&lt;p&gt;思ったこと&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一冊のページ数が少ない上に，それぞれの話も短いので，作者の文体もあいまってサクサク読める&lt;/li&gt;
+&lt;li&gt;「ルンババ12」や谷口氏の名前が出てきて，舞城作品だなってのを実感する&lt;/li&gt;
+&lt;li&gt;珍しく分かりやすい気がする&lt;/li&gt;
+&lt;li&gt;ちゃんとしたミステリ&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Keychron K3を購入した話</title>
+      <link>https://t45k.github.io/blog/keychron/</link>
+      <pubDate>Fri, 11 Jun 2021 22:35:53 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/keychron/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard&#34;&gt;Keychron K3&lt;/a&gt;を購入しました．&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
+&lt;p&gt;研究室ではRealforceを使っていたのですが，会社からはキーボードが支給されないと聞いたので，仕事用のキーボードを購入する必要が発生しました．
+家では青軸のメカニカルキーボードを使っているので，その経験を踏まえて以下の要件を満たすキーボードを探しました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;会社はフリーアドレスなので持ち運びに困らない．具体的には以下の通り．
+&lt;ul&gt;
+&lt;li&gt;軽い&lt;/li&gt;
+&lt;li&gt;薄い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;十分にコンパクト．個人的にはmagic keyboardと同じ配列がベスト&lt;/li&gt;
+&lt;li&gt;もちろんUS配列&lt;/li&gt;
+&lt;li&gt;Fn必須&lt;/li&gt;
+&lt;li&gt;赤か茶軸のメカニカル，あるいは静電容量無接点&lt;/li&gt;
+&lt;li&gt;できればmac対応&lt;/li&gt;
+&lt;li&gt;新卒のお給料でも買える．1万円前後&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fnが必要なことからHHKB，携帯性からRealforceは簡単に除外できました．
+Nizも割と魅力的だったのですが，右下の配置が独特なことと高いことから除外しました．
+メカニカルキーボードで上記の要件を満たすキーボードはいくつか見つかったのですが，
+最終的に多機能かつ安価で評判も良い&lt;code&gt;Keychron K3&lt;/code&gt;にしました．&lt;/p&gt;
+&lt;h2 id=&#34;注文から到着まで&#34;&gt;注文から到着まで&lt;/h2&gt;
+&lt;p&gt;注文は公式サイトからできます．
+英語での住所&amp;amp;電話番号入力が必要なので事前に調べておくと良いと思います．&lt;/p&gt;
+&lt;p&gt;値段は本体74\$ + 配送料20\$の計94\$でした．
+paypalで支払いしたところ2021年6月現在で10,802円でした．&lt;/p&gt;
+&lt;p&gt;6月5日（土）の23時過ぎに注文して到着したのが10日（木）の夜でした．
+日曜を挟んでいたのを考えると割と早く届きました．&lt;/p&gt;
+&lt;h2 id=&#34;使用感&#34;&gt;使用感&lt;/h2&gt;
+&lt;p&gt;ファーストインプレッション&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;感想&lt;br&gt;- サイズ感: 最高&lt;br&gt;- 打鍵感: 茶軸やけどロープロのせいで反発が弱め。同時押しになったり2回押しがうまくいかんかったりする&lt;br&gt;- キートップ: 柔らかめ、爪が食い込む感覚&lt;br&gt;- 傾斜: 低め、違和感ある&lt;br&gt;- レスポンス: 若干もっさりしてる&lt;br&gt;&lt;br&gt;総評: サイズ感は最高やけどそれ以外は慣れが必要かなぁ&lt;/p&gt;&amp;mdash; task@FSE (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1402946711660621826?ref_src=twsrc%5Etfw&#34;&gt;June 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;一日使ってみましたが，本当に慣れだと思います．
+仕事が終わった後に家のキーボードを触ると，逆に重くてびっくりしました．
+使っていくうちに好きになっていくと思います．
+個人的にはdeleteを推すときのペチペチ音が好きです．&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;良い買い物をしたと思います．
+現在は在宅なのですが，会社で使うのを楽しみにしています．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
+      <link>https://t45k.github.io/blog/graduation/</link>
+      <pubDate>Wed, 24 Mar 2021 21:17:20 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/graduation/</guid>
+      <description>&lt;p&gt;2021年3月24日をもって修士課程を修了しました．&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;3年間の戦績は&lt;br&gt;&lt;br&gt;論文誌採録*1&lt;br&gt;論文誌条件付き採録*1&lt;br&gt;国際会議採録*2&lt;br&gt;国際会議査読中*1&lt;br&gt;研究会原稿*3&lt;br&gt;で現状不採録0です&lt;br&gt;&lt;br&gt;対ありでした&lt;/p&gt;&amp;mdash; task@減塩 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1374691521174282242?ref_src=twsrc%5Etfw&#34;&gt;March 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;研究室に所属して3年間色んなことがあった気がするので書き留めておきます．&lt;/p&gt;
+&lt;h2 id=&#34;所属前&#34;&gt;所属前&lt;/h2&gt;
+&lt;p&gt;大学に入学してからプログラミングを始めたが結構楽しめていたので，「ソースコードを書くこと」について研究できれば良いなぁと漠然と考えていた．
+阪大基礎工学部情報科学科では3回生の時に各研究室の先生に着いてゼミが行われるので，前期後期ともにソフトウェア工学の研究室のゼミに参加した．
+前半は「リファクタリング」について，後半は「ソースコードメトリクス」についてのゼミで，前半にゼミを担当していた先生が何となく面白そうだったので，その研究室の配属を目標にした．&lt;/p&gt;
+&lt;h2 id=&#34;b4&#34;&gt;B4&lt;/h2&gt;
+&lt;h3 id=&#34;4月&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;無事目標の研究室に配属．
+配属後リファクタリング的なネタをやりたいと伝える．
+論文を渡されてネタを探すように言われる．
+当然研究室に入ったばかりで自分ですんなりネタを決めれるわけもなく，
+指導教員の先生とミーティングをするも会話が噛み合わないことが多く，
+険悪な雰囲気になることが多かった気がする
+（主観的だが，口調が若干きつかったと感じることが多かった）．
+この頃から何となく「この先生とは一生分かり合えないんだろうなぁ」って思うようになり，苦手になる．&lt;/p&gt;
+&lt;h3 id=&#34;6月&#34;&gt;6月&lt;/h3&gt;
+&lt;p&gt;ネタが決まる（先生が決めてくれた）のでとりあえずやっていく．
+相変わらずミーティングでは嚙み合わないことが多かった．
+まあB4のはじめの頃はみんなこんなもんだろうと思い込んで過ごす．
+「研究室 辛い」などで検索するようになる．
+自分の打たれ弱さを実感する．&lt;/p&gt;
+&lt;h3 id=&#34;7月&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;院試休み．
+研究室行かずに済んでラッキーくらいの気持ちでいた．
+院試で研究室変えるのも手だったが負けた気分になるのでそのまま出した．
+院試後はそのまま夏休みだったのでしばらく研究のことを忘れる．&lt;/p&gt;
+&lt;h3 id=&#34;10月&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;研究が再開する．
+少しずつ進めていくが，コミュニケーションも含めて上手くいかないことが圧倒的に多くなり，常に辛い状態になる．
+この頃から常に死にたいと思うようになる．
+バイク運転中に信号無視した車が突っ込んできたらなぁみたいなことをずっと考えていた．
+しばらくそんな感じ．&lt;/p&gt;
+&lt;p&gt;同時期に，たまたまTwitter上でPaizaの広告を見かける．
+プログラミング能力を客観的に評価してもらえることがそれまでほとんどなかったことと，
+研究が辛くなった時のために就職も考えないとということでとりあえずやってみる．
+Paizaは解答解説がないので，プログラミング力を付けるのには不向きだと思い，
+AtCoderをやり始める．&lt;/p&gt;
+&lt;h3 id=&#34;1月&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;論文を書き始める．
+先生と添削のやり取りをするのだが，常に詰められてるように感じて辛くなる．
+悪いことは続くもので，比較実験を行う必要があるのだが
+既存研究が使ってたツールが上手く動かなくて全然実験が進まなくなる．
+時間がないのでとりあえず不完全なまま卒論と研究会論文を書き上げる．&lt;/p&gt;
+&lt;p&gt;あと自分の実装を見てもらう機会があったのだが，
+あまりにもひどかったため研究が一段落着いたらツール作り直したほうが良いかもねって話になる．
+今思えば草．&lt;/p&gt;
+&lt;h3 id=&#34;3月&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;研究会発表をする．&lt;/p&gt;
+&lt;p&gt;ツール作り直しをする．
+作り直しに際して，研究室の実装が得意な先輩に付きっ切りで見てもらいながらプログラミングを一から叩き込んでもらう．
+この指導，本当にありがたく，プログラミングの基礎的ながらも重要な要素をいくつも教えてもらった．
+これがなかったら実装力が重視されるウェブエンジニアを職業にするという選択肢は取れなかったと思う．&lt;/p&gt;
+&lt;h2 id=&#34;m1&#34;&gt;M1&lt;/h2&gt;
+&lt;h3 id=&#34;4月-1&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;同期が増える．
+またこれまで必要な日にしか研究室に来てなかった同期と，授業の関係でほぼ毎日顔を合わせてコミュニケーションを取るようになった．
+他人とコミュニケーションを取るのは本当に大切で，研究の辛さが和らいでいく感じがした．&lt;/p&gt;
+&lt;p&gt;研究の方は，自分のツールの作り直しはしたが既存ツールを動かすのがまだできてなかったので，
+それをずっとやっていた．&lt;/p&gt;
+&lt;h3 id=&#34;6月-1&#34;&gt;6月&lt;/h3&gt;
+&lt;p&gt;まだ既存ツールが動かない．
+先生がしびれを切らして，7月末の国際会議に投稿することを求められる．
+個人的にはここまで来てできなかったんだからこのネタは諦めて違うことをした方が有益な気はしていた
+（自分のネタに自信がなく，続けるのが辛かったいうのもあった）．&lt;/p&gt;
+&lt;h3 id=&#34;7月-1&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;未だに既存ツールが動かなかったので，比較対象を変えることでとりあえず原稿を書き上げて投稿．&lt;/p&gt;
+&lt;h3 id=&#34;8月&#34;&gt;8月&lt;/h3&gt;
+&lt;p&gt;インターンとかに行く．
+3月の先輩の指導+競プロでLINEとかの有名会社のインターンに行けたのは結構大きかった．&lt;/p&gt;
+&lt;h3 id=&#34;9月&#34;&gt;9月&lt;/h3&gt;
+&lt;p&gt;何か国際会議に通る．
+かなり嬉しかったし，報われた気分になった．
+先生との関係がマシになる．&lt;/p&gt;
+&lt;h3 id=&#34;10月-1&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;国際会議に通ったのでこのネタは終わりにしたかったが，ボスに論文誌にするように求められる．
+また既存ツールを動かす地獄の日々が始まる．
+同時並行で新ネタをやり始める．&lt;/p&gt;
+&lt;h3 id=&#34;12月&#34;&gt;12月&lt;/h3&gt;
+&lt;p&gt;国際会議発表．
+既存ツールがまだ動かなかったので友達に相談する．
+3日で解決してくれる．
+新ネタは結果が出なくてやる意義を見失いかけてたので打ち切る．&lt;/p&gt;
+&lt;h3 id=&#34;1月-1&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;比較実験をし，論文誌原稿を書き上げる．
+新ネタは全然決まらず，&lt;br&gt;
+論文読む -&amp;gt; 先生と相談する -&amp;gt; 簡単に実装して実験してみる （-&amp;gt; 上手くいかない）&lt;br&gt;
+みたいな流れを延々とやり続ける．
+何となくクローン以外のことをしたいと考えてた．&lt;/p&gt;
+&lt;h3 id=&#34;3月-1&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;日本でもコロナが流行り始める．
+研究室は4月から行けなくなるらしかったので，家の環境を整える．
+家だと作業できない人間だったのでかなり不安だった．
+論文を紙で読めなくなるのが割と痛かった．&lt;/p&gt;
+&lt;h3 id=&#34;4月-2&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;家研究スタート．
+新ネタを決めることから始める．
+論文読んでる，何となく「CI × ソースコード解析」が流行ってそうだったので，
+「CI × クローン管理」を思いつく．
+結局クローンに帰って来る．&lt;/p&gt;
+&lt;p&gt;サーバサイドの実装になったので，割と楽しんでやれた．
+家だったので効率は微妙だったが，すっと実験まで持って行けた気がする．&lt;/p&gt;
+&lt;h3 id=&#34;5月&#34;&gt;5月&lt;/h3&gt;
+&lt;p&gt;緊急事態宣言が明けたが，6月まで研究室に来てはいけないみたいなことを言われる．
+ガン無視して週1か2くらいのペースで研究室に行く．
+この頃から先生との関係が良好になり始める．&lt;/p&gt;
+&lt;h3 id=&#34;7月-2&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;とりあえず国際会議に投げるように言われたので投げる．
+結構余裕があった気がする．&lt;/p&gt;
+&lt;h3 id=&#34;8月-1&#34;&gt;8月&lt;/h3&gt;
+&lt;p&gt;国際会議に落ちると，このままだと一年間論文なしというカッコ悪い結果になるのでとりあえず研究会に投げることを決める．&lt;/p&gt;
+&lt;h3 id=&#34;9月-1&#34;&gt;9月&lt;/h3&gt;
+&lt;p&gt;追加の実験をする．
+有名OSSにプルリクがマージされたりする．
+このペースだと11月中には全てのデータが出揃って修論まで暇になる予感がした．
+そしてそのままだと11月から修論まで新しいネタをやれって言われる予感がした．
+なので，先手を打って新ネタを始めることにした．
+論文漁ってると結果は良い感じだけどアルゴリズムに改善の余地がありそうなクローン検出に関する研究が見つかったのでそれの改善をやってみることにする．
+やっといて結果が出なかったらカッコ悪いので，先生に秘密で実装と実験をやる．&lt;/p&gt;
+&lt;p&gt;国際会議には通ってた．&lt;/p&gt;
+&lt;h3 id=&#34;10月-2&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;旧ネタのデータが出揃ったので論文誌を書くことになる．
+と同時に新ネタが良い結果が出始めたので先生と共有する．&lt;/p&gt;
+&lt;h3 id=&#34;11月&#34;&gt;11月&lt;/h3&gt;
+&lt;p&gt;1月に投げた論文誌が条件付き採録で帰って来る．
+割とびっくりした．
+なのでこの時期は，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;卒論ネタの論文誌の回答書&lt;/li&gt;
+&lt;li&gt;旧ネタの論文誌&lt;/li&gt;
+&lt;li&gt;旧ネタの国際会議の発表準備&lt;/li&gt;
+&lt;li&gt;新ネタの実験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を平行で回していくことになった．
+とりあえず旧ネタの論文誌を投げる．&lt;/p&gt;
+&lt;h3 id=&#34;12月-1&#34;&gt;12月&lt;/h3&gt;
+&lt;p&gt;国際会議発表．
+オンラインなので準備にあまり時間を割かずに済んだ．&lt;/p&gt;
+&lt;p&gt;回答書も書いた．&lt;/p&gt;
+&lt;p&gt;修論を考える時期になる．
+卒論ネタを含めると3つのネタがあったので，修論に全部ぶち込むことにした．&lt;/p&gt;
+&lt;p&gt;新ネタも実験結果が着々と出始めたので，国際会議に投稿することにする．&lt;/p&gt;
+&lt;h3 id=&#34;1月-2&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;新ネタの結果が思いのほか良かったので投稿先のランクを上げる．
+修論は100ページ書けそうな予感がしたのでそこを目標にする．&lt;/p&gt;
+&lt;p&gt;旧ネタの論文誌が条件付き採録になって帰って来る．
+締め切りが3月末までだったのと，再実験が必要でまとまった時間がいるので簡単なとこだけ先にやって放置する．
+春休みも実験が確定する．&lt;/p&gt;
+&lt;p&gt;新ネタを研究会に出すことにしたので，論文が4並列になる．&lt;/p&gt;
+&lt;h3 id=&#34;2月&#34;&gt;2月&lt;/h3&gt;
+&lt;p&gt;修論発表．
+修論発表が終わった後も色々あった．
+企業mtgとか新ネタ論文投稿とか．&lt;/p&gt;
+&lt;h3 id=&#34;3月-2&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;研究会発表．
+旧ネタ再実験．
+学位授与式の日に論文を再投稿する．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;振り返ってみると，B4の時は辛かった一方でM2は一年間楽しんで研究できたなって印象です．
+が，アカデミアはもう十分かなって気持ちになりました．
+旧ネタの論文誌が採録されると一応博士の要件を満たすらしいので，仕事がクビになると帰って来るかも知れません．&lt;/p&gt;
+&lt;p&gt;あとはやっぱりB4の3月のプログラミング指導は本当にありがたかったです．
+今のところ人生のターニングポイントと言っても過言じゃないです．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>鶏白湯ラーメンの作り方</title>
+      <link>https://t45k.github.io/blog/toripaitan/</link>
+      <pubDate>Mon, 22 Feb 2021 14:28:05 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/toripaitan/</guid>
+      <description>&lt;p&gt;ラーメンが好きなので，鶏ガラを使って鶏白湯ラーメンを作りました．&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ramen.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;材料1人前&#34;&gt;材料（1人前）&lt;/h2&gt;
+&lt;h3 id=&#34;スープ&#34;&gt;スープ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;鶏ガラ2羽分&lt;/li&gt;
+&lt;li&gt;玉ねぎ半個&lt;/li&gt;
+&lt;li&gt;ニンニクひとかけ&lt;/li&gt;
+&lt;li&gt;ショウガ適量&lt;/li&gt;
+&lt;li&gt;（お好みで手羽元とかネギの青い部分とか）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;タレ&#34;&gt;タレ&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;醤油100cc&lt;/li&gt;
+&lt;li&gt;みりん100cc&lt;/li&gt;
+&lt;li&gt;（半分ずつでも良さそう）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;具材&#34;&gt;具材&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;鶏モモ1枚（鶏チャーシュー用）&lt;/li&gt;
+&lt;li&gt;玉ねぎ半個（薬味用）&lt;/li&gt;
+&lt;li&gt;卵一個（味玉）&lt;/li&gt;
+&lt;li&gt;（お好みでメンマ等）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;麺は既製品を使いました&lt;/p&gt;
+&lt;h2 id=&#34;作り方&#34;&gt;作り方&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;タレの材料を混ぜ合わせて煮切る．
+できたものを室温程度に冷ます．&lt;/li&gt;
+&lt;li&gt;鶏ガラは解凍しておく．
+鍋に水を張り鶏ガラを茹でる．
+アクが出てきたら水を替える．
+鍋にスープの材料と新しい水を入れ，8時間くらい炊く
+（水が減ってきたら適宜足していく）．&lt;/li&gt;
+&lt;li&gt;具材の鶏モモはスープと一緒に30分程度茹でる．
+茹であがったものを冷ましておいたタレに漬けておく．
+卵は半熟に茹で，これもタレに漬けておく．
+玉ねぎはみじん切りにし，分量外の酢に漬けておく．&lt;/li&gt;
+&lt;li&gt;スープを8時間程度炊いたら，中の具材を取り除いたうえで，
+一人分のスープの量になるくらいまで煮詰める．&lt;/li&gt;
+&lt;li&gt;器にスープ，タレ（全部使うと濃いので適量で），麺，具を入れて完成．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;スープ: 100点．メチャウマ．その辺のラーメン屋より旨い気がする&lt;br&gt;麺: 縮れてないほうが好き．まぁ既製品なので&lt;br&gt;チャーシュー: パサい．鶏肉をしっとり仕上げるのはむずそう&lt;br&gt;煮卵: 硬い．茹ですぎた&lt;br&gt;玉ねぎ酢漬け: 適量やと口がさっぱりしてええ感じ．若干主張が強い&lt;/p&gt;&amp;mdash; 教授のおごりで寿司@SIGSE (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1363069728407777282?ref_src=twsrc%5Etfw&#34;&gt;February 20, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>情報処理学会論文誌に論文が採録された話</title>
+      <link>https://t45k.github.io/blog/ipsj_journal/</link>
+      <pubDate>Sun, 17 Jan 2021 17:38:48 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/ipsj_journal/</guid>
+      <description>&lt;p&gt;情報処理学会論文誌に卒論でやっていた研究が採録されました．情報は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=677&#34;&gt;こちら&lt;/a&gt;．&lt;/p&gt;
+&lt;h2 id=&#34;論文誌とは&#34;&gt;論文誌とは&lt;/h2&gt;
+&lt;p&gt;研究をしている以上，その成果を論文としてまとめる必要があります．
+論文は大きく分けて以下の4種類に大別されます（僕が知る限り）．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;論文誌論文
+&lt;ul&gt;
+&lt;li&gt;別名: ジャーナル（journal）&lt;/li&gt;
+&lt;li&gt;研究の最終成果を投稿する場&lt;/li&gt;
+&lt;li&gt;採録されると雑誌として掲載される&lt;/li&gt;
+&lt;li&gt;学術的貢献が求められる&lt;/li&gt;
+&lt;li&gt;査読が行われる（査読とは，投稿された論文が学術的な有用性，信頼性に足るものかを他の研究者が判断するプロセスを指す）&lt;/li&gt;
+&lt;li&gt;一般的に採録率は低いらしい．&lt;a href=&#34;https://search.ieice.org/statistics.html&#34;&gt;電子情報通信学会&lt;/a&gt;だと5割弱．&lt;/li&gt;
+&lt;li&gt;投稿時に惜しくも採録に至らないと判定されても，条件付き採録として論文の修正を求められることが多い．&lt;/li&gt;
+&lt;li&gt;国内だと情報処理学会や電子情報通信学会の論文誌に投稿することが多い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;会議論文
+&lt;ul&gt;
+&lt;li&gt;別名: 予稿集（inproceedings）&lt;/li&gt;
+&lt;li&gt;レベルがピンキリ．採録率もピンキリ&lt;/li&gt;
+&lt;li&gt;投稿目的もピンキリ．研究の最終成果発表から，アイデアの議論まで&lt;/li&gt;
+&lt;li&gt;基本的に査読がある&lt;/li&gt;
+&lt;li&gt;トップの会議だと条件付き採録もあったりするらしい．普通は一発採録&lt;/li&gt;
+&lt;li&gt;採録されると開催場所での発表が求められる．海外旅行に行ける&lt;/li&gt;
+&lt;li&gt;学術的貢献だけじゃなくてアイデアの面白さ，発表映えするかとかも重要&lt;/li&gt;
+&lt;li&gt;発表がある都合上，投稿締め切りが設けられる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;研究会論文
+&lt;ul&gt;
+&lt;li&gt;別名: 技術報告（report）&lt;/li&gt;
+&lt;li&gt;基本的に研究途中での成果の報告，アイデアの議論が目的&lt;/li&gt;
+&lt;li&gt;査読がない&lt;/li&gt;
+&lt;li&gt;発表がメイン．国内旅行に行ける&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;学位論文
+&lt;ul&gt;
+&lt;li&gt;別名: thesis&lt;/li&gt;
+&lt;li&gt;学位を取得するための論文&lt;/li&gt;
+&lt;li&gt;卒論，修論は査読がない&lt;/li&gt;
+&lt;li&gt;ので，書けば大丈夫&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今回は論文誌論文として採録されました．&lt;/p&gt;
+&lt;h2 id=&#34;道のり&#34;&gt;道のり&lt;/h2&gt;
+&lt;p&gt;2019年に書いた卒論の内容が2021年に採録されたことから察せられるように，
+採録までの道のりが非常に長かったです．
+そもそも卒論を書いてから国際学会投稿，論文誌投稿とステップを踏むことが多いのですが，
+僕の場合は作ったツールのクオリティが低すぎたため，ツールを作り直して実験をし直すとこから始まりました．
+この時プログラミングを指導してくれた一つ上の先輩には本当にお世話になりました．
+このプログラミング指導のおかげで修士では特にツール作りに苦労することがなく研究を進められました．&lt;/p&gt;
+&lt;p&gt;一方，既存のツールが動かないという問題のせいで実験は全然進みませんでした．
+本当にM1のほとんどはツールを動かすのに苦心していたと思います．
+結局技術的に強い友人に相談したところ，3日で動いたのでもったいない時間の使い方をしたなぁって気分になりました．&lt;/p&gt;
+&lt;p&gt;結局論文を投稿できたのが2020年の2月初めで，条件付き採録通知が来たのが11月，
+修正と再投稿を行い，採録されたのが2021年の1月となりました．&lt;/p&gt;
+&lt;p&gt;感想としては，嬉しいのが半分，ようやく終わったと安心したのが半分です．
+自分としてはこの研究テーマに自身がなかったので，早く終わらしたかったという気持ちもありました．
+本当に時間がかかったので，採録されたのは達成感があります．&lt;/p&gt;
+&lt;p&gt;最後に，論文投稿のきっかけをくれた教授，
+何度も論文を添削してくれた指導教員，
+そしてプログラミングを教えてくれた先輩に心から感謝します．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>APSEC2020に参加した話</title>
+      <link>https://t45k.github.io/blog/apsec_2020/</link>
+      <pubDate>Sat, 05 Dec 2020 00:12:03 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/apsec_2020/</guid>
+      <description>&lt;p&gt;12/2~4にオンラインで開催されたAPSECに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;../apsec_2019&#34;&gt;APSEC2019に参加した話&lt;/a&gt;参照．&lt;/p&gt;
+&lt;p&gt;M2の4月終わりから研究し始めた，重複コードの修正支援ボットの論文をERA（Early Research Achievement）に投げました（&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=536&#34;&gt;論文&lt;/a&gt;）．&lt;br&gt;
+Acceptance rateはTechnical Researchが36.9%（45/122），ERAが46.2%（12/26）らしかったです．&lt;br&gt;
+ERAのacc. rateが高いのでレベルは推して知るべしという感じです．&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;コロナの影響で，APSECに限らず国際会議は軒並みオンラインになってしまいました．&lt;br&gt;
+国際会議は，成果発表の他に観光という側面もあるので，そういった意味ではモチベーションはあまり高くなかったです．&lt;br&gt;
+一方，オンラインのおかげ喋る内容を覚えずに済むという利点もありました．&lt;br&gt;
+発表ですが，チェアの方すら質問しないという謎の現象が発生したおかげで，良くも悪くも英語での質疑応答がなかったです．&lt;/p&gt;
+&lt;p&gt;オンライン会議の悪い側面として，聴衆が参加しにくいというのが挙げられるかなと感じました．&lt;br&gt;
+現地開催の場合，現地にいるのであまり興味がないトラックに参加したり，その結果質疑が盛り上がったりすることがあると思います．&lt;br&gt;
+一方，オンラインの場合は自分と関係ない発表を聞く必要がないので，あまり盛り上がらないと感じました（僕も自分のトラック以外一切参加しませんでした）．&lt;/p&gt;
+&lt;p&gt;コロナが一刻も早く収束して，元のように会議ができればと思います．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「九十九十九」読了</title>
+      <link>https://t45k.github.io/blog/999/</link>
+      <pubDate>Thu, 26 Nov 2020 16:19:02 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/999/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;苦しさを感じるなら、僕なんて愛さなくていいんだ&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;舞城王太郎の「九十九十九」を読みました．
+この本はJDCトリビュートの一冊となっており，
+清涼院流水のJDCシリーズに登場する登場人物九十九十九と同じ名前を持つ人物が主役となっています．&lt;/p&gt;
+&lt;p&gt;内容としては，
+やっぱり舞城王太郎特有のスピード感と超メタ表現のせいで難解になっていました．
+とりあえず二周しましたが，全然分からなかったです．
+作中作と再帰的な構成が本当によく分からなくなります．&lt;/p&gt;
+&lt;p&gt;ただ，これがディスコ探偵水曜日の前に書かれた本だと言われると納得します（書き方や登場人物を含めていろんな共通点がある）．
+ディスコ探偵水曜日が楽しめる人なら楽しく読めるのではないでしょうか．
+繰り返し読むと理解が深まりそうではあるので，
+購入を検討してむ良いかなと思いました．&lt;/p&gt;
+&lt;p&gt;次は清涼院流水の「カーニバル・イブ」を読む予定です．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>西日本近似的一周旅行五日目</title>
+      <link>https://t45k.github.io/blog/tour_day5/</link>
+      <pubDate>Sat, 05 Sep 2020 18:49:05 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/tour_day5/</guid>
+      <description>&lt;p&gt;五日目は帰宅の日でした．
+走行距離は500kmほどです．&lt;/p&gt;
+&lt;p&gt;まずはUFOラインを通って高知まで行きました．
+UFOラインは愛媛と高知を結ぶ山道です．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+UFOラインは天空の道とも呼ばれるほど，道の標高が高いです（1,700mくらい）．
+なので，周りの山々を一望でき，とても景色を楽しめました．
+道自体は非常に狭いので，車で行く際には注意してください．&lt;/p&gt;
+&lt;p&gt;高知では，ひろめ市場でカツオのたたきをいただきました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+カツオのハランボ（お腹の部分．マグロで言うトロ）が脂が乗っておりとても美味しかったです．&lt;/p&gt;
+&lt;p&gt;お昼ご飯を食べ終わってから，大阪に帰りました．
+途中大雨に振られたので，PAで休み休みしながら帰りました．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day2/&#34;&gt;二日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day3/&#34;&gt;三日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day4/&#34;&gt;四日目&lt;/a&gt;
+五日目&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>西日本近似的一周旅行四日目</title>
+      <link>https://t45k.github.io/blog/tour_day4/</link>
+      <pubDate>Fri, 04 Sep 2020 18:48:58 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/tour_day4/</guid>
+      <description>&lt;p&gt;四日目は指宿からフェリーを使って道後まで行きました．
+走行距離は500kmくらいでした．&lt;/p&gt;
+&lt;p&gt;まずはじめに宮崎県にある青島神社に行きました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+青島神社は島全体が神社になっています．
+また，島の周りの独特な形状をした岩は，自然にできたものだそうです．
+フェリーの時間を考えてお昼ご飯は食べませんでした（が，実はこの後高速で道を間違えたので，結局ギリギリになりました）．&lt;/p&gt;
+&lt;p&gt;大分の佐賀関からフェリーに乗り，愛媛へ向かいました．
+バイクでフェリーに乗るのは初めてだったので，ワクワクしました．&lt;/p&gt;
+&lt;p&gt;愛媛に着いてからは道後温泉を目指しました．
+途中で海に近い駅として有名な下灘駅があったので立ち寄ってきました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+綺麗な夕焼けをバックにエモい写真を取りたかったのですが，曇っていたためうまく映えませんでした．
+また，この駅は海のすぐ隣にあると思っていたのですが，実は道路を一本挟んでいます．&lt;/p&gt;
+&lt;p&gt;夜は道後温泉の近くに止まりました．
+お風呂は道後温泉本館に行きました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+道後温泉本館はおそらく現存する最古の大衆浴場で，お風呂や扉の作りから古くからあるのが見て取れました．
+全国的に有名ですが，現在も伝統を守っており，不必要な拡張などは行われていませんでした
+（逆に言うと，思ったよりしょぼかったです．
+中はシャワーと大きな湯船が一つだけでした）．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day2/&#34;&gt;二日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day3/&#34;&gt;三日目&lt;/a&gt;
+四日目
+&lt;a href=&#34;../tour_day5/&#34;&gt;五日目&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>西日本近似的一周旅行三日目</title>
+      <link>https://t45k.github.io/blog/tour_day3/</link>
+      <pubDate>Thu, 03 Sep 2020 16:17:59 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/tour_day3/</guid>
+      <description>&lt;p&gt;三日目は熊本を経由して鹿児島の指宿に行きました．
+走行距離は400kmくらいです．&lt;/p&gt;
+&lt;p&gt;大分から熊本へは，やまなみハイウェイを使いました．
+やまなみハイウェイは景観が良いことで有名なのですが，
+あいにく天気が崩れてしまい，霧がかって何も見えませんでした．
+バイクで雨の中を移動したため，体がとても冷えた上に
+バイクを傾けたら滑りそうになったこともあって死ぬかと思いました．&lt;/p&gt;
+&lt;p&gt;熊本県では研究室の先生おすすめの天外天さんのラーメンを食べました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+かかっているニンニクパウダーの香りが良く，美味しかったです．&lt;/p&gt;
+&lt;p&gt;その後ひたすら南下し指宿温泉まで行きました．
+また，指宿温泉の近所の龍宮神社に行きました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+龍宮神社はその名の通り，浦島太郎の物語の発祥となった神社です．&lt;/p&gt;
+&lt;p&gt;晩御飯は近所のイオンで買った鶏のたたきと芋焼酎にしました．
+イオンで普通に生食用の鶏肉が売ってたり，焼酎の品揃えが異様に良かったりしたところに鹿児島を感じました．
+イオンから桜島が見えました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day2/&#34;&gt;二日目&lt;/a&gt;
+三日目
+&lt;a href=&#34;../tour_day4/&#34;&gt;四日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day5/&#34;&gt;五日目&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>西日本近似的一周旅行二日目</title>
+      <link>https://t45k.github.io/blog/tour_day2/</link>
+      <pubDate>Wed, 02 Sep 2020 19:28:19 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/tour_day2/</guid>
+      <description>&lt;p&gt;2日目は広島県を経由して大分まで行きました．
+1日で500km以上移動したので結構疲れました．&lt;/p&gt;
+&lt;p&gt;厳島神社（修理中の姿）
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+大鳥居が見れなくて残念でした．&lt;/p&gt;
+&lt;p&gt;お昼ご飯の「あなごめし うえの」さんの穴子めし
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+今まで，穴子は鰻の下位互換と考えていましたが，ここの穴子めしは本当に美味しくて，
+その考えが覆されました．
+穴子が肉厚で弾力があり，それが炭火で焼かれていて香ばしかったです．&lt;/p&gt;
+&lt;p&gt;次に，山口にある錦帯橋に行きました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+本来予定にはなかったのですが，どうやら広島，山口ツーリングではそこに行くのが鉄板らしかったので．&lt;/p&gt;
+&lt;p&gt;その後，福岡を素通りして大分にある別府温泉に行きました．
+本州と九州を繋ぐ橋で風が強すぎて半車線くらい流された時は死ぬかと思いました．
+高速道路で道を間違えて次のICでUターンする経験もしました．
+晩御飯は近くの居酒屋で取りました．
+大分名物のとり天や豊後アジ，豊後サバを楽しみました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
+二日目
+&lt;a href=&#34;../tour_day3/&#34;&gt;三日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day4/&#34;&gt;四日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day5/&#34;&gt;五日目&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>西日本近似的一周旅行一日目</title>
+      <link>https://t45k.github.io/blog/tour_day1/</link>
+      <pubDate>Tue, 01 Sep 2020 19:28:19 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/tour_day1/</guid>
+      <description>&lt;p&gt;1日目は島根県に行きました．
+1日で400km近くバイクで移動しましたが，高速がメインだったのでそこまで疲れませんでした．
+高速を降りてからヘルメットを確認してみると，移動中にぶつかったであろう小さい虫の死骸がたくさんへばりついていました&amp;hellip;&lt;/p&gt;
+&lt;p&gt;出雲大社
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;お昼ご飯の出雲そば．
+出雲そばはそばを3つの器に分けて提供するのが特徴的です．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;チェックインまで時間があったので松江城にも行きました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;宿に着いた途端に立ちゴケしてブレーキレバーを壊しました．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;夕飯は，松江のイオンで買った地酒とお寿司でした．
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;一日目
+&lt;a href=&#34;../tour_day2/&#34;&gt;二日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day3/&#34;&gt;三日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day4/&#34;&gt;四日目&lt;/a&gt;
+&lt;a href=&#34;../tour_day5/&#34;&gt;五日目&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「きまぐれロボット」読了</title>
+      <link>https://t45k.github.io/blog/kimagure_robot/</link>
+      <pubDate>Sat, 25 Jul 2020 20:46:40 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/kimagure_robot/</guid>
+      <description>&lt;p&gt;星新一のきまぐれロボットを読みました．&lt;/p&gt;
+&lt;p&gt;この本を読んだ経緯ですが，楽天で買い物をしたときにもらった
+電子書籍の割引券の使い道に困っていたところ，
+友人に星新一を進められたのがきっかけです．&lt;/p&gt;
+&lt;p&gt;ついこの間までしばらく本をあまり読んでいなかったうえに，
+ここ最近は長めのミステリばかり読んでいたので，
+ショートショートは本当に久しぶり（もしかしたら初めて）でした．
+伏線を積み重ねまくって最後にひっくり返すミステリに対して，
+ショートショートは長くても3ページ程度でオチがつくので，
+スッと読み進められました．
+また，すぐ話が切り替わるので，飽きることなく最後まで読めました．&lt;/p&gt;
+&lt;p&gt;思ったよりショートショートが面白かったので，
+また電子書籍のクーポンをもらえたら星新一の本をもう一冊買っても良いかなと思いました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「ジョーカー 旧約探偵神話」読了</title>
+      <link>https://t45k.github.io/blog/joker/</link>
+      <pubDate>Sat, 18 Jul 2020 00:30:49 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/joker/</guid>
+      <description>&lt;p&gt;清涼院流水の「ジョーカー 旧約探偵神話」を読みました．&lt;/p&gt;
+&lt;p&gt;全編を通して「メタミステリ」「過去のミステリに対する挑発」がひしひしと伝わってくる内容でした．
+特にミステリ四大奇書である「ドグラマグラ」「匣の中の失楽」「虚無への供物」「黒死館殺人事件」は文中で何度も言及されており，
+リスペクトが感じられました．
+本文中でミステリの30の原則を挙げ，それを達成しようとする姿勢から，ミステリの総決算だと評されるのもうなずけました．&lt;/p&gt;
+&lt;p&gt;内容自体は前作コズミックと被っている部分もありましたが（作中作など），どんでん返しからのどんでん返しなど目を見張るような場面もいくつもありました．
+ラスト（真犯人）自体は読了直後はあまり納得いきませんでしたが，この直後にコズミックの内容がくることを考えるとなんとなく理解できました．&lt;/p&gt;
+&lt;p&gt;少し残念なところは，今作は時系列的に前作の前の話であり，前作中で今作の事件内容が言及されることもあったため，
+誰が殺されないかなどが薄々わかってしまったことです．&lt;/p&gt;
+&lt;p&gt;次回は，同じく清涼院流水のカーニバル・イブを読む予定です．
+そろそろ目的だった舞城王太郎の九十九十九を読んでも良いかもです．
+また，いつかミステリ四大奇書も読める日が来ればなぁとは感じています．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「コズミック 世紀末探偵神話」読了</title>
+      <link>https://t45k.github.io/blog/cosmic/</link>
+      <pubDate>Wed, 01 Jul 2020 11:05:57 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/cosmic/</guid>
+      <description>&lt;p&gt;清涼院流水の「コズミック 世紀末探偵神話」を読みました．&lt;/p&gt;
+&lt;p&gt;清涼院流水は，僕が敬愛する作家である西尾維新や舞城王太郎が影響を受けたと公言している作家なので，どんな本を書いているのか昔から非常に興味がありました．&lt;/p&gt;
+&lt;p&gt;読んだ感想ですが，久しぶりにページを捲る手が止まらない本を読んだ気がします．
+最初は分厚い上に延々と殺人事件が続くので若干退屈でしたが，探偵の推理パートに入ると一気に面白くなりました．
+特に，最後の九十九十九が推理をする直前，読者への挑戦状あたりはずっと興奮していました．&lt;/p&gt;
+&lt;p&gt;犯人は実は作者みたいなメタ的な展開を予想していたのですが，きれいに納得のいく形で完結していたのも良いと思いました．
+前半の作中作が大きなヒントになっていたとは思わなかったです．&lt;/p&gt;
+&lt;p&gt;この流れで，次も清涼院流水のジョーカーを読む予定です．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「阿修羅ガール」読了</title>
+      <link>https://t45k.github.io/blog/ashura-girl/</link>
+      <pubDate>Thu, 28 May 2020 00:23:42 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/ashura-girl/</guid>
+      <description>&lt;p&gt;舞城王太郎の阿修羅ガールを読みました．&lt;/p&gt;
+&lt;p&gt;一人称視点で進んでいくのですが，主人公の心の声の喋り方がとても真に迫った感じだったのが印象的でした．
+特に，第二部の後半の進め方がすごく理解しやすく，場面をイメージしやすかったです．
+他に，ディスコ探偵水曜日でも登場した桜月淡雪が出てきたのはニヤリとしました．
+舞城王太郎の作品で西暁が出てこないのは珍しいのではないでしょうか．&lt;/p&gt;
+&lt;p&gt;今回，人生で初めて電子書籍を試してみました．
+読んだページの量で達成感を感じる人なので，どのくらいのページ読んだのかが直感的にわからない電子書籍は読書の達成感は薄かったです．&lt;/p&gt;
+&lt;p&gt;次は，舞城王太郎と西尾維新が崇拝している（であろう）清涼院流水の「コズミック」を読む予定です．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「クビシメロマンチスト 人間失格・零崎人識」読了</title>
+      <link>https://t45k.github.io/blog/easy_love_easy_no/</link>
+      <pubDate>Wed, 06 May 2020 20:45:52 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/easy_love_easy_no/</guid>
+      <description>&lt;p&gt;西尾維新の戯言シリーズ2作目であるクビシメロマンチストを読みました．
+&lt;a href=&#34;https://www.amazon.co.jp/%E3%82%AF%E3%83%93%E3%82%B7%E3%83%A1%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88-%E4%BA%BA%E9%96%93%E5%A4%B1%E6%A0%BC%E3%83%BB%E9%9B%B6%E5%B4%8E%E4%BA%BA%E8%AD%98-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%A5%BF%E5%B0%BE%E7%B6%AD%E6%96%B0-ebook/dp/B01EV0NMIG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=2WNUAO24W551I&amp;amp;dchild=1&amp;amp;keywords=%E3%82%AF%E3%83%93%E3%82%B7%E3%83%A1%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88&amp;amp;qid=1588765443&amp;amp;sprefix=%E3%81%8F%E3%81%B3%E3%81%97%E3%82%81%2Caps%2C293&amp;amp;sr=8-1&#34;&gt;amazon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;高校生くらいの時に一度読んだのですが，面白かったのを覚えていたため古本で購入しました．
+2度目でしたがやっぱり面白くかったです．
+中二臭い言い回し，叙述トリック，そして完璧なラストと個人的にツボにはまる部分が多く，24年間生きてきて面白かった本暫定一位です．
+西尾維新といえば物語シリーズが有名ですが，このシリーズも負けず劣らず面白いのでぜひ皆さんに読んで欲しいとは思います．
+区分的にはライトノベルになるので，10年後，20年後にはまた違った感想を抱くかもしれません．&lt;/p&gt;
+&lt;p&gt;アニメ化期待してます．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>K-Shoot MANIAが正しく動かなくなった原因とその対策</title>
+      <link>https://t45k.github.io/blog/k-shoot_mania/</link>
+      <pubDate>Sat, 25 Apr 2020 17:05:30 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/k-shoot_mania/</guid>
+      <description>&lt;p&gt;K-Shoot MANIAの挙動がおかしい原因が分かったのでメモ&lt;/p&gt;
+&lt;h2 id=&#34;症状&#34;&gt;症状&lt;/h2&gt;
+&lt;p&gt;キーボードの入力が異様に遅くなる．
+キーボードを押しっぱなしにして10秒後くらいにようやく反応する．
+もちろんプレイもままならない．
+Windowsのpreview版を使っていたのでそれが原因かなと思っていたが，違うPCでも同じ症状が出たためOSは関係なかった．&lt;/p&gt;
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
+&lt;p&gt;キーボードの入力を書き換えるソフトを使っていたのが原因．
+&lt;a href=&#34;https://sites.google.com/site/craftware/keyhac-ja&#34;&gt;keyhac&lt;/a&gt;と&lt;a href=&#34;https://www.karakaram.com/alt-ime-on-off&#34;&gt;alt-ime&lt;/a&gt;を使っていたが，これのせいでキーボードの入力がケーシューに正しく反映されなくなってたっぽい．
+対策は簡単で，該当ソフトを落とすだけ．&lt;/p&gt;
+&lt;h2 id=&#34;終わりに&#34;&gt;終わりに&lt;/h2&gt;
+&lt;p&gt;LR2の反応がおかしかったのもこれが原因かも．
+自宅ゲーセン環境で快適なひきこもり生活を．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「ディスコ探偵水曜日」読了</title>
+      <link>https://t45k.github.io/blog/disco_detective_wednesdayyy/</link>
+      <pubDate>Fri, 24 Apr 2020 19:01:51 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/disco_detective_wednesdayyy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;この世の出来事は全部運命と意志の相互作用で生まれるんだって、知ってる？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;舞城王太郎の「ディスコ探偵水曜日」を読みました．
+10年以上前の本なのでおそらく新品ではもう手に入りません．
+僕はBook Offをはしごしました．&lt;/p&gt;
+&lt;p&gt;上中下の3巻構成なのですが，下巻が異様に長い上にとても難解．
+この本を読むのは2回目ですが，今回も内容を理解しきれませんでした．&lt;/p&gt;
+&lt;p&gt;粗筋は割愛します．
+個人的には中間の，名探偵が次々と推理を披露して死んでいくシーンと，そしてディスコが最後の推理をするシーンが，
+舞城王太郎特有のスピード感があって好きです．&lt;/p&gt;
+&lt;p&gt;1年に1回，イベントとしてこの本を読むことをありかなぁと思いました．&lt;/p&gt;
+&lt;p&gt;次は西尾維新の「クビシメロマンチスト」を読む予定です．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MacでIntelliJを使っているとクラッシュする問題と解決法</title>
+      <link>https://t45k.github.io/blog/fix_mac_fault/</link>
+      <pubDate>Mon, 13 Apr 2020 17:38:19 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/fix_mac_fault/</guid>
+      <description>&lt;p&gt;MacBook Air 2020を買いました．詳しくは&lt;a href=&#34;https://t45k.github.io/blog/macbook_air&#34;&gt;ここ&lt;/a&gt;．&lt;/p&gt;
+&lt;p&gt;普段はJavaやKotlinを書いているので迷いなくIntelliJ IDEAをインストールしたのですが，どうも挙動がおかしい．&lt;br&gt;
+というのも，結構な頻度でIntelliJがクラッシュするし，場合によってはOSがクラッシュ強制的に再起動がかかります．
+ひどい時にはOSがクラッシュして再起動がかかり，それが開けた2分後に再びクラッシュしたこともあります．&lt;/p&gt;
+&lt;p&gt;実は&lt;a href=&#34;https://t45k.github.io/blog/line&#34;&gt;LINEのインターン&lt;/a&gt;で借りていたMacBook Pro 15inchでも似たような問題が起こっていたので，2度目の経験でした．&lt;br&gt;
+インターンで借りていたパソコンは5日間で返すので我慢して使っていましたが，今回は長らく使っていく予定なので流石に直す必要がありました．&lt;/p&gt;
+&lt;p&gt;修理も視野に入れながら解決法を探しました．&lt;/p&gt;
+&lt;h2 id=&#34;解決法&#34;&gt;解決法&lt;/h2&gt;
+&lt;p&gt;結論からいうと原因は分かりませんでしたが()，&lt;strong&gt;OSを再インストール&lt;/strong&gt;することで解決しました．詳しくは&lt;a href=&#34;https://support.apple.com/ja-jp/HT204904&#34;&gt;こちら&lt;/a&gt;．&lt;br&gt;
+原因が分からないので全ての人がこれで直るかは分かりませんが，OS再インスコでデータが消えることはないため真っ先に試す価値はあります．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MacBook Airを購入した話</title>
+      <link>https://t45k.github.io/blog/macbook_air/</link>
+      <pubDate>Mon, 13 Apr 2020 17:21:02 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/macbook_air/</guid>
+      <description>&lt;h3 id=&#34;念願のmacbook-airを購入しました&#34;&gt;念願のMacBook Airを購入しました!&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/mba.JPG&#34; alt=&#34;mba&#34;&gt;&lt;/p&gt;
+&lt;p&gt;構成は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: 1.1GHzクアッド&lt;/li&gt;
+&lt;li&gt;メモリ: 16GB&lt;/li&gt;
+&lt;li&gt;SSD: 256GB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;数ヶ月後に出ると噂のMacBook Proを待っている人もいるかもしれませんが，僕は以下のような理由でmbaを選びました．&lt;/p&gt;
+&lt;h2 id=&#34;1---もう待てなかったから&#34;&gt;1 - もう待てなかったから&lt;/h2&gt;
+&lt;p&gt;ずっと新しいmacが欲しいと思っていたのでこれ以上待てませんでした&lt;/p&gt;
+&lt;h2 id=&#34;2---そこまでスペックを必要としていないかったから&#34;&gt;2 - そこまでスペックを必要としていないかったから&lt;/h2&gt;
+&lt;p&gt;研究室からmbpを借りていますし，研究などでマシンパワーが必要な時は研究室のワークステーションを使えば良いだけなので&lt;/p&gt;
+&lt;h2 id=&#34;3---touch-barが嫌いだから&#34;&gt;3 - Touch barが嫌いだから&lt;/h2&gt;
+&lt;p&gt;バタフライキーボードはともかく，Touch barは賛否両論ありますが，僕はあまり好きになれませんでした．
+たまに反応しなくなったりするし．&lt;/p&gt;
+&lt;h2 id=&#34;4---安いから&#34;&gt;4 - 安いから&lt;/h2&gt;
+&lt;p&gt;税込み13万で買えました．
+mbpはこんなものじゃすまないと思います．&lt;/p&gt;
+&lt;p&gt;理由としてはこんなところです．
+付け加えるなら，自分の理想にとても近かったというのもあります．
+これは去年の12月のツイート&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;はよmacbook air，13インチ，cpu4コア，RAM16GB，SSD256GB，ファンクションキー，シザーキーボードで10万くらいのやつ出てくれや&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1203581420871905280?ref_src=twsrc%5Etfw&#34;&gt;December 8, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;使い心地&#34;&gt;使い心地&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/fix_mac_fault&#34;&gt;ある一点&lt;/a&gt;を除いたら最高です（その一点も結局解決しました）．&lt;/p&gt;
+&lt;p&gt;主にmbpとの比較になるのですが，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;軽い&lt;/li&gt;
+&lt;li&gt;薄い&lt;/li&gt;
+&lt;li&gt;開けやすい(mbaは切り欠けが下まで貫通している)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;みたいなところです．&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;こうなりました．
+&lt;img src=&#34;https://t45k.github.io/img/blog/stecker.JPG&#34; alt=&#34;stecker&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AtCoderで水色になりました</title>
+      <link>https://t45k.github.io/blog/nyusui/</link>
+      <pubDate>Sun, 29 Mar 2020 00:16:31 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/nyusui/</guid>
+      <description>&lt;p&gt;先日行われた&lt;a href=&#34;https://atcoder.jp/contests/abc160&#34;&gt;ABC160&lt;/a&gt;にて無事に入水を果たしたのでポエムを書きます．
+&lt;img src=&#34;https://t45k.github.io/img/blog/nyusui.png&#34; height=&#34;75%&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;感じたこと&#34;&gt;感じたこと&lt;/h2&gt;
+&lt;p&gt;一つの目標だった水色に到達してほっとしています．
+人によっては10回かそこらでなる人もいる中，53回目でようやくなれた自分の才能とセンスのなさには本当に辟易しています．
+精進が大事．
+蟻本は最初の章しか読めてないけど結構役に立ちました．&lt;/p&gt;
+&lt;h2 id=&#34;次は&#34;&gt;次は&lt;/h2&gt;
+&lt;p&gt;せっかくなので青色を目指します．
+ここ2回のABCは青パフォが出てるので，この調子で頑張っていきたいです．&lt;/p&gt;
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+&lt;p&gt;毎回楽しいコンテストを開催してくれているAtCoder社と，その問題を用意してくれているWriter，Testerの皆様に心から感謝します．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「みんな元気。」読了</title>
+      <link>https://t45k.github.io/blog/all_fine/</link>
+      <pubDate>Fri, 20 Mar 2020 12:00:53 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/all_fine/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;みんな大丈夫。みんな元気。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;舞城王太郎の「みんな元気。」を読みました．&lt;a href=&#34;https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97%E3%80%82-%E8%88%9E%E5%9F%8E%E7%8E%8B%E5%A4%AA%E9%83%8E-ebook/dp/B00CL6N332/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;dchild=1&amp;amp;keywords=%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97&amp;amp;qid=1584673351&amp;amp;sr=8-5&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この本は，表題である「みんな元気。(副題: Cuckoos &amp;amp; The Invisible Devil)」と短編4編で構成されています．
+例によってきっかけはDJ Technorch．&lt;/p&gt;
+&lt;p&gt;粗筋は，空飛ぶ家族が主人公の妹を拐いに来てなんやかんやある感じです．
+相変わらず難解だった気がします．
+この物語は，「選択」が主題の一つだと思います．
+副題のカッコウから，拐われた妹が実は托卵だったみたいな展開を予想しましたが全然そんなことありませんでした．
+風呂敷をめちゃくちゃに広げたうえで畳むことなく急に終わる感じなのですが，終わり方が納得できるというかとても爽やかでした．&lt;/p&gt;
+&lt;p&gt;短編集の中では，「スクールアタック・シンドローム」が好きです．&lt;/p&gt;
+&lt;p&gt;なんとなく，舞城王太郎特有のスピード感的なものを理解してきた気がしました．&lt;/p&gt;
+&lt;p&gt;次はおそらく「九十九十九」を読みます．&lt;/p&gt;
+&lt;p&gt;最後に&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-71fQjkZ0X8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「好き好き大好き超愛してる。」読了</title>
+      <link>https://t45k.github.io/blog/love_love_love_you_i_love_you/</link>
+      <pubDate>Tue, 03 Mar 2020 16:20:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/love_love_love_you_i_love_you/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;愛は祈りだ。僕は祈る。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;舞城王太郎の「好き好き大好き超愛してる。」を読みました．&lt;a href=&#34;https://www.amazon.co.jp/%E5%A5%BD%E3%81%8D%E5%A5%BD%E3%81%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%E8%B6%85%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%80%82-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%88%9E%E5%9F%8E-%E7%8E%8B%E5%A4%AA%E9%83%8E/dp/4062760819/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=%E5%A5%BD%E3%81%8D%E5%A5%BD%E3%81%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%E8%B6%85%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B&amp;amp;qid=1583220082&amp;amp;sr=8-1&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;きっかけはDJ Technorchの楽曲「Love Love Love You I Love You」．&lt;br&gt;
+舞城王太郎作品は，以前「ディスコ探偵水曜日」を読んでめちゃくちゃ読みにくいなと思っていたので，読む前に少し構えました．&lt;br&gt;
+「愛は祈りだ。」の一文から始まるこの本は，一貫して「愛」と「物語」についての小説です．
+一文目がこれほど全体を象徴している作品は個人的にはこれが初めてで，おそらく長く記憶に残るんだろうなぁという感じです（余談ですが，最後の一文が一番記憶に残っている作品は西尾維新の「クビシメロマンチスト」）．
+読みやすい方ではありますが，理解するのは難しいと感じました．&lt;/p&gt;
+&lt;p&gt;次は「みんな元気。」を読みます．&lt;/p&gt;
+&lt;p&gt;最後に，きっかけとなった楽曲を貼っときます．&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lTrDY-60mMg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ICSE2020の面白そうな論文をピックアップしてみた</title>
+      <link>https://t45k.github.io/blog/icse2020_abst/</link>
+      <pubDate>Sat, 01 Feb 2020 18:59:35 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/icse2020_abst/</guid>
+      <description>&lt;p&gt;ICSEはInternational Conference of Software Engineeringの略です．
+ソフトウェア工学の国際学会の中で一番ランクが高い会議です．
+会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので，
+面白そうな論文をピックアップしてみました．&lt;/p&gt;
+&lt;h2 id=&#34;is-rust-used-safely-by-software-developers&#34;&gt;Is Rust Used Safely by Software Developers?&lt;/h2&gt;
+&lt;p&gt;RustはC，C++に取って代わることを目指した，メモリ安全性や実行速度を売りにしているプログラミング言語です．
+その特徴から，ソフトウェア開発界隈からの注目度が高まりつつあります．&lt;br&gt;
+この論文では，メモリ安全性を放棄する代わりにパフォーマンスを上げる &lt;strong&gt;Unsafe Rust&lt;/strong&gt; についての調査を行っています．&lt;/p&gt;
+&lt;h2 id=&#34;securing-unsafe-rust-programs-with-xrust&#34;&gt;Securing UnSafe Rust Programs with XRust&lt;/h2&gt;
+&lt;p&gt;これもRustの論文です．&lt;br&gt;
+XRustという，Unsafe Rustを通常のRustに移行する手法を提案しています．&lt;br&gt;
+ICSEに(Unsafe)Rustに関する論文が2本採択されていることから，ソフトウェア開発におけるRustの盛り上がり具合が分かります．&lt;/p&gt;
+&lt;h2 id=&#34;big-code--big-vocabulary-open-vocabulary-models-for-source-code&#34;&gt;Big Code != Big Vocabulary: Open-Vocabulary Models for Source code&lt;/h2&gt;
+&lt;p&gt;キャッチーなタイトルだったのでピックアップしてみました．&lt;br&gt;
+変数名などのユーザー定義の識別子があるため，ソースコードは自然言語に比べて，大規模になるとコーパスが巨大になってしまいます．
+この論文では，コーパスがスケールするように，新しい言語モデルを提案しています．&lt;/p&gt;
+&lt;h2 id=&#34;dlfix-context-based-code-transformation-learning-for-automated-program-repair&#34;&gt;DLFix: Context-based Code Transformation Learning for Automated Program Repair&lt;/h2&gt;
+&lt;p&gt;最近のソフトウェア工学の大きなトピックの一つであるAPRの論文．&lt;br&gt;
+機械学習ベースのAPRは過去のバグ修正の学習に制限があるのに対して，DLFixでは学習のレイヤを2層に分けることでうまくこの制限を回避したらしいです．&lt;/p&gt;
+&lt;h2 id=&#34;a-cost-efficient-approach-to-building-in-continuous-integration&#34;&gt;A Cost-efficient Approach to Building in Continuous Integration&lt;/h2&gt;
+&lt;p&gt;CIの論文．&lt;br&gt;
+CIのコストはビルドを回している時間だけかかってしまい，かつ，CIの目的はバグを発見することなので，
+多くのバグを発見するビルドをなるべく早い段階で回す手法を提案しています．&lt;/p&gt;
+&lt;h2 id=&#34;here-we-go-again-why-is-it-difficult-for-developers-to-learn-another-programming-language&#34;&gt;Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?&lt;/h2&gt;
+&lt;p&gt;ある言語を習得したプログラマが他の言語を習得する際の難易度に関する調査を行った研究．&lt;/p&gt;
+&lt;h3 id=&#34;終わりに&#34;&gt;終わりに&lt;/h3&gt;
+&lt;p&gt;以上です．
+会議全体としては，機械学習とFuzzing周りの論文が多い印象です．
+おそらく今年もICSE勉強会が実施されると思うので，楽しみにしてます．&lt;/p&gt;
+&lt;p&gt;論文一覧は&lt;a href=&#34;https://conf.researchr.org/track/icse-2020/icse-2020-papers#event-overview&#34;&gt;ここ&lt;/a&gt;から見れます．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>研究室のパソコンがmacbook proになった話</title>
+      <link>https://t45k.github.io/blog/mbp/</link>
+      <pubDate>Tue, 21 Jan 2020 18:11:41 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/mbp/</guid>
+      <description>&lt;p&gt;組織特有の，年末に予算を使い切る目的で，新しいmacbook proを貸してもらえることになった．
+モデルはMid2019の13インチモデル．
+研究室内で大した業績を上げていない自分にしてはとても良いものを貸してもらえたと思う．&lt;/p&gt;
+&lt;p&gt;以下，使ってみた感想&lt;/p&gt;
+&lt;h2 id=&#34;良いとこ&#34;&gt;良いとこ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;速い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今まで2015年モデルのmacbook airを借りていた．
+mbpと比べるとマシンパワーが段違いであり，作業にかかる時間が大幅に短縮された．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;画面が綺麗&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;マジで全然違う．
+4年でここまで変わるのかって感じ．&lt;/p&gt;
+&lt;h2 id=&#34;良くないとこ&#34;&gt;良くないとこ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日本語入力がもっさりしてる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;mbaでは起きていなかった現象．
+英語入力から日本語入力に変更した直後が，なぜか入力してから画面に表示されるまで0.5秒くらいかかる．
+ググったら結構記事がヒットしたので，何かしらの解決法はあると思う．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;キーボードがヤバイ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;使う前からバタフライキーボードがやばいことは理解していたが，使ってみるとやっぱりやばかった．
+普段RealForceや青軸のゲーミングキーボード等のしっかりと押し込むタイプのキーボードを使っているので違和感が凄い．&lt;/p&gt;
+&lt;p&gt;多分ボタンの押し方にコツが必要なのだと感じた．
+バタフライキーボードは指先で押すと指先を痛めやすい（インターンでmbpを借りていたときはマジで一日の終わりは指先が痛かった）ので，指の腹で押すのが大事だと思う．
+今でも&amp;rsquo;return&amp;rsquo;を押す右小指が痛くなってきた．
+普段からmbpを使っている友達曰く，なぞるように押すのが良いらしいので慣れるしかないかなぁって気持ち．&lt;/p&gt;
+&lt;p&gt;また，バタフライキーボードは薄さにわりに押す際に力が必要なので，小指などで押す&amp;rsquo;A&amp;rsquo;や&amp;rsquo;P&amp;rsquo;などが押せてないことが頻発した．&lt;/p&gt;
+&lt;p&gt;エスケープが使いづらいのも地味に辛い．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;研究室ではRealForceに接続して使うのでバタフライキーボードはまだマシだと思う．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>APSEC2019に参加した話</title>
+      <link>https://t45k.github.io/blog/apsec_2019/</link>
+      <pubDate>Thu, 05 Dec 2019 20:19:32 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/apsec_2019/</guid>
+      <description>&lt;p&gt;12/3~5にマレーシアで開催されたAPSECに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
+&lt;p&gt;Asia-Pacific Software Engineering Conferenceの略です．
+要するにソフトウェア工学の国際会議です．
+会議ランクについては詳しくは知らないのですがそこまで高くないと思います．
+投稿前に先生が，「APSECは塩漬けのネタを投稿するのにちょうど良い」と語っていたのが印象的でした．&lt;/p&gt;
+&lt;h2 id=&#34;マレーシアとは&#34;&gt;マレーシアとは&lt;/h2&gt;
+&lt;p&gt;こんな国です．&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マレーシア&lt;br&gt;+ 物価が安い&lt;br&gt;+ 時差が1時間&lt;br&gt;+ 英語が通じる&lt;br&gt;&lt;br&gt;+- 暑い&lt;br&gt;&lt;br&gt;- 酒を飲める場所がかなり限られる&lt;br&gt;- 用を足した後に紙を使わない文化&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1202822137611862017?ref_src=twsrc%5Etfw&#34;&gt;December 6, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/apsec.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;p&gt;投稿前はあまり気乗りしなかったし，正直通るとも思ってませんでしたが，結果的には国際学会で発表できて良かったなと感じました．
+質疑対応がかなりグダッてしまったので英語力（特にリスニング）を鍛えるのが重要だと思いました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LINE DEVELOPER DAY2019に参加した話</title>
+      <link>https://t45k.github.io/blog/devday/</link>
+      <pubDate>Thu, 21 Nov 2019 20:16:05 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/devday/</guid>
+      <description>&lt;p&gt;11/20，21に開催されたLINE DEV DAYに参加してきました．&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;dev-dayとは&#34;&gt;DEV DAYとは&lt;/h2&gt;
+&lt;p&gt;LINEが開催している社内の技術などを公開するエンジニア向けのイベントです．
+今年は二日に分けて開催し，エンジニアだけでなくデザインやプロダクト的な話も盛り込んだそうです．&lt;/p&gt;
+&lt;h2 id=&#34;参加したきっかけ&#34;&gt;参加したきっかけ&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;../line/&#34;&gt;LINEのインターン&lt;/a&gt;に参加した時のメンターさんがLINE SDKのリードテックになられたらしく，DEV DAYでの登壇の際にインターン中に作ったプロダクトを紹介するかもみたいな話を小耳に挟んだのがきっかけです．
+また，LINEは学生向けに金銭的援助を行っており，インターン生は（交通費として）無条件で3万円もらえるというのも結構魅力的でした．&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;20日は違う会社の採用面接に参加していたため，21日だけ参加しました．
+思ったより規模が大きく，たくさんの人が参加していたのが印象的でした．
+感想ですが，実は当日頭痛が酷く，話を聞く余裕がなかったというのが正直なところです．
+例のメンターさんの発表で，唐突にライブコーディングが始まったのだけはっきり覚えています．
+また，国際学会前というのもあり，慌ただしく帰ることになってしまいました．&lt;/p&gt;
+&lt;p&gt;今年はゆっくり聞く時間がなかったので，来年機会があればもう少し余裕を持って参加したいなと感じました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>インターン総括</title>
+      <link>https://t45k.github.io/blog/intern/</link>
+      <pubDate>Sat, 14 Sep 2019 18:26:04 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/intern/</guid>
+      <description>&lt;p&gt;2019年，M1の夏休みに行ってきたインターンの所感を書きます．&lt;/p&gt;
+&lt;h2 id=&#34;参加したインターン&#34;&gt;参加したインターン&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../aws/&#34;&gt;AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../line/&#34;&gt;LINE KYOTO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../rakuten/&#34;&gt;楽天&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参加しなかったインターン&#34;&gt;参加しなかったインターン&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../ntt/&#34;&gt;NTT DATA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参加できなかったインターン&#34;&gt;参加できなかったインターン&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../nssol/&#34;&gt;NSSOL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../cookpad/&#34;&gt;cookpad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;インターン全体の所感&#34;&gt;インターン全体の所感&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;意識高い学生が多い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;学部の時は普段からゴリゴリ開発してるような友人はあまりいなかったため，意識の高い学生がこんなにもいることに驚きました&lt;/li&gt;
+&lt;li&gt;彼らと就活で戦うことを考えるとすでに辛い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結構B3，B4で参加してる人も多い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;意識高い&lt;/li&gt;
+&lt;li&gt;当時の僕はインターンなんて考えたことなかったので&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;実力も高い&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AtCoder青とかがゴロゴロいる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また，自分のスキルアップ（特にweb周りの知識）に繋がったのでよかったです．&lt;/p&gt;
+&lt;p&gt;反省点としては，フロントなどの今までの自分が全くやったことがないような分野に挑戦することがなかったことが挙げられます．
+自分の知らない分野を一から勉強した上できちんとしたものを作ることを，期限が短いインターン中にやり切るのは難易度が高いと感じました．
+こういうことは普段から興味を持って勉強した方が良いのだと考えさせられました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>楽天のインターンに参加した話</title>
+      <link>https://t45k.github.io/blog/rakuten/</link>
+      <pubDate>Fri, 13 Sep 2019 18:21:32 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/rakuten/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;9/9~13の間，大阪で開催された楽天様のインターンに参加してきました．
+写真はインターン中に頂いた無料朝食です．&lt;/p&gt;
+&lt;h2 id=&#34;楽天とは&#34;&gt;楽天とは&lt;/h2&gt;
+&lt;p&gt;説明不要だと思います．
+日本発のメガベンチャーで，ECの楽天市場などが有名です．
+会社としては，外国人を積極的に採用しており，社内公用語が英語であることが特徴です．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;選考は面接だけでした．
+面接の内容もそこまで突っ込んだ話はしなかったです．
+面接官の社員さんと趣味が合い，ずっとバイクの話をしていました．&lt;/p&gt;
+&lt;p&gt;面接に通過した後，Springを使うための簡単な事前課題が出されました．&lt;/p&gt;
+&lt;h2 id=&#34;インターン&#34;&gt;インターン&lt;/h2&gt;
+&lt;p&gt;外国人向けサービスを作ってみようという題目でハッカソンを行いました．
+学生4人 + メンターの社員さん2名で開発を行っていくという方式でした．
+今までメンターの社員さんは困ったり質問があったら訊きにいく程度の存在だったので，ここまでがっつり開発に参加してくれるのは新鮮でした．
+他のインターンでは作るものが指定されていたので，アイデアソンから始めるというのは初めての出来事でした（余談ですが，アイデアが他の班と完全に被っていました）．&lt;/p&gt;
+&lt;p&gt;開発を始めたのは2日目の朝からでしたが，班のメンバーにはgitを使ったことなかったり，Javaを書いたりしたことがない人もいたため，午前中はそこら辺の知識の共有から始めました（これのおかげで，その後スムーズに開発することができました）．
+仕様などを決める際にも，社員さんと相談しながら決めました．
+AWSの時はまったく理解できなくて着いていけなくなった経験から，分からないことは質問して理解してから先に進むようにしました．
+開発自体はスムーズに進み，プロダクト自体も個人的には満足いくものが作れました．
+技術的な面では，空いている時間でCIやDockerなどのモダンな技術を導入できました．
+しかしプレゼンがグダリすぎてしまい，コンペでは最下位という結果でした．
+プロダクト自体には満足していたので，結構悔しかったです．
+ただ開発は楽しかったし，会社としての楽天も食堂が無料など良い点が多くインターンには非常に満足しました．&lt;/p&gt;
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+&lt;p&gt;インターン中のパフォーマンスが評価されて，M1の10月ごろに採用面接をしていただけました．
+合計3回の面接を経て，内定を頂けました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LINE KYOTOのインターンに参加した話</title>
+      <link>https://t45k.github.io/blog/line/</link>
+      <pubDate>Fri, 30 Aug 2019 18:13:39 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/line/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;line-kyotoとは&#34;&gt;LINE KYOTOとは&lt;/h2&gt;
+&lt;p&gt;LINEが何なのかは説明不要だと思うので割愛します．
+LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです．
+また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;選考は技術試験と面接です．
+技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません．
+面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした．
+僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました．
+結構倍率は高いようでしたが何とか通りました．&lt;/p&gt;
+&lt;h2 id=&#34;インターン&#34;&gt;インターン&lt;/h2&gt;
+&lt;p&gt;LINEが開発しているLIFF SDKを用いて，LINE上で動くサービスを開発してみようという内容でハッカソンを行いました．
+3人で一つの班を組み，4つのテーマから1つ選択するという形式で，僕たちの班はUNOを選択しました．
+僕達が参加した一週間前にも同じインターンがあり，その時UNOを選択した班は結局完成しなかったと散々脅されましたが，結果的に4班中3班がUNOを選択していました．&lt;/p&gt;
+&lt;p&gt;僕達の班はフロントの描画担当の子がKotlinで書くということなので，フロントからサーバまですべてKotlinで書くことにしました．
+僕は楽天のインターンの事前課題でSpringを触っていたのでサーバを書くことにしました．
+また，3人班のもう一人の子が超絶優秀で，最初に仕様とDB設計を行い，サーバとフロントの手伝いをしつつ，サーバとフロントと外部APIを繋げてちゃんと動くようにするという一番難しい部分を担ってくれたおかげで，僕たちの班はちゃんと動くものを作ることができました．
+結果的に他の2班は完成させることができず，とても達成感と満足感を得ることができました．&lt;/p&gt;
+&lt;p&gt;社員さん達もそれぞれの分野に精通した人が揃っていて，問題が発生してもすぐに解決できることが多かったです．
+残業禁止で定時には全員帰られるというのもとても魅力的でした．&lt;/p&gt;
+&lt;p&gt;インターン中の様子は以下の以下のLINE公式ブログにも取り上げられています．
+&lt;a href=&#34;https://engineering.linecorp.com/ja/blog/kyoto-intern2019/&#34;&gt;https://engineering.linecorp.com/ja/blog/kyoto-intern2019/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+&lt;p&gt;せっかくインターンに参加したので，本選考も受けることにしました．
+本選考は技術テストが1回，技術面接が1回，最終面接でした．
+最終面接にて無事不採用となりました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AWSのインターンに参加した話</title>
+      <link>https://t45k.github.io/blog/aws/</link>
+      <pubDate>Tue, 20 Aug 2019 18:07:41 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/aws/</guid>
+      <description>&lt;p&gt;8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;awsとは&#34;&gt;AWSとは&lt;/h2&gt;
+&lt;p&gt;AWSとは，Amazon Web Serviceの略です．
+AWSはAmazonのクラウド事業を担当している会社です．
+Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）．
+今，世界で最も勢いのあるIT会社の一つだと言えます．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;HP上には技術試験 + 面接と書いてあったのですが，なぜか面接が行われませんでした．
+技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした．
+今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました．
+問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました．
+結果的に通ったので良かったです．&lt;/p&gt;
+&lt;h2 id=&#34;インターン&#34;&gt;インターン&lt;/h2&gt;
+&lt;p&gt;実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました．
+仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました．
+東京まで来て何してるんだろうって結構辛い気持ちになりました．
+ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．&lt;/p&gt;
+&lt;h2 id=&#34;追記&#34;&gt;追記&lt;/h2&gt;
+&lt;p&gt;このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました．
+技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cookpadのインターンに参加できなかった話</title>
+      <link>https://t45k.github.io/blog/cookpad/</link>
+      <pubDate>Thu, 01 Aug 2019 18:32:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/cookpad/</guid>
+      <description>&lt;p&gt;cookpadのインターンに参加できませんでした．&lt;/p&gt;
+&lt;h2 id=&#34;cookpadとは&#34;&gt;cookpadとは&lt;/h2&gt;
+&lt;p&gt;料理のレシピを提供するサービスで有名な会社です．
+あまり知られていないのですが（僕が知らなかっただけかもしれませんが），ITに力を入れており，技術力があるエンジニアが多く所属しています．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;技術試験 + 面接です．&lt;/p&gt;
+&lt;p&gt;技術試験はプロコンのようにテストケースが用意されているわけではなく，仕様のみが与えられてそれに一致するようなコードを書くという問題でした．
+仕様を満たすようにコードは書いたつもりでしたが落ちてしまいました．&lt;/p&gt;
+&lt;p&gt;原因として考えられるのが，問題中APIを叩く部分があって，通常であれば言語仕様に則ってPOSTなどをすると思うのですが，当時はAPIって何?って状態だったので，直接コマンドからcurlを呼び出すように書きました．
+その辺から技術不足が見抜かれたのかなぁって感じです．&lt;/p&gt;
+&lt;p&gt;結構悔しかったです．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NSSOLのインターンに参加できなかった話</title>
+      <link>https://t45k.github.io/blog/nssol/</link>
+      <pubDate>Thu, 01 Aug 2019 18:32:21 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/nssol/</guid>
+      <description>&lt;p&gt;NSSOL様のインターンに参加できませんでした．&lt;/p&gt;
+&lt;p&gt;NSSOLに行った研究室の先輩方は多く，結構興味を持っていました．
+東京までの旅費や宿泊費を出してくれる上に，毎日飲み会があると聞いていたので参加できることを楽しみにしていました．&lt;/p&gt;
+&lt;h2 id=&#34;nssolとは&#34;&gt;NSSOLとは&lt;/h2&gt;
+&lt;p&gt;日本製鐵のシステム部門が独立してできた会社です．
+母体が大きな会社であり，NSSOLも国内のSIerの中ではそれなりに大きく有名な会社です．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;ES + SPI + 面接でした．&lt;/p&gt;
+&lt;p&gt;SPIはテストセンターまで受けに行かなければならず面倒でした．
+面接は顔合わせ程度のものだと聞いていたのでここで落とされるとは思っていませんでした．
+ただ面接自体は，普段からやっていて癖になっている自虐が多く出てしまい落ちることも納得でした．
+こういうジャパニーズトラディショナルカンパニーには面接でありのままの自分を見せるよりも多少は偽った方が良いのかなと思いました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NTT DATAのインターンに参加しなかった話</title>
+      <link>https://t45k.github.io/blog/ntt/</link>
+      <pubDate>Thu, 01 Aug 2019 18:32:15 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/ntt/</guid>
+      <description>&lt;p&gt;NTT DATAのインターンに参加しませんでした．&lt;/p&gt;
+&lt;h2 id=&#34;ntt-dataとは&#34;&gt;NTT DATAとは&lt;/h2&gt;
+&lt;p&gt;国内情報系最大手のNTTのSI部門会社です．
+やはり最大手らしく，日本全国から有能な人材が集まることで有名です．&lt;/p&gt;
+&lt;h2 id=&#34;選考フロー&#34;&gt;選考フロー&lt;/h2&gt;
+&lt;p&gt;ES + SPI + 動画提出でした．&lt;/p&gt;
+&lt;p&gt;テストセンターに行かなくても自分のパソコン上でSPIを受けれたのが個人的に楽でした．
+動画はインターンに対する意気込みを語れとのことでした．
+これで採用か不採用かが決まるのも変な気がしましたが，とりあえずほぼ一発どりで提出したら通ってびっくりました．&lt;/p&gt;
+&lt;p&gt;このインターンに参加すると合計4週間インターンに行くことになってしまうので辞退しました．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>人生 on T45K</title>
+    <link>https://t45k.github.io/tags/%E4%BA%BA%E7%94%9F/</link>
+    <description>Recent content in 人生 on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="https://t45k.github.io/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2年勤めた楽天を退職した話</title>
+      <link>https://t45k.github.io/blog/farewell_rakuten/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/farewell_rakuten/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_osaka_office.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2023年6月末をもって楽天グループ株式会社（大阪支社）を退職する運びとなりました。
+2021年4月に新卒として入社したので、2年3ヶ月在籍したことになります。&lt;/p&gt;
+&lt;h2 id=&#34;なぜ入社したか&#34;&gt;なぜ入社したか&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/rakuten/&#34;&gt;学生の時に参加したインターン&lt;/a&gt;が楽しかったというのが最大の理由です。&lt;/p&gt;
+&lt;p&gt;また、日本最大級のサービスを提供している、英語で仕事できるという点に面白みを感じましたし、
+カフェテリアが無料というのも魅力的でした。&lt;/p&gt;
+&lt;h2 id=&#34;どんな会社だったか&#34;&gt;どんな会社だったか&lt;/h2&gt;
+&lt;h3 id=&#34;技術&#34;&gt;技術&lt;/h3&gt;
+&lt;p&gt;大小様々なサービスを展開しているので、大規模なサービスで専門的なスキルをつけることも、
+比較的小規模なサービスでフロントからインフラまでフルスタックで面倒を見ることも選択できます。&lt;/p&gt;
+&lt;p&gt;新しいサービスが立ち上がることも少なくないので、立ち上げから関わることもできます。&lt;/p&gt;
+&lt;p&gt;また、楽天はプライベートクラウド&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;を持っているため、クラウドの運用側を覗けるのも大企業ならではの面白さではと思います。
+パブリッククラウドと比較して格安で使えるので、実際に動かしながらk8sを学ぶこともできます。&lt;/p&gt;
+&lt;h3 id=&#34;人材&#34;&gt;人材&lt;/h3&gt;
+&lt;p&gt;多様な国籍の人達と働けます。
+外国人と雑談し、お互いのバックグラウンドを理解し合うのは面白かったです。&lt;/p&gt;
+&lt;p&gt;外国人特有の飲み会の騒がしさも好きでした。&lt;/p&gt;
+&lt;h3 id=&#34;福利厚生&#34;&gt;福利厚生&lt;/h3&gt;
+&lt;p&gt;結構充実していると思います。&lt;/p&gt;
+&lt;p&gt;何といっても、カフェテリアが朝昼晩無料で利用できるのは強いと感じました。&lt;/p&gt;
+&lt;p&gt;また、二子玉川の本社だと、ジムや託児所も備え付けられているそうです。&lt;/p&gt;
+&lt;p&gt;現在、週3回程度の出社が義務付けられていますが、僕は顔を合わせて仕事をするのが好きなので、これは歓迎でした
+（もちろん、家族や健康などの理由があると出社は免除されます）。&lt;/p&gt;
+&lt;h2 id=&#34;何をしたか&#34;&gt;何をしたか&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://car.rakuten.co.jp/&#34;&gt;楽天Car&lt;/a&gt;というサービスを担当していました。&lt;/p&gt;
+&lt;p&gt;新機能の実装だけでなく、CIの導入、オンプレからk8sへの移行など幅広くやっていました。&lt;/p&gt;
+&lt;p&gt;その他、&lt;a href=&#34;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&#34;&gt;短期インターンのメンター&lt;/a&gt;をしたり、
+社内LTに参加したり、&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2023_spring/&#34;&gt;登壇&lt;/a&gt;したりもできました。&lt;/p&gt;
+&lt;p&gt;また、この職場でSpock&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;を知ることができたのはとても良かったです。&lt;/p&gt;
+&lt;h2 id=&#34;むすび&#34;&gt;むすび&lt;/h2&gt;
+&lt;p&gt;楽天では良い上司、先輩、同期、後輩に恵まれました。この場を借りてお礼申し上げます。
+僕は人間関係の大部分が会社に依存しているので、退職はシンプルに寂しいです。&lt;/p&gt;
+&lt;p&gt;この2年間で幅広くチャレンジさせてもらえて、様々なことを学べました。
+ファーストキャリアに楽天を選んで良かったなと思います。&lt;/p&gt;
+&lt;p&gt;次のキャリアでは、エンジニアの実力を伸ばすことに注力できる環境でチャレンジしていきます。&lt;/p&gt;
+&lt;p&gt;最後に、楽天モバイルの成功を心からお祈りしております。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://xtech.nikkei.com/atcl/nxt/column/18/00001/07478/&#34;&gt;https://xtech.nikkei.com/atcl/nxt/column/18/00001/07478/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://spockframework.org/&#34;&gt;https://spockframework.org/&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2022年の振り返り</title>
+      <link>https://t45k.github.io/blog/retrospective_2022/</link>
+      <pubDate>Sat, 31 Dec 2022 09:39:23 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/retrospective_2022/</guid>
+      <description>&lt;p&gt;2022年を振り返る。&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;楽しく仕事ができた。
+特に、チーム内でやっていることをチーム外に啓蒙するという活動をしてて、それが評価されたという感じ。&lt;/p&gt;
+&lt;p&gt;先輩、後輩とのつながりも増えて申し分ない1年間だった。&lt;/p&gt;
+&lt;h2 id=&#34;仕事&#34;&gt;仕事&lt;/h2&gt;
+&lt;h3 id=&#34;1月----3月&#34;&gt;1月 &amp;ndash; 3月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;主にインターンのメンターとJenkinsおじさんをやってた&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;インターンのメンターは、インターンの子が超絶優秀だったのであまりやることがなかった。
+&lt;ul&gt;
+&lt;li&gt;逆に色々教えてもらえて良かった。&lt;/li&gt;
+&lt;li&gt;リリースが間に合わなかったのはシンプルに申し訳なかった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;JenkinsはIaaS環境に載せてたJenkinsがあまりにも使い物にならなくなってきたので、k8s環境に載せ替えた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;- 一つのコンテナに全ての機能を突っ込む&lt;br&gt;- コンテナにcredentialを突っ込む&lt;br&gt;&lt;br&gt;みたいなカスみたいなアンチパターンから、&lt;br&gt;&lt;br&gt;- 機能ごとにコンテナを分割して、ポートで通信する&lt;br&gt;- credentialはコンテナに持たせず、都度Jenkins側から渡す&lt;br&gt;&lt;br&gt;に改善できて良い&lt;/p&gt;&amp;mdash; task@血圧・尿酸 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1496688678546321409?ref_src=twsrc%5Etfw&#34;&gt;February 24, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;ul&gt;
+&lt;li&gt;個人的には大満足なマイグレーション。&lt;/li&gt;
+&lt;li&gt;ちなみにこの話をこの1年間擦り続けてる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4月----6月&#34;&gt;4月 &amp;ndash; 6月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;この辺りから、趣味で他のチームのコードレビューにも参加するようになる。
+&lt;ul&gt;
+&lt;li&gt;啓蒙活動。&lt;/li&gt;
+&lt;li&gt;特に汚いソースコードに関してコメントすることが多かった。この辺は個人の思想の押し付けになってたかも。&lt;/li&gt;
+&lt;li&gt;最終的に綺麗なソースコードを書こうとしても設計が崩壊してると終わりなことに気づいた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7月----9月&#34;&gt;7月 &amp;ndash; 9月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Java8環境に耐えきれなくなり、Java17にアプデするプロジェクトを勝手に立ち上げる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PDMに話通して、スケジュール設定 → 実装 → テスト → リリースまでを自分でできたのは良い経験だったなと。&lt;/li&gt;
+&lt;li&gt;終わった後にLT会でナレッジを共有したり、他のチームのJava17導入に噛んだりできて良かったなと。&lt;/li&gt;
+&lt;li&gt;チームに自動E2Eテストを書く文化が根付いていたので、マイグレーションがかなりやりやすかった。ありがたい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;夏のインターンのメンター&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1週間&lt;/li&gt;
+&lt;li&gt;自分も夏のインターンからの採用だったので、その辺も踏まえて会社に貢献できたらという気持ち。&lt;/li&gt;
+&lt;li&gt;どっちかというと1日の終わりのレビューがメインのお仕事でした。&lt;/li&gt;
+&lt;li&gt;最終的に優勝してた。すごい。&lt;/li&gt;
+&lt;li&gt;その辺の話はこちら&lt;br&gt;
+&lt;a href=&#34;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&#34;&gt;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;以降、インターン経験者かつメンターで優勝みたいな経歴もあって新卒向けイベントみたいなのに呼ばれる機会が増えた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10月----12月&#34;&gt;10月 &amp;ndash; 12月&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;複数チームにまたがって改善活動をやっていこうぜ的なチームが発足。
+-「自チームの改善」 + 「コードレビューを通した他チームへの貢献」みたいなところに目をつけれられて、そのチームに放り込まれる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他のチームの人と議論したり、自分がやった改善活動の横展みたいなことをしてた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;これまでやってきたことが認められて昇格。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特別昇格扱いだとかなんとか。&lt;/li&gt;
+&lt;li&gt;ほとんど残業せずに昇格できたので、コスパ良かったなぁと。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;他のチームに2ヶ月弱移籍。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;他のチームのサービスも知っておいた方が良いという上の方針で。&lt;/li&gt;
+&lt;li&gt;100%英語での仕事だったので大変だった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;人間関係&#34;&gt;人間関係&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;出社が増えて、社内の人たちと仲良くなった。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特に、会社が晩御飯の提供を始めてから、三食同期と一緒に食べる機会が多かったのが良かった。&lt;/li&gt;
+&lt;li&gt;後輩が入ってきた。今のところ仲良くしてもらってる。
+&lt;ul&gt;
+&lt;li&gt;ライブとかクラブとかに引きずり回されたそれはそれで良かった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;年が近い先輩と飲みに行く機会が何回かあって楽しかった。&lt;/li&gt;
+&lt;li&gt;他のチームのよく関わるメンバーと仲良くなれたのも大きかった。英語でのコミュニケーションも慣れてきたかも。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;社外の人間関係は特に変わらず。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;プログラミング&#34;&gt;プログラミング&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JenkinsプラグインとかIntelliJプラグインみたいな、仕事で使えるプラグインを趣味の一環で使ってた。
+&lt;iframe width=&#34;384px&#34; height=&#34;319px&#34; src=&#34;https://plugins.jetbrains.com/embeddable/card/20589&#34;&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;li&gt;「Scala関数型デザイン&amp;amp;プログラミング」をやった。いわゆる純粋関数型プログラミングの思考をふんわりと理解した。
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=17383699&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F7768%2F9784844337768.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;Scala関数型デザイン＆プログラミング Scalazコントリビューターによる関数型徹底ガイ （impress　top　gear） [ ポール・キウザーノ ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：4290円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/12/31時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F13176662%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;ISUCONに出た。Javaで頑張ったけどスコアが伸びなかったので、最終的に何もしていないRust実装を提出して終わった。&lt;/li&gt;
+&lt;li&gt;その他、Mockitoにバグ報告したり、IntelliJに機能修正パッチ投げたり。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;飲酒&#34;&gt;飲酒&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;去年と比較して、外に飲みに行く機会が増えた印象。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先輩に誘ってもらったり。&lt;/li&gt;
+&lt;li&gt;会社で晩御飯を食べるようになってからは、その日のメニューが微妙だったら飲みに行ったりしてた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;地酒を買う機会が増えた。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;特に難波エディオンでは有名な地酒を、阪急百貨店では地方の蔵元が直接売りに来る酒を買ったりしてた。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;健康&#34;&gt;健康&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ついに血圧だけでなく尿酸値も基準値を突破し、無事再検査へ。&lt;/li&gt;
+&lt;li&gt;その他はまあぼちぼち。&lt;/li&gt;
+&lt;li&gt;ランニングする機会は減ったかも。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;バイク&#34;&gt;バイク&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;大型二輪の免許を取った。&lt;/li&gt;
+&lt;li&gt;夏休みに遠出する予定だったが、北陸の豪雨で道が無くなったりしてたらしいので断念。&lt;/li&gt;
+&lt;li&gt;11月に出雲大社に参拝。往復600km超を1日で走る。多分人生で一番長い。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;アニメ&#34;&gt;アニメ&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;久々にリアタイでアニメを追うことをしてた。&lt;/li&gt;
+&lt;li&gt;パリピ孔明、リコリコ、ぼっち・ざ・ろっく、etc.&lt;/li&gt;
+&lt;li&gt;職場の先輩もアニメ好きで、アニメの話で盛り上がれるのが良い。&lt;/li&gt;
+&lt;li&gt;趣味の話をできる人が身近にいることが重要だなぁと改めて実感した。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;読書&#34;&gt;読書&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;月一くらいのペースで小説、技術書問わず何かしらを読むようにした。&lt;/li&gt;
+&lt;li&gt;今年読んでて一番ためになったのは「現場で役立つシステム設計の原則」かなぁ。
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/12/31時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;その他書評は&lt;a href=&#34;https://t45k.github.io/blog/&#34;&gt;ブログ&lt;/a&gt;に書いてます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;音楽&#34;&gt;音楽&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;年の初めは某動画の影響でRussian Hard Baseとか聴いてた。
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/1qzSagjh1ck&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;li&gt;年の終わりは某アニメの影響で八十八ヶ所巡礼を聴いてた。
+&lt;ul&gt;
+&lt;li&gt;「攻撃的国民的音楽」とかは比較的キャッチーで良い。
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/D90AOhojK3M&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;インスタを始めた。&lt;/li&gt;
+&lt;li&gt;スマホキャリアが楽天モバイルになった。
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;箕面山 vs 楽天モバイル　&lt;br&gt;&lt;br&gt;勝者、楽天モバイル（圏外にならなかったので） &lt;a href=&#34;https://t.co/8QedXGkSi7&#34;&gt;pic.twitter.com/8QedXGkSi7&lt;/a&gt;&lt;/p&gt;&amp;mdash; task@血圧・尿酸 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1513049757123448837?ref_src=twsrc%5Etfw&#34;&gt;April 10, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;li&gt;5年ぶりにコミケに現地参加した。第100回だったので。
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;ビッグサイトへ&lt;/p&gt;&amp;mdash; task@血圧・尿酸 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1558619249534349312?ref_src=twsrc%5Etfw&#34;&gt;August 14, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;li&gt;JJUGを聴講した。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2021年の振り返り</title>
+      <link>https://t45k.github.io/blog/retrospective_2021/</link>
+      <pubDate>Fri, 31 Dec 2021 19:46:45 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/retrospective_2021/</guid>
+      <description>&lt;p&gt;2021 年を振り返っていく．&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;20 年間続いた学生生活をようやく終えて，社会人になった節目の年だった．&lt;/p&gt;
+&lt;p&gt;研究は良い感じに終えられて，社会人生活もぼちぼち良い感じにやっていると思う．&lt;/p&gt;
+&lt;p&gt;一方で，自分の時間をかなり適当に過ごしたのは反省点かなぁと．&lt;/p&gt;
+&lt;h2 id=&#34;研究&#34;&gt;研究&lt;/h2&gt;
+&lt;p&gt;実験自体はほぼ全て 2020 年で終わっていたので，後は修論を書くだけだった．&lt;/p&gt;
+&lt;p&gt;暇を持て余した結果，修論を英語で 100 ページ書くという謎のチャレンジをした．&lt;/p&gt;
+&lt;p&gt;最終的な戦績は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;論文誌*2&lt;/li&gt;
+&lt;li&gt;国際会議*3&lt;/li&gt;
+&lt;li&gt;受賞*1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;でかなり満足いく結果になった．&lt;/p&gt;
+&lt;p&gt;特に，暇を持て余して，M2 の 9 月くらいから趣味 100%で始めた研究テーマがかなりうまくいって，最終的にトップ会議に通ったのはとても嬉しかった．&lt;/p&gt;
+&lt;h2 id=&#34;仕事&#34;&gt;仕事&lt;/h2&gt;
+&lt;p&gt;配属がかなり恵まれて，楽しく仕事で来た．&lt;/p&gt;
+&lt;p&gt;チームのメンバーはベテランが多く，チーム自体の練度が高いという印象を受けた．&lt;/p&gt;
+&lt;p&gt;また，新卒の自分にも裁量権が十分にあり，提案が通ることも多かった．&lt;/p&gt;
+&lt;p&gt;ソースコードは過去の負債が割と残っているように感じたが，それはそれで返済する面白さがあるからヨシ．&lt;/p&gt;
+&lt;p&gt;働き方もかなり柔軟に選択でき，自分はずっと 8:00 出社の 16:30 退勤をさせてもらっていた．&lt;/p&gt;
+&lt;p&gt;課題としては，今まで個人で適当にプログラミングをしていた影響か&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仕様通りに&lt;/li&gt;
+&lt;li&gt;バグなく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作ることの難しさを感じた．&lt;/p&gt;
+&lt;h2 id=&#34;趣味&#34;&gt;趣味&lt;/h2&gt;
+&lt;p&gt;全体的に，仕事の疲れを言い訳にだらっと過ごすことが多かった．&lt;/p&gt;
+&lt;h3 id=&#34;競プロ&#34;&gt;競プロ&lt;/h3&gt;
+&lt;p&gt;初冬くらいからやらなくなった．&lt;/p&gt;
+&lt;p&gt;理由としては&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;土曜の 9 時からという時間が悪い．
+その時間は酒を飲みたい．&lt;/li&gt;
+&lt;li&gt;これ以上実力（レート）が伸びるビジョンが見えない．&lt;/li&gt;
+&lt;li&gt;競プロをやってる仲間がいない．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;くらい．&lt;/p&gt;
+&lt;p&gt;自分が解けるかどうかくらいの難易度の問題を解くのは好きなので，今後も水 diff の過去問とかは解くかもしれない．&lt;/p&gt;
+&lt;h3 id=&#34;バイク&#34;&gt;バイク&lt;/h3&gt;
+&lt;p&gt;今年はコロナの影響や，有休があまりなかったのもあって遠出はできなかった．&lt;/p&gt;
+&lt;p&gt;紅葉を見に行ったり，金沢に行ったりしたり．&lt;/p&gt;
+&lt;p&gt;来年は東日本を一周したいなぁとか考え中．&lt;/p&gt;
+&lt;h3 id=&#34;読書&#34;&gt;読書&lt;/h3&gt;
+&lt;p&gt;技術書かどうかに限らず，1 ヶ月に 1 冊は本を読んで，ブログにまとめるようにした．&lt;/p&gt;
+&lt;p&gt;久々に本を買って読むということをした．&lt;/p&gt;
+&lt;p&gt;やっぱり紙の本の方が好き．&lt;/p&gt;
+&lt;h3 id=&#34;oss-貢献&#34;&gt;OSS 貢献&lt;/h3&gt;
+&lt;p&gt;今年は Spring Framework とか Groovy とかに PR を投げた．&lt;/p&gt;
+&lt;p&gt;これは今後も継続していきたい．&lt;/p&gt;
+&lt;h3 id=&#34;ゲーム&#34;&gt;ゲーム&lt;/h3&gt;
+&lt;p&gt;主に Apex．&lt;/p&gt;
+&lt;p&gt;入社時のコミュニケーション手段として一役買ってくれた．&lt;/p&gt;
+&lt;p&gt;あんまり真剣にしてない．呼ばれたらやる感じ．&lt;/p&gt;
+&lt;p&gt;面白いのでゆるっと続けられたら．&lt;/p&gt;
+&lt;h3 id=&#34;音楽&#34;&gt;音楽&lt;/h3&gt;
+&lt;p&gt;YouTube に課金し始めたので，YouTube Music で音楽を聞く機会が増えた．&lt;/p&gt;
+&lt;p&gt;今まで興味があった or 好きなジャンルの曲を聞いてみて，気に入ったらそのアーティストの CD を買うみたいなことを繰り返してた．&lt;/p&gt;
+&lt;p&gt;多分今年一番ハマったアルバムがこれ．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://music.youtube.com/playlist?list=OLAK5uy_ke7skMleWoKyFtENpiH5RpYVQViGP8YjU&amp;amp;feature=share&#34;&gt;https://music.youtube.com/playlist?list=OLAK5uy_ke7skMleWoKyFtENpiH5RpYVQViGP8YjU&amp;amp;feature=share&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3 曲目の Ford Stream が良かった．
+アルレコの良さを再認識した．&lt;/p&gt;
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
+&lt;p&gt;だらっと YouTube を見る時間が増えた．&lt;/p&gt;
+&lt;p&gt;個人的には半分無駄な時間の使い方感があるので直していきたいところ．&lt;/p&gt;
+&lt;p&gt;山田ハウスにハマってしまった．&lt;/p&gt;
+&lt;h3 id=&#34;飲酒&#34;&gt;飲酒&lt;/h3&gt;
+&lt;p&gt;コロナ禍が明けつつあって，外に飲みに行く機会が増えた．&lt;/p&gt;
+&lt;p&gt;家の近くが飲み屋街なので，一人で飲みに行き始めた．&lt;/p&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;健康診断の結果血圧が高かったので（130 越え），対策を始めた．
+具体的には，ラーメンのスープを飲み干さないようにした．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同僚に付き合っていた結果，喫煙が習慣化しかけた．
+周りに喫煙者がいないと吸わないのと，その同僚も禁煙に移行しつつあるので，これ以上吸うことは多分ない．&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
+      <link>https://t45k.github.io/blog/graduation/</link>
+      <pubDate>Wed, 24 Mar 2021 21:17:20 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/graduation/</guid>
+      <description>&lt;p&gt;2021年3月24日をもって修士課程を修了しました．&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;3年間の戦績は&lt;br&gt;&lt;br&gt;論文誌採録*1&lt;br&gt;論文誌条件付き採録*1&lt;br&gt;国際会議採録*2&lt;br&gt;国際会議査読中*1&lt;br&gt;研究会原稿*3&lt;br&gt;で現状不採録0です&lt;br&gt;&lt;br&gt;対ありでした&lt;/p&gt;&amp;mdash; task@減塩 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1374691521174282242?ref_src=twsrc%5Etfw&#34;&gt;March 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;研究室に所属して3年間色んなことがあった気がするので書き留めておきます．&lt;/p&gt;
+&lt;h2 id=&#34;所属前&#34;&gt;所属前&lt;/h2&gt;
+&lt;p&gt;大学に入学してからプログラミングを始めたが結構楽しめていたので，「ソースコードを書くこと」について研究できれば良いなぁと漠然と考えていた．
+阪大基礎工学部情報科学科では3回生の時に各研究室の先生に着いてゼミが行われるので，前期後期ともにソフトウェア工学の研究室のゼミに参加した．
+前半は「リファクタリング」について，後半は「ソースコードメトリクス」についてのゼミで，前半にゼミを担当していた先生が何となく面白そうだったので，その研究室の配属を目標にした．&lt;/p&gt;
+&lt;h2 id=&#34;b4&#34;&gt;B4&lt;/h2&gt;
+&lt;h3 id=&#34;4月&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;無事目標の研究室に配属．
+配属後リファクタリング的なネタをやりたいと伝える．
+論文を渡されてネタを探すように言われる．
+当然研究室に入ったばかりで自分ですんなりネタを決めれるわけもなく，
+指導教員の先生とミーティングをするも会話が噛み合わないことが多く，
+険悪な雰囲気になることが多かった気がする
+（主観的だが，口調が若干きつかったと感じることが多かった）．
+この頃から何となく「この先生とは一生分かり合えないんだろうなぁ」って思うようになり，苦手になる．&lt;/p&gt;
+&lt;h3 id=&#34;6月&#34;&gt;6月&lt;/h3&gt;
+&lt;p&gt;ネタが決まる（先生が決めてくれた）のでとりあえずやっていく．
+相変わらずミーティングでは嚙み合わないことが多かった．
+まあB4のはじめの頃はみんなこんなもんだろうと思い込んで過ごす．
+「研究室 辛い」などで検索するようになる．
+自分の打たれ弱さを実感する．&lt;/p&gt;
+&lt;h3 id=&#34;7月&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;院試休み．
+研究室行かずに済んでラッキーくらいの気持ちでいた．
+院試で研究室変えるのも手だったが負けた気分になるのでそのまま出した．
+院試後はそのまま夏休みだったのでしばらく研究のことを忘れる．&lt;/p&gt;
+&lt;h3 id=&#34;10月&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;研究が再開する．
+少しずつ進めていくが，コミュニケーションも含めて上手くいかないことが圧倒的に多くなり，常に辛い状態になる．
+この頃から常に死にたいと思うようになる．
+バイク運転中に信号無視した車が突っ込んできたらなぁみたいなことをずっと考えていた．
+しばらくそんな感じ．&lt;/p&gt;
+&lt;p&gt;同時期に，たまたまTwitter上でPaizaの広告を見かける．
+プログラミング能力を客観的に評価してもらえることがそれまでほとんどなかったことと，
+研究が辛くなった時のために就職も考えないとということでとりあえずやってみる．
+Paizaは解答解説がないので，プログラミング力を付けるのには不向きだと思い，
+AtCoderをやり始める．&lt;/p&gt;
+&lt;h3 id=&#34;1月&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;論文を書き始める．
+先生と添削のやり取りをするのだが，常に詰められてるように感じて辛くなる．
+悪いことは続くもので，比較実験を行う必要があるのだが
+既存研究が使ってたツールが上手く動かなくて全然実験が進まなくなる．
+時間がないのでとりあえず不完全なまま卒論と研究会論文を書き上げる．&lt;/p&gt;
+&lt;p&gt;あと自分の実装を見てもらう機会があったのだが，
+あまりにもひどかったため研究が一段落着いたらツール作り直したほうが良いかもねって話になる．
+今思えば草．&lt;/p&gt;
+&lt;h3 id=&#34;3月&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;研究会発表をする．&lt;/p&gt;
+&lt;p&gt;ツール作り直しをする．
+作り直しに際して，研究室の実装が得意な先輩に付きっ切りで見てもらいながらプログラミングを一から叩き込んでもらう．
+この指導，本当にありがたく，プログラミングの基礎的ながらも重要な要素をいくつも教えてもらった．
+これがなかったら実装力が重視されるウェブエンジニアを職業にするという選択肢は取れなかったと思う．&lt;/p&gt;
+&lt;h2 id=&#34;m1&#34;&gt;M1&lt;/h2&gt;
+&lt;h3 id=&#34;4月-1&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;同期が増える．
+またこれまで必要な日にしか研究室に来てなかった同期と，授業の関係でほぼ毎日顔を合わせてコミュニケーションを取るようになった．
+他人とコミュニケーションを取るのは本当に大切で，研究の辛さが和らいでいく感じがした．&lt;/p&gt;
+&lt;p&gt;研究の方は，自分のツールの作り直しはしたが既存ツールを動かすのがまだできてなかったので，
+それをずっとやっていた．&lt;/p&gt;
+&lt;h3 id=&#34;6月-1&#34;&gt;6月&lt;/h3&gt;
+&lt;p&gt;まだ既存ツールが動かない．
+先生がしびれを切らして，7月末の国際会議に投稿することを求められる．
+個人的にはここまで来てできなかったんだからこのネタは諦めて違うことをした方が有益な気はしていた
+（自分のネタに自信がなく，続けるのが辛かったいうのもあった）．&lt;/p&gt;
+&lt;h3 id=&#34;7月-1&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;未だに既存ツールが動かなかったので，比較対象を変えることでとりあえず原稿を書き上げて投稿．&lt;/p&gt;
+&lt;h3 id=&#34;8月&#34;&gt;8月&lt;/h3&gt;
+&lt;p&gt;インターンとかに行く．
+3月の先輩の指導+競プロでLINEとかの有名会社のインターンに行けたのは結構大きかった．&lt;/p&gt;
+&lt;h3 id=&#34;9月&#34;&gt;9月&lt;/h3&gt;
+&lt;p&gt;何か国際会議に通る．
+かなり嬉しかったし，報われた気分になった．
+先生との関係がマシになる．&lt;/p&gt;
+&lt;h3 id=&#34;10月-1&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;国際会議に通ったのでこのネタは終わりにしたかったが，ボスに論文誌にするように求められる．
+また既存ツールを動かす地獄の日々が始まる．
+同時並行で新ネタをやり始める．&lt;/p&gt;
+&lt;h3 id=&#34;12月&#34;&gt;12月&lt;/h3&gt;
+&lt;p&gt;国際会議発表．
+既存ツールがまだ動かなかったので友達に相談する．
+3日で解決してくれる．
+新ネタは結果が出なくてやる意義を見失いかけてたので打ち切る．&lt;/p&gt;
+&lt;h3 id=&#34;1月-1&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;比較実験をし，論文誌原稿を書き上げる．
+新ネタは全然決まらず，&lt;br&gt;
+論文読む -&amp;gt; 先生と相談する -&amp;gt; 簡単に実装して実験してみる （-&amp;gt; 上手くいかない）&lt;br&gt;
+みたいな流れを延々とやり続ける．
+何となくクローン以外のことをしたいと考えてた．&lt;/p&gt;
+&lt;h3 id=&#34;3月-1&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;日本でもコロナが流行り始める．
+研究室は4月から行けなくなるらしかったので，家の環境を整える．
+家だと作業できない人間だったのでかなり不安だった．
+論文を紙で読めなくなるのが割と痛かった．&lt;/p&gt;
+&lt;h3 id=&#34;4月-2&#34;&gt;4月&lt;/h3&gt;
+&lt;p&gt;家研究スタート．
+新ネタを決めることから始める．
+論文読んでる，何となく「CI × ソースコード解析」が流行ってそうだったので，
+「CI × クローン管理」を思いつく．
+結局クローンに帰って来る．&lt;/p&gt;
+&lt;p&gt;サーバサイドの実装になったので，割と楽しんでやれた．
+家だったので効率は微妙だったが，すっと実験まで持って行けた気がする．&lt;/p&gt;
+&lt;h3 id=&#34;5月&#34;&gt;5月&lt;/h3&gt;
+&lt;p&gt;緊急事態宣言が明けたが，6月まで研究室に来てはいけないみたいなことを言われる．
+ガン無視して週1か2くらいのペースで研究室に行く．
+この頃から先生との関係が良好になり始める．&lt;/p&gt;
+&lt;h3 id=&#34;7月-2&#34;&gt;7月&lt;/h3&gt;
+&lt;p&gt;とりあえず国際会議に投げるように言われたので投げる．
+結構余裕があった気がする．&lt;/p&gt;
+&lt;h3 id=&#34;8月-1&#34;&gt;8月&lt;/h3&gt;
+&lt;p&gt;国際会議に落ちると，このままだと一年間論文なしというカッコ悪い結果になるのでとりあえず研究会に投げることを決める．&lt;/p&gt;
+&lt;h3 id=&#34;9月-1&#34;&gt;9月&lt;/h3&gt;
+&lt;p&gt;追加の実験をする．
+有名OSSにプルリクがマージされたりする．
+このペースだと11月中には全てのデータが出揃って修論まで暇になる予感がした．
+そしてそのままだと11月から修論まで新しいネタをやれって言われる予感がした．
+なので，先手を打って新ネタを始めることにした．
+論文漁ってると結果は良い感じだけどアルゴリズムに改善の余地がありそうなクローン検出に関する研究が見つかったのでそれの改善をやってみることにする．
+やっといて結果が出なかったらカッコ悪いので，先生に秘密で実装と実験をやる．&lt;/p&gt;
+&lt;p&gt;国際会議には通ってた．&lt;/p&gt;
+&lt;h3 id=&#34;10月-2&#34;&gt;10月&lt;/h3&gt;
+&lt;p&gt;旧ネタのデータが出揃ったので論文誌を書くことになる．
+と同時に新ネタが良い結果が出始めたので先生と共有する．&lt;/p&gt;
+&lt;h3 id=&#34;11月&#34;&gt;11月&lt;/h3&gt;
+&lt;p&gt;1月に投げた論文誌が条件付き採録で帰って来る．
+割とびっくりした．
+なのでこの時期は，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;卒論ネタの論文誌の回答書&lt;/li&gt;
+&lt;li&gt;旧ネタの論文誌&lt;/li&gt;
+&lt;li&gt;旧ネタの国際会議の発表準備&lt;/li&gt;
+&lt;li&gt;新ネタの実験&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を平行で回していくことになった．
+とりあえず旧ネタの論文誌を投げる．&lt;/p&gt;
+&lt;h3 id=&#34;12月-1&#34;&gt;12月&lt;/h3&gt;
+&lt;p&gt;国際会議発表．
+オンラインなので準備にあまり時間を割かずに済んだ．&lt;/p&gt;
+&lt;p&gt;回答書も書いた．&lt;/p&gt;
+&lt;p&gt;修論を考える時期になる．
+卒論ネタを含めると3つのネタがあったので，修論に全部ぶち込むことにした．&lt;/p&gt;
+&lt;p&gt;新ネタも実験結果が着々と出始めたので，国際会議に投稿することにする．&lt;/p&gt;
+&lt;h3 id=&#34;1月-2&#34;&gt;1月&lt;/h3&gt;
+&lt;p&gt;新ネタの結果が思いのほか良かったので投稿先のランクを上げる．
+修論は100ページ書けそうな予感がしたのでそこを目標にする．&lt;/p&gt;
+&lt;p&gt;旧ネタの論文誌が条件付き採録になって帰って来る．
+締め切りが3月末までだったのと，再実験が必要でまとまった時間がいるので簡単なとこだけ先にやって放置する．
+春休みも実験が確定する．&lt;/p&gt;
+&lt;p&gt;新ネタを研究会に出すことにしたので，論文が4並列になる．&lt;/p&gt;
+&lt;h3 id=&#34;2月&#34;&gt;2月&lt;/h3&gt;
+&lt;p&gt;修論発表．
+修論発表が終わった後も色々あった．
+企業mtgとか新ネタ論文投稿とか．&lt;/p&gt;
+&lt;h3 id=&#34;3月-2&#34;&gt;3月&lt;/h3&gt;
+&lt;p&gt;研究会発表．
+旧ネタ再実験．
+学位授与式の日に論文を再投稿する．&lt;/p&gt;
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+&lt;p&gt;振り返ってみると，B4の時は辛かった一方でM2は一年間楽しんで研究できたなって印象です．
+が，アカデミアはもう十分かなって気持ちになりました．
+旧ネタの論文誌が採録されると一応博士の要件を満たすらしいので，仕事がクビになると帰って来るかも知れません．&lt;/p&gt;
+&lt;p&gt;あとはやっぱりB4の3月のプログラミング指導は本当にありがたかったです．
+今のところ人生のターニングポイントと言っても過言じゃないです．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

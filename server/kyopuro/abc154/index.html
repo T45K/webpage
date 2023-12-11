@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="A~Dまで．コード
+A - Remaining Balls Uで分岐
+B - I miss you&hellip; 入力の文字列の長さの回数&rsquo;x&rsquo;を出力
+C - Distinct or Not 連想配列を使って数字が出現したかを確認
+D - Dice in Line 毎回期待値計算をすると遅いので，1000(&gt;= pi)までの累積和を計算しておく． あとは連続したKの要素の期待値の合計をそれぞれ求めるだけ．
+E - Almost Everywhere Zero 桁DP
+0でない(= 1 ~ 9)の数字がK回出る回数を数える． 桁を上から決定していき数え上げる． 桁の決定の仕方は，その桁を決める前の時点でNより小さいことが確定しているかどうかで変わる．
+確定している場合をdp[|N|][K &#43; 1]と表現した時に，桁iでの状態遷移は以下のようになる
+桁i-1での状態 桁iでの状態 確定している 0を選択する: dp[i][k] &#43;= dp[i - 1][k]
+0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9 確定していない 桁iが0の時: Nより小さくすることはできないので何もしない
+桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC154の解説"/>
+<meta name="twitter:description" content="A~Dまで．コード
+A - Remaining Balls Uで分岐
+B - I miss you&hellip; 入力の文字列の長さの回数&rsquo;x&rsquo;を出力
+C - Distinct or Not 連想配列を使って数字が出現したかを確認
+D - Dice in Line 毎回期待値計算をすると遅いので，1000(&gt;= pi)までの累積和を計算しておく． あとは連続したKの要素の期待値の合計をそれぞれ求めるだけ．
+E - Almost Everywhere Zero 桁DP
+0でない(= 1 ~ 9)の数字がK回出る回数を数える． 桁を上から決定していき数え上げる． 桁の決定の仕方は，その桁を決める前の時点でNより小さいことが確定しているかどうかで変わる．
+確定している場合をdp[|N|][K &#43; 1]と表現した時に，桁iでの状態遷移は以下のようになる
+桁i-1での状態 桁iでの状態 確定している 0を選択する: dp[i][k] &#43;= dp[i - 1][k]
+0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9 確定していない 桁iが0の時: Nより小さくすることはできないので何もしない
+桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC154の解説" />
+<meta property="og:description" content="A~Dまで．コード
+A - Remaining Balls Uで分岐
+B - I miss you&hellip; 入力の文字列の長さの回数&rsquo;x&rsquo;を出力
+C - Distinct or Not 連想配列を使って数字が出現したかを確認
+D - Dice in Line 毎回期待値計算をすると遅いので，1000(&gt;= pi)までの累積和を計算しておく． あとは連続したKの要素の期待値の合計をそれぞれ求めるだけ．
+E - Almost Everywhere Zero 桁DP
+0でない(= 1 ~ 9)の数字がK回出る回数を数える． 桁を上から決定していき数え上げる． 桁の決定の仕方は，その桁を決める前の時点でNより小さいことが確定しているかどうかで変わる．
+確定している場合をdp[|N|][K &#43; 1]と表現した時に，桁iでの状態遷移は以下のようになる
+桁i-1での状態 桁iでの状態 確定している 0を選択する: dp[i][k] &#43;= dp[i - 1][k]
+0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9 確定していない 桁iが0の時: Nより小さくすることはできないので何もしない
+桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc154/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-02-09T22:40:15+09:00" />
+<meta property="article:modified_time" content="2020-02-09T22:40:15+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc154/">
+    
+    <title>
+  ABC154の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc154/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC154の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>A~Dまで．<a href="https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/abc154">コード</a></p>
+<h2 id="a---remaining-balls">A - Remaining Balls</h2>
+<p>Uで分岐</p>
+<h2 id="b---i-miss-you">B - I miss you&hellip;</h2>
+<p>入力の文字列の長さの回数&rsquo;x&rsquo;を出力</p>
+<h2 id="c---distinct-or-not">C - Distinct or Not</h2>
+<p>連想配列を使って数字が出現したかを確認</p>
+<h2 id="d---dice-in-line">D - Dice in Line</h2>
+<p>毎回期待値計算をすると遅いので，1000(&gt;= pi)までの累積和を計算しておく．
+あとは連続したKの要素の期待値の合計をそれぞれ求めるだけ．</p>
+<h2 id="e---almost-everywhere-zero">E - Almost Everywhere Zero</h2>
+<p>桁DP<br>
+0でない(= 1 ~ 9)の数字がK回出る回数を数える．
+桁を上から決定していき数え上げる．
+桁の決定の仕方は，<strong>その桁を決める前の時点でNより小さいことが確定しているかどうか</strong>で変わる．<br>
+確定している場合を<code>dp[|N|][K + 1]</code>と表現した時に，桁iでの状態遷移は以下のようになる</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">桁i-1での状態</th>
+<th style="text-align:left">桁iでの状態</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">確定している</td>
+<td style="text-align:left">0を選択する: <code>dp[i][k] += dp[i - 1][k]</code><br>0以外を選択する: <code>dp[i][k] += dp[i - 1][k - 1] * 9</code></td>
+</tr>
+<tr>
+<td style="text-align:left">確定していない</td>
+<td style="text-align:left">桁iが0の時: Nより小さくすることはできないので何もしない<br>桁iが0でない時: <strong>1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる</strong>ので，桁i-1までに0以外の数字が出現した回数をjとすると<code>dp[i][j + 1] += (桁iの数字 - 1)</code></td>
+</tr>
+</tbody>
+</table>
+<p>桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．<br>
+最終的な出力は<code>dp[|N| - 1][K] + ((N自身が条件を満たす)? 1 : 0)</code></p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

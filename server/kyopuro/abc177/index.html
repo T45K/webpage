@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="5完． コード
+A - Don&rsquo;t be late 規定の時間歩き切った際の距離が待ち合わせ場所までの距離以上であれば良い．
+B - Substring 制約が緩いのでSの0以上|S|-|T|以下文字を先頭とした部分文字列とTを比較すれば良い．
+C - Sum of product of pairs 愚直にやると時間に間に合わない．
+答えはA1 * (A2 &#43; A3 &#43; ... An) &#43; A2 * (A3 &#43; ... &#43; An) &#43; ... &#43; Ai * (Ai&#43;1 &#43; ... &#43; An) &#43; ...なので， A2からAnまでの累積和を取ってから掛け算を行えば良い．
+D - Friends Union-Findで殴る．
+問題文から，Union-Findを使うと友達グループは簡単に求まる． 全ての人について「同じグループの中に友達がいない」という状況を達成するためには， 一番大きい友達グループと同じサイズのグループに分割すれば良い．
+E - Coprime まず全てのAiに対してGCDをとって，与えられた数字列がnot coprimeか否かを判定する． not coprime出ない場合，次にpairwise coprimeかどうかを判定する． ここで，「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回までと同意である． Ai&lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる． なので，先に1000以下の素数をエラトステネスの篩などで用意しておき， 各Aiに対して各素数で割れるかどうかを判定する． 割れる場合，その素数を記録する． すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC177の解説"/>
+<meta name="twitter:description" content="5完． コード
+A - Don&rsquo;t be late 規定の時間歩き切った際の距離が待ち合わせ場所までの距離以上であれば良い．
+B - Substring 制約が緩いのでSの0以上|S|-|T|以下文字を先頭とした部分文字列とTを比較すれば良い．
+C - Sum of product of pairs 愚直にやると時間に間に合わない．
+答えはA1 * (A2 &#43; A3 &#43; ... An) &#43; A2 * (A3 &#43; ... &#43; An) &#43; ... &#43; Ai * (Ai&#43;1 &#43; ... &#43; An) &#43; ...なので， A2からAnまでの累積和を取ってから掛け算を行えば良い．
+D - Friends Union-Findで殴る．
+問題文から，Union-Findを使うと友達グループは簡単に求まる． 全ての人について「同じグループの中に友達がいない」という状況を達成するためには， 一番大きい友達グループと同じサイズのグループに分割すれば良い．
+E - Coprime まず全てのAiに対してGCDをとって，与えられた数字列がnot coprimeか否かを判定する． not coprime出ない場合，次にpairwise coprimeかどうかを判定する． ここで，「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回までと同意である． Ai&lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる． なので，先に1000以下の素数をエラトステネスの篩などで用意しておき， 各Aiに対して各素数で割れるかどうかを判定する． 割れる場合，その素数を記録する． すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC177の解説" />
+<meta property="og:description" content="5完． コード
+A - Don&rsquo;t be late 規定の時間歩き切った際の距離が待ち合わせ場所までの距離以上であれば良い．
+B - Substring 制約が緩いのでSの0以上|S|-|T|以下文字を先頭とした部分文字列とTを比較すれば良い．
+C - Sum of product of pairs 愚直にやると時間に間に合わない．
+答えはA1 * (A2 &#43; A3 &#43; ... An) &#43; A2 * (A3 &#43; ... &#43; An) &#43; ... &#43; Ai * (Ai&#43;1 &#43; ... &#43; An) &#43; ...なので， A2からAnまでの累積和を取ってから掛け算を行えば良い．
+D - Friends Union-Findで殴る．
+問題文から，Union-Findを使うと友達グループは簡単に求まる． 全ての人について「同じグループの中に友達がいない」という状況を達成するためには， 一番大きい友達グループと同じサイズのグループに分割すれば良い．
+E - Coprime まず全てのAiに対してGCDをとって，与えられた数字列がnot coprimeか否かを判定する． not coprime出ない場合，次にpairwise coprimeかどうかを判定する． ここで，「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回までと同意である． Ai&lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる． なので，先に1000以下の素数をエラトステネスの篩などで用意しておき， 各Aiに対して各素数で割れるかどうかを判定する． 割れる場合，その素数を記録する． すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc177/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-08-30T16:35:35+09:00" />
+<meta property="article:modified_time" content="2020-08-30T16:35:35+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc177/">
+    
+    <title>
+  ABC177の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc177/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC177の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>5完．
+<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC177">コード</a></p>
+<h2 id="a---dont-be-late">A - Don&rsquo;t be late</h2>
+<p>規定の時間歩き切った際の距離が待ち合わせ場所までの距離以上であれば良い．</p>
+<h2 id="b---substring">B - Substring</h2>
+<p>制約が緩いのでSの0以上<code>|S|-|T|</code>以下文字を先頭とした部分文字列とTを比較すれば良い．</p>
+<h2 id="c---sum-of-product-of-pairs">C - Sum of product of pairs</h2>
+<p>愚直にやると時間に間に合わない．<br>
+答えは<code>A1 * (A2 + A3 + ... An) + A2 * (A3 + ... + An) + ... + Ai * (Ai+1 + ... + An) + ...</code>なので，
+A2からAnまでの累積和を取ってから掛け算を行えば良い．</p>
+<h2 id="d---friends">D - Friends</h2>
+<p>Union-Findで殴る．<br>
+問題文から，Union-Findを使うと友達グループは簡単に求まる．
+<strong>全ての人について「同じグループの中に友達がいない」という状況</strong>を達成するためには，
+一番大きい友達グループと同じサイズのグループに分割すれば良い．</p>
+<h2 id="e---coprime">E - Coprime</h2>
+<p>まず全てのAiに対してGCDをとって，与えられた数字列が<strong>not coprime</strong>か否かを判定する．
+not coprime出ない場合，次に<strong>pairwise coprime</strong>かどうかを判定する．
+ここで，<strong>「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回まで</strong>と同意である．
+Ai&lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる．
+なので，先に1000以下の素数をエラトステネスの篩などで用意しておき，
+各Aiに対して各素数で割れるかどうかを判定する．
+割れる場合，その素数を記録する．
+すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

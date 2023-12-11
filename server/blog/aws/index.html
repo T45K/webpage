@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．
+AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウド事業を担当している会社です． Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）． 今，世界で最も勢いのあるIT会社の一つだと言えます．
+選考フロー HP上には技術試験 &#43; 面接と書いてあったのですが，なぜか面接が行われませんでした． 技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした． 今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました． 問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました． 結果的に通ったので良かったです．
+インターン 実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました． 仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました． 東京まで来て何してるんだろうって結構辛い気持ちになりました． ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．
+追記 このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました． 技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AWSのインターンに参加した話"/>
+<meta name="twitter:description" content="8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．
+AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウド事業を担当している会社です． Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）． 今，世界で最も勢いのあるIT会社の一つだと言えます．
+選考フロー HP上には技術試験 &#43; 面接と書いてあったのですが，なぜか面接が行われませんでした． 技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした． 今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました． 問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました． 結果的に通ったので良かったです．
+インターン 実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました． 仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました． 東京まで来て何してるんだろうって結構辛い気持ちになりました． ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．
+追記 このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました． 技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="AWSのインターンに参加した話" />
+<meta property="og:description" content="8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．
+AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウド事業を担当している会社です． Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）． 今，世界で最も勢いのあるIT会社の一つだと言えます．
+選考フロー HP上には技術試験 &#43; 面接と書いてあったのですが，なぜか面接が行われませんでした． 技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした． 今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました． 問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました． 結果的に通ったので良かったです．
+インターン 実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました． 仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました． 東京まで来て何してるんだろうって結構辛い気持ちになりました． ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．
+追記 このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました． 技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/blog/aws/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2019-08-20T18:07:41+09:00" />
+<meta property="article:modified_time" content="2019-08-20T18:07:41+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/blog/aws/">
+    
+    <title>
+  AWSのインターンに参加した話 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/blog/aws/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>AWSのインターンに参加した話</h1>
+      <br>
+      <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://t45k.github.io/tags/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%B3/">インターン</a></div>
+
+    </header>
+
+    <p>8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．</p>
+<h2 id="awsとは">AWSとは</h2>
+<p>AWSとは，Amazon Web Serviceの略です．
+AWSはAmazonのクラウド事業を担当している会社です．
+Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）．
+今，世界で最も勢いのあるIT会社の一つだと言えます．</p>
+<h2 id="選考フロー">選考フロー</h2>
+<p>HP上には技術試験 + 面接と書いてあったのですが，なぜか面接が行われませんでした．
+技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした．
+今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました．
+問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました．
+結果的に通ったので良かったです．</p>
+<h2 id="インターン">インターン</h2>
+<p>実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました．
+仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました．
+東京まで来て何してるんだろうって結構辛い気持ちになりました．
+ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．</p>
+<h2 id="追記">追記</h2>
+<p>このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました．
+技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="4完． コード
+A - Registration 文字列Sと文字列Tの最後の文字を消した文字列が同等か確認する． javaだと S.equals(T.substring(0, S.length))
+B - Easy Linear Programming A,B,Cの順番になるべく多くカードを取ると最大値になるので
+KがA以下なら1のカードをK枚取って和はK Kが(A&#43;B)以下なら，1のカードをA枚，0のカードを取れるだけ取って和はA それ以外なら1をA枚，0をB枚，-1を(K-(A&#43;B))枚取って和は2A&#43;B&#43;K C - Skill Up bit全探索するだけ問題．
+N&lt;=12なので，全て試しても2^12≒4000通りなので十分間に合う．
+D - Teleporter ABC030_Dとほぼ同じ問題．
+K&lt;=Nのとき K回のテレポートを愚直に計算しても間に合う．
+K&gt;Nの時 鳩の巣原理的に考えると，必ずどこかでループが発生することになる． なので，1ループで訪れる町の数でmodを取る．
+E - Colorful Blocks 時間内に解けなかった．
+全て隣り合わない組み合わせは m*(m-1)^(n-1)になる． 1組隣り合う場合，その隣り同士は同じ色なので ↑/(m-1) ↑に組み合わせをかける．一つ右とペアになると考えれば n-1C1 通り 2組以降も同じように考える．">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ABC167の解説"/>
+<meta name="twitter:description" content="4完． コード
+A - Registration 文字列Sと文字列Tの最後の文字を消した文字列が同等か確認する． javaだと S.equals(T.substring(0, S.length))
+B - Easy Linear Programming A,B,Cの順番になるべく多くカードを取ると最大値になるので
+KがA以下なら1のカードをK枚取って和はK Kが(A&#43;B)以下なら，1のカードをA枚，0のカードを取れるだけ取って和はA それ以外なら1をA枚，0をB枚，-1を(K-(A&#43;B))枚取って和は2A&#43;B&#43;K C - Skill Up bit全探索するだけ問題．
+N&lt;=12なので，全て試しても2^12≒4000通りなので十分間に合う．
+D - Teleporter ABC030_Dとほぼ同じ問題．
+K&lt;=Nのとき K回のテレポートを愚直に計算しても間に合う．
+K&gt;Nの時 鳩の巣原理的に考えると，必ずどこかでループが発生することになる． なので，1ループで訪れる町の数でmodを取る．
+E - Colorful Blocks 時間内に解けなかった．
+全て隣り合わない組み合わせは m*(m-1)^(n-1)になる． 1組隣り合う場合，その隣り同士は同じ色なので ↑/(m-1) ↑に組み合わせをかける．一つ右とペアになると考えれば n-1C1 通り 2組以降も同じように考える．"/>
+
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
+    <meta property="og:title" content="ABC167の解説" />
+<meta property="og:description" content="4完． コード
+A - Registration 文字列Sと文字列Tの最後の文字を消した文字列が同等か確認する． javaだと S.equals(T.substring(0, S.length))
+B - Easy Linear Programming A,B,Cの順番になるべく多くカードを取ると最大値になるので
+KがA以下なら1のカードをK枚取って和はK Kが(A&#43;B)以下なら，1のカードをA枚，0のカードを取れるだけ取って和はA それ以外なら1をA枚，0をB枚，-1を(K-(A&#43;B))枚取って和は2A&#43;B&#43;K C - Skill Up bit全探索するだけ問題．
+N&lt;=12なので，全て試しても2^12≒4000通りなので十分間に合う．
+D - Teleporter ABC030_Dとほぼ同じ問題．
+K&lt;=Nのとき K回のテレポートを愚直に計算しても間に合う．
+K&gt;Nの時 鳩の巣原理的に考えると，必ずどこかでループが発生することになる． なので，1ループで訪れる町の数でmodを取る．
+E - Colorful Blocks 時間内に解けなかった．
+全て隣り合わない組み合わせは m*(m-1)^(n-1)になる． 1組隣り合う場合，その隣り同士は同じ色なので ↑/(m-1) ↑に組み合わせをかける．一つ右とペアになると考えれば n-1C1 通り 2組以降も同じように考える．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc167/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-05-11T11:43:31+09:00" />
+<meta property="article:modified_time" content="2020-05-11T11:43:31+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/abc167/">
+    
+    <title>
+  ABC167の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc167/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.115.3">
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC167の解説</h1>
+      <br>
+      
+    </header>
+
+    <p>4完．
+<a href="https://github.com/t45k/tree/master/AtCoder/ABC/ABC167">コード</a></p>
+<h2 id="a---registration">A - Registration</h2>
+<p>文字列Sと文字列Tの最後の文字を消した文字列が同等か確認する．
+javaだと <code>S.equals(T.substring(0, S.length))</code></p>
+<h2 id="b---easy-linear-programming">B - Easy Linear Programming</h2>
+<p>A,B,Cの順番になるべく多くカードを取ると最大値になるので</p>
+<ul>
+<li>KがA以下なら1のカードをK枚取って和はK</li>
+<li>Kが(A+B)以下なら，1のカードをA枚，0のカードを取れるだけ取って和はA</li>
+<li>それ以外なら1をA枚，0をB枚，-1を(K-(A+B))枚取って和は2A+B+K</li>
+</ul>
+<h2 id="c---skill-up">C - Skill Up</h2>
+<p>bit全探索するだけ問題．<br>
+N&lt;=12なので，全て試しても2^12≒4000通りなので十分間に合う．</p>
+<h2 id="d---teleporter">D - Teleporter</h2>
+<p>ABC030_Dとほぼ同じ問題．<br></p>
+<h3 id="knのとき">K&lt;=Nのとき</h3>
+<p>K回のテレポートを愚直に計算しても間に合う．</p>
+<h3 id="knの時">K&gt;Nの時</h3>
+<p>鳩の巣原理的に考えると，必ずどこかでループが発生することになる．
+なので，1ループで訪れる町の数でmodを取る．</p>
+<h2 id="e---colorful-blocks">E - Colorful Blocks</h2>
+<p>時間内に解けなかった．<br>
+全て隣り合わない組み合わせは m*(m-1)^(n-1)になる．
+1組隣り合う場合，その隣り同士は同じ色なので ↑/(m-1)
+↑に組み合わせをかける．一つ右とペアになると考えれば n-1C1 通り
+2組以降も同じように考える．</p>
+
+  </article>
+
+  <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label-counter" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>
