@@ -34,6 +34,8 @@ CoroutineContextとwithContextを活用することで、Kotlinでコンテキ�
 
 次回このような機会があれば、資料作成を早めに終わらせ、発表練習に時間を割きたいです。
 
+スライドは[こちら](https://speakerdeck.com/t45k/withcontexttutesuretudoqie-riti-eyi-wai-nimoshi-erututezhi-tuteta)。
+
 ## セッション内容
 
 今回様々なセッションを聴講しましたので、それぞれについて軽く感想を書きたいと思います。
