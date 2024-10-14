@@ -86,10 +86,6 @@ disqusShortname = "yourdiscussshortname"
     name = "product"
     weight = 4
     url  = "/product"
-[[menu.main]]
-    name = "lab"
-    weight = 5
-    url  = "https://sdl.ist.osaka-u.ac.jp/~t-nakagw"
 
 [markup.goldmark.renderer]
 unsafe = true
