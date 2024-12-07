@@ -1,29 +1,29 @@
-.icon-qiita:before {
+.icon-qiita {
   content: "";
   background-image: url("/icon/qiita.png");
   display: inline-block;
   width: 1em;
   height: 1em;
   background-size: contain;
-  vertical-align: middle;
+  vertical-align: auto;
 }
 
-.icon-zenn:before {
+.icon-zenn {
   content: "";
   background-image: url("/icon/zenn.png");
   display: inline-block;
   width: 1em;
   height: 1em;
   background-size: contain;
-  vertical-align: middle;
+  vertical-align: auto;
 }
 
-.icon-atcoder:before {
+.icon-atcoder {
   content: "";
   background-image: url("/icon/atcoder.png");
   display: inline-block;
   width: 1em;
   height: 1em;
   background-size: contain;
-  vertical-align: middle;
+  vertical-align: auto;
 }
