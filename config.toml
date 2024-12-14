@@ -30,7 +30,8 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = true
-    custom_css = ["css/custom.css"]
+    customCSS = ["/css/custom.css"]
+    dateFormat = "2006/01/02"
 
 # Social links
 [[params.social]]
