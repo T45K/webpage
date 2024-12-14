@@ -1,0 +1,39 @@
+.icon-qiita {
+  content: "";
+  background-image: url("/icon/qiita.png");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: auto;
+}
+
+.icon-zenn {
+  content: "";
+  background-image: url("/icon/zenn.png");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: auto;
+}
+
+.icon-atcoder {
+  content: "";
+  background-image: url("/icon/atcoder.png");
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: contain;
+  vertical-align: auto;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.list ul li .title {
+  font-family: 'Noto Sans JP', sans-serif;
+}
