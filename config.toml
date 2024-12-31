@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languagecode = "ja"
 defaultcontentlanguage = "ja"
 
-paginate = 20
+pagenation.pagerSize = 20
 canonifyurls = true
 
 pygmentsstyle = "bw"
