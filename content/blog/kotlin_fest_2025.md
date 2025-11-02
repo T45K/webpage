@@ -14,8 +14,7 @@ https://2025.kotlinfest.dev/
 「Kotlinを愛でる」というキーワードで開催されているカンファレンスです。
 国内のKotlinに関するイベントとしては最大級で、今年は24個のセッションで、400人ほどの参加者が集まりました。
 
-今年も去年に引き続き、運良くプロポーザルが採択されたので、登壇もしてきました
-（今年もスクリプトを完成させないまま発表に臨むはめになりました）。
+今年も去年に引き続き、運良くプロポーザルが採択されたので、登壇もしてきました（今年もスクリプトを完成させないまま発表に臨むはめになりました）。
 
 ## 登壇内容
 
@@ -24,18 +23,15 @@ https://2025.kotlinfest.dev/
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/2368e468ac424569b53f38045ac19e7f" title="デッドコード消せてますか？構文解析とGradleプラグイン開発で始めるコードベース改善" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
-フィーチャーフラグを用いた開発において、リリース後に不要になったフィーチャーフラグと、
-それによって発生するデッドコードを削除する作業が必要になります。
+フィーチャーフラグを用いた開発において、リリース後に不要になったフィーチャーフラグと、それによって発生するデッドコードを削除する作業が必要になります。
 
 今回は、そういったコードを自動で消すために、構文解析と自作のGradleプラグインを利用する方法を紹介しました。
 
 発表後は、共感しやすい内容だったからか、ask the speakerセッションに多くの方に来ていただけました。
 
-多くの方がフィーチャーフラグ管理に悩んでいるんだなと実感でき、[公開しているOSS](https://github.com/T45K/feature-flag-remover)
-を使ってもらえると嬉しいかも...と思ったりしました。
+多くの方がフィーチャーフラグ管理に悩んでいるんだなと実感でき、[公開しているOSS](https://github.com/T45K/feature-flag-remover)を使ってもらえると嬉しいかも...と思ったりしました。
 
-ちなみに、もう一つ[ネタっぽいプロポーザル](https://fortee.jp/kotlin-fest-2025/proposal/bb11a90a-1b93-4814-8e32-3f1e5f7779ce)
-も投げていたのですが、それは不採択となってしまいました。
+ちなみに、もう一つ[ネタっぽいプロポーザル](https://fortee.jp/kotlin-fest-2025/proposal/bb11a90a-1b93-4814-8e32-3f1e5f7779ce)も投げていたのですが、それは不採択となってしまいました。
 
 ## 聴講したセッション
 
@@ -53,8 +49,7 @@ Kotlinに追加される機能がいかに慎重に議論されており、そ�
 
 String Interpolationについて詳しく知らなかったのですが、文字列補間のことを指すそうです。
 
-今回は、他の言語でサポートされているString InterpolationをKotlinでどのように実現するかについて、
-SQLのプレースホルダーを題材にして解説してもらえました。
+今回は、他の言語でサポートされているString InterpolationをKotlinでどのように実現するかについて、SQLのプレースホルダーを題材にして解説してもらえました。
 
 クエリに直接変数を埋め込んだ形の文字列が、プレースホルダと変数の形に分離する手法は、なるほどな、と感じました。
 
@@ -123,8 +118,7 @@ AIエージェントの仕組みやKoogで実装する方法、他のフレー�
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Nativeに移行しやすいのは良さそう<br>Ktorでもいけるのでは<br> <a href="https://twitter.com/hashtag/KotlinFest?src=hash&amp;ref_src=twsrc%5Etfw">#KotlinFest</a> <a href="https://twitter.com/hashtag/let?src=hash&amp;ref_src=twsrc%5Etfw">#let</a></p>&mdash; task (@getupmax) <a href="https://twitter.com/getupmax/status/1984555490685436356?ref_src=twsrc%5Etfw">November 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-その他、今回は参加できなかったのですが、Kotlin言語仕様やCoroutineの内部実装のセッションなどに興味があるので、
-発表資料が公開されたら確認したいと思います。
+その他、今回は参加できなかったのですが、Kotlin言語仕様やCoroutineの内部実装のセッションなどに興味があるので、発表資料が公開されたら確認したいと思います。
 
 ## 最後に
 
