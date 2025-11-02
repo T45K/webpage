@@ -114,7 +114,7 @@ AIエージェントの仕組みやKoogで実装する方法、他のフレー�
 
 コンテキストパラメータは僕も気になっているのですが、意外とできることが多そうな雰囲気なので、GAが楽しみです。
 
-また、Spring Bootの利用において、IaCコンテナ非依存になることでNativeに移行しやすくなるというのは予想外の着眼点で、なるほどなと思いました。
+また、Spring Bootの利用において、IoCコンテナ非依存になることでNativeに移行しやすくなるというのは予想外の着眼点で、なるほどなと思いました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Nativeに移行しやすいのは良さそう<br>Ktorでもいけるのでは<br> <a href="https://twitter.com/hashtag/KotlinFest?src=hash&amp;ref_src=twsrc%5Etfw">#KotlinFest</a> <a href="https://twitter.com/hashtag/let?src=hash&amp;ref_src=twsrc%5Etfw">#let</a></p>&mdash; task (@getupmax) <a href="https://twitter.com/getupmax/status/1984555490685436356?ref_src=twsrc%5Etfw">November 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
